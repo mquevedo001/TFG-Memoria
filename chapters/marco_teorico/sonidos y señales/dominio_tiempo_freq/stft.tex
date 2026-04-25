@@ -1,0 +1,21 @@
+Se calcula sobre la representación en forma de onda del sonido computando una transformación discreta de Fourier ( una transformación discreta de Fourier consiste en la captura mediante ventanas triangulares en movimiento L de secciones de la onda ) trasladada a lo largo de la onda ( L ,2L, 3L ... )
+\begin{center}
+  \[
+X(n, \omega) = \sum_{m=-\infty}^{\infty} x[m] \cdot w[m - n] \cdot e^{-j \omega m}
+\]  
+\end{center}
+Cada celda ( ventana ) de la transformada es compleja ( contiene magnitud y fase ) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=0.7\textwidth]{commons/Fig3.png}
+    \caption{Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}
+    \label{fig:MonoEstereo}
+    \cite{rafii18}
+    \end{center}
+\end{figure}
+Como parámetros importantes, presenta el tipo de ventana que utiliza ( gaussiana, rectangular , triangular, cuadrática ... ), la longitud de la ventana y la distancia entre ventanas adyacentes.
+
+
+
+

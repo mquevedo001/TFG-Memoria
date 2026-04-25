@@ -1,0 +1,362 @@
+\documentclass[a4paper,11pt]{memoir}
+
+% --- Codificación, fuente y lenguaje ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+
+% --- Gráficos y utilidades ---
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{amsmath,amssymb}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{caption}
+\usepackage[hidelinks]{hyperref} % ocultar colores en enlaces
+\usepackage{xcolor}
+\usepackage{tikz}
+
+% --- Bibliografía ---
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\AtEveryBibitem{%
+  \clearfield{doi}%
+  \clearfield{isbn}%
+  \clearfield{issn}%
+  \clearfield{url}%
+}
+\setlength\bibitemsep{1.5\itemsep}
+\setlength\bibhang{1em}
+\addbibresource{referencias.bib}
+
+% --------------------------
+% Estilo del Índice de contenidos
+% --------------------------
+\renewcommand{\contentsname}{Índice de contenidos}
+\renewcommand{\listfigurename}{Índice de figuras}
+\renewcommand{\listtablename}{Índice de tablas}
+
+% Colores y estilo TOC
+\usepackage{tocloft}
+
+\renewcommand{\cftchapterfont}{\bfseries\color{blue}} % capítulos en azul y negrita
+\renewcommand{\cftsectionfont}{\normalfont}           % secciones normales
+\renewcommand{\cftsubsectionfont}{\normalfont}        % subsecciones normales
+\renewcommand{\cftchapterpagefont}{\bfseries}         % nº página capítulo en negrita
+\renewcommand{\cftdotsep}{1}                          % espacio entre puntos
+%\renewcommand{\cftbeforechapskip}{0.5em}              % espacio antes de capítulos
+
+% --------------------------
+% Estilo personalizado de capítulos ehu2
+% --------------------------
+\makechapterstyle{ehu2}{%
+  \renewcommand*{\chapnamefont}{\normalfont\scshape\large}%
+  \renewcommand*{\chapnumfont}{\normalfont\bfseries\fontsize{70}{80}\selectfont}%
+  \renewcommand*{\chaptitlefont}{\normalfont\Huge\bfseries}%
+
+  % Anular "CAPÍTULO" automático y número estándar
+  \renewcommand*{\printchaptername}{}%
+  \renewcommand*{\printchapternum}{}%
+
+  \renewcommand*{\printchaptertitle}[1]{%
+    \ifnum\value{chapter}>0
+      % --- Capítulos numerados ---
+      \marginpar{%
+        \vspace*{-1.5em}%
+        \raggedleft
+        \chapnumfont\thechapter\hspace{0.3em}%
+        \tikz{\fill[black] (0,0) rectangle (0.45em,2.2ex);}%
+      }%
+    \fi
+    \raggedleft
+    {\chapnamefont\ifnum\value{chapter}>0\MakeUppercase{\chaptername}\fi}\par
+    \chaptitlefont ##1\par\vspace{1em}%
+  }%
+}
+
+
+% --------------------------
+% Estilo para capítulos sin numerar previos a ehu2
+% --------------------------
+\makechapterstyle{rightchapter}{%
+  \renewcommand*{\chapnamefont}{\normalfont\scshape\large}%
+  \renewcommand*{\chaptitlefont}{\normalfont\Huge\bfseries\raggedleft}%
+  \renewcommand*{\printchaptername}{}%
+  \renewcommand*{\printchapternum}{}%
+  \renewcommand*{\printchaptertitle}[1]{\chaptitlefont ##1}%
+}
+
+% Configuración PDF
+\pdfobjcompresslevel=0
+
+% Información personalizable
+\newcommand{\egilea}{Martín Quevedo Poyal}
+\newcommand{\zuzendariak}{
+    Basilio Sierra Araujo\\
+    Izaro Goienetxea Urkizu
+}
+\newcommand{\data}{20 de julio de 2025}
+\newcommand{\ikasketak}{Grado en Ingeniería Informática}
+\newcommand{\espezialitatea}{Ingeniería de Computadores}
+
+\author{\egilea}
+\date{\data}
+
+\begin{document}
+
+% Numeración arábiga desde el inicio
+\pagenumbering{arabic}
+
+\thispagestyle{empty}
+\begin{center}
+    \vspace*{1cm}
+    \includegraphics[width=0.75\textwidth]{general/logo_upv_ehu.jpg}
+
+    \vspace{2.5cm}
+    {\Large Trabajo de Fin de Grado} \\[0.5cm]
+    {\large Grado en Ingeniería Informática} \\[0.2cm]
+    {\normalsize Ingeniería de Computadores}
+
+    \vspace{2.5cm}
+    \rule{\textwidth}{0.4pt}
+
+    \vspace{0.5cm}
+    {\bfseries \LARGE
+    \begin{tabular}{c}
+    Identificación de voces e instrumentos \\
+    en una obra musical
+    \end{tabular}
+    }
+
+    \vspace{0.5cm}
+    \rule{\textwidth}{0.4pt}
+
+    \vspace{1.5cm}
+    {\itshape Martín Quevedo Poyal}
+
+    \vspace{2.5cm}
+    \textbf{Dirección} \\
+    Basilio Sierra Araujo \\
+    Izaro Goienetxea Urkizu
+
+    \vfill
+    20 de julio de 2025
+\end{center}
+\cleardoublepage
+
+% Parte inicial
+\frontmatter
+\chapterstyle{rightchapter} % capítulos sin numerar alineados a la derecha
+
+% Resumen
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen} % aparece en TOC
+\input{chapters/abstract}
+\cleardoublepage
+
+% ODS
+\chapter*{ODS}
+\addcontentsline{toc}{chapter}{ODS} % aparece en TOC
+\input{chapters/ODS.tex}
+\cleardoublepage
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{4} % para numerar también en el texto
+% Índices automáticos
+\tableofcontents
+\cleardoublepage
+\listoffigures
+\cleardoublepage
+\listoftables
+\cleardoublepage
+
+% Parte principal
+\mainmatter
+\pagestyle{ruled}
+
+\chapterstyle{ehu2} % solo capítulos numerados usarán este estilo
+
+\chapter{Introducción}
+\input{chapters/introduccion}
+\cleardoublepage
+
+\chapter{Planificación}
+\input{chapters/planificacion/Planificacion}
+\section{Objetivos}
+\input{chapters/planificacion/objetivo}
+\section{Alcance}
+\input{chapters/planificacion/alcance}
+\section{Cronograma}
+\input{chapters/planificacion/cronograma}
+\cleardoublepage
+
+\chapter{Herramientas utilizadas}
+\section{Ignite}
+\input{chapters/herramientas_utilizadas/ignite}
+\section{Librosa}
+\input{chapters/herramientas_utilizadas/librosa}
+\section{Matplotlib}
+\input{chapters/herramientas_utilizadas/matplotlib_numpy_scipy}
+\section{Nussl}
+\input{chapters/herramientas_utilizadas/nussl}
+\section{Overleaf}
+\input{chapters/herramientas_utilizadas/overleaf}
+\section{Pytorch}
+\input{chapters/herramientas_utilizadas/pytorch}
+\section{Streamlit}
+\input{chapters/herramientas_utilizadas/streamlit_conda}
+\section{Torchaudio}
+\input{chapters/herramientas_utilizadas/torchaudio}
+\cleardoublepage
+
+\chapter{Marco teórico}
+\section{Sonidos y señales}
+\subsection{Naturaleza del sonido}
+\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/intro}
+\subsubsection{Ondas sonoras}
+\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/ondas_sonoras}
+\subsubsection{Frecuencia y tono}
+\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
+\subsubsection{Amplitud e intensidad}
+\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
+\subsection{Dominio tiempo frecuencia}
+\input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro}
+\subsubsection{Magnitud y fase}
+\input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase}
+\subsubsection{Señales mono y estéreo}
+\input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo}
+\subsubsection{STFTs}
+\input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft}
+\subsubsection{Espectrogramas}
+\input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas}
+\subsection{Mezcla de señales y separación de fuentes}
+\input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro}             
+\subsubsection{Mezclas lineales}
+\input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_lineales}
+\subsubsection{Mezclas coherentes e incoherentes}
+\input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes}
+\subsubsection{Separación ciega de fuentes}
+\input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes}
+\subsection{Representaciones digitales}
+\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro}
+\subsubsection{Formatos del audio}
+\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio}
+\subsubsection{Muestreo y cuantización}
+\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant}
+\subsubsection{Tasa de muestreo}
+\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res}
+
+\section{Aprendizaje automático}
+\subsection{Conceptos fundamentales}
+\subsubsection{Aprendizaje supervisado vs no supervisado}
+\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado}
+\subsubsection{Overfitting, underfitting y generalización}
+\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion}
+\subsubsection{Dataset}
+\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset}
+\subsection{RNNs artificiales}
+\subsubsection{Tipos de redes}
+\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes}
+\subsubsection{Optimización y descenso de gradiente}
+\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente}
+\subsubsection{Neuronas, capas y funciones de activación y pérdida}
+\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs}
+\subsection{Técnicas de evaluación y métricas utilizadas}
+\subsubsection{Funciones de pérdida}
+\input{chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida}
+\subsubsection{Data augmentation}
+\input{chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation}
+\subsubsection{Métricas de evaluación}
+\input{chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion}
+\subsection{Estado del arte}
+\input{chapters/marco_teorico/aprendizaje_automatico/estado_del_arte}
+
+\chapter{Parte 1 : separación de fuentes}
+\section{Diseño del modelo}
+\input{chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep}
+\section{Arquitectura base}
+\input{chapters/Parte1_sepfuents/arq_base/arq_base_maskinference}
+\section{Modificaciones propuestas}
+\subsection{Arquitectura y parámetros}
+\input{chapters/Parte1_sepfuents/mod_propuestas/arq_y_params}
+\subsection{Función de pérdida: \textit{Deep-feature-EMD}}
+\input{chapters/Parte1_sepfuents/mod_propuestas/func_perdida}
+\section{Configuración de entrenamiento}
+\subsection{\textit{Inputs} y \textit{targets}}
+\input{chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets}
+\subsection{\textit{TFMs} aplicadas}
+\input{chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos}
+\subsection{\textit{Data augmentation}}
+\input{chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation}
+\subsection{Preprocesado de un \textit{dataset}}
+\input{chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces}
+\section{Entrenamiento del modelo}
+\subsection{Resultados preliminares y experimentales}
+\input{chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp}
+\subsection{Comparativas}
+\input{chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas}
+
+
+\chapter{Parte 2 : interfaz}
+\section{Objetivos}
+\subsection{Interacción y aprendizaje}
+\input{chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
+\section{Diseño de experiencia de usuario}
+\subsection{Organización y visualización}
+\input{chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion}
+\subsection{Explicaciones y guías}
+\input{chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas}
+\section{Casos de uso}
+\subsection{Entrenamiento parametrizable}
+\input{chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado}
+\subsection{Parámetros principales ajustables}
+\input{chapters/parte2_interfaz/casos_de_uso/parametros_ajustables}
+\subsection{Visualización de gráficos y espectrogramas}
+\input{chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas}
+\subsection{Feedback}
+\input{chapters/parte2_interfaz/casos_de_uso/feedback}
+
+\chapter{Integración del sistema}
+\subsection{Backend}
+\input{chapters/integracion_sistema/backend}
+\subsection{Comunicación entre módulos}
+\input{chapters/integracion_sistema/comunicacion_modulos}
+
+\chapter{Evaluación del sistema}
+\subsection{Métricas utilizadas}
+\input{chapters/evaluacion_sistema/metricas}
+\subsection{Resultados obtenidos}
+\input{chapters/evaluacion_sistema/results}
+\subsection{Discusión y análisis}
+\input{chapters/evaluacion_sistema/discusion_analisis}
+\subsection{Limitaciones y margen de mejora}
+\input{chapters/evaluacion_sistema/limitaciones_margen_mejora}
+
+\chapter{Conclusiones y trabajo futuro}
+
+\subsection{Síntesis del trabajo realizado}
+\input{chapters/conclusiones_y_futuro/sintesis}
+\subsection{Lineas de mejora}
+\input{chapters/conclusiones_y_futuro/linea_mejora}
+\subsection{Trabajo futuro}
+\input{chapters/conclusiones_y_futuro/trabajo_futuro}
+\chapter{Anexos}
+\subsection{Código relevante}
+\input{chapters/anexos/codigo_relevante}
+\subsection{Configuraciones}
+\input{chapters/anexos/configuraciones}
+\subsection{Instrucciones posibles}
+\input{chapters/anexos/instrucciones}
+\subsection{Resultados adicionales}
+\input{chapters/anexos/resultados_adicionales}
+
+% Apéndices
+\appendix
+\backmatter
+
+% Bibliografía
+\phantomsection
+\printbibliography
+
+\end{document}
