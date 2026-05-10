@@ -1,0 +1,32 @@
+En cuanto a proponer un nuevo enfoque a un problema mediante inteligencia artificial, generalmente buena parte de los métodos tratan de aportar algúna configuración de parámetros o modificación a la arquitectura que resulten en unos mejores resultados.
+\begin{itemize}
+    \item Arquitectura: La arquitectura base no fue sustituida por un modelo diferente, sino que se estabilizó su implementación. Durante la fase de depuración se detectó que la ruta de inferencia debía coincidir exactamente con la utilizada durante el entrenamiento. Por ello, se mantuvo la estructura basada en inferencia de máscaras, restaurando el preprocesado mediante conversión a decibelios y normalización por lotes antes de la red recurrente. Esta corrección permitió que la LSTM recibiera una representación coherente con la usada durante el entrenamiento, siendo la siguiente:
+
+    STFT → magnitud → AmplitudeToDB → BatchNorm → LSTM bidireccional → Embedding → máscaras → iSTFT
+
+    \item Parámetros: para los parámetros, se tuvo que realizar una segunda versión de estos, ya que, tras considerar una tanda de entrenamientos realizada como válida, al evaluar se llegó a la conclusión de que los parámetros del modelo base y los parámetros de nuestros entrenamientos no coincidían, lo que llevó a una mala generalización del modelo. Por ello, se decidió realizar una segunda tanda de entrenamientos con los parámetros corregidos, que se muestran a continuación:
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{ll}
+    \hline
+    \textbf{Parámetro} & \textbf{Valor} \\
+    \hline
+    Dominio de trabajo & Tiempo-frecuencia, mediante STFT \\
+    Tamaño de ventana STFT & 512 muestras \\
+    Salto STFT & 128 muestras \\
+    Tipo de ventana & sqrt\_hann \\
+    Número de bins de frecuencia & 257 \\
+    Canales de entrada & 1, mono \\
+    Tipo de red recurrente & LSTM \\
+    Número de capas recurrentes & 1 \\
+    Tamaño oculto & 50 \\
+    Bidireccional & Sí \\
+    Dropout & 0.0 \\
+    Activación de salida & Sigmoid \\
+    Salidas en 2 stems & vocals, accompaniment \\
+    Salidas en 4 stems & vocals, bass, drums, other \\
+    \hline
+    \end{tabular}
+    \caption{Configuración arquitectónica base empleada en los entrenamientos V2.}
+    \end{table}
+\end{itemize}

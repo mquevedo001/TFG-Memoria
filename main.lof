@@ -1,0 +1,20 @@
+\babel@toc {spanish}{}\relax 
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Generación de una onda sonora longitudinal mediante el movimiento de un pistón al final de un tubo \blx@tocontentsinit {0}\cite {sbe_sound}.}}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diferencia visual en una habitación entre un sonido mono y uno estéreo.}}{9}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}}{10}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{11}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparativa de clasificación entre aprendizaje supervisado y no supervisado. Imagen de Juan Domingo Farnos}}{14}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{15}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{16}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ejemplo de graficación de la métrica AUC. Esta métrica parte de la matriz de confusión generando un gráfico de puntos donde se evalúa la capacidad del modelo para clasificar correctamente en función de los valores por debajo de la diagonal del gráfico.}}{18}{figure.caption.46}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{22}{figure.caption.48}%
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}

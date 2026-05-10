@@ -1,0 +1,342 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{doi:10.1177/0008125619864925}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=146c7381fa3e25c333d754ee6c0f683b}{%
+           family={Haenlein},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=79d63985e11c74c107449cb5581be70c}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{fullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{fullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{bibnamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{authorbibnamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{authornamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{authorfullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{authorfullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This introduction to this special issue discusses artificial intelligence (AI), commonly defined as “a system’s ability to interpret external data correctly, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation.” It summarizes seven articles published in this special issue that present a wide variety of perspectives on AI, authored by several of the world’s leading experts and specialists in AI. It concludes by offering a comprehensive outlook on the future of AI, drawing on micro-, meso-, and macro-perspectives.}
+      \field{journaltitle}{California Management Review}
+      \field{number}{4}
+      \field{title}{A Brief History of Artificial Intelligence: On the Past, Present, and Future of Artificial Intelligence}
+      \field{volume}{61}
+      \field{year}{2019}
+      \field{pages}{5\bibrangedash 14}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1177/0008125619864925
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1177/0008125619864925
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0008125619864925
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0008125619864925
+      \endverb
+    \endentry
+    \entry{rafii18}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=07838eed0ab9bdac198aa614da7b0dad}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b86b043644e0e4315ffd30d8314e6013}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3fb44d5cef17d0b7997a14f3e72e4d73}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=db2d58a3919e25f295be83c7b5144521}{%
+           family={Mimilakis},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=4ed5760357cb26da83fd846f16ef5261}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=04cd6296ed78b39e9860e22a69af6189}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{171dcc6d1e28a4a572c0a7bdb7d329ae}
+      \strng{fullhash}{1418eadc0963c269eefd28bc2744fa71}
+      \strng{fullhashraw}{1418eadc0963c269eefd28bc2744fa71}
+      \strng{bibnamehash}{171dcc6d1e28a4a572c0a7bdb7d329ae}
+      \strng{authorbibnamehash}{171dcc6d1e28a4a572c0a7bdb7d329ae}
+      \strng{authornamehash}{171dcc6d1e28a4a572c0a7bdb7d329ae}
+      \strng{authorfullhash}{1418eadc0963c269eefd28bc2744fa71}
+      \strng{authorfullhashraw}{1418eadc0963c269eefd28bc2744fa71}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2329-9290}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{An Overview of Lead and Accompaniment Separation in Music}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{pages}{1307\bibrangedash 1335}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1109/TASLP.2018.2825440
+      \endverb
+    \endentry
+    \entry{sbe_sound}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=433c59b3af8d4bbf6ab5b3573cde1c9e}{%
+           family={Broadcast\bibnamedelima Engineers},
+           familyi={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Society},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{fullhash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{fullhashraw}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{bibnamehash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{authorbibnamehash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{authornamehash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{authorfullhash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \strng{authorfullhashraw}{433c59b3af8d4bbf6ab5b3573cde1c9e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SBE Handbook Fundamentals of Audio}
+      \field{note}{Accedido: 28 de agosto de 2025}
+      \field{title}{The Physical Nature of Sound}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://sbe.org/handbook/fundamentals/Audio/Audio-The_Physical_Nature_of_Sound.pdf
+      \endverb
+      \verb{url}
+      \verb https://sbe.org/handbook/fundamentals/Audio/Audio-The_Physical_Nature_of_Sound.pdf
+      \endverb
+    \endentry
+    \entry{libretexts_sound}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a3eb7178c89b97c8d99dc6a812405eb2}{%
+           family={{LibreTexts Physics}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{fullhash}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{fullhashraw}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{bibnamehash}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{authorbibnamehash}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{authornamehash}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{authorfullhash}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \strng{authorfullhashraw}{a3eb7178c89b97c8d99dc6a812405eb2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LibreTexts Physics}
+      \field{note}{Accedido: 28 de agosto de 2025}
+      \field{title}{Introduction to Sound}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://phys.libretexts.org/Bookshelves/University_Physics/Physics_%28Boundless%29/16%3A_Sound/16.1%3A_Introduction
+      \endverb
+      \verb{url}
+      \verb https://phys.libretexts.org/Bookshelves/University_Physics/Physics_%28Boundless%29/16%3A_Sound/16.1%3A_Introduction
+      \endverb
+    \endentry
+    \entry{openstax_intensity}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=958fd1d1699cbc3a1e96692dbf30b72e}{%
+           family={OpenStax},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{fullhash}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{fullhashraw}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{bibnamehash}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{authorbibnamehash}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{authornamehash}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{authorfullhash}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \strng{authorfullhashraw}{958fd1d1699cbc3a1e96692dbf30b72e}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{OpenStax Physics}
+      \field{note}{Accedido: 28 de agosto de 2025}
+      \field{title}{Sound Intensity and Sound Level}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level
+      \endverb
+      \verb{url}
+      \verb https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level
+      \endverb
+    \endentry
+    \entry{source_separation_phase}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3370ccd1b2b24dfa65786e60d83a59a4}{%
+           family={{Source Separation Tutorial}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{fullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{fullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{bibnamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{authorbibnamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{authornamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{authorfullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{authorfullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://source-separation.github.io/tutorial/basics/phase.html}}
+      \field{note}{Accedido: 28 de agosto de 2025}
+      \field{title}{Phase in source separation}
+      \field{year}{2025}
+    \endentry
+    \entry{cardoso1998blind}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ab68cfa408885fe52dd255419595ba9}{%
+           family={Cardoso},
+           familyi={C\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{fullhash}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{fullhashraw}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{bibnamehash}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{authorbibnamehash}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{authornamehash}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{authorfullhash}{9ab68cfa408885fe52dd255419595ba9}
+      \strng{authorfullhashraw}{9ab68cfa408885fe52dd255419595ba9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{10}
+      \field{title}{Blind Signal Separation: Statistical Principles}
+      \field{volume}{86}
+      \field{year}{1998}
+      \field{pages}{2009\bibrangedash 2025}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/5.720250
+      \endverb
+    \endentry
+    \entry{rafii2018overview}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=5ee42f0b3cc079a674cab6cef5a3827d}{%
+           family={Mimilakis},
+           familyi={M\bibinitperiod},
+           given={Stylianos\bibnamedelima I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{fullhash}{541e8f9668bf3797990ba81e523e1114}
+      \strng{fullhashraw}{541e8f9668bf3797990ba81e523e1114}
+      \strng{bibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorbibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authornamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorfullhash}{541e8f9668bf3797990ba81e523e1114}
+      \strng{authorfullhashraw}{541e8f9668bf3797990ba81e523e1114}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{number}{8}
+      \field{title}{An Overview of Lead and Accompaniment Separation in Music}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{pages}{1307\bibrangedash 1335}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1109/TASLP.2018.2825440
+      \endverb
+      \verb{urlraw}
+      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \endverb
+      \verb{url}
+      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{shannon1949communication}
+\endrefsection
+\endinput
+
