@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1778431608.98272 "main.bcf" "main.bbl" "main" 1778431782.66481 0
-  "main.bcf" 1778431782 108973 8e4fa6069cec6dd3531cee769b1cdb26 "pdflatex"
+["biber main"] 1778431608.98272 "main.bcf" "main.bbl" "main" 1779550086.25957 0
+  "main.bcf" 1779550085 108973 8e4fa6069cec6dd3531cee769b1cdb26 "pdflatex"
   "referencias.bib" 1778430812 3718 c5b057616392435559b78d30a5c03972 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1778431779.46181 "main.tex" "main.pdf" "main" 1778431782.66578 0
+["pdflatex"] 1779550083.02989 "main.tex" "main.pdf" "main" 1779550086.26132 0
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1776882104 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1776882104 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1776882104 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -246,12 +246,12 @@
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776884552 3648450 c548a1889c156aa258acbe538e461d83 ""
   "c:/texlive/2026/texmf.cnf" 1776884443 713 e69b156964470283e0530f5060668171 ""
   "chapters/ODS.tex" 1776879801 3249 e4d35448bdbcf4baf8b5b45c1a01661b ""
-  "chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex" 1778431280 521 38d99c4195b1de1762a7d7453524d9ae ""
+  "chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex" 1779550082 981 fbeee21ef4375b333742d1547a259125 ""
   "chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex" 1778431111 410 22bb332ae52300f8155e3819244ea444 ""
+  "chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex" 1779549921 568 21674c8feae25c1d02fcc33b9b79e111 ""
   "chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex" 1778413745 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex" 1778413754 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -290,7 +290,7 @@
   "chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex" 1778427062 1004 7cca8c5f5e488685a748b1dd52b726a8 ""
   "chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex" 1778426939 911 5b256a792fd6602f94b80c935ed35bb3 ""
   "chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex" 1778426875 873 16c94fa231574476a42a018a5b14904c ""
-  "chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex" 1778430430 1792 19cefac34f289e74998a3d2028981820 ""
+  "chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex" 1779549724 2024 63a7e027f2dbe9e2c0d4417005d47c3b ""
   "chapters/marco_teorico/aprendizaje_automatico/intro.tex" 1776879801 441 6a6a6f307a67a7eb120b39beea7e8193 ""
   "chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -334,14 +334,14 @@
   "commons/Fig8.png" 1778429421 17992 39639e2f1d126e7b951b5c3175a11828 ""
   "commons/Fig9.png" 1778431161 112893 9835cd0625f72ccb85bf7e6bd1e60879 ""
   "general/logo_upv_ehu.jpg" 1776879801 497752 09b39031bbea5eedf1afee283c914abc ""
-  "main.aux" 1778431782 18945 53e57e95564cb04a8f9faf51882f7ddf "pdflatex"
+  "main.aux" 1779550085 18945 53e57e95564cb04a8f9faf51882f7ddf "pdflatex"
   "main.bbl" 1778431611 14880 1033142789ce33776bc5bc4f3dddaff9 "biber main"
-  "main.lof" 1778431782 1945 3f908d062e404a1f31aee74a9a4dc732 "pdflatex"
-  "main.lot" 1778431782 360 30b02f503b27220a5da8c8ab45ae4d6a "pdflatex"
-  "main.out" 1778431782 17050 b6e35620bef9a9d95a941a6c0e9be16f "pdflatex"
-  "main.run.xml" 1778431782 2306 21b6f2342482d65f7bca9ce329356541 "pdflatex"
+  "main.lof" 1779550085 1945 3f908d062e404a1f31aee74a9a4dc732 "pdflatex"
+  "main.lot" 1779550085 360 30b02f503b27220a5da8c8ab45ae4d6a "pdflatex"
+  "main.out" 1779550085 17050 b6e35620bef9a9d95a941a6c0e9be16f "pdflatex"
+  "main.run.xml" 1779550085 2306 21b6f2342482d65f7bca9ce329356541 "pdflatex"
   "main.tex" 1778426543 13635 7c0d154da48da34d2c344b8aa21f89bc ""
-  "main.toc" 1778431782 7735 cc6a1cddc09f0363622d8a88613c385f "pdflatex"
+  "main.toc" 1779550085 7735 cc6a1cddc09f0363622d8a88613c385f "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  10 MAY 2026 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  23 MAY 2026 17:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1485,12 +1485,12 @@ File: commons/Fig9.png Graphic file (type png)
 <use commons/Fig9.png>
 Package pdftex.def Info: commons/Fig9.png  used on input line 4.
 (pdftex.def)             Requested size: 258.29887pt x 131.02228pt.
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21] (./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
+ [21]) (./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
  [22 <./commons/Fig9.png>]) (./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex)
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
@@ -1593,9 +1593,9 @@ Here is how much of TeX's memory you used:
  64926 multiletter control sequences out of 15000+600000
  725901 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,13n,94p,1892b,3310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,13n,94p,1440b,3310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (49 pages, 2048527 bytes).
+Output written on main.pdf (49 pages, 2050743 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
