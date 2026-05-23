@@ -1,10 +1,14 @@
 En cuanto a proponer un nuevo enfoque a un problema mediante inteligencia artificial, generalmente buena parte de los métodos tratan de aportar algúna configuración de parámetros o modificación a la arquitectura que resulten en unos mejores resultados.
 \begin{itemize}
-    \item Arquitectura: La arquitectura base no fue sustituida por un modelo diferente, sino que se estabilizó su implementación. Durante la fase de depuración se detectó que la ruta de inferencia debía coincidir exactamente con la utilizada durante el entrenamiento. Por ello, se mantuvo la estructura basada en inferencia de máscaras, restaurando el preprocesado mediante conversión a decibelios y normalización por lotes antes de la red recurrente. Esta corrección permitió que la LSTM recibiera una representación coherente con la usada durante el entrenamiento, siendo la siguiente:
+    \item Arquitectura:
+    
+    La arquitectura base no fue sustituida por un modelo diferente, sino que se estabilizó su implementación. Durante la fase de depuración se detectó que la ruta de inferencia debía coincidir exactamente con la utilizada durante el entrenamiento. Por ello, se mantuvo la estructura basada en inferencia de máscaras, restaurando el preprocesado mediante conversión a decibelios y normalización por lotes antes de la red recurrente. Esta corrección permitió que la LSTM recibiera una representación coherente con la usada durante el entrenamiento, siendo la siguiente:
 
     STFT → magnitud → AmplitudeToDB → BatchNorm → LSTM bidireccional → Embedding → máscaras → iSTFT
 
-    \item Parámetros: para los parámetros, se tuvo que realizar una segunda versión de estos, ya que, tras considerar una tanda de entrenamientos realizada como válida, al evaluar se llegó a la conclusión de que los parámetros del modelo base y los parámetros de nuestros entrenamientos no coincidían, lo que llevó a una mala generalización del modelo. Por ello, se decidió realizar una segunda tanda de entrenamientos con los parámetros corregidos, que se muestran a continuación:
+    \item Parámetros:
+    
+    Para los parámetros, se tuvo que realizar una segunda versión de estos, ya que, tras considerar una tanda de entrenamientos realizada como válida, al evaluar se llegó a la conclusión de que los parámetros del modelo base y los parámetros de nuestros entrenamientos no coincidían, lo que llevó a una mala generalización del modelo. Por ello, se decidió realizar una segunda tanda de entrenamientos con los parámetros corregidos, que se muestran a continuación:
     \begin{table}[H]
     \centering
     \begin{tabular}{ll}

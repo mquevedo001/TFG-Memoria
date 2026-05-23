@@ -1,0 +1,18 @@
+La entrada principal al modelo es la magnitud de la mezcla en dominio STFT, en particular:
+
+\textit{STFT compleja + magnitud + tensor}
+
+Internamente se adapta al formato \textit{[B,T,F]}, se convierte a \textit{dB} y se normaliza antes de entrar a la RNN.
+La magnitud lineal se conserva para aplicar la máscara al final.
+
+Los targets ( objetivos ) son las magnitudes de las fuentes reales. Existen dos modalidades de salida:
+
+\begin{itemize}
+    \item \textbf{4 fuentes: } \textit{vocales + batería + bajo + resto}
+    \item \textbf{2 fuentes: } \textit{vocales , acomañamiento}
+\end{itemize}
+
+La salida del modelo no genera audio directament.Aunque en la ejecución lo parezca, la salida son máscaras tiempo-frecuencia. Posteriormente, se aplica la máscara sobre la magnitud de la mezcla y el resultado corresponde a la estimación de la fuente.
+Luego para reconstruir el audio se utiliza la fase de la mezcla. Esto es una limitación importante, ya que la extracción de la mezcla suele ser una estimación, la reconstrucción final corresponde a lacalidad de esta estimación.
+
+

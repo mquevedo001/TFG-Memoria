@@ -335,6 +335,37 @@
       \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
       \endverb
     \endentry
+    \entry{DeepLearningforChestRadiographs}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=70e5597ef416362914d32bd15e5a1183}{%
+           family={Yashvi\bibnamedelima Chandola},
+           familyi={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={...\bibnamedelimi Papendra\bibnamedelima Kumar},
+           giveni={.\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           suffix={Jitendra\bibnamedelima Virmani},
+           suffixi={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{fullhash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{fullhashraw}{70e5597ef416362914d32bd15e5a1183}
+      \strng{bibnamehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authorbibnamehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authornamehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authorfullhash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authorfullhashraw}{70e5597ef416362914d32bd15e5a1183}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science Direct}
+      \field{title}{Deep Learning for Chest Radiographs}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \endverb
+    \endentry
   \enddatalist
   \missing{shannon1949communication}
 \endrefsection

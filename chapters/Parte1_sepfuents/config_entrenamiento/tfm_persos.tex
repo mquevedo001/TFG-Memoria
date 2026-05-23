@@ -1,0 +1,30 @@
+En esta sección se comentarán las transformaciones aplicadas al audio/tensores antes del entrenamiento:
+
+\begin{itemize}
+    \item \textbf{Transformaciones espectrales} , incluye:
+    
+    \begin{itemize}
+        \item STFT.
+        \item obtención de magnitud.
+        \item conservación de fase para reconstrucción.
+        \item posible agrupación de fuentes para 2 stems.
+    \end{itemize}
+    
+    \item \textbf{Transformaciones internas del modelo} , incluye:
+    
+    \begin{itemize}
+        \item Amplitud a decibelios.
+        \item Normalización del \textit{batch}.
+        \item Reordenación de dimesiones a \textit{[B,T,F]}.
+    \end{itemize}
+
+    \item \textbf{Transformaciones para pérdidas concretas} , incluye:
+    
+    \begin{itemize}
+        \item Pérdidas de frecuencia: reformulación a \textit{[B*S,F,T]}
+        \item Pérdidas de \textit{deep-feature}: reformulación a \textit{[B*S,1,F,T]}
+    \end{itemize}
+
+\end{itemize}
+
+

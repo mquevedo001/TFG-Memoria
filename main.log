@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  23 MAY 2026 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  23 MAY 2026 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1469,10 +1469,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 275.
 LaTeX Info: Redefining \% on input line 275.
- [17] (./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex)
-LaTeX Info: Redefining \. on input line 277.
-LaTeX Info: Redefining \% on input line 277.
- [18 <./commons/Fig8.png (PNG copy)>]
+ [17] (./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [18 <./commons/Fig8.png (PNG copy)>])
 LaTeX Info: Redefining \. on input line 278.
 LaTeX Info: Redefining \% on input line 278.
  [19] [20
@@ -1489,16 +1489,43 @@ Package pdftex.def Info: commons/Fig9.png  used on input line 4.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]) (./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
- [22 <./commons/Fig9.png>]) (./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex)
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+ [22 <./commons/Fig9.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [23]) (./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [24]) (./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+Overfull \hbox (16.8624pt too wide) in paragraph at lines 1--2
+[]\T1/lmr/m/n/10.95 En es-ta sec-ciÛn se co-men-ta-r·n las trans-for-ma-cio-nes apli-ca-das al au-dio/tensores
+ []
+
+) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex)
+LaTeX Info: Redefining \. on input line 295.
+LaTeX Info: Redefining \% on input line 295.
+ [25] (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 28.
+ (c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (16.19382pt too wide) in paragraph at lines 38--39
+\T1/lmr/m/n/10.95 es-tos dos ˙l-ti-mos pa-ra las fun-cio-nes que las pi-den, y usa \T1/lmtt/m/n/10.95 source_magnitudes
+ []
+
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+[26]) (./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex)
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
- [23] [24
+ [27] [28
 
 ]
 Cap\'{\i }tulo 6.
-(./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/dise√±o_exp_usuario/organizacion_visualizacion.tex) (./chapters/parte2_interfaz/dise√±o_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex) [25] [26
+(./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/dise√±o_exp_usuario/organizacion_visualizacion.tex) (./chapters/parte2_interfaz/dise√±o_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex) [29] [30
 
 ]
 Cap\'{\i }tulo 7.
@@ -1506,7 +1533,7 @@ Cap\'{\i }tulo 7.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 327.
 
-(./chapters/integracion_sistema/backend.tex) (./chapters/integracion_sistema/comunicacion_modulos.tex) (./chapters/integracion_sistema/incidencias.tex) [27] [28
+(./chapters/integracion_sistema/backend.tex) (./chapters/integracion_sistema/comunicacion_modulos.tex) (./chapters/integracion_sistema/incidencias.tex) [31] [32
 
 ]
 Cap\'{\i }tulo 8.
@@ -1514,7 +1541,7 @@ Cap\'{\i }tulo 8.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 335.
 
-(./chapters/evaluacion_sistema/metricas.tex) (./chapters/evaluacion_sistema/evaluacion_pipeline.tex) (./chapters/evaluacion_sistema/results.tex) (./chapters/evaluacion_sistema/discusion_analisis.tex) (./chapters/evaluacion_sistema/limitaciones_margen_mejora.tex) [29] [30
+(./chapters/evaluacion_sistema/metricas.tex) (./chapters/evaluacion_sistema/evaluacion_pipeline.tex) (./chapters/evaluacion_sistema/results.tex) (./chapters/evaluacion_sistema/discusion_analisis.tex) (./chapters/evaluacion_sistema/limitaciones_margen_mejora.tex) [33] [34
 
 ]
 Cap\'{\i }tulo 9.
@@ -1522,7 +1549,7 @@ Cap\'{\i }tulo 9.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 348.
 
-(./chapters/conclusiones_y_futuro/sintesis.tex) (./chapters/conclusiones_y_futuro/linea_mejora.tex) (./chapters/conclusiones_y_futuro/trabajo_futuro.tex) [31] [32
+(./chapters/conclusiones_y_futuro/sintesis.tex) (./chapters/conclusiones_y_futuro/linea_mejora.tex) (./chapters/conclusiones_y_futuro/trabajo_futuro.tex) [35] [36
 
 ]
 Cap\'{\i }tulo 10.
@@ -1530,13 +1557,9 @@ Cap\'{\i }tulo 10.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 355.
 
-(./chapters/anexos/codigo_relevante.tex) (./chapters/anexos/registro_incidencias.tex) (./chapters/anexos/configuraciones.tex) (./chapters/anexos/instrucciones.tex) (./chapters/anexos/resultados_adicionales.tex) [33] [34
+(./chapters/anexos/codigo_relevante.tex) (./chapters/anexos/registro_incidencias.tex) (./chapters/anexos/configuraciones.tex) (./chapters/anexos/instrucciones.tex) (./chapters/anexos/resultados_adicionales.tex) [37] [38
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 372.
- (c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Overfull \hbox (11.90097pt too wide) in paragraph at lines 373--373
 []\T1/lmr/m/n/10.95 LibreTexts Phy-sics. ``In-tro-duc-tion to Sound''. En: \T1/lmr/m/it/10.95 Li-bre-Texts Phy-sics \T1/lmr/m/n/10.95 (2025).
  []
@@ -1552,7 +1575,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 374.
 
-[35
+[39
 
 ]
 \tf@toc=\write7
@@ -1587,17 +1610,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36800 strings out of 467349
- 701250 string characters out of 5419862
- 1503055 words of memory out of 5000000
- 64926 multiletter control sequences out of 15000+600000
+ 36810 strings out of 467349
+ 701542 string characters out of 5419862
+ 1503154 words of memory out of 5000000
+ 64931 multiletter control sequences out of 15000+600000
  725901 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,13n,94p,1440b,3310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,13n,94p,1441b,3310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (49 pages, 2050743 bytes).
+Output written on main.pdf (53 pages, 2061731 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 175 named destinations out of 1000 (max. 500000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
  887 words of extra memory for PDF output out of 10000 (max. 10000000)
 

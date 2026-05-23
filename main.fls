@@ -738,6 +738,10 @@ INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
 INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
 INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
 INPUT chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
@@ -873,10 +877,6 @@ INPUT ./chapters/anexos/resultados_adicionales.tex
 INPUT ./chapters/anexos/resultados_adicionales.tex
 INPUT ./chapters/anexos/resultados_adicionales.tex
 INPUT chapters/anexos/resultados_adicionales.tex
-INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 OUTPUT main.toc
 OUTPUT main.lof
 OUTPUT main.lot

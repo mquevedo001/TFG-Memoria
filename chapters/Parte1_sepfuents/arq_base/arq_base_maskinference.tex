@@ -9,9 +9,24 @@ El modelo empleado es una arquitectura recurrente de inferencia de máscaras, ba
 \end{figure}
 
 En la figura se muestra una red neuronal recurrente LSTM desplegada en el tiempo.
-Una LSTM procesa una secuencia paso a paso, palabras por ejemplo, sonidos o datos temporales.
-Cada bloque verde representa la misma celda LSTM aplicada en diferentes momentos en el tiempo $x_{t}$ y $x_{t+1}$
-$x_{t}$ es la entrada en el instante actual. 
-$h_{t}$ es el estado oculto o salida de la celda en ese instante, lo que la red "\textit{entiende}" en ese momento
 
+Una LSTM procesa una secuencia paso a paso, palabras por ejemplo, sonidos o datos temporales.
+
+Cada bloque verde representa la misma celda LSTM aplicada en diferentes momentos en el tiempo $x_{t}$ y $x_{t+1}$
+
+\textbf{$x_{t}$ :} es la entrada en el instante actual. 
+
+\textbf{$h_{t}$ :} es el estado oculto o salida de la celda en ese instante, lo que la red "\textit{entiende}" en ese momento
+
+\textbf{Línea horizontal superior :} es el estado oculto o salida de la celda en ese instante. Resume lo que la red ha \textit{entendido} hasta el momento.
+
+\textbf{Bloque central, contenidos :} 
+\begin{itemize}
+    \item Puerta de olvido: decide qué información antigua se elimina de la memoria.
+    \item Puerta de entrada: decide qué información nueva se guarda.
+    \item Candidato de memoria: genera nueva información posible para añadir a la memoria.
+    \item Puerta de salida: decide qué parte de la memoria se usa para producir $h_{t}$
+\end{itemize}
+
+Los símbolos \textbf{sigmoid,tanh} son funciones que controlan la cantidad que pasa de una información concreta.Por ejemplo, \textbf{sigmoide} , produce valores binarios y hace la función de una "\textit{perilla}" que deja pasar toda la información o no.
 
