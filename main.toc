@@ -63,13 +63,13 @@
 \contentsline {section}{\numberline {5.4}Configuración de entrenamiento}{24}{section.5.4}%
 \contentsline {subsection}{\textit {Inputs} y \textit {targets}}{24}{section*.52}%
 \contentsline {subsection}{\textit {TFMs} aplicadas}{25}{section*.53}%
-\contentsline {subsection}{\textit {Data augmentation}}{25}{section*.54}%
+\contentsline {subsection}{\textit {Data augmentation}}{26}{section*.54}%
 \contentsline {subsection}{Preprocesado de un \textit {dataset}}{26}{section*.55}%
 \contentsline {section}{\numberline {5.5}Entrenamiento del modelo}{27}{section.5.5}%
 \contentsline {subsection}{Resultados preliminares y experimentales}{27}{section*.56}%
 \contentsline {subsection}{Comparativas}{27}{section*.57}%
 \contentsline {subsection}{Reentrenamiento V2}{27}{section*.58}%
-\contentsline {subsection}{Reentrenamiento V3 y protocolo final}{27}{section*.59}%
+\contentsline {subsection}{Reentrenamiento V3 y protocolo final}{28}{section*.59}%
 \contentsline {chapter}{\chapternumberline {6}Parte 2 : interfaz}{29}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Objetivos}{29}{section.6.1}%
 \contentsline {subsection}{Interacción y aprendizaje}{29}{section*.60}%

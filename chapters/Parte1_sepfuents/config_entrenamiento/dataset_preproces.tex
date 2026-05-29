@@ -25,14 +25,14 @@ En esta sección se explicará el camino desde los archivos de audio hasta los \
     \item \textbf{4. Preparación de \textit{batches}:}
     Cada \textit{batch} contiene al menos:
     \begin{itemize}
-        \item \texttt{mix\_magnitude}
-        \item \texttt{source\_magnitudes}
+        \item \textit{mix\_magnitude}
+        \item \textit{source\_magnitudes}
     \end{itemize}
     
     Y para pérdidas que piden fase:
     \begin{itemize}
-        \item \texttt{mixture\_phase}
-        \item \texttt{source\_phase}
+        \item \textit{mixture\_phase}
+        \item \textit{source\_phase}
     \end{itemize}
 
     La versión final del proceso de entrenamiento comprueba la presencia de estos dos últimos para las funciones que las piden, y usa \texttt{source\_magnitudes} como \textit{target} principal durante el entrenamiento.
@@ -40,11 +40,11 @@ En esta sección se explicará el camino desde los archivos de audio hasta los \
     \item \textbf{5. División train/validation/test:}
     \begin{itemize}
         \item \textit{train/validation}: usado durante entrenamiento y \textit{early stopping}.
-        \item \texttt{representative\_test}: conjunto fijo usado solo para evaluación final.
+        \item \textit{representative\_test}: conjunto fijo usado solo para evaluación final.
     \end{itemize}
-    División 60-30.
+    División 60-40.
 
     \item \textbf{6. Normalización/canales:}
-    El sistema se configuró para un canal de audio, lo que reduce el coste computacional y se recomienda en la documentación del modelo. También simplifica el proceso de comparación entre fuentes.
+    El sistema se configuró para un canal de audio, lo que reduce el coste computacional y se recomienda en la documentación del modelo\cite{rafii2018overview}. También simplifica el proceso de comparación entre fuentes.
 
 \end{itemize}

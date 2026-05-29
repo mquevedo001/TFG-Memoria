@@ -9,10 +9,10 @@ Los targets ( objetivos ) son las magnitudes de las fuentes reales. Existen dos 
 
 \begin{itemize}
     \item \textbf{4 fuentes: } \textit{vocales + batería + bajo + resto}
-    \item \textbf{2 fuentes: } \textit{vocales , acomañamiento}
+    \item \textbf{2 fuentes: } \textit{vocales , acompañamiento}
 \end{itemize}
 
-La salida del modelo no genera audio directament.Aunque en la ejecución lo parezca, la salida son máscaras tiempo-frecuencia. Posteriormente, se aplica la máscara sobre la magnitud de la mezcla y el resultado corresponde a la estimación de la fuente.
-Luego para reconstruir el audio se utiliza la fase de la mezcla. Esto es una limitación importante, ya que la extracción de la mezcla suele ser una estimación, la reconstrucción final corresponde a lacalidad de esta estimación.
+La salida del modelo no genera audio directamente.Aunque en la ejecución lo parezca, la salida son máscaras tiempo-frecuencia. Posteriormente, se aplica la máscara sobre la magnitud de la mezcla y el resultado corresponde a la estimación de la fuente.
+Luego para reconstruir el audio se utiliza la fase de la mezcla. Esto es una limitación importante, ya que es una estimación. La fase de la mezcla original no tiene porque ser la de las fuentes, pero a falta del dato de la magnitud para estas últimas, se utiliza la de la mezcla.
 
 

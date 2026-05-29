@@ -1,0 +1,14 @@
+El reentrenamiento numero tres corresponde a la versión actual y a la que ha proporcionado los resultados que se muestran en esta memoria para comparar el desempeño de las funciones de pérdida. Nace en respuesta a lo visto y aprendido en la versión anterior.
+
+En esta versión se introduce un conjunto de test fijo, se añade una \textit{baseline} trivial de mezcla y se unifica la inferencia entre evaluación y despliegue , como cambios principales.
+
+Y más en profundidad:
+\begin{itemize}
+    \item Se restaura el \textit{forward} coherente con el entrenamiento que se había modificado en la versión anterior a raíz de sospechar que ese era el punto que no permitía una generación de resultados correcta: 
+    
+    \textit{AmplitudeToDB + BatchNorm + RNN + Embedding}
+    \item Se separan pérdidas principales y experimentales.
+    \item Se organiza la salida en un nuevo directorio.
+    \item Se guarda un sumario de configuración de entrenamiento por modelo. Esto ayuda a hacer un seguimiento a posteriori.
+    \item Se ajusta la planificación por coste final
+\end{itemize}

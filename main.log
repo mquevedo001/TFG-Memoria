@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  23 MAY 2026 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  24 MAY 2026 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,13 +1108,6 @@ LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 13.
-
-
-LaTeX Warning: Label `fig:MonoEstereo' multiply defined.
-
-
-LaTeX Warning: Label `fig:MonoEstereo' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1330,8 +1323,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 D
-      entro del ámbito de la inteligencia artificial , la separación de fu... [1
+l.8 
+     [1
 
 
 ])
@@ -1403,10 +1396,10 @@ Package pdftex.def Info: commons/Fig4.png  used on input line 7.
 )
 LaTeX Info: Redefining \. on input line 235.
 LaTeX Info: Redefining \% on input line 235.
- [10{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./commons/Fig3.png>] (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_lineales.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex)
-LaTeX Info: Redefining \. on input line 241.
-LaTeX Info: Redefining \% on input line 241.
- [11 <./commons/Fig4.png>] (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
+ [10{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./commons/Fig3.png>] (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_lineales.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [11 <./commons/Fig4.png>]) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
 
 LaTeX Warning: Citation 'shannon1949communication' on page 12 undefined on input line 3.
 
@@ -1485,9 +1478,6 @@ File: commons/Fig9.png Graphic file (type png)
 <use commons/Fig9.png>
 Package pdftex.def Info: commons/Fig9.png  used on input line 4.
 (pdftex.def)             Requested size: 258.29887pt x 131.02228pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [21]) (./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
@@ -1497,18 +1487,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
  [23]) (./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
  [24]) (./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
 Overfull \hbox (16.8624pt too wide) in paragraph at lines 1--2
 []\T1/lmr/m/n/10.95 En es-ta sec-ci�n se co-men-ta-r�n las trans-for-ma-cio-nes apli-ca-das al au-dio/tensores
  []
 
-) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex)
-LaTeX Info: Redefining \. on input line 295.
-LaTeX Info: Redefining \% on input line 295.
- [25] (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 28.
+) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [25]) (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [26]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 38.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1516,16 +1509,17 @@ Overfull \hbox (16.19382pt too wide) in paragraph at lines 38--39
 \T1/lmr/m/n/10.95 es-tos dos �l-ti-mos pa-ra las fun-cio-nes que las pi-den, y usa \T1/lmtt/m/n/10.95 source_magnitudes
  []
 
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-[26]) (./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex)
+) (./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+ [27])
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
- [27] [28
-
-]
+ [28]
 Cap\'{\i }tulo 6.
-(./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex) [29] [30
+(./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex) [29
+
+] [30
 
 ]
 Cap\'{\i }tulo 7.
@@ -1600,9 +1594,6 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B6E35620BEF9A9D95A941A6C0E9BE16F;17050.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1610,17 +1601,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36810 strings out of 467349
- 701542 string characters out of 5419862
- 1503154 words of memory out of 5000000
- 64931 multiletter control sequences out of 15000+600000
+ 36814 strings out of 467349
+ 701606 string characters out of 5419862
+ 1503361 words of memory out of 5000000
+ 64935 multiletter control sequences out of 15000+600000
  725901 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,13n,94p,1441b,3310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (53 pages, 2061731 bytes).
+Output written on main.pdf (53 pages, 2064954 bytes).
 PDF statistics:
- 980 PDF objects out of 1000 (max. 8388607)
+ 981 PDF objects out of 1000 (max. 8388607)
  180 named destinations out of 1000 (max. 500000)
  887 words of extra memory for PDF output out of 10000 (max. 10000000)
 
