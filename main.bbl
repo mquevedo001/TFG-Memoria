@@ -40,8 +40,8 @@
       \strng{authornamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
       \strng{authorfullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
       \strng{authorfullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This introduction to this special issue discusses artificial intelligence (AI), commonly defined as “a system’s ability to interpret external data correctly, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation.” It summarizes seven articles published in this special issue that present a wide variety of perspectives on AI, authored by several of the world’s leading experts and specialists in AI. It concludes by offering a comprehensive outlook on the future of AI, drawing on micro-, meso-, and macro-perspectives.}
@@ -107,8 +107,8 @@
       \strng{authorfullhash}{1418eadc0963c269eefd28bc2744fa71}
       \strng{authorfullhashraw}{1418eadc0963c269eefd28bc2744fa71}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2329-9290}
@@ -142,8 +142,8 @@
       \strng{authornamehash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
       \strng{authorfullhash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
       \strng{authorfullhashraw}{433c59b3af8d4bbf6ab5b3573cde1c9e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SBE Handbook Fundamentals of Audio}
@@ -171,8 +171,8 @@
       \strng{authornamehash}{a3eb7178c89b97c8d99dc6a812405eb2}
       \strng{authorfullhash}{a3eb7178c89b97c8d99dc6a812405eb2}
       \strng{authorfullhashraw}{a3eb7178c89b97c8d99dc6a812405eb2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{LibreTexts Physics}
@@ -200,8 +200,8 @@
       \strng{authornamehash}{958fd1d1699cbc3a1e96692dbf30b72e}
       \strng{authorfullhash}{958fd1d1699cbc3a1e96692dbf30b72e}
       \strng{authorfullhashraw}{958fd1d1699cbc3a1e96692dbf30b72e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{OpenStax Physics}
@@ -229,8 +229,8 @@
       \strng{authornamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
       \strng{authorfullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
       \strng{authorfullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://source-separation.github.io/tutorial/basics/phase.html}}
@@ -271,6 +271,41 @@
       \verb{doi}
       \verb 10.1109/5.720250
       \endverb
+    \endentry
+    \entry{shannon1949communication}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=536c91678d1dde76c9acd47047556291}{%
+           family={Shannon},
+           familyi={S\bibinitperiod},
+           given={Claude\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c912bb61084481fe9b3162f421319179}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Urbana, IL}%
+      }
+      \list{publisher}{1}{%
+        {University of Illinois Press}%
+      }
+      \strng{namehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{fullhash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{fullhashraw}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{bibnamehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authorbibnamehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authornamehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authorfullhash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authorfullhashraw}{b1ee21e09e255e9472a75b376837ad91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Originally published in Bell System Technical Journal, 1948.}
+      \field{title}{The Mathematical Theory of Communication}
+      \field{year}{1949}
     \endentry
     \entry{rafii2018overview}{article}{}{}
       \name{author}{6}{}{%
@@ -353,8 +388,8 @@
       \strng{authornamehash}{70e5597ef416362914d32bd15e5a1183}
       \strng{authorfullhash}{70e5597ef416362914d32bd15e5a1183}
       \strng{authorfullhashraw}{70e5597ef416362914d32bd15e5a1183}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Direct}
@@ -367,7 +402,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{shannon1949communication}
 \endrefsection
 \endinput
 
