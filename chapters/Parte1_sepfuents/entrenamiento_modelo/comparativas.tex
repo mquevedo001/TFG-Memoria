@@ -32,8 +32,9 @@ Se han agrupado las funciones de pérdida por las familias aritméticas a las qu
         \item Pérdidas experimentales: deep\_feature , deep\_feature\_emd
     \end{itemize}
 
-Las pérdidas logarítmicas buscan reducir el efecto de diferencias absolutas grandes en \textit{bins} energéticos y prestar más atención a estructuras de menor energía.
-Las frecuenciales, comparan directamente la representación tiempo-frecuencia, mientras que las basadas en máscara fuerzan al modelo a aproximar una asignación explícita de cada bin a una fuente.
-
+Las distintas familias de pérdidas introducen sesgos de entrenamiento diferentes.
+Las pérdidas en escala logarítmica trabajan sobre una representación comprimida de la magnitud espectral, ya que la aplicación del logaritmo reduce el rango dinámico del espectrograma \cite{yang2021dprtf}. Esto modifica el peso relativo de los errores, evitando que los bins de mayor energía dominen completamente la optimización.
+Las pérdidas frecuenciales comparan directamente estimaciones y referencias en el dominio tiempo-frecuencia, normalmente mediante distancias punto a punto entre espectrogramas \cite{sahai2019spectrogram}. 
+Por su parte, las pérdidas basadas en máscara emplean como objetivo una máscara ideal o aproximada, guiando al modelo hacia una asignación explícita, aunque generalmente suave, de los bins tiempo-frecuencia a las distintas fuentes \cite{xia2017optimalratio,wang2008tfmasking}.
 
 \end{itemize}

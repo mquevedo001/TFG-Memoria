@@ -40,8 +40,8 @@
       \strng{authornamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
       \strng{authorfullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
       \strng{authorfullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This introduction to this special issue discusses artificial intelligence (AI), commonly defined as “a system’s ability to interpret external data correctly, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation.” It summarizes seven articles published in this special issue that present a wide variety of perspectives on AI, authored by several of the world’s leading experts and specialists in AI. It concludes by offering a comprehensive outlook on the future of AI, drawing on micro-, meso-, and macro-perspectives.}
@@ -107,8 +107,8 @@
       \strng{authorfullhash}{1418eadc0963c269eefd28bc2744fa71}
       \strng{authorfullhashraw}{1418eadc0963c269eefd28bc2744fa71}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2329-9290}
@@ -142,8 +142,8 @@
       \strng{authornamehash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
       \strng{authorfullhash}{433c59b3af8d4bbf6ab5b3573cde1c9e}
       \strng{authorfullhashraw}{433c59b3af8d4bbf6ab5b3573cde1c9e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SBE Handbook Fundamentals of Audio}
@@ -171,8 +171,8 @@
       \strng{authornamehash}{a3eb7178c89b97c8d99dc6a812405eb2}
       \strng{authorfullhash}{a3eb7178c89b97c8d99dc6a812405eb2}
       \strng{authorfullhashraw}{a3eb7178c89b97c8d99dc6a812405eb2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{LibreTexts Physics}
@@ -200,8 +200,8 @@
       \strng{authornamehash}{958fd1d1699cbc3a1e96692dbf30b72e}
       \strng{authorfullhash}{958fd1d1699cbc3a1e96692dbf30b72e}
       \strng{authorfullhashraw}{958fd1d1699cbc3a1e96692dbf30b72e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{OpenStax Physics}
@@ -229,8 +229,8 @@
       \strng{authornamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
       \strng{authorfullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
       \strng{authorfullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://source-separation.github.io/tutorial/basics/phase.html}}
@@ -388,8 +388,8 @@
       \strng{authornamehash}{70e5597ef416362914d32bd15e5a1183}
       \strng{authorfullhash}{70e5597ef416362914d32bd15e5a1183}
       \strng{authorfullhashraw}{70e5597ef416362914d32bd15e5a1183}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Direct}
@@ -399,6 +399,194 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \endverb
+    \endentry
+    \entry{Arxiv}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5eaa586d1bab0373c19e98400f0ba3fd}{%
+           family={Vardhan},
+           familyi={V\bibinitperiod},
+           given={Saarth},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{fullhash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{fullhashraw}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{bibnamehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authorbibnamehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authornamehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authorfullhash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authorfullhashraw}{f340782adf35e69f8f42d2f15f1d25ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Arxiv}
+      \field{title}{An Ensemble Approach to Music Source Separation: A Comparative Analysis of Conventional and Hierarchical Stem Separation}
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2410.20773v1#abstract
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2410.20773v1#abstract
+      \endverb
+    \endentry
+    \entry{yang2021dprtf}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=fd3f147cdea72995ae4b19fc393dd680}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c357bacfbf8f4e29c2daa8db907dcd58}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hongjie},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4c142d712e762cc45c88046b8de422c0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaofei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c0e0d23e2d09e45e6f51cc2bcea6d9f9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{fullhash}{c37845b293317fa9b5d274326a515553}
+      \strng{fullhashraw}{c37845b293317fa9b5d274326a515553}
+      \strng{bibnamehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{authorbibnamehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{authornamehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{authorfullhash}{c37845b293317fa9b5d274326a515553}
+      \strng{authorfullhashraw}{c37845b293317fa9b5d274326a515553}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}
+      \field{title}{Supervised Direct-Path Relative Transfer Function Learning for Binaural Sound Source Localization}
+      \field{year}{2021}
+    \endentry
+    \entry{sahai2019spectrogram}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=a9f7effdcb99dbb53cabafaf8125b932}{%
+           family={Sahai},
+           familyi={S\bibinitperiod},
+           given={Abhimanyu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16e2cf00ae6566b4f764b706e31a2bb9}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Romann},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3fb06cef5edcf8edbf5fc142dd711825}{%
+           family={McWilliams},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{fullhash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{fullhashraw}{d500c8600661c59df111f533a73e9d4a}
+      \strng{bibnamehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authorbibnamehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authornamehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authorfullhash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authorfullhashraw}{d500c8600661c59df111f533a73e9d4a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Signal Processing Conference (EUSIPCO)}
+      \field{title}{Spectrogram Feature Losses for Music Source Separation}
+      \field{year}{2019}
+    \endentry
+    \entry{xia2017optimalratio}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=cebb0a108c616c2523fca72121d28564}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Shasha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2620b9afd37cca5b9b7354f67c036d4d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8e1c7b0f8eaaec4074660f432646e819}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xueliang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{fullhash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{fullhashraw}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{bibnamehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authorbibnamehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authornamehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authorfullhash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authorfullhashraw}{e07ad197b67945b1dcce49ed3aa594f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Optimal Ratio Mask as Training Target for Supervised Speech Separation}
+      \field{year}{2017}
+    \endentry
+    \entry{wang2008tfmasking}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0a1bd97b59cb3cf65dc849873adf0d25}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={DeLiang},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{fullhash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{fullhashraw}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{bibnamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authorbibnamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authornamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authorfullhash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authorfullhashraw}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Amplification}
+      \field{title}{Time-Frequency Masking for Speech Separation and Its Potential for Hearing Aid Design}
+      \field{year}{2008}
+    \endentry
+    \entry{MachineLearningPaperReproducibilityChecklist}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3fa8fd00a141b4a99028859edf082794}{%
+           family={Jpineau},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{fullhash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{fullhashraw}{3fa8fd00a141b4a99028859edf082794}
+      \strng{bibnamehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authorbibnamehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authornamehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authorfullhash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authorfullhashraw}{3fa8fd00a141b4a99028859edf082794}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Paper Reproducibility Checklist}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf
       \endverb
     \endentry
   \enddatalist

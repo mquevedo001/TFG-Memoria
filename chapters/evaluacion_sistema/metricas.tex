@@ -1,0 +1,32 @@
+En esta sección se explicará qué se ha medido, por qué , y las limitaciones encontradas.
+
+\begin{itemize}
+    \item \textbf{SI-SDR}
+Como métrica principal se ha utilizado \textbf{SI-SDR} ya que es una métrica habitual en separación de fuentes y permite comparar la señal estimada
+con la señal de referencia. Mide cuánta parte de la estimación se alinea con la fuente objetivo, frente a la parte que puede considerarse distorsión.
+
+A la hora de la interpretación de los resultados, para SI-SDR, se valora a mejor un valor mas alto de esta métrica mientras que un valor mas bajo implica mejor separación.
+
+\[
+\mathrm{SI\text{-}SDR} = 10 \log_{10}\frac{\|s_{\mathrm{target}}\|^2}{\|e_{\mathrm{noise}}\|^2}
+\]
+
+    \item \textbf{Baseline de mezcla}
+
+Un modelo no se considera útil si no supera el baseline de mezcla en el conjunto de test. Por ello, se ha añadido un baseline trivial, donde se utiliza la mezcla original como estimación de cada fuente para así detectar modelos
+que generan audio, pero no separan de verdad.
+
+    \item \textbf{Métricas complementarias}
+
+Se han utilizado también varias métricas complementarias a modo de depuración y de diagnóstico: \textbf{correlación entre fuentes de salida y mezcla},\textbf{estadísticas de máscara},\textbf{matriz de correlación estimación-referencia}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+

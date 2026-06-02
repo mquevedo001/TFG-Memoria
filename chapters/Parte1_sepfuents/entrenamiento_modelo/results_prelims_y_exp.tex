@@ -9,3 +9,12 @@ Los entrenamientos fueron agrupados por funciones de pérdida, en particular por
 También existe la división que ya se explicó anteriormente entre dos y cuatro fuentes. El caso de las dos fuentes representa una separación más sencilla y cercana a escenarios de voz y acomppañamiento.
 El caso de cuatro fuentes introduce mayor compplpepjidad, ya que el modelo debe repppartir la mezcla entre varias fuentes instrumentales con solapamiento espectral.
 Se respetó la estructura que presenta el \textit{dataset} utilizado de \textit{MUSDB18}, compuesto por 150 pistas con \textit{stems} aislados, con etiquetas en el orden de \textit{vocales,baterías,bajos y otros} y dividido en conjuntos de entrenamiento y test.
+
+Como conclusiones preliminares podemos comentar:
+
+\begin{itemize}
+    \item Las primeras versiones del entrenamiento permitieron detectar problemas de formato, inferencia y evaluación.
+    \item Las pérdidas simples o directas sobre magnitud, son más fáciles de interpretar y sirven como base comparativa.
+    \item Las pérdidas experimentales basadas en características profundas, tienen mayor coste y mayor incertidumbre, porque dependen de su extractor auxiliar.
+    \item Las pérdidas avanzadas con fase o reconstrucción temporal son mas complejas y, por tanto, conviene añadir control sobre ellas, piden cautela.
+\end{itemize}

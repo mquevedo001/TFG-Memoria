@@ -1,0 +1,100 @@
+Vamos a dividir esta sección en varias partes: protocolo utilizado, tabla de 2 fuentes, tabla de 4 fuentes, \textit{ranking} y comentarios breves.
+
+\textbf{Protocolo de evaluación utilizado}:
+
+El protocolo de evaluación propuesto es el siguiente:
+
+\begin{itemize}
+    \item 1. Uso de \textit{dataset} / \textit{representative\_test}.
+    \item 2. Evaluación de todos los modelos sobre las mismas pistas.
+    \item 3. Normalización de referencias y estimaciones a mono-canal.
+    \item 4. Se recortan las pistas a una longitud común
+    \item 5. Se usa la misma función de despliegue del modelo que en \textit{deployment}.
+    \item 6. Se guarda un sumario en formato \textit{JSON} para cada modelo.
+\end{itemize}
+
+Esto se ha hecho siguiendo las recomendaciones habituales de reproducibilidad en \textit{Machine Learning} \cite{MachineLearningPaperReproducibilityChecklist}:
+documentar dataset, \textit{splits}, preprocesado, hiperparámetros y resultados. La checklist de reproducibilidad incluye precisamente detalles del dataset,
+particiones \textit{train}/\textit{validation}/\textit{test}, datos excluidos y pasos de preprocesado.
+
+
+\centering \textbf{Tabla de dos fuentes}
+\begin{table}[H]
+\centering
+\caption{Tabla para los resultados de separación en 2 fuentes}
+
+\begin{adjustbox}{center,max width=\textwidth}
+\begin{tabular}{lllllll}
+\toprule
+\makecell{\textbf{Función}\\\textbf{de pérdida}} &
+\textbf{Grupo} &
+\textbf{Checkpoint} &
+\makecell{\textbf{SI-SDR}\\\textbf{medio}} &
+\makecell{\textbf{SI-SDR}\\\textbf{mediano}} &
+\makecell{\textbf{Desviación}\\\textbf{típica}} &
+\makecell{\textbf{Supera}\\\textbf{baseline}} \\
+\midrule
+% filas de ejemplo
+% SI-SDR & A & epoch_100 & 8.21 & 8.05 & 1.34 & Sí \\
+L1 & principal & 19 & 7.00 & & & \\
+L2 & principal & 8 & 5.05 & & & \\
+L1 freq & principal & 13 & 7.00 & & & \\
+L2 freq & principal & 8 & 4.89 & & & \\
+log L1 & principal & 69 & 8.09 & & & \\
+log L2 & principal & 77 & 8.52 & & & \\
+log mag & principal & 61 & 7.38 & & & \\
+log compressed L2 & principal & 7.42 & & & & \\
+LPSA & principal & 61 & 7.71 & & & \\
+mask L1 & principal & 70 & 7.52 & & & \\
+l mrs & avanzado & & & & & \\
+lpsa phase & & -1.27 & & & & \\
+deep feature & experimental & 20 & 2.99  & & & \\
+deep feature emd & experimental & 1 & 3.18 & & & \\
+
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\end{table}
+
+\centering \textbf{Tabla de cuatro fuentes}
+\begin{table}[H]
+\centering
+\caption{Tabla para los resultados de separación en 4 fuentes}
+
+\begin{adjustbox}{center,max width=\textwidth}
+\begin{tabular}{lllllll}
+\toprule
+\makecell{\textbf{Función}\\\textbf{de pérdida}} &
+\textbf{Grupo} &
+\textbf{Checkpoint} &
+\makecell{\textbf{SI-SDR}\\\textbf{medio}} &
+\makecell{\textbf{SI-SDR}\\\textbf{mediano}} &
+\makecell{\textbf{Desviación}\\\textbf{típica}} &
+\makecell{\textbf{Supera}\\\textbf{baseline}} \\
+\midrule
+% filas de ejemplo
+% SI-SDR & A & epoch_100 & 8.21 & 8.05 & 1.34 & Sí \\
+L1 & principal & & & & & \\
+L2 & principal & & & & & \\
+L1 freq & principal & & & & & \\
+L2 freq & principal & & & & & \\
+log L1 & principal & & & & & \\
+log L2 & principal & & & & & \\
+log mag & principal & & & & & \\
+log compressed L2 & principal & & & & & \\
+LPSA & principal & & & & & \\
+mask L1 & principal & & & & & \\
+l mrs & avanzado & & & & & \\
+lpsa phase & & & & & & \\
+deep feature & experimental & & & & & \\
+deep feature emd & experimental & & & & & \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\end{table}
+
+
+\centering \textbf{Ranking}
+
