@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1780224698.95365 "main.bcf" "main.bbl" "main" 1780430593.82009 0
-  "main.bcf" 1780430593 109587 267e160dcb00e3b40f6ff94710e6484a "pdflatex"
+["biber main"] 1780224698.95365 "main.bcf" "main.bbl" "main" 1780516164.80371 0
+  "main.bcf" 1780516164 109587 267e160dcb00e3b40f6ff94710e6484a "pdflatex"
   "referencias.bib" 1780222761 5906 12fab6ba8c3fbed56a0b22f518bb25d9 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1780430589.1055 "main.tex" "main.pdf" "main" 1780430593.82074 0
+["pdflatex"] 1780516160.14899 "main.tex" "main.pdf" "main" 1780516164.80449 0
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1776882104 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1776882104 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1776882104 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -283,7 +283,7 @@
   "chapters/evaluacion_sistema/evaluacion_pipeline.tex" 1778413890 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/evaluacion_sistema/limitaciones_margen_mejora.tex" 1776879801 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/evaluacion_sistema/metricas.tex" 1780153004 1387 e177d02dfe5643c015573f223b06063c ""
-  "chapters/evaluacion_sistema/results.tex" 1780430587 3587 0a765e311f5f9ce64a067d5e88377654 ""
+  "chapters/evaluacion_sistema/results.tex" 1780516158 3967 da27ab2064876d573bb1291e57bfcc83 ""
   "chapters/herramientas_utilizadas/ignite.tex" 1776879801 437 3d7072c3dcb250b72cde12276ca7c26a ""
   "chapters/herramientas_utilizadas/librosa.tex" 1776879801 284 f85bf8de097caa95f70765ae9432650c ""
   "chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex" 1776879801 221 c814e9fbf55c058c93ece90287dc96f8 ""
@@ -347,14 +347,14 @@
   "commons/Fig8.png" 1778429421 17992 39639e2f1d126e7b951b5c3175a11828 ""
   "commons/Fig9.png" 1778431161 112893 9835cd0625f72ccb85bf7e6bd1e60879 ""
   "general/logo_upv_ehu.jpg" 1776879801 497752 09b39031bbea5eedf1afee283c914abc ""
-  "main.aux" 1780430593 21161 5e9405c7f94c33ffce8624498280476d "pdflatex"
+  "main.aux" 1780516164 21161 5e9405c7f94c33ffce8624498280476d "pdflatex"
   "main.bbl" 1780224704 26414 1e69738e57348af50994569bf5f7ba67 "biber main"
-  "main.lof" 1780430593 2055 a5286169578adbbc7c316bc14ea65cb5 "pdflatex"
-  "main.lot" 1780430593 626 1a7d5a72377a3a3e427d916028663815 "pdflatex"
-  "main.out" 1780430593 17050 fed60c900b0c571d4e58ee6acc1b7e6c "pdflatex"
-  "main.run.xml" 1780430593 2306 21b6f2342482d65f7bca9ce329356541 "pdflatex"
+  "main.lof" 1780516164 2055 a5286169578adbbc7c316bc14ea65cb5 "pdflatex"
+  "main.lot" 1780516164 626 1a7d5a72377a3a3e427d916028663815 "pdflatex"
+  "main.out" 1780516164 17050 fed60c900b0c571d4e58ee6acc1b7e6c "pdflatex"
+  "main.run.xml" 1780516164 2306 21b6f2342482d65f7bca9ce329356541 "pdflatex"
   "main.tex" 1780223862 13821 310cff1faaf3ee84e3aa44538170030c ""
-  "main.toc" 1780430593 7735 c46e64279452ebf87463ef8a0fd014dd "pdflatex"
+  "main.toc" 1780516164 7735 c46e64279452ebf87463ef8a0fd014dd "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
