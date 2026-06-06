@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1780753770.48439 "main.bcf" "main.bbl" "main" 1780753772.23691 2
-  "main.bcf" 1780753770 110181 9b89cd061b3314247197e8f6a060d42c "pdflatex"
-  "referencias.bib" 1780753689 6553 ea771d398d9d20fb41ec83579f804960 ""
+["biber main"] 1780754993.05811 "main.bcf" "main.bbl" "main" 1780754994.84631 2
+  "main.bcf" 1780754992 110247 696b863b6f8d130577eb43cd9a9c643b "pdflatex"
+  "referencias.bib" 1780754979 6838 a260c03c9fca9a3ba5785f3bc7f3fe64 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1780753766.18421 "main.tex" "main.pdf" "main" 1780753772.2371 0
+["pdflatex"] 1780754988.72706 "main.tex" "main.pdf" "main" 1780754994.8465 0
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1776882104 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1776882104 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1776882104 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -256,7 +256,7 @@
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1776884552 3648450 c548a1889c156aa258acbe538e461d83 ""
   "c:/texlive/2026/texmf.cnf" 1776884443 713 e69b156964470283e0530f5060668171 ""
   "chapters/Estado del arte/aprendizaje_profundo.tex" 1780753757 2235 93bc8ef068b8b5a83572a88e551d7580 ""
-  "chapters/Estado del arte/herramientas_actuales.tex" 1780746484 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chapters/Estado del arte/herramientas_actuales.tex" 1780754979 974 da24aae13ad96677696aa2719bc2a1ef ""
   "chapters/Estado del arte/intro.tex" 1780738767 4383 fabc7f073afec972288429e9a335a38c ""
   "chapters/Estado del arte/metodos_clasicos.tex" 1780752162 3725 03e79c4f185a6dfb5b9abf8b20ff2689 ""
   "chapters/Estado del arte/posicionamiento.tex" 1780746489 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -354,13 +354,13 @@
   "commons/cronograma_inicial.png" 1780744858 543611 1efa2bbd3f948d95d318daeb14805318 ""
   "commons/cronograma_real.png" 1780744862 1217349 d634f36e564e500dbf78a8e23ff47dbc ""
   "general/logo_upv_ehu.jpg" 1776879801 497752 09b39031bbea5eedf1afee283c914abc ""
-  "main.aux" 1780753770 24282 399543fdf311fedc0b6a95a53ad8026e "pdflatex"
-  "main.bbl" 1780753772 28842 7327b1e080367d059446cfc2bbf2c4a5 "biber main"
-  "main.lof" 1780753770 2214 4c96568fd3057a44596aecae447bcad5 "pdflatex"
-  "main.lot" 1780753770 626 6a606b20011acfb7215f247bc220fce2 "pdflatex"
-  "main.out" 1780753770 21097 18bcefa93bb93f4aa63d93b9d706554b "pdflatex"
+  "main.aux" 1780754992 24343 a942cbc77f80920328c378c27b28e369 "pdflatex"
+  "main.bbl" 1780754994 28842 7327b1e080367d059446cfc2bbf2c4a5 "biber main"
+  "main.lof" 1780754992 2214 4c96568fd3057a44596aecae447bcad5 "pdflatex"
+  "main.lot" 1780754992 626 6a606b20011acfb7215f247bc220fce2 "pdflatex"
+  "main.out" 1780754992 21097 18bcefa93bb93f4aa63d93b9d706554b "pdflatex"
   "main.tex" 1780749045 14651 8d81bb35e51a5e86f2905255044b361b ""
-  "main.toc" 1780753770 9183 e3199e8335b9737a9be47aa0e95a287b "pdflatex"
+  "main.toc" 1780754992 9183 e3199e8335b9737a9be47aa0e95a287b "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

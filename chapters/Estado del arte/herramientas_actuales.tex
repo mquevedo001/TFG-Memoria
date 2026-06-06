@@ -1,0 +1,9 @@
+Actualmente gracias al gran desarrollo de las capacidades de computo y el desarrollo de bases de datos amplias, existen tecnologías que dan muy buenos resultados:
+
+\begin{itemize}
+    \item \textbf{Open-Unmix: } implementación de red neuronal referente en el campo de la separación musical. Provee de modelos preparados para su uso que permite separacion de pistas pop en cuatro fuentes: vocales, baterías, bajo y resto. Se trata de un modelo abierto basado en deep learning y que permite reproducibilidad.\cite{Open-Unmix}
+    \item \textbf{Spleeter: } conjunto de modelos pre-entrenados de separación de fuentes en pista musicales. Basados en redes neuronales convolucionales con salto de conexiones ( que se traducen en codificadores-decodificadores llamados \textit{U-Nets}) de doce capas, utilizando función de pérdida \textit{L1-norm}, entrenados con bases de datos internas de \textit{Deezer} y con espectrogramas de la mezcla como entrada \cite{Deezer}. 
+    \item \textbf{Demus / Hybrid Demucs: } modelo avanzado que, en función del tipo de pista de entrada, toma como entrada su espectrograma, su onda, o ambos. De los estados más modernos en el campo \cite{HybridDemucs}.
+\end{itemize}
+
+Además, mencionar también \textbf{MUSDB18} que es un dataset de referencia que contiene 150 conjuntos de mezcla y cuatro fuentes comprendiendo bajo, batería, voz y resto. Permite comparar sistemas y está dividido en entrenamiento y test. Ha sido el \textit{dataset} utilizado en este trabajo de fin de grado.
