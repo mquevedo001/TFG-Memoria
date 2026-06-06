@@ -1,0 +1,4 @@
+Una representación tiempo-frecuencia codifica el espectro variable en el tiempo \cite{rafii2018overview} y es utilizada por muchos métodos de separación ya que las fuentes tienden a estar menos solapadas en esta representación.
+La STFT ( Short-Term Fourier Transform, Transformada de Fourier de ventana corta en español) es la representación más común, ya que permite invertirse para volver a la forma de onda.
+
+Por otro lado las máscaras tiempo-frecuencia ( en cuya generación se centra el modelo que se utiliza en el proyecto ) son matrices de valores en el rango [ 0 , 1] que se generan con el objetivo de aplicarse a cada celda tiempo-frecuencia de la mezcla original para obtener una aproximación de la fuente y reconstruirla posteriormente mediante una transformación inversa. \cite{rafii18}

@@ -1,0 +1,29 @@
+Los métodos clásicos de separación de fuentes musicales se pueden agrupar en tres categorías principales: modelado de la señal principal, modelado del acompañamiento, y acercamientos conjuntos y probabilísticos
+
+\subsection{Modelado de la señal principal}
+
+En este enfoque se busca modelar la voz o melodía principal como una señal armónica, para, posteriormente, substraer esa señal de la mezcla original y obtener el acompañamiento \cite{rafii18}. 
+La voz cantada se produce por vibración de cuerdas vocales, y suele tener frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal.
+La estructura más común suele ser:
+
+-Hipótesis: la señal principal suele ser armónica.
+
+-Se estima la frecuencia fundamental.
+
+-Se localizan armónicos.
+
+-Se reconstruye o filtra la fuente principal.
+
+
+Limitaciones comunes: el método falla si la voz no es puramente armónica, si hay fonemas sordos, saturaciones, o no se identifica bien la voz.
+
+\subsection{Modelado del acompañamiento}
+
+Este enfoque es un poco la idea opuesta al anterior: se modela el acompañamiento para posteriormente substraerlo de la mezcla original y obtener la voz.
+
+El acompañamiento suele ser más redundante o repetitivo que la señal principal: patrones rítmicos, armónicos, o estructurales que suelen repetirse en el tiempo. Esta redundancia permite modelarlo y separarlo, muchos acercamientos clásicos basados en el modelado del acompañamiento toman ventaja de esta característica.
+
+\subsection{Acercamientos conjuntos y probabilísticos}
+
+En este enfoque no se modelan solo voz o acompañamiento y posteriormente se extrae el contrario de la mezcla original. En este caso se busca modelar ambos de forma conjunta.
+

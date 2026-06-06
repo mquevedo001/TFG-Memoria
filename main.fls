@@ -717,29 +717,27 @@ INPUT ./commons/Fig8.png
 INPUT ./commons/Fig8.png
 INPUT ./commons/Fig8.png
 INPUT ./commons/Fig8.png
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
 INPUT ./chapters/Estado del arte/intro.tex
 INPUT ./chapters/Estado del arte/intro.tex
 INPUT chapters/Estado del arte/intro.tex
 INPUT ./chapters/Estado del arte/separacion_fuentes.tex
 INPUT ./chapters/Estado del arte/separacion_fuentes.tex
 INPUT chapters/Estado del arte/separacion_fuentes.tex
-INPUT ./chapters/Estado del arte/metodos_procesado_señal.tex
-INPUT ./chapters/Estado del arte/metodos_procesado_señal.tex
-INPUT chapters/Estado del arte/metodos_procesado_señal.tex
-INPUT ./chapters/Estado del arte/funciones_perdida.tex
-INPUT ./chapters/Estado del arte/funciones_perdida.tex
-INPUT chapters/Estado del arte/funciones_perdida.tex
-INPUT ./chapters/Estado del arte/herramientas_tecnologia_actuales.tex
-INPUT ./chapters/Estado del arte/herramientas_tecnologia_actuales.tex
-INPUT chapters/Estado del arte/herramientas_tecnologia_actuales.tex
-INPUT ./chapters/Estado del arte/posicionamiento_trabajo.tex
-INPUT ./chapters/Estado del arte/posicionamiento_trabajo.tex
-INPUT chapters/Estado del arte/posicionamiento_trabajo.tex
+INPUT ./chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex
+INPUT ./chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex
+INPUT chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex
+INPUT ./chapters/Estado del arte/metodos_clasicos.tex
+INPUT ./chapters/Estado del arte/metodos_clasicos.tex
+INPUT chapters/Estado del arte/metodos_clasicos.tex
+INPUT ./chapters/Estado del arte/aprendizaje_profundo.tex
+INPUT ./chapters/Estado del arte/aprendizaje_profundo.tex
+INPUT chapters/Estado del arte/aprendizaje_profundo.tex
+INPUT ./chapters/Estado del arte/herramientas_actuales.tex
+INPUT ./chapters/Estado del arte/herramientas_actuales.tex
+INPUT chapters/Estado del arte/herramientas_actuales.tex
+INPUT ./chapters/Estado del arte/posicionamiento.tex
+INPUT ./chapters/Estado del arte/posicionamiento.tex
+INPUT chapters/Estado del arte/posicionamiento.tex
 INPUT ./chapters/Parte1_sepfuents/intro.tex
 INPUT ./chapters/Parte1_sepfuents/intro.tex
 INPUT chapters/Parte1_sepfuents/intro.tex
