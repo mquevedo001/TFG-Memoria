@@ -13,8 +13,8 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de graficación de la métrica AUC. Esta métrica parte de la matriz de confusión generando un gráfico de puntos donde se evalúa la capacidad del modelo para clasificar correctamente en función de los valores por debajo de la diagonal del gráfico.}}{24}{figure.caption.52}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{30}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{37}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{32}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{39}{figure.caption.68}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

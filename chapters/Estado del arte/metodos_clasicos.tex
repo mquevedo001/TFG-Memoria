@@ -3,7 +3,8 @@ Los métodos clásicos de separación de fuentes musicales se pueden agrupar en 
 \subsection{Modelado de la señal principal}
 
 En este enfoque se busca modelar la voz o melodía principal como una señal armónica, para, posteriormente, substraer esa señal de la mezcla original y obtener el acompañamiento \cite{rafii18}. 
-La voz cantada se produce por vibración de cuerdas vocales, y suele tener frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal.
+La voz cantada se produce por vibración de cuerdas vocales, y suele presentar frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal. En la cita 
+utilizada para informarse de este tema, se resume esta familia de métodos como métodos basados en la hioótesis de harmonicidad: primero se estima la frecuencia fundamental de la señal princiapl y despues se obtiene separación por resíntesis o filtrado.
 La estructura más común suele ser:
 
 -Hipótesis: la señal principal suele ser armónica.
@@ -15,15 +16,28 @@ La estructura más común suele ser:
 -Se reconstruye o filtra la fuente principal.
 
 
-Limitaciones comunes: el método falla si la voz no es puramente armónica, si hay fonemas sordos, saturaciones, o no se identifica bien la voz.
+Limitaciones comunes: el método falla si la voz no es puramente armónica, si hay fonemas sordos, saturaciones, no se identifica bien la voz o no se detecta bien la frecuencia fundamental. También dificultan el método los casos en los que los instrumentos son armónicos o la voz pueda estar muy mezclada con reverberación o efectos.
 
 \subsection{Modelado del acompañamiento}
 
 Este enfoque es un poco la idea opuesta al anterior: se modela el acompañamiento para posteriormente substraerlo de la mezcla original y obtener la voz.
 
-El acompañamiento suele ser más redundante o repetitivo que la señal principal: patrones rítmicos, armónicos, o estructurales que suelen repetirse en el tiempo. Esta redundancia permite modelarlo y separarlo, muchos acercamientos clásicos basados en el modelado del acompañamiento toman ventaja de esta característica.
+El acompañamiento suele ser más redundante o repetitivo que la señal principal: patrones rítmicos, armónicos, o estructurales que suelen repetirse en el tiempo. Esta redundancia permite modelarlo y separarlo, muchos acercamientos clásicos basados en el modelado del acompañamiento toman ventaja de esta característica: la redundancia, se aprovechan componentes de bajo rango, voz dispersa, y repeticiones internas del acompañamiento.
+
+Entre las limitaciones de este acercamiento se encuentran que: no todo acompañamiento es repetitivo, la existencia de canciones con cambios estructurales fuertes, existencia de elementos solistas o improvisados que producen imprevisibilidad o presencia de repetibilidad en el elemento vocal.
 
 \subsection{Acercamientos conjuntos y probabilísticos}
 
 En este enfoque no se modelan solo voz o acompañamiento y posteriormente se extrae el contrario de la mezcla original. En este caso se busca modelar ambos de forma conjunta.
+
+Entre los modelos que históricamente han presentado mejor desempeño se encuentran:
+
+- Modelo oculto de Markov (HMM): modelo estadístico que analiza secuencias de datos donde los estados reales no se pueden observar directamente, pero quese pueden inferir a través de efectos observables y medibles. Dada esta definición, el modelo oculto de Markov es útil para el problema de la separación de fuentes para observar variantes en el tiempo.
+- Modelo de mezcla Gaussiana (GMM): modelo probabilístico para agrupar datos o estimar densidades. En el caso de la separación de fuentes se utiliza como forma de aproximar distribuciones mediante sumas ponderadas Gaussianas.
+
+Ambos modelos se utilizan para asignar valores a celdas tiempo-frecuencia de fuentes.
+
+Entre las limitaciones de estos acercamientos encontramos: requerimiento de hipótesis explícitas previas, posible dificultad de ajustar parámetros, requerimiento de un modelo estadístico que aproxime bien la música real\dots
+
+
 
