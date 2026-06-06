@@ -442,11 +442,16 @@ INPUT ./main.lot
 INPUT main.lot
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT ./chapters/introduccion.tex
-INPUT ./chapters/introduccion.tex
-INPUT ./chapters/introduccion.tex
-INPUT ./chapters/introduccion.tex
-INPUT chapters/introduccion.tex
+INPUT ./chapters/planificacion/Planificacion.tex
+INPUT ./chapters/planificacion/Planificacion.tex
+INPUT ./chapters/planificacion/Planificacion.tex
+INPUT ./chapters/planificacion/Planificacion.tex
+INPUT chapters/planificacion/Planificacion.tex
+INPUT ./chapters/planificacion/objetivo.tex
+INPUT ./chapters/planificacion/objetivo.tex
+INPUT ./chapters/planificacion/objetivo.tex
+INPUT ./chapters/planificacion/objetivo.tex
+INPUT chapters/planificacion/objetivo.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
@@ -460,16 +465,6 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
-INPUT ./chapters/planificacion/Planificacion.tex
-INPUT ./chapters/planificacion/Planificacion.tex
-INPUT ./chapters/planificacion/Planificacion.tex
-INPUT ./chapters/planificacion/Planificacion.tex
-INPUT chapters/planificacion/Planificacion.tex
-INPUT ./chapters/planificacion/objetivo.tex
-INPUT ./chapters/planificacion/objetivo.tex
-INPUT ./chapters/planificacion/objetivo.tex
-INPUT ./chapters/planificacion/objetivo.tex
-INPUT chapters/planificacion/objetivo.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri9.tfm
 INPUT ./chapters/planificacion/alcance.tex
 INPUT ./chapters/planificacion/alcance.tex
@@ -481,6 +476,16 @@ INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT chapters/planificacion/cronograma.tex
+INPUT ./commons/cronograma_inicial.png
+INPUT ./commons/cronograma_inicial.png
+INPUT ./commons/cronograma_inicial.png
+INPUT ./commons/cronograma_inicial.png
+INPUT ./commons/cronograma_inicial.png
+INPUT ./commons/cronograma_real.png
+INPUT ./commons/cronograma_real.png
+INPUT ./commons/cronograma_real.png
+INPUT ./commons/cronograma_real.png
+INPUT ./commons/cronograma_real.png
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
@@ -717,6 +722,9 @@ INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
 INPUT chapters/marco_teorico/aprendizaje_automatico/estado_del_arte.tex
+INPUT ./chapters/Estado del arte/intro.tex
+INPUT ./chapters/Estado del arte/intro.tex
+INPUT chapters/Estado del arte/intro.tex
 INPUT ./chapters/Estado del arte/separacion_fuentes.tex
 INPUT ./chapters/Estado del arte/separacion_fuentes.tex
 INPUT chapters/Estado del arte/separacion_fuentes.tex

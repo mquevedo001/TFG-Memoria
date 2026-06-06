@@ -1,7 +1,83 @@
-\textbf{Prevision inicial}
-La planificación inicial separaba el trabajo en desarrollo del modelo, entrenamiento, interfaz y evaluación final. Se asumía que, una vez entrenados los modelos, la evaluación consistiria principalmente en ejecutar métricas, probar modelos, y valorar resultados.
-\textbf{Incidencias detectadas}
+La planificación inicial del proyecto dividía el trabajo en cuatro bloques principales: desarrollo del modelo, entrenamiento, implementación de la interfaz y evaluación final. El planteamiento inicial proponía un objetivo inicial simple: comenzar con escenarios de separación más sencillos, como piezas con pocos elementos, en concreto limitándose a voz e instrumento acompañante,como las piezas de cantautor, para posteriormente trasladar el sistema a pistas musicales más complejas.
 
-\textbf{Impacto}
+En esta planificación se asumía que, una vez entrenados los modelos, la evaluación consistiría principalmente en ejecutar las métricas definidas, probar los modelos generados y valorar los resultados obtenidos. Sin embargo, durante el desarrollo del proyecto fueron surgiendo varios problemas que modificaron el desarrollo previsto.
 
-\textbf{Medidas correctoras}
+\subsubsection{Incidencias por complejidad de la implementación}
+
+Inicialmente se esperaba que la fase de inferencia y evaluación fuese directa tras el entrenamiento de los modelos, entrenar y evaluar resultados a secas. No obstante, al integrar el entrenamiento, la carga de \textit{checkpoints}, el \textit{deployment} y el \textit{evaluator}, se fueron viendo que los resultados no eran los esperados.
+
+Las principales incidencias técnicas detectadas fueron las siguientes:
+
+\begin{itemize}
+    \item Reconstrucción incorrecta de la arquitectura del modelo al cargar los \textit{checkpoints}.
+    \item Diferencias entre el método \textit{forward} utilizado durante el entrenamiento y el utilizado durante la inferencia.
+    \item Uso incoherente de parámetros STFT/iSTFT durante la reconstrucción de audio.
+    \item Desajustes entre señales mono y estéreo durante la evaluación.
+    \item Orden incorrecto de las fuentes generadas en algunos resultados.
+\end{itemize}
+
+Estas incidencias no solo impedían ejecutar correctamente ciertas partes del código, sino que también afectaban a la validez de los resultados obtenidos. Por ello, fue necesario revisar el flujo completo desde la carga del modelo hasta la generación y evaluación de los \textit{stems}.
+
+\subsubsection{Incidencias en la validación experimental}
+
+Tras una primera tanda de entrenamientos, el sistema era capaz de generar archivos de audio separados. Sin embargo, estos archivos, eran total o casi totalmente iguales a la mezcla original, por lo que se tuvo que re evaluar el proceso completo.
+
+En esta fase se detectaron los siguientes problemas:
+
+\begin{itemize}
+    \item Algunos modelos generaban \textit{stems} muy correlacionados con la mezcla original.
+    \item Algunos modelos no superaban un \textit{baseline} trivial basado en utilizar la mezcla como estimación de cada fuente.
+    \item Fue necesario introducir un conjunto de test fijo para comparar los modelos bajo las mismas condiciones.
+    \item Se añadió un \textit{baseline} de mezcla para comprobar si los modelos aprendían una separación real.
+    \item Se analizaron las máscaras generadas por los modelos y las correlaciones entre fuentes estimadas, referencias y mezcla.
+\end{itemize}
+
+\subsubsection{Incidencias en el entrenamiento}
+
+Durante el desarrollo del proyecto se terminaron por realizar tres tandas diferentes de entrenamiento, cada una de ellas corrigiendo errores y limitaciones detectadas en la anterior.
+
+\begin{itemize}
+    \item \textbf{V1:} primera tanda de entrenamiento. En esta versión, el tratamiento del número de canales no estaba correctamente controlado, lo que provocaba incoherencias al trabajar con pistas estéreo.
+    \item \textbf{V2:} segunda tanda de entrenamiento. Se corrigió el tratamiento de canales trabajando en mono, pero durante la evaluación y el despliegue se detectaron problemas relacionados con la carga de modelos, la inferencia y la validez de algunos resultados.
+    \item \textbf{V3:} tercera tanda de entrenamiento y protocolo actual. En esta versión se incorporó una evaluación fija, un \textit{baseline} de mezcla, una organización más clara de carpetas y una mayor trazabilidad de los experimentos.
+\end{itemize}
+
+Esta evolución no se planteó únicamente como una repetición de entrenamientos, sino como un proceso de identificación de errores, aprendizaje y corrección. Cada versión permitió identificar limitaciones de la anterior y mejorar la fiabilidad del sistema.
+
+\subsubsection{Incidencias por coste computacional}
+
+Otro factor que afectó a la planificación fue el coste computacional del entrenamiento. El proyecto contempla múltiples funciones de pérdida y dos configuraciones de separación: dos fuentes y cuatro fuentes. Entrenar todas las combinaciones resultó bastante más costoso de lo previsto inicialmente.
+
+Para gestionar esta limitación se tomaron varias medidas:
+
+\begin{itemize}
+    \item Priorización de las funciones de pérdida principales.
+    \item Separación entre pérdidas principales, experimentales y avanzadas.
+    \item Entrenamiento escalonado de los modelos.
+    \item Introducción de \textit{early stopping} para detener entrenamientos sin mejora significativa.
+    \item El hardware disponible, no proporcionaba una velocidad de entrada/salida en memoria suficiente, por lo que se decidió adquirir una nueva unidad de almacenamiento SSD M2 para mejorar el rendimiento ya que causaba que los entrenamientos no terminasen.
+\end{itemize}
+
+Estas decisiones permitieron adaptar el desarrollo a los recursos hardware disponibles y evitar entrenamientos innecesariamente largos.
+
+\subsubsection{Impacto sobre la planificación}
+
+El principal impacto de estas incidencias fue el desplazamiento de parte del tiempo previsto para el pulido final del sistema hacia tareas de depuración, validación y reentrenamiento. En particular, la implementación de la interfaz gráfica terminó relegandose a una fase posterior del proyecto, llegando a considerarse su eliminación en caso de falta de tiempo.
+
+Asimismo, fue necesario dedicar más esfuerzo a la evaluación experimental de los modelos. Esto implicó introducir nuevas tareas no previstas inicialmente, como la creación de un conjunto de test fijo, el cálculo de un \textit{baseline}, el análisis de máscaras y la organización de los resultados por versiones de entrenamiento.
+
+\subsubsection{Medidas correctoras}
+
+Para resolver las desviaciones detectadas se aplicaron varias medidas correctoras:
+
+\begin{itemize}
+    \item Inferencia de la arquitectura del modelo a partir del \textit{state\_dict} del \textit{checkpoint}.
+    \item Restauración de un método \textit{forward} coherente con el utilizado durante el entrenamiento.
+    \item Unificación de la función \textit{run\_inference} para evaluación y despliegue.
+    \item Creación de un conjunto de test fijo denominado \textit{representative\_test}.
+    \item Incorporación de un \textit{baseline} de mezcla para validar los modelos frente a una solución trivial.
+    \item Reentrenamiento mediante la versión V3 del protocolo experimental.
+    \item Separación entre pérdidas principales, experimentales y avanzadas.
+\end{itemize}
+
+Aunque estas medidas provocaron un retraso respecto a la planificación inicial, permitieron establecer un proceso de evaluación más sólido obteniendo así mejores resultados. De este modo, se evitó seleccionar modelos únicamente por generar archivos de salida y se priorizó la obtención de resultados comparables, trazables y evaluables frente a un criterio común.
