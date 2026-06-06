@@ -272,6 +272,33 @@
       \verb 10.1109/5.720250
       \endverb
     \endentry
+    \entry{HuggingFaceCourse}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e0b6bb846c6a3e0649ce0e3cd9355df3}{%
+           family={HuggingFace},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{fullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{fullhashraw}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{bibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorbibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authornamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorfullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorfullhashraw}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AudioCourse}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
+      \endverb
+    \endentry
     \entry{shannon1949communication}{book}{}{}
       \name{author}{2}{}{%
         {{hash=536c91678d1dde76c9acd47047556291}{%
@@ -349,8 +376,8 @@
       \strng{authorfullhash}{541e8f9668bf3797990ba81e523e1114}
       \strng{authorfullhashraw}{541e8f9668bf3797990ba81e523e1114}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}

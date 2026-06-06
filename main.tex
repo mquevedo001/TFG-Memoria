@@ -200,12 +200,16 @@
 \cleardoublepage
 
 \chapter{Herramientas utilizadas}
-\section{Ignite}
-\input{chapters/herramientas_utilizadas/ignite}
+\section{Python}
+\input{chapters/herramientas_utilizadas/python}
+\section{Anaconda}
+\input{chapters/herramientas_utilizadas/conda}
 \section{Librosa}
 \input{chapters/herramientas_utilizadas/librosa}
 \section{Matplotlib}
 \input{chapters/herramientas_utilizadas/matplotlib_numpy_scipy}
+\section{Ignite}
+\input{chapters/herramientas_utilizadas/ignite}
 \section{Nussl}
 \input{chapters/herramientas_utilizadas/nussl}
 \section{Overleaf}
@@ -219,22 +223,23 @@
 \cleardoublepage
 
 \chapter{Marco teórico}
+\input{chapters/marco_teorico/intro.tex}
 \section{Sonidos y señales}
 \subsection{Naturaleza del sonido}
 \input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/intro}
-\subsubsection{Ondas sonoras}
-\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/ondas_sonoras}
-\subsubsection{Frecuencia y tono}
-\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
-\subsubsection{Amplitud e intensidad}
-\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
+%\subsubsection{Ondas sonoras}
+%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/ondas_sonoras}
+%\subsubsection{Frecuencia y tono}
+%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
+%\subsubsection{Amplitud e intensidad}
+%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
 \subsection{Dominio tiempo frecuencia}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro}
 \subsubsection{Magnitud y fase}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase}
 \subsubsection{Señales mono y estéreo}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo}
-\subsubsection{STFTs}
+\subsubsection{STFTs ( Short-Time Fourier Transforms / Transformada de Fourier de tiempo corto )}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft}
 \subsubsection{Espectrogramas}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas}
@@ -281,7 +286,20 @@
 \subsection{Estado del arte}
 \input{chapters/marco_teorico/aprendizaje_automatico/estado_del_arte}
 
+\chapter{Estado del arte}
+\section{Separación de fuentes musicales}
+\input{chapters/Estado del arte/separacion_fuentes.tex}
+\section{Métodos clásicos basados en procesado de señal}
+\input{chapters/Estado del arte/metodos_procesado_señal.tex}
+\section{Funciones de pérdida en separación musical}
+\input{chapters/Estado del arte/funciones_perdida.tex}
+\section{Herramientas y tecnologías actuales}
+\input{chapters/Estado del arte/herramientas_tecnologia_actuales.tex}
+\section{Posicionamiento del trabajo}
+\input{chapters/Estado del arte/posicionamiento_trabajo.texl}
+
 \chapter{Parte 1 : separación de fuentes}
+\input{chapters/Parte1_sepfuents/intro.tex}
 \section{Diseño del modelo}
 \input{chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep}
 \section{Arquitectura base}

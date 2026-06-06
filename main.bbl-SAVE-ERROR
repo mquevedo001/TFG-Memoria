@@ -106,6 +106,7 @@
       \strng{authornamehash}{171dcc6d1e28a4a572c0a7bdb7d329ae}
       \strng{authorfullhash}{1418eadc0963c269eefd28bc2744fa71}
       \strng{authorfullhashraw}{1418eadc0963c269eefd28bc2744fa71}
+      \field{extraname}{1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -271,35 +272,321 @@
       \verb 10.1109/5.720250
       \endverb
     \endentry
-    \entry{shannon1949communication}{article}{}{}
-      \name{author}{1}{}{%
+    \entry{shannon1949communication}{book}{}{}
+      \name{author}{2}{}{%
         {{hash=536c91678d1dde76c9acd47047556291}{%
            family={Shannon},
            familyi={S\bibinitperiod},
            given={Claude\bibnamedelima E.},
            giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c912bb61084481fe9b3162f421319179}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{536c91678d1dde76c9acd47047556291}
-      \strng{fullhash}{536c91678d1dde76c9acd47047556291}
-      \strng{fullhashraw}{536c91678d1dde76c9acd47047556291}
-      \strng{bibnamehash}{536c91678d1dde76c9acd47047556291}
-      \strng{authorbibnamehash}{536c91678d1dde76c9acd47047556291}
-      \strng{authornamehash}{536c91678d1dde76c9acd47047556291}
-      \strng{authorfullhash}{536c91678d1dde76c9acd47047556291}
-      \strng{authorfullhashraw}{536c91678d1dde76c9acd47047556291}
+      \list{location}{1}{%
+        {Urbana, IL}%
+      }
+      \list{publisher}{1}{%
+        {University of Illinois Press}%
+      }
+      \strng{namehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{fullhash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{fullhashraw}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{bibnamehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authorbibnamehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authornamehash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authorfullhash}{b1ee21e09e255e9472a75b376837ad91}
+      \strng{authorfullhashraw}{b1ee21e09e255e9472a75b376837ad91}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IRE}
-      \field{number}{1}
-      \field{title}{Communication in the Presence of Noise}
-      \field{volume}{37}
+      \field{note}{Originally published in Bell System Technical Journal, 1948.}
+      \field{title}{The Mathematical Theory of Communication}
       \field{year}{1949}
-      \field{pages}{10\bibrangedash 21}
-      \range{pages}{12}
+    \endentry
+    \entry{rafii2018overview}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=5ee42f0b3cc079a674cab6cef5a3827d}{%
+           family={Mimilakis},
+           familyi={M\bibinitperiod},
+           given={Stylianos\bibnamedelima I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{fullhash}{541e8f9668bf3797990ba81e523e1114}
+      \strng{fullhashraw}{541e8f9668bf3797990ba81e523e1114}
+      \strng{bibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorbibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authornamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorfullhash}{541e8f9668bf3797990ba81e523e1114}
+      \strng{authorfullhashraw}{541e8f9668bf3797990ba81e523e1114}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{number}{8}
+      \field{title}{An Overview of Lead and Accompaniment Separation in Music}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{pages}{1307\bibrangedash 1335}
+      \range{pages}{29}
       \verb{doi}
-      \verb 10.1109/JRPROC.1949.232969
+      \verb 10.1109/TASLP.2018.2825440
+      \endverb
+      \verb{urlraw}
+      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \endverb
+      \verb{url}
+      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \endverb
+    \endentry
+    \entry{DeepLearningforChestRadiographs}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=70e5597ef416362914d32bd15e5a1183}{%
+           family={Yashvi\bibnamedelima Chandola},
+           familyi={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={...\bibnamedelimi Papendra\bibnamedelima Kumar},
+           giveni={.\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           suffix={Jitendra\bibnamedelima Virmani},
+           suffixi={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{fullhash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{fullhashraw}{70e5597ef416362914d32bd15e5a1183}
+      \strng{bibnamehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authorbibnamehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authornamehash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authorfullhash}{70e5597ef416362914d32bd15e5a1183}
+      \strng{authorfullhashraw}{70e5597ef416362914d32bd15e5a1183}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science Direct}
+      \field{title}{Deep Learning for Chest Radiographs}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \endverb
+    \endentry
+    \entry{Arxiv}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5eaa586d1bab0373c19e98400f0ba3fd}{%
+           family={Vardhan},
+           familyi={V\bibinitperiod},
+           given={Saarth},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{fullhash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{fullhashraw}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{bibnamehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authorbibnamehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authornamehash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authorfullhash}{f340782adf35e69f8f42d2f15f1d25ed}
+      \strng{authorfullhashraw}{f340782adf35e69f8f42d2f15f1d25ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Arxiv}
+      \field{title}{An Ensemble Approach to Music Source Separation: A Comparative Analysis of Conventional and Hierarchical Stem Separation}
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2410.20773v1#abstract
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2410.20773v1#abstract
+      \endverb
+    \endentry
+    \entry{yang2021dprtf}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=fd3f147cdea72995ae4b19fc393dd680}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c357bacfbf8f4e29c2daa8db907dcd58}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hongjie},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4c142d712e762cc45c88046b8de422c0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaofei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c0e0d23e2d09e45e6f51cc2bcea6d9f9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{fullhash}{c37845b293317fa9b5d274326a515553}
+      \strng{fullhashraw}{c37845b293317fa9b5d274326a515553}
+      \strng{bibnamehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{authorbibnamehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{authornamehash}{55cd032eef1794d6f8b692515c9b2a45}
+      \strng{authorfullhash}{c37845b293317fa9b5d274326a515553}
+      \strng{authorfullhashraw}{c37845b293317fa9b5d274326a515553}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}
+      \field{title}{Supervised Direct-Path Relative Transfer Function Learning for Binaural Sound Source Localization}
+      \field{year}{2021}
+    \endentry
+    \entry{sahai2019spectrogram}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=a9f7effdcb99dbb53cabafaf8125b932}{%
+           family={Sahai},
+           familyi={S\bibinitperiod},
+           given={Abhimanyu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16e2cf00ae6566b4f764b706e31a2bb9}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Romann},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3fb06cef5edcf8edbf5fc142dd711825}{%
+           family={McWilliams},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{fullhash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{fullhashraw}{d500c8600661c59df111f533a73e9d4a}
+      \strng{bibnamehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authorbibnamehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authornamehash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authorfullhash}{d500c8600661c59df111f533a73e9d4a}
+      \strng{authorfullhashraw}{d500c8600661c59df111f533a73e9d4a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Signal Processing Conference (EUSIPCO)}
+      \field{title}{Spectrogram Feature Losses for Music Source Separation}
+      \field{year}{2019}
+    \endentry
+    \entry{xia2017optimalratio}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=cebb0a108c616c2523fca72121d28564}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Shasha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2620b9afd37cca5b9b7354f67c036d4d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8e1c7b0f8eaaec4074660f432646e819}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xueliang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{fullhash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{fullhashraw}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{bibnamehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authorbibnamehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authornamehash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authorfullhash}{e07ad197b67945b1dcce49ed3aa594f4}
+      \strng{authorfullhashraw}{e07ad197b67945b1dcce49ed3aa594f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Optimal Ratio Mask as Training Target for Supervised Speech Separation}
+      \field{year}{2017}
+    \endentry
+    \entry{wang2008tfmasking}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0a1bd97b59cb3cf65dc849873adf0d25}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={DeLiang},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{fullhash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{fullhashraw}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{bibnamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authorbibnamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authornamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authorfullhash}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \strng{authorfullhashraw}{0a1bd97b59cb3cf65dc849873adf0d25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Amplification}
+      \field{title}{Time-Frequency Masking for Speech Separation and Its Potential for Hearing Aid Design}
+      \field{year}{2008}
+    \endentry
+    \entry{MachineLearningPaperReproducibilityChecklist}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3fa8fd00a141b4a99028859edf082794}{%
+           family={Jpineau},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{fullhash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{fullhashraw}{3fa8fd00a141b4a99028859edf082794}
+      \strng{bibnamehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authorbibnamehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authornamehash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authorfullhash}{3fa8fd00a141b4a99028859edf082794}
+      \strng{authorfullhashraw}{3fa8fd00a141b4a99028859edf082794}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Paper Reproducibility Checklist}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf
       \endverb
     \endentry
   \enddatalist
