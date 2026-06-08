@@ -2373,42 +2373,44 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">sbe_sound</bcf:citekey>
     <bcf:citekey order="2" intorder="1">sbe_sound</bcf:citekey>
     <bcf:citekey order="3" intorder="1">sbe_sound</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">libretexts_sound</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">openstax_intensity</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">source_separation_phase</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">sbe_sound</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">libretexts_sound</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">openstax_intensity</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">source_separation_phase</bcf:citekey>
     <bcf:citekey order="8" intorder="1">rafii18</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">cardoso1998blind</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">rafii18</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">HuggingFaceCourse</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">shannon1949communication</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">cardoso1998blind</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">HuggingFaceCourse</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">shannon1949communication</bcf:citekey>
     <bcf:citekey order="14" intorder="1">rafii18</bcf:citekey>
     <bcf:citekey order="15" intorder="1">rafii18</bcf:citekey>
     <bcf:citekey order="16" intorder="1">rafii18</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">doi:10.1177/0008125619864925</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">doi:10.1177/0008125619864925</bcf:citekey>
     <bcf:citekey order="19" intorder="1">rafii18</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">rafii2018overview</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">rafii2018overview</bcf:citekey>
     <bcf:citekey order="22" intorder="1">rafii18</bcf:citekey>
     <bcf:citekey order="23" intorder="1">rafii18</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Open-Unmix</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">HybridDemucs</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Open-Unmix</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">rafii2018overview</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">rafii18</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">DeepLearningforChestRadiographs</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">openunmix2019</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">HybridDemucs</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">openunmix2019</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Deezer</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">HybridDemucs</bcf:citekey>
     <bcf:citekey order="30" intorder="1">rafii2018overview</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Arxiv</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">yang2021dprtf</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">sahai2019spectrogram</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">xia2017optimalratio</bcf:citekey>
-    <bcf:citekey order="34" intorder="2">wang2008tfmasking</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">MachineLearningPaperReproducibilityChecklist</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">rafii18</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">DeepLearningforChestRadiographs</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">rafii2018overview</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Arxiv</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">yang2021dprtf</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">sahai2019spectrogram</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">xia2017optimalratio</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">wang2008tfmasking</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">MachineLearningPaperReproducibilityChecklist</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

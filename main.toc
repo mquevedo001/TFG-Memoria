@@ -4,8 +4,8 @@
 \contentsline {section}{ODS 4: Educación de calidad}{\es@scroman {iii}}{section*.5}%
 \contentsline {section}{ODS 3: Salud y bienestar}{\es@scroman {iii}}{section*.6}%
 \contentsline {chapter}{\'{I}ndice general}{\es@scroman {v}}{chapter*.7}%
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.8}%
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {ix}}{chapter*.9}%
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.8}%
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xi}}{chapter*.9}%
 \contentsline {chapter}{\chapternumberline {1}Planificación}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivos}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Alcance}{1}{section.1.2}%
@@ -38,7 +38,7 @@
 \contentsline {subsubsection}{Espectrogramas}{15}{section*.26}%
 \contentsline {subsection}{Mezcla de señales y separación de fuentes}{16}{section*.28}%
 \contentsline {subsubsection}{Mezclas lineales}{16}{section*.29}%
-\contentsline {subsubsection}{Mezclas coherentes e incoherentes}{16}{section*.30}%
+\contentsline {subsubsection}{Mezclas coherentes e incoherentes}{17}{section*.30}%
 \contentsline {subsubsection}{Separación ciega de fuentes}{17}{section*.31}%
 \contentsline {subsection}{Representaciones digitales}{17}{section*.32}%
 \contentsline {subsubsection}{Formatos del audio}{17}{section*.33}%
@@ -52,14 +52,14 @@
 \contentsline {subsection}{RNNs artificiales}{21}{section*.42}%
 \contentsline {subsubsection}{Tipos de redes}{21}{section*.43}%
 \contentsline {subsubsection}{Optimización y descenso de gradiente}{22}{section*.45}%
-\contentsline {subsubsection}{Neuronas, capas y funciones de activación y pérdida}{22}{section*.47}%
+\contentsline {subsubsection}{Neuronas, capas y funciones de activación y pérdida}{23}{section*.47}%
 \contentsline {subsection}{Técnicas de evaluación y métricas utilizadas}{23}{section*.48}%
 \contentsline {subsubsection}{Funciones de pérdida}{23}{section*.49}%
 \contentsline {subsubsection}{Data augmentation}{23}{section*.50}%
 \contentsline {subsubsection}{Métricas de evaluación}{23}{section*.51}%
 \contentsline {chapter}{\chapternumberline {4}Estado del arte}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Separación de fuentes musicales}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Representación tiempo-frecuencia y máscaras}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Represención tiempo-frecuencia y máscaras}{27}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Métodos clásicos de separación}{28}{section.4.3}%
 \contentsline {subsection}{Modelado de la señal principal}{28}{section*.53}%
 \contentsline {subsection}{Modelado del acompañamiento}{28}{section*.54}%
@@ -68,52 +68,52 @@
 \contentsline {subsection}{Modelos basados en espectrogama}{29}{section*.56}%
 \contentsline {subsection}{Modelos \textit {waveforms} e híbridos}{30}{section*.57}%
 \contentsline {section}{\numberline {4.5}Herramientas y tecnologías actuales}{30}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Posicionamiento del trabajo}{30}{section.4.6}%
-\contentsline {chapter}{\chapternumberline {5}Parte 1 : separación de fuentes}{31}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Diseño del modelo}{31}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Arquitectura base}{31}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Modificaciones propuestas}{33}{section.5.3}%
-\contentsline {subsection}{Arquitectura y parámetros}{33}{section*.59}%
-\contentsline {subsection}{Función de pérdida: \textit {Deep-feature-EMD}}{34}{section*.61}%
-\contentsline {section}{\numberline {5.4}Configuración de entrenamiento}{34}{section.5.4}%
-\contentsline {subsection}{\textit {Inputs} y \textit {targets}}{34}{section*.62}%
-\contentsline {subsection}{\textit {TFMs} aplicadas}{35}{section*.63}%
-\contentsline {subsection}{\textit {Data augmentation}}{36}{section*.64}%
-\contentsline {subsection}{Preprocesado de un \textit {dataset}}{36}{section*.65}%
-\contentsline {section}{\numberline {5.5}Entrenamiento del modelo}{37}{section.5.5}%
-\contentsline {subsection}{Resultados preliminares y experimentales}{37}{section*.66}%
-\contentsline {subsection}{Comparativas}{38}{section*.67}%
-\contentsline {subsection}{Reentrenamiento V2}{40}{section*.69}%
-\contentsline {subsection}{Reentrenamiento V3 y protocolo final}{40}{section*.70}%
-\contentsline {chapter}{\chapternumberline {6}Parte 2 : interfaz}{43}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Objetivos}{43}{section.6.1}%
-\contentsline {subsection}{Interacción y aprendizaje}{43}{section*.71}%
-\contentsline {section}{\numberline {6.2}Diseño de experiencia de usuario}{43}{section.6.2}%
-\contentsline {subsection}{Organización y visualización}{43}{section*.72}%
-\contentsline {subsection}{Explicaciones y guías}{43}{section*.73}%
-\contentsline {section}{\numberline {6.3}Casos de uso}{43}{section.6.3}%
-\contentsline {subsection}{Entrenamiento parametrizable}{43}{section*.74}%
-\contentsline {subsection}{Parámetros principales ajustables}{43}{section*.75}%
-\contentsline {subsection}{Visualización de gráficos y espectrogramas}{43}{section*.76}%
-\contentsline {subsection}{Feedback}{43}{section*.77}%
-\contentsline {chapter}{\chapternumberline {7}Integración del sistema}{45}{chapter.7}%
-\contentsline {subsection}{Backend}{45}{section*.78}%
-\contentsline {subsection}{Comunicación entre módulos}{45}{section*.79}%
-\contentsline {subsection}{Incidencias de integración y depuración}{45}{section*.80}%
-\contentsline {chapter}{\chapternumberline {8}Evaluación del sistema}{47}{chapter.8}%
-\contentsline {subsection}{Métricas utilizadas}{47}{section*.81}%
-\contentsline {subsection}{Validación del pipeline de evaluación}{48}{section*.82}%
-\contentsline {subsection}{Resultados obtenidos}{48}{section*.83}%
-\contentsline {subsection}{Discusión y análisis}{49}{section*.86}%
-\contentsline {subsection}{Limitaciones y margen de mejora}{49}{section*.87}%
-\contentsline {chapter}{\chapternumberline {9}Conclusiones y trabajo futuro}{51}{chapter.9}%
-\contentsline {subsection}{Síntesis del trabajo realizado}{51}{section*.88}%
-\contentsline {subsection}{Lineas de mejora}{51}{section*.89}%
-\contentsline {subsection}{Trabajo futuro}{51}{section*.90}%
-\contentsline {chapter}{\chapternumberline {10}Anexos}{53}{chapter.10}%
-\contentsline {subsection}{Código relevante}{53}{section*.91}%
-\contentsline {subsection}{Registro de incidencias técnicas}{53}{section*.92}%
-\contentsline {subsection}{Configuraciones}{53}{section*.93}%
-\contentsline {subsection}{Instrucciones posibles}{53}{section*.94}%
-\contentsline {subsection}{Resultados adicionales}{53}{section*.95}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{55}{section*.99}%
+\contentsline {section}{\numberline {4.6}Posicionamiento del trabajo}{31}{section.4.6}%
+\contentsline {chapter}{\chapternumberline {5}Parte 1 : separación de fuentes}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Diseño del modelo}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Arquitectura base}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Modificaciones propuestas}{35}{section.5.3}%
+\contentsline {subsection}{Arquitectura y parámetros}{35}{section*.59}%
+\contentsline {subsection}{Función de pérdida: \textit {Deep-feature-EMD}}{36}{section*.61}%
+\contentsline {section}{\numberline {5.4}Configuración de entrenamiento}{36}{section.5.4}%
+\contentsline {subsection}{\textit {Inputs} y \textit {targets}}{36}{section*.62}%
+\contentsline {subsection}{\textit {TFMs} aplicadas}{37}{section*.63}%
+\contentsline {subsection}{\textit {Data augmentation}}{38}{section*.64}%
+\contentsline {subsection}{Preprocesado de un \textit {dataset}}{38}{section*.65}%
+\contentsline {section}{\numberline {5.5}Entrenamiento del modelo}{39}{section.5.5}%
+\contentsline {subsection}{Resultados preliminares y experimentales}{39}{section*.66}%
+\contentsline {subsection}{Comparativas}{40}{section*.67}%
+\contentsline {subsection}{Reentrenamiento V2}{42}{section*.69}%
+\contentsline {subsection}{Reentrenamiento V3 y protocolo final}{42}{section*.70}%
+\contentsline {chapter}{\chapternumberline {6}Parte 2 : interfaz}{45}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Objetivos}{45}{section.6.1}%
+\contentsline {subsection}{Interacción y aprendizaje}{45}{section*.71}%
+\contentsline {section}{\numberline {6.2}Diseño de experiencia de usuario}{45}{section.6.2}%
+\contentsline {subsection}{Organización y visualización}{45}{section*.72}%
+\contentsline {subsection}{Explicaciones y guías}{45}{section*.73}%
+\contentsline {section}{\numberline {6.3}Casos de uso}{45}{section.6.3}%
+\contentsline {subsection}{Entrenamiento parametrizable}{45}{section*.74}%
+\contentsline {subsection}{Parámetros principales ajustables}{45}{section*.75}%
+\contentsline {subsection}{Visualización de gráficos y espectrogramas}{45}{section*.76}%
+\contentsline {subsection}{Feedback}{45}{section*.77}%
+\contentsline {chapter}{\chapternumberline {7}Integración del sistema}{47}{chapter.7}%
+\contentsline {subsection}{Backend}{47}{section*.78}%
+\contentsline {subsection}{Comunicación entre módulos}{47}{section*.79}%
+\contentsline {subsection}{Incidencias de integración y depuración}{47}{section*.80}%
+\contentsline {chapter}{\chapternumberline {8}Evaluación del sistema}{49}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Métricas utilizadas}{49}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Validación del pipeline de evaluación}{50}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Resultados obtenidos}{51}{section.8.3}%
+\contentsline {subsection}{Discusión y análisis}{53}{section*.83}%
+\contentsline {subsection}{Limitaciones y margen de mejora}{53}{section*.84}%
+\contentsline {chapter}{\chapternumberline {9}Conclusiones y trabajo futuro}{55}{chapter.9}%
+\contentsline {subsection}{Síntesis del trabajo realizado}{55}{section*.85}%
+\contentsline {subsection}{Lineas de mejora}{55}{section*.86}%
+\contentsline {subsection}{Trabajo futuro}{55}{section*.87}%
+\contentsline {chapter}{\chapternumberline {10}Anexos}{57}{chapter.10}%
+\contentsline {subsection}{Código relevante}{57}{section*.88}%
+\contentsline {subsection}{Registro de incidencias técnicas}{57}{section*.89}%
+\contentsline {subsection}{Configuraciones}{57}{section*.90}%
+\contentsline {subsection}{Instrucciones posibles}{57}{section*.91}%
+\contentsline {subsection}{Resultados adicionales}{57}{section*.92}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{59}{section*.96}%

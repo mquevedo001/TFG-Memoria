@@ -8,13 +8,13 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{16}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{18}{figure.caption.34}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Comparativa de clasificación entre aprendizaje supervisado y no supervisado. Imagen de Juan Domingo Farnos}}{20}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{21}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{22}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{22}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{23}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de graficación de la métrica AUC. Esta métrica parte de la matriz de confusión generando un gráfico de puntos donde se evalúa la capacidad del modelo para clasificar correctamente en función de los valores por debajo de la diagonal del gráfico.}}{24}{figure.caption.52}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{32}{figure.caption.58}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{39}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{34}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{41}{figure.caption.68}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

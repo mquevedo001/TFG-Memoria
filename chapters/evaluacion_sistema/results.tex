@@ -1,21 +1,4 @@
-Vamos a dividir esta sección en varias partes: protocolo utilizado, tabla de 2 fuentes, tabla de 4 fuentes, \textit{ranking} y comentarios breves.
-
-\textbf{Protocolo de evaluación utilizado}:
-
-El protocolo de evaluación propuesto es el siguiente:
-
-\begin{itemize}
-    \item 1. Uso de \textit{dataset} / \textit{representative\_test}.
-    \item 2. Evaluación de todos los modelos sobre las mismas pistas.
-    \item 3. Normalización de referencias y estimaciones a mono-canal.
-    \item 4. Se recortan las pistas a una longitud común
-    \item 5. Se usa la misma función de despliegue del modelo que en \textit{deployment}.
-    \item 6. Se guarda un sumario en formato \textit{JSON} para cada modelo.
-\end{itemize}
-
-Esto se ha hecho siguiendo las recomendaciones habituales de reproducibilidad en \textit{Machine Learning} \cite{MachineLearningPaperReproducibilityChecklist}:
-documentar dataset, \textit{splits}, preprocesado, hiperparámetros y resultados. La checklist de reproducibilidad incluye precisamente detalles del dataset,
-particiones \textit{train}/\textit{validation}/\textit{test}, datos excluidos y pasos de preprocesado.
+Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo anterior a los modelos entrenados. Los resultados se presentan separando los escenarios de dos y cuatro fuentes, ya que ambos problemas presentan distinta dificultad y no son directamente comparables.
 
 
 \centering \textbf{Tabla de dos fuentes}
