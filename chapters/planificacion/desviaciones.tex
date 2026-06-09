@@ -37,7 +37,7 @@ En esta fase se detectaron los siguientes problemas:
 Durante el desarrollo del proyecto se terminaron por realizar tres tandas diferentes de entrenamiento, cada una de ellas corrigiendo errores y limitaciones detectadas en la anterior.
 
 \begin{itemize}
-    \item \textbf{V1:} primera tanda de entrenamiento. En esta versión, el tratamiento del número de canales no estaba correctamente controlado, lo que provocaba incoherencias al trabajar con pistas estéreo.
+    \item \textbf{V1:} primera tanda de entrenamiento. En esta versión, el tratamiento de canales no estaba suficientemente controlado, lo que provocaba incoherencias al trabajar con pistas estéreo.
     \item \textbf{V2:} segunda tanda de entrenamiento. Se corrigió el tratamiento de canales trabajando en mono, pero durante la evaluación y el despliegue se detectaron problemas relacionados con la carga de modelos, la inferencia y la validez de algunos resultados.
     \item \textbf{V3:} tercera tanda de entrenamiento y protocolo actual. En esta versión se incorporó una evaluación fija, un \textit{baseline} de mezcla, una organización más clara de carpetas y una mayor trazabilidad de los experimentos.
 \end{itemize}
@@ -81,3 +81,5 @@ Para resolver las desviaciones detectadas se aplicaron varias medidas correctora
 \end{itemize}
 
 Aunque estas medidas provocaron un retraso respecto a la planificación inicial, permitieron establecer un proceso de evaluación más sólido obteniendo así mejores resultados. De este modo, se evitó seleccionar modelos únicamente por generar archivos de salida y se priorizó la obtención de resultados comparables, trazables y evaluables frente a un criterio común.
+
+Siendo parte del proceso de la validación experimental, las incidencias ocurridas permitieron detectar y corregir errores que afectaban a la validez de los resultados

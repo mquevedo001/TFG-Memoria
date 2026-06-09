@@ -1,4 +1,4 @@
-Se calcula sobre la representación en forma de onda del sonido computando una transformación discreta de Fourier ( una transformación discreta de Fourier consiste en la captura mediante ventanas triangulares en movimiento L de secciones de la onda , Fig. 4.3) trasladada a lo largo de la onda ( L ,2L, 3L ... )
+Se calcula sobre la representación en forma de onda del sonido computando una transformación discreta de Fourier ( una transformación discreta de Fourier consiste en la captura mediante ventanas, no necesariamente triangulares, pero sí normalmente, en movimiento L de secciones de la onda , Fig. 4.3) trasladada a lo largo de la onda ( L ,2L, 3L ... )
 \begin{center}
   \[
 X(n, \omega) = \sum_{m=-\infty}^{\infty} x[m] \cdot w[m - n] \cdot e^{-j \omega m}
@@ -12,7 +12,7 @@ Donde:
   \item \[n\] Posición temporal de la ventana.
   \item \[\cdot e^{-j \omega m}\] Onda compleja usada para medir la presencia de una frecuencia concreta. \[j\] es la unidad imaginaria, \[w\] es la frecuencia angular digital.
 \end{itemize}
-Cada celda ( ventana ) de la transformada es compleja ( contiene magnitud y fase ) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
+Cada celda de la transformada es compleja ( contiene magnitud y fase ) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
 
 \begin{figure}[H]
     \begin{center}
@@ -22,8 +22,25 @@ Cada celda ( ventana ) de la transformada es compleja ( contiene magnitud y fase
     \cite{rafii18}
     \end{center}
 \end{figure}
-Como parámetros importantes, presenta el tipo de ventana que utiliza ( gaussiana, rectangular , triangular, cuadrática ... ), la longitud de la ventana y la distancia entre ventanas adyacentes.
+Como parámetros importantes, presenta el tipo de ventana que utiliza ( gaussiana, rectangular , triangular, cuadrática ... ), la longitud de la ventana y la distancia entre ventanas adyacentes.En el proyecto llevado a cabo se utiliza \textit{$sqrt\_hann$}.
 
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=0.7\textwidth]{commons/Fig10.png}
+    \caption{Hann function}
+    \label{fig:hann function}
+    \end{center}
+\end{figure}
+
+Algunos parámetros importantes en una transformada de fourier:
+
+\begin{itemize}
+  \item 1. \textit{window length}: tamaño de la ventana.
+  \item 2. \textit{hop length}: salto entre ventanas consecutivas
+  \item 3. Solapamiento: solapamiento entre ventanas.
+\end{itemize}
+
+Existe también el término \textit{iSTFT} que refiere al proceso inverso de la transformada de fourier, donde se reconstruye una señal de audio u onda a partir de su representación en el dominio tiempo-frecuencia
 
 
 

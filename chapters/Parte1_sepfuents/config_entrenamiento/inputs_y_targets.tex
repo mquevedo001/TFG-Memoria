@@ -12,7 +12,43 @@ Los targets ( objetivos ) son las magnitudes de las fuentes reales. Existen dos 
     \item \textbf{2 fuentes: } \textit{vocales , acompañamiento}
 \end{itemize}
 
-La salida del modelo no genera audio directamente.Aunque en la ejecución lo parezca, la salida son máscaras tiempo-frecuencia. Posteriormente, se aplica la máscara sobre la magnitud de la mezcla y el resultado corresponde a la estimación de la fuente.
-Luego para reconstruir el audio se utiliza la fase de la mezcla. Esto es una limitación importante, ya que es una estimación. La fase de la mezcla original no tiene porque ser la de las fuentes, pero a falta del dato de la magnitud para estas últimas, se utiliza la de la mezcla.
+La estructura de entrada al modelo es:
+
+\begin{center}
+    \[
+[B, T, F]
+\]
+\end{center}
+    
+Donde:
+
+\begin{itemize}
+    \item \(B\): tamaño del batch, es decir, número de ejemplos procesados simultáneamente.
+    \item \(T\): número de frames temporales del espectrograma.
+    \item \(F\): número de bins de frecuencia obtenidos mediante la STFT.
+\end{itemize}
+
+Y la estructura de salida/\textit{targets}:
+
+\begin{center}
+  \[
+[B, T, F, C, S]
+\]  
+\end{center}
+
+Donde:
+
+\begin{itemize}
+    \item \(B\): tamaño del batch.
+    \item \(T\): número de frames temporales.
+    \item \(F\): número de bins de frecuencia.
+    \item \(C\): número de canales de audio. En este trabajo se utiliza \(C=1\), ya que las señales se procesan en mono.
+    \item \(S\): número de fuentes o \textit{stems} a separar. En este trabajo puede ser \(S=2\) para voz y acompañamiento, o \(S=4\) para voz, bajo, batería y resto.
+\end{itemize}
+
+La salida del modelo no genera audio directamente, aunque en la ejecución lo parezca la salida son máscaras tiempo-frecuencia. Posteriormente, se aplica la máscara sobre la magnitud de la mezcla y el resultado corresponde a una estimación de la magnitud de la mezcla.
+Luego para reconstruir el audio se utiliza la fase de la pista original. Esto es una limitación importante, ya que es una estimación. La fase de la mezcla original no tiene porque ser la de las fuentes, pero a falta del dato de la magnitud para estas últimas, se utiliza la de la mezcla.
+
+
 
 

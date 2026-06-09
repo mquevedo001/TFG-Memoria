@@ -1,0 +1,29 @@
+Las funciones de pérdida son parte crucial del aprendizaje automático. El término refiere a una función matemática que estima el error entre la estimación y el objetivo. En función de la función de pérdida elegida, se prioriza un tipo de error u otro. Por ejemplo:
+
+\begin{itemize}
+    \item Función de pérdida L1, error absoluto medio: minimiza el error absoluto promedio entre predicción y objetivo.
+\begin{center}
+    \[
+\mathcal{L}_{L1}(\hat{Y}, Y) =
+\frac{1}{N}
+\sum_{i=1}^{N}
+\left| \hat{Y}_i - Y_i \right|
+\]
+\end{center}
+
+Donde \(Y_i\) representa el valor real de la magnitud de la fuente en una celda tiempo-frecuencia, \(\hat{Y}_i\) representa el valor estimado por el modelo y \(N\) es el número total de elementos comparados.
+
+    \item Función de pérdida L2, error cuadrático medio: minimiza el error cuadrático medio.
+\begin{center}
+    \[
+\mathcal{L}_{L2}(\hat{Y}, Y) =
+\frac{1}{N}
+\sum_{i=1}^{N}
+\left( \hat{Y}_i - Y_i \right)^2
+\]
+\end{center}
+
+Donde \(Y_i\) representa el valor real de la magnitud de la fuente, \(\hat{Y}_i\) representa el valor estimado por el modelo y \(N\) es el número total de elementos comparados.
+
+
+\end{itemize}

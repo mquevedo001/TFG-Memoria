@@ -18,7 +18,7 @@ Existen diferentes tipos, en función de cómo se traten los respectivos element
     \end{center}}
 \end{figure}
 
-En el proyecto, el  sistema trabaja con espectrogramas de magnitud obtenidos mediante STFT, aunque por lo general en procesamiento de audio se utilizan Espectrogramas de Mel ( explicados a continuación ) ya que el objetivo del modelo es estimar máscaras tiempo-frecuencia que posteriormente se aplican sobre la magnitud STFT de la mezcla para reconstruir las fuentes usando la fase de la mezcla.
+En el proyecto, el  sistema trabaja con espectrogramas de magnitud lineal obtenidos mediante STFT ya que posteriormente se reconstruye el resultado obtenido mediante iSTFT, aunque por lo general en procesamiento de audio se utilizan Espectrogramas de Mel ( explicados a continuación ) ya que el objetivo del modelo es estimar máscaras tiempo-frecuencia que posteriormente se aplican sobre la magnitud STFT de la mezcla para reconstruir las fuentes usando la fase de la mezcla.
 Un espectrograma de Mel es similar a un espectrograma en el sentido de que muestra el contenido de frecuencia de una señal de audio a lo largo del tiempo, pero en un eje de frecuencia diferente.En un espectrograma estándar, el eje de frecuencia es lineal y se mide en hercios (Hz). Sin embargo, el sistema auditivo humano es más sensible a los cambios en las frecuencias bajas que en las frecuencias altas, y esta sensibilidad disminuye de manera logarítmica a medida que la frecuencia aumenta. La escala mel es una escala perceptual que aproxima la respuesta de frecuencia no lineal del oído humano. \cite{HuggingFaceCourse} 
 
 \end{itemize}

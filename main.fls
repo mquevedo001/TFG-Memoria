@@ -410,11 +410,11 @@ INPUT ./chapters/abstract.tex
 INPUT ./chapters/abstract.tex
 INPUT chapters/abstract.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./chapters/ODS.tex
 INPUT ./chapters/ODS.tex
 INPUT chapters/ODS.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
@@ -594,6 +594,13 @@ INPUT ./commons/Fig3.png
 INPUT ./commons/Fig3.png
 INPUT ./commons/Fig3.png
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
+INPUT ./commons/Fig10.png
+INPUT ./commons/Fig10.png
+INPUT ./commons/Fig10.png
+INPUT ./commons/Fig10.png
+INPUT ./commons/Fig10.png
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas.tex
@@ -652,6 +659,9 @@ INPUT chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/intro.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/intro.tex
 INPUT chapters/marco_teorico/aprendizaje_automatico/intro.tex
+INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
+INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
+INPUT chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
@@ -702,11 +712,6 @@ INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_pe
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
 INPUT chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion.tex
 INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion.tex
@@ -809,7 +814,6 @@ INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
-INPUT ./commons/Fig10.png
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
@@ -820,6 +824,9 @@ INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
 INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
 INPUT chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+INPUT ./chapters/parte2_interfaz/intro.tex
+INPUT ./chapters/parte2_interfaz/intro.tex
+INPUT chapters/parte2_interfaz/intro.tex
 INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
 INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
 INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
@@ -830,6 +837,26 @@ INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.
 INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
 INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
 INPUT chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
+INPUT ./commons/Sidebar_GUI_1.png
+INPUT ./commons/Sidebar_GUI_1.png
+INPUT ./commons/Sidebar_GUI_1.png
+INPUT ./commons/Sidebar_GUI_1.png
+INPUT ./commons/Sidebar_GUI_1.png
+INPUT ./commons/Sidebar_GUI_2.png
+INPUT ./commons/Sidebar_GUI_2.png
+INPUT ./commons/Sidebar_GUI_2.png
+INPUT ./commons/Sidebar_GUI_2.png
+INPUT ./commons/Sidebar_GUI_2.png
+INPUT ./commons/ZonaCarga_GUI_2.png
+INPUT ./commons/ZonaCarga_GUI_2.png
+INPUT ./commons/ZonaCarga_GUI_2.png
+INPUT ./commons/ZonaCarga_GUI_2.png
+INPUT ./commons/ZonaCarga_GUI_2.png
+INPUT ./commons/Consola_GUI_2.png
+INPUT ./commons/Consola_GUI_2.png
+INPUT ./commons/Consola_GUI_2.png
+INPUT ./commons/Consola_GUI_2.png
+INPUT ./commons/Consola_GUI_2.png
 INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
 INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
 INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
@@ -915,11 +942,6 @@ INPUT ./chapters/anexos/codigo_relevante.tex
 INPUT ./chapters/anexos/codigo_relevante.tex
 INPUT ./chapters/anexos/codigo_relevante.tex
 INPUT chapters/anexos/codigo_relevante.tex
-INPUT ./chapters/anexos/registro_incidencias.tex
-INPUT ./chapters/anexos/registro_incidencias.tex
-INPUT ./chapters/anexos/registro_incidencias.tex
-INPUT ./chapters/anexos/registro_incidencias.tex
-INPUT chapters/anexos/registro_incidencias.tex
 INPUT ./chapters/anexos/configuraciones.tex
 INPUT ./chapters/anexos/configuraciones.tex
 INPUT ./chapters/anexos/configuraciones.tex
@@ -930,11 +952,6 @@ INPUT ./chapters/anexos/instrucciones.tex
 INPUT ./chapters/anexos/instrucciones.tex
 INPUT ./chapters/anexos/instrucciones.tex
 INPUT chapters/anexos/instrucciones.tex
-INPUT ./chapters/anexos/resultados_adicionales.tex
-INPUT ./chapters/anexos/resultados_adicionales.tex
-INPUT ./chapters/anexos/resultados_adicionales.tex
-INPUT ./chapters/anexos/resultados_adicionales.tex
-INPUT chapters/anexos/resultados_adicionales.tex
 OUTPUT main.toc
 OUTPUT main.lof
 OUTPUT main.lot

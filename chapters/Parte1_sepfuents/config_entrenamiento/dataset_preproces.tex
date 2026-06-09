@@ -8,7 +8,7 @@ En esta sección se explicará el camino desde los archivos de audio hasta los \
         \item \textit{vocals.wav}: pista para las vocales.
         \item \textit{drums.wav}: pista para la batería.
         \item \textit{bass.wav}: pista para el bajo.
-        \item \textit{others.wav}: pista para elementos extra. 
+        \item \textit{other.wav}: pista para elementos extra. 
     \end{itemize}
 
     \item \textbf{2. Construcción de escenarios:}
@@ -42,9 +42,10 @@ En esta sección se explicará el camino desde los archivos de audio hasta los \
         \item \textit{train/validation}: usado durante entrenamiento y \textit{early stopping}.
         \item \textit{representative\_test}: conjunto fijo usado solo para evaluación final.
     \end{itemize}
-    División 60-40.
+    División 60-40\footnote{60\% train 40\% validation}.
 
     \item \textbf{6. Normalización/canales:}
     El sistema se configuró para un canal de audio, lo que reduce el coste computacional y se recomienda en la documentación del modelo\cite{rafii2018overview}. También simplifica el proceso de comparación entre fuentes.
 
 \end{itemize}
+

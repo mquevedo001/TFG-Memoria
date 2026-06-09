@@ -30,3 +30,7 @@ Cada bloque verde representa la misma celda LSTM aplicada en diferentes momentos
 
 Los símbolos \textbf{sigmoid,tanh} son funciones que controlan la cantidad que pasa de una información concreta.Por ejemplo, \textbf{sigmoide} , produce valores continuos en (0,1) y hace la función de una "\textit{perilla}" o "\textit{compuerta suave}" para la información.
 
+Además, se aplica el concepto de bidireccionalidad donde la información "viaja en dos direcciones". Esto quiere decir que se tiene en cuenta el contexto pasado y futuro de la entrada.
+
+En el contexto del objetivo de utilizar esta arquitectura en el proyecto: el sistema introduce al modelo la interpretación en secuencia temporal de un espectrograma ( es decir, la magnitud de la STFT de la entrada), a partir del cuál, la LSTM procesa esta secuencia para estimar máscaras.
+

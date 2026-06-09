@@ -119,24 +119,24 @@
   - La ventana no es necesariamente triangular.
   - En tu proyecto se usa `sqrt_hann`.
 
-- [ ] **Definir parámetros importantes**
+- [x] **Definir parámetros importantes**
   - `window_length`: tamaño de ventana.
   - `hop_length`: salto entre ventanas consecutivas.
   - solapamiento entre ventanas.
   - frame temporal.
   - bin de frecuencia.
 
-- [ ] **Aclarar la fórmula**
+- [x] **Aclarar la fórmula**
   - Cada celda tiempo-frecuencia es un coeficiente complejo.
   - No confundir “celda” con “ventana”.
 
 ### Espectrogramas / Representaciones digitales
 
-- [ ] **Revisar nueva ubicación de espectrogramas**
+- [x] **Revisar nueva ubicación de espectrogramas**
   - Tu apunte indica que los has movido a Representaciones digitales / formatos de audio.
   - Comprueba que no se duplica la explicación respecto a STFT.
 
-- [ ] **Añadir distinción STFT lineal vs Mel**
+- [x] **Añadir distinción STFT lineal vs Mel**
   - El proyecto usa espectrograma de magnitud STFT lineal.
   - No usa espectrogramas Mel como entrada principal.
   - Motivo: la STFT lineal mantiene una relación directa con la reconstrucción mediante iSTFT.
@@ -144,14 +144,14 @@
 
 ### Mezclas lineales
 
-- [ ] **Revisar explicación ampliada**
+- [x] **Revisar explicación ampliada**
   - Tu apunte indica que ya has profundizado.
   - Mantener la fórmula como aproximación.
   - Añadir que las mezclas reales incluyen paneo, reverberación, efectos, retardos y procesamiento de mezcla.
 
 ### Mezclas coherentes e incoherentes
 
-- [ ] **Verificar corrección conceptual**
+- [x] **Verificar corrección conceptual**
   - Tu apunte dice que ya has explicado mejor el concepto.
   - La coherencia se relaciona con correlación/dependencia temporal-frecuencial, fase y estructura común.
   - No reducirlo a que dos señales tengan tonos distintos.
@@ -159,7 +159,7 @@
 
 ### Separación ciega de fuentes
 
-- [ ] **Añadir distinción entre separación ciega y supervisada**
+- [x] **Añadir distinción entre separación ciega y supervisada**
   - Separación ciega: intenta separar usando solo la mezcla observada.
   - Separación supervisada: aprende a partir de pares mezcla/fuentes.
   - Tu TFG es principalmente supervisado, porque entrenas con `source_magnitudes`.
@@ -170,7 +170,7 @@
 
 ### Dataset
 
-- [ ] **Mantener definición general de dataset, pero conectarla con tu caso**
+- [x] **Mantener definición general de dataset, pero conectarla con tu caso**
   - Tu decisión es razonable: un lector no técnico puede necesitar la definición.
   - Añadir que en este proyecto hay:
     - conjunto de entrenamiento;
@@ -179,28 +179,31 @@
 
 ### RNNs / LSTM
 
-- [ ] **Corregir parte pendiente de RNNs**
+- [x] **Corregir parte pendiente de RNNs**
   - Tu apunte indica que aún falta.
   - Añadir que una LSTM es una variante de RNN diseñada para procesar secuencias y mantener memoria temporal.
 
-- [ ] **Distinguir estado de celda y estado oculto**
+- [x] **Distinguir estado de celda y estado oculto**
   - Estado de celda: `c_t`.
   - Estado oculto/salida: `h_t`.
   - En muchos diagramas LSTM, la línea superior representa el estado de celda.
+  - Hecho en Parte1/ArqBase
 
-- [ ] **Explicar puertas de la LSTM**
+- [x] **Explicar puertas de la LSTM**
   - Puerta de olvido.
   - Puerta de entrada.
   - Candidato de memoria.
   - Puerta de salida.
+  - Hecho en Parte1/ArqBase
 
-- [ ] **Conectar LSTM con espectrogramas**
+- [x] **Conectar LSTM con espectrogramas**
   - El espectrograma puede verse como secuencia temporal de frames.
   - La LSTM procesa esa secuencia para estimar máscaras.
+  - Hecho en Parte1/ArqBase
 
 ### Funciones de pérdida
 
-- [ ] **Definir función de pérdida en marco teórico**
+- [x] **Definir función de pérdida en marco teórico**
   - Es central en tu TFG.
   - La pérdida mide el error entre estimación y objetivo.
   - El optimizador ajusta el modelo minimizando esa pérdida.
@@ -208,7 +211,7 @@
 
 ### Métricas de evaluación
 
-- [ ] **Añadir métricas de separación de audio**
+- [x] **Añadir métricas de separación de audio**
   - No quedarse solo en precisión, recall, F1, AUC o matriz de confusión.
   - Incluir:
     - SI-SDR;
@@ -225,7 +228,7 @@
 
 ### Consideración general
 
-- [ ] **Revisar si se sobreexplica IA general**
+- [x] **Revisar si se sobreexplica IA general**
   - Tu apunte indica dudas.
   - El capítulo debe centrarse en separación de fuentes musicales.
   - La parte de Asimov/Turing/AlphaGo, si permanece, debe ser breve y no desplazar el tema principal.
@@ -240,39 +243,39 @@
     - aprendizaje profundo;
     - modelos/herramientas actuales.
 
-- [ ] **No igualar probabilístico y data-driven**
+- [x] **No igualar probabilístico y data-driven**
   - Un modelo probabilístico puede ser explícito y basado en hipótesis.
   - Un método data-driven aprende patrones desde datos.
   - No son equivalentes.
 
 ### 4.1 Separación de fuentes musicales
 
-- [ ] **Aclarar escenarios de separación**
+- [x] **Aclarar escenarios de separación**
   - 2 stems: voz / acompañamiento.
   - 4 stems: voz / bajo / batería / otros.
   - En 2 stems, acompañamiento suele ser suma de bajo + batería + otros.
 
 ### 4.2 Representación tiempo-frecuencia y máscaras
 
-- [ ] **Evitar llamar binarias a las máscaras del modelo**
+- [x] **Evitar llamar binarias a las máscaras del modelo**
   - Tu modelo predice máscaras suaves en `[0,1]`.
   - Solo una `ideal_binary_mask` es binaria.
   - Usar “máscaras suaves tiempo-frecuencia”.
 
 ### 4.3 Métodos clásicos
 
-- [ ] **Añadir o reforzar NMF / bajo rango**
+- [x] **Añadir o reforzar NMF / bajo rango**
   - Es un concepto clásico importante en separación musical.
   - Acompañamiento como estructura repetitiva o de bajo rango.
   - Voz como componente más variable o dispersa.
 
-- [ ] **Matizar HMM/GMM**
+- [x] **Matizar HMM/GMM**
   - No siempre asignan directamente celdas TF.
   - Modelan estados o distribuciones que pueden ayudar a estimar fuentes o máscaras.
 
 ### 4.4 Aprendizaje profundo
 
-- [ ] **Matizar modelos waveform e híbridos**
+- [x] **Matizar modelos waveform e híbridos**
   - No afirmar que no se usan por ser ineficientes.
   - Demucs/Hybrid Demucs son relevantes.
   - Mejor: requieren arquitecturas más complejas y mayor coste computacional.
@@ -280,17 +283,17 @@
 
 ### 4.5 Herramientas y tecnologías actuales
 
-- [ ] **Separar herramientas/modelos de datasets/benchmarks**
+- [x] **Separar herramientas/modelos de datasets/benchmarks**
   - Open-Unmix, Spleeter, Demucs/Hybrid Demucs: modelos o herramientas.
   - MUSDB18: dataset/benchmark.
 
-- [ ] **No presentar Spleeter como SOTA actual**
+- [x] **No presentar Spleeter como SOTA actual**
   - Es una herramienta práctica y relevante.
   - No necesariamente representa el estado más avanzado actual.
 
 ### 4.6 Posicionamiento del trabajo
 
-- [ ] **Revisar el alcance de la aportación**
+- [x] **Revisar el alcance de la aportación**
   - Evitar “aportación al estado del arte” si suena demasiado fuerte.
   - Mejor: “estudio experimental controlado dentro del alcance del TFG”.
   - Reforzar que el objetivo no es superar SOTA, sino comparar pérdidas y construir un pipeline completo.
@@ -301,32 +304,32 @@
 
 ### 5.1 Diseño del modelo
 
-- [ ] **Corregir “máscaras binarias”**
+- [x] **Corregir “máscaras binarias”**
   - Cambiar por “máscaras tiempo-frecuencia suaves”.
   - Solo hablar de binario si te refieres a una máscara ideal concreta.
 
 ### 5.2 Arquitectura base
 
-- [ ] **Corregir explicación LSTM**
+- [x] **Corregir explicación LSTM**
   - La línea superior en el diagrama suele representar `c_t`, estado de celda.
   - `h_t` es estado oculto/salida.
   - Añadir que la bidireccionalidad usa contexto pasado y futuro del espectrograma.
 
 ### 5.3 Modificaciones propuestas
 
-- [ ] **Explicar modificación como coherencia de pipeline**
+- [x] **Explicar modificación como coherencia de pipeline**
   - No presentarlo como “mala generalización” si el problema fue incompatibilidad entre checkpoint, configuración y forward.
   - Enfatizar que se estabilizó la inferencia para que coincidiese con el entrenamiento.
 
 ### 5.3 Función de pérdida: Deep-feature-EMD
 
-- [ ] **Completar matices conceptuales**
+- [x] **Completar matices conceptuales**
   - CNN auxiliar no preentrenada en música.
   - Pérdida experimental, no perceptual fuerte.
   - Activaciones aplanadas como distribuciones empíricas.
   - Sinkhorn como aproximación regularizada de EMD.
 
-- [ ] **Revisar citas usadas para deep features**
+- [x] **Revisar citas usadas para deep features**
   - Una cita de radiografías puede servir para explicar deep features en general, pero no es ideal para separación musical.
   - Si la mantienes, deja claro que se usa como referencia general del concepto, no como referencia específica de audio musical.
 
@@ -334,18 +337,18 @@
 
 #### Inputs y targets
 
-- [ ] **Corregir problemática de fase**
+- [x] **Corregir problemática de fase**
   - La fase que falta en inferencia es la fase real de cada fuente.
   - La magnitud se estima aplicando la máscara a la magnitud de mezcla.
 
-- [ ] **Añadir shapes principales**
+- [x] **Añadir shapes principales**
   - Entrada mezcla: `[B,T,F]` o `[B,F,T]` antes de adaptar.
   - Targets: `[B,T,F,C,S]`.
   - Salidas: `mask` y `estimates`.
 
 #### TFMs aplicadas
 
-- [ ] **Aclarar que TFMs significa transformaciones**
+- [x] **Aclarar que TFMs significa transformaciones**
   - Evita confusión con Trabajo Fin de Máster.
   - Explicar:
     - STFT;
@@ -361,14 +364,14 @@
 
 #### Data augmentation
 
-- [ ] **No afirmar mejoras si está desactivado**
+- [x] **No afirmar mejoras si está desactivado**
   - Decir que se contempló como técnica de generalización.
   - Explicar que se desactivó para mantener comparativa controlada.
   - Mencionarlo como línea futura.
 
 #### Preprocesado del dataset
 
-- [ ] **Corregir `other.wav`**
+- [x] **Corregir `other.wav`**
   - MUSDB18 usa:
     - `mixture.wav`;
     - `vocals.wav`;
@@ -376,7 +379,7 @@
     - `drums.wav`;
     - `other.wav`.
 
-- [ ] **Aclarar split**
+- [x] **Aclarar split**
   - Explicar si el 60/40 es train/validation.
   - Dejar claro que `representative_test` queda separado para evaluación final.
   - Evitar que parezca que el test final se mezcla con entrenamiento o validación.

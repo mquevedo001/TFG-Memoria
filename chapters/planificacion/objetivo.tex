@@ -1,5 +1,13 @@
 Como bien se ha comentado en la sección anterior , el principal objetivo del proyecto era el desarrollo de una herramienta que identifique y separe los diferentes elementos en una obra musical.
-Se puso inicialmente el objetivo de la separación de dos fuentes,en, por jemeplo, el género de cantautor, identificando vocales y acompañamiento. Este objetivo se daría por logrado al conseguir una versión del modelo que diese como salida dos archivos de audio donde se discerniesen dos elementos diferentes provenientes de la mezcla original, y que, en conjunto, sumasen esta.
+Se puso inicialmente el objetivo de la separación de dos fuentes,en por ejemplo, el género de cantautor, identificando vocales y acompañamiento. Este objetivo se daría por logrado al conseguir una versión del modelo que diese como salida dos archivos de audio donde se discerniesen dos elementos diferentes provenientes de la mezcla original, y que, en conjunto, sumasen esta.
 Como objetivo a largo plazo, y una vez superada esta primera barrera,se propone ampliar a la separación a cuatro fuentes recogiendo vocales , bajo , baterías y el resto del acompañamiento identificado como "\textit{resto}".
 
-Adicionalmente, se ha desarrollado una interfaz gráfica muy sencilla que permite cargar audios de prueba y obtener sus \textit{stems}\footnote{\textit{STEMS} es el término anglosajón que refiere a las sub-pistas que componen una mezcla musical ( en castellano, fuentes)} separados, así como almacenar los resultados en forma de archivos de audio y gráficas.
+Adicionalmente, se ha desarrollado una interfaz gráfica muy sencilla que permite cargar audios de prueba y obtener sus \textit{stems}\footnote{\textit{STEMS} es el término anglosajón que refiere a las sub-pistas que componen una mezcla musical ( en castellano, fuentes)} separados, así como almacenar los resultados en forma de archivos de audio y gráficas con cierto enfoque didáctico.
+
+En resumen, podríamos agrupar los objetivos en:
+
+\begin{itemize}
+    \item \textbf{1. Objetivo principal: } llegar a un estado del proyecto donde se generen pistas diferentes a la pista de entrada con al menos algo de información correspondiente de la fuente deseada.
+    \item \textbf{2. Objetivos técnicos: } implementar un proceso funcional de entrenamiento para las diferentes funciones. Evaluar los resultados y proporcionar una comparativa de las funciones.
+    \item \textbf{3. Objetivo de la interfaz: } facilitar el uso, dar comprensión para principiantes en el campo y dar visualización del sistema.
+\end{itemize}

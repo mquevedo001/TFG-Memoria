@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  9 JUN 2026 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  10 JUN 2026 01:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1278,9 +1278,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (./chapters/abstract.tex) [1
 
 
-] [2
+] [2] (./chapters/ODS.tex [3
 
-] (./chapters/ODS.tex [3
 
 ]) [4] (./main.toc
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1353,7 +1352,7 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
-Overfull \hbox (100.29533pt too wide) in paragraph at lines 11--11
+Overfull \hbox (100.29533pt too wide) in paragraph at lines 12--12
  \T1/lmr/m/n/10.95 Tra-ba-jo pro-pio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940[] []  
  []
 
@@ -1374,58 +1373,60 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 5.
-) (./chapters/planificacion/alcance.tex)
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.192 \section
-              {Cronograma} [1
+l.13 \end{itemize}
+                   [1
 
 
-] (./chapters/planificacion/cronograma.tex
-<commons/cronograma_inicial.png, id=717, 7708.8pt x 1706.375pt>
+]) (./chapters/planificacion/alcance.tex) (./chapters/planificacion/cronograma.tex
+<commons/cronograma_inicial.png, id=725, 7708.8pt x 1706.375pt>
 File: commons/cronograma_inicial.png Graphic file (type png)
 <use commons/cronograma_inicial.png>
 Package pdftex.def Info: commons/cronograma_inicial.png  used on input line 6.
 (pdftex.def)             Requested size: 258.29887pt x 57.15155pt.
-<commons/cronograma_real.png, id=719, 7708.8pt x 3754.025pt>
+<commons/cronograma_real.png, id=727, 7708.8pt x 3754.025pt>
 File: commons/cronograma_real.png Graphic file (type png)
 <use commons/cronograma_real.png>
 Package pdftex.def Info: commons/cronograma_real.png  used on input line 16.
 (pdftex.def)             Requested size: 258.29887pt x 125.7334pt.
 ) (./chapters/planificacion/desviaciones.tex
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 
+l.2 
      [2 <./commons/cronograma_inicial.png> <./commons/cronograma_real.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 [3]
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [4]
 Overfull \hbox (6.46315pt too wide) in paragraph at lines 58--59
 []\T1/lmr/m/n/10.95 El hard-wa-re dis-po-ni-ble, no pro-por-cio-na-ba una ve-lo-ci-dad de en-tra-da/salida
  []
 
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
-[4])
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+[5])
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
- [5] [6
-
-]
+ [6]
 Cap\'{\i }tulo 2.
 (./chapters/herramientas_utilizadas/python.tex) (./chapters/herramientas_utilizadas/conda.tex) (./chapters/herramientas_utilizadas/librosa.tex) (./chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex)
 Underfull \vbox (badness 4060) has occurred while \output is active []
 
  [7
+
 
 ] (./chapters/herramientas_utilizadas/ignite.tex) (./chapters/herramientas_utilizadas/nussl.tex) (./chapters/herramientas_utilizadas/overleaf.tex) (./chapters/herramientas_utilizadas/pytorch.tex) (./chapters/herramientas_utilizadas/streamlit_conda.tex)
 LaTeX Info: Redefining \. on input line 217.
@@ -1438,7 +1439,7 @@ LaTeX Info: Redefining \% on input line 219.
 ]
 Cap\'{\i }tulo 3.
 (./chapters/marco_teorico/intro.tex) (./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/intro.tex
-<commons/Fig1.png, id=761, 297.11pt x 223.83624pt>
+<commons/Fig1.png, id=769, 297.11pt x 223.83624pt>
 File: commons/Fig1.png Graphic file (type png)
 <use commons/Fig1.png>
 Package pdftex.def Info: commons/Fig1.png  used on input line 11.
@@ -1456,7 +1457,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX Info: Redefining \. on input line 234.
 LaTeX Info: Redefining \% on input line 234.
  [12{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./commons/Fig1.png>] (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex) (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo.tex
-<commons/Fig2sound.jpg, id=783, 618.81187pt x 311.66437pt>
+<commons/Fig2sound.jpg, id=791, 618.81187pt x 311.66437pt>
 File: commons/Fig2sound.jpg Graphic file (type jpg)
 <use commons/Fig2sound.jpg>
 Package pdftex.def Info: commons/Fig2sound.jpg  used on input line 5.
@@ -1465,76 +1466,84 @@ Package pdftex.def Info: commons/Fig2sound.jpg  used on input line 5.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
  [13 <./commons/Fig2sound.jpg>]
-<commons/Fig3.png, id=791, 843.15pt x 569.12625pt>
+<commons/Fig3.png, id=799, 843.15pt x 569.12625pt>
 File: commons/Fig3.png Graphic file (type png)
 <use commons/Fig3.png>
 Package pdftex.def Info: commons/Fig3.png  used on input line 19.
 (pdftex.def)             Requested size: 258.29887pt x 174.35179pt.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- [14{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]) (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas.tex
-<commons/Fig4.png, id=800, 945.5325pt x 566.115pt>
+ [14{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+<commons/Fig10.png, id=808, 962.6364pt x 500.8311pt>
+File: commons/Fig10.png Graphic file (type png)
+<use commons/Fig10.png>
+Package pdftex.def Info: commons/Fig10.png  used on input line 29.
+(pdftex.def)             Requested size: 258.29887pt x 134.38557pt.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+ [15 <./commons/Fig3.png> <./commons/Fig10.png>]) (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas.tex
+<commons/Fig4.png, id=816, 945.5325pt x 566.115pt>
 File: commons/Fig4.png Graphic file (type png)
 <use commons/Fig4.png>
 Package pdftex.def Info: commons/Fig4.png  used on input line 7.
 (pdftex.def)             Requested size: 258.29887pt x 154.64984pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 242.
-LaTeX Info: Redefining \% on input line 242.
- [15 <./commons/Fig3.png>] (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_lineales.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [16 <./commons/Fig4.png>]) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
+) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_lineales.tex
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [16 <./commons/Fig4.png>]) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex) (./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
 Overfull \hbox (1.34712pt too wide) in paragraph at lines 7--8
 []\T1/lmr/bx/it/10.95 Non-negative Ma-trix Fac-to-ri-za-tion NMF (Fac-to-ri-za-ci�n no ne-
  []
 
-) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
- [17]
+) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex)
+LaTeX Info: Redefining \. on input line 252.
+LaTeX Info: Redefining \% on input line 252.
+ [17] (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
 File: commons/Fig4.png Graphic file (type png)
 <use commons/Fig4.png>
 Package pdftex.def Info: commons/Fig4.png  used on input line 14.
 (pdftex.def)             Requested size: 258.29887pt x 154.64984pt.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [18]) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex) (./chapters/marco_teorico/aprendizaje_automatico/intro.tex) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-<commons/Fig5.jpg, id=828, 401.5pt x 172.645pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ [18]) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+ [19]) (./chapters/marco_teorico/aprendizaje_automatico/intro.tex) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ [20]) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
+<commons/Fig5.jpg, id=848, 401.5pt x 172.645pt>
 File: commons/Fig5.jpg Graphic file (type jpg)
 <use commons/Fig5.jpg>
 Package pdftex.def Info: commons/Fig5.jpg  used on input line 4.
 (pdftex.def)             Requested size: 258.29887pt x 111.0746pt.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- [19]) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex)
+) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex)
 LaTeX Info: Redefining \. on input line 268.
 LaTeX Info: Redefining \% on input line 268.
- [20 <./commons/Fig5.jpg>] (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
-<commons/Fig6.png, id=840, 1284.8pt x 898.35625pt>
+ [21 <./commons/Fig5.jpg>] (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex) (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [22]
+<commons/Fig6.png, id=858, 1284.8pt x 898.35625pt>
 File: commons/Fig6.png Graphic file (type png)
 <use commons/Fig6.png>
-Package pdftex.def Info: commons/Fig6.png  used on input line 10.
+Package pdftex.def Info: commons/Fig6.png  used on input line 11.
 (pdftex.def)             Requested size: 258.29887pt x 180.60019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]\T1/lmr/m/n/10.95 Figura 3.7: |Una so-la ca-pa de red neu-ral ar-ti-fi-cial feed-
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\T1/lmr/m/n/10.95 Figura 3.8: |Una so-la ca-pa de red neu-ral ar-ti-fi-cial feed-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
 \T1/lmr/m/n/10.95 for-ward. Por Mcs-trother - Tra-ba-jo pro-pio, CC BY 3.0,
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 271.
-LaTeX Info: Redefining \% on input line 271.
- [21] (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-<commons/Fig7.jpg, id=846, 406.51875pt x 418.56375pt>
+) (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
+<commons/Fig7.jpg, id=860, 406.51875pt x 418.56375pt>
 File: commons/Fig7.jpg Graphic file (type jpg)
 <use commons/Fig7.jpg>
 Package pdftex.def Info: commons/Fig7.jpg  used on input line 5.
@@ -1542,75 +1551,75 @@ Package pdftex.def Info: commons/Fig7.jpg  used on input line 5.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 273.
-LaTeX Info: Redefining \% on input line 273.
- [22 <./commons/Fig6.png>] (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion.tex
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
+ [23 <./commons/Fig6.png>] (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion.tex
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
- [23 <./commons/Fig7.jpg>]
-<commons/Fig8.png, id=858, 1027.84pt x 770.88pt>
+ [24 <./commons/Fig7.jpg>]
+<commons/Fig8.png, id=872, 1027.84pt x 770.88pt>
 File: commons/Fig8.png Graphic file (type png)
 <use commons/Fig8.png>
 Package pdftex.def Info: commons/Fig8.png  used on input line 7.
 (pdftex.def)             Requested size: 258.29887pt x 193.71935pt.
 )
-LaTeX Info: Redefining \. on input line 283.
-LaTeX Info: Redefining \% on input line 283.
- [24 <./commons/Fig8.png (PNG copy)>]
-Cap\'{\i }tulo 4.
-(./chapters/Estado del arte/intro.tex [25
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
+ [25 <./commons/Fig8.png (PNG copy)>] [26
 
-]) (./chapters/Estado del arte/separacion_fuentes.tex
+]
+Cap\'{\i }tulo 4.
+(./chapters/Estado del arte/intro.tex [27]) (./chapters/Estado del arte/separacion_fuentes.tex
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- [26]) (./chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex) (./chapters/Estado del arte/metodos_clasicos.tex
+ [28]) (./chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex) (./chapters/Estado del arte/metodos_clasicos.tex
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [27]
+ [29]
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
- [28]) (./chapters/Estado del arte/aprendizaje_profundo.tex
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- [29]) (./chapters/Estado del arte/herramientas_actuales.tex)
-LaTeX Info: Redefining \. on input line 295.
-LaTeX Info: Redefining \% on input line 295.
- [30] (./chapters/Estado del arte/posicionamiento.tex)
-LaTeX Info: Redefining \. on input line 298.
-LaTeX Info: Redefining \% on input line 298.
- [31] [32
+ [30]) (./chapters/Estado del arte/aprendizaje_profundo.tex
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+ [31]) (./chapters/Estado del arte/herramientas_actuales.tex
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [32]) (./chapters/Estado del arte/posicionamiento.tex)
+LaTeX Info: Redefining \. on input line 300.
+LaTeX Info: Redefining \% on input line 300.
+ [33] [34
 
 ]
 Cap\'{\i }tulo 5.
-(./chapters/Parte1_sepfuents/intro.tex) (./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex) (./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
-<commons/Fig9.png, id=917, 1173.38374pt x 595.22375pt>
+(./chapters/Parte1_sepfuents/intro.tex) (./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex [35]) (./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
+<commons/Fig9.png, id=942, 1173.38374pt x 595.22375pt>
 File: commons/Fig9.png Graphic file (type png)
 <use commons/Fig9.png>
 Package pdftex.def Info: commons/Fig9.png  used on input line 4.
 (pdftex.def)             Requested size: 258.29887pt x 131.02228pt.
- [33]) (./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ [36 <./commons/Fig9.png>]) (./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+ [37]) (./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
- [34 <./commons/Fig9.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [35]) (./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
- [36]) (./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
-Overfull \hbox (16.8624pt too wide) in paragraph at lines 1--2
-[]\T1/lmr/m/n/10.95 En es-ta sec-ci�n se co-men-ta-r�n las trans-for-ma-cio-nes apli-ca-das al au-dio/tensores
- []
-
-) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
- [37]) (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
  [38]
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+ [39]) (./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+ [40]
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [41]) (./chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex) (./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+ [42]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 38.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1622,36 +1631,72 @@ Overfull \hbox (16.19382pt too wide) in paragraph at lines 38--39
 ) (./chapters/Parte1_sepfuents/entrenamiento_modelo/intro.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- [39]) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
+ [43]) (./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
- [40]
-<commons/Fig10.png, id=959, 962.6364pt x 500.8311pt>
+ [44]
 File: commons/Fig10.png Graphic file (type png)
 <use commons/Fig10.png>
 Package pdftex.def Info: commons/Fig10.png  used on input line 16.
 (pdftex.def)             Requested size: 258.29887pt x 134.38557pt.
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [41 <./commons/Fig10.png>]) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
- [42])
-LaTeX Info: Redefining \. on input line 329.
-LaTeX Info: Redefining \% on input line 329.
- [43] [44
+ [45]) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex) (./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [46])
+LaTeX Info: Redefining \. on input line 331.
+LaTeX Info: Redefining \% on input line 331.
+ [47] [48
 
 ]
 Cap\'{\i }tulo 6.
-(./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex) [45] [46
+(./chapters/parte2_interfaz/intro.tex) (./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex [49]
+<commons/Sidebar_GUI_1.png, id=1020, 214.401pt x 519.1395pt>
+File: commons/Sidebar_GUI_1.png Graphic file (type png)
+<use commons/Sidebar_GUI_1.png>
+Package pdftex.def Info: commons/Sidebar_GUI_1.png  used on input line 10.
+(pdftex.def)             Requested size: 177.11842pt x 428.88155pt.
+<commons/Sidebar_GUI_2.png, id=1021, 214.401pt x 461.92575pt>
+File: commons/Sidebar_GUI_2.png Graphic file (type png)
+<use commons/Sidebar_GUI_2.png>
+Package pdftex.def Info: commons/Sidebar_GUI_2.png  used on input line 16.
+(pdftex.def)             Requested size: 177.11842pt x 381.61502pt.
+<commons/ZonaCarga_GUI_2.png, id=1022, 650.43pt x 449.88075pt>
+File: commons/ZonaCarga_GUI_2.png Graphic file (type png)
+<use commons/ZonaCarga_GUI_2.png>
+Package pdftex.def Info: commons/ZonaCarga_GUI_2.png  used on input line 28.
+(pdftex.def)             Requested size: 258.29887pt x 178.65855pt.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+ [50 <./commons/Sidebar_GUI_1.png> <./commons/Sidebar_GUI_2.png>]
+<commons/Consola_GUI_2.png, id=1029, 176.45924pt x 380.622pt>
+File: commons/Consola_GUI_2.png Graphic file (type png)
+<use commons/Consola_GUI_2.png>
+Package pdftex.def Info: commons/Consola_GUI_2.png  used on input line 38.
+(pdftex.def)             Requested size: 258.29887pt x 557.2135pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [51 <./commons/ZonaCarga_GUI_2.png>]) (./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 351.
+LaTeX Info: Redefining \% on input line 351.
+ [52 <./commons/Consola_GUI_2.png>]
+LaTeX Info: Redefining \. on input line 351.
+LaTeX Info: Redefining \% on input line 351.
+ [53] [54
 
 ]
 Cap\'{\i }tulo 7.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 349.
+(hyperref)                than one, level fixed on input line 352.
 
-(./chapters/integracion_sistema/backend.tex) (./chapters/integracion_sistema/comunicacion_modulos.tex) (./chapters/integracion_sistema/incidencias.tex) [47] [48
+(./chapters/integracion_sistema/backend.tex) (./chapters/integracion_sistema/comunicacion_modulos.tex) (./chapters/integracion_sistema/incidencias.tex) [55] [56
 
 ]
 Cap\'{\i }tulo 8.
@@ -1660,54 +1705,54 @@ Overfull \hbox (6.13077pt too wide) in paragraph at lines 21--22
 \T1/lmr/bx/sc/10.95 mez-cla\T1/lmr/m/n/10.95 ,\T1/lmr/bx/sc/10.95 estad�sticas de m�s-ca-ra\T1/lmr/m/n/10.95 ,\T1/lmr/bx/sc/10.95 matriz de co-rre-la-ci�n estimaci�n-
  []
 
-) (./chapters/evaluacion_sistema/evaluacion_pipeline.tex [49]
+) (./chapters/evaluacion_sistema/evaluacion_pipeline.tex [57]
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
- [50]) (./chapters/evaluacion_sistema/results.tex
+ [58]) (./chapters/evaluacion_sistema/results.tex
 Underfull \vbox (badness 6675) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
- [51]) (./chapters/evaluacion_sistema/discusion_analisis.tex) (./chapters/evaluacion_sistema/limitaciones_margen_mejora.tex)
+ [59]) (./chapters/evaluacion_sistema/discusion_analisis.tex) (./chapters/evaluacion_sistema/limitaciones_margen_mejora.tex)
 Underfull \vbox (badness 5924) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 368.
-LaTeX Info: Redefining \% on input line 368.
- [52]
-LaTeX Info: Redefining \. on input line 368.
-LaTeX Info: Redefining \% on input line 368.
- [53] [54
+LaTeX Info: Redefining \. on input line 371.
+LaTeX Info: Redefining \% on input line 371.
+ [60]
+LaTeX Info: Redefining \. on input line 371.
+LaTeX Info: Redefining \% on input line 371.
+ [61] [62
 
 ]
 Cap\'{\i }tulo 9.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 370.
+(hyperref)                than one, level fixed on input line 373.
 
-(./chapters/conclusiones_y_futuro/sintesis.tex) (./chapters/conclusiones_y_futuro/linea_mejora.tex) (./chapters/conclusiones_y_futuro/trabajo_futuro.tex) [55] [56
+(./chapters/conclusiones_y_futuro/sintesis.tex) (./chapters/conclusiones_y_futuro/linea_mejora.tex) (./chapters/conclusiones_y_futuro/trabajo_futuro.tex) [63] [64
 
 ]
 Cap\'{\i }tulo 10.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 377.
+(hyperref)                than one, level fixed on input line 380.
 
-(./chapters/anexos/codigo_relevante.tex) (./chapters/anexos/registro_incidencias.tex) (./chapters/anexos/configuraciones.tex) (./chapters/anexos/instrucciones.tex) (./chapters/anexos/resultados_adicionales.tex) [57] [58
+(./chapters/anexos/codigo_relevante.tex) (./chapters/anexos/configuraciones.tex) (./chapters/anexos/instrucciones.tex) [65] [66
 
 ]
-Overfull \hbox (7.11592pt too wide) in paragraph at lines 395--395
+Overfull \hbox (7.11592pt too wide) in paragraph at lines 398--398
 []\T1/lmr/m/n/10.95 Source Se-pa-ra-tion Tu-to-rial. \T1/lmr/m/it/10.95 Pha-se in sour-ce se-pa-ra-tion\T1/lmr/m/n/10.95 . []$\T1/lmtt/m/n/10.95 https : / / source -[]
  []
 
-[59
+[67
 
 ]
-Overfull \hbox (3.85002pt too wide) in paragraph at lines 395--395
+Overfull \hbox (3.85002pt too wide) in paragraph at lines 398--398
 \T1/lmr/m/n/10.95 with ex-tra un-la-be-led da-ta re-mi-xed''. En: \T1/lmr/m/it/10.95 ar-Xiv pre-print ar-Xiv:1909.01174
  []
 
 
-Overfull \hbox (8.18216pt too wide) in paragraph at lines 395--395
+Overfull \hbox (8.18216pt too wide) in paragraph at lines 398--398
 []\T1/lmr/m/n/10.95 Jpineau. ``Ma-chi-ne Lear-ning Pa-per Re-pro-du-ci-bi-lity Chec-klist''. En: (2020). 
  []
 
@@ -1715,11 +1760,11 @@ Overfull \hbox (8.18216pt too wide) in paragraph at lines 395--395
 Class memoir Warning: The material used in the headers is too large
 (14.1595pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 396.
+(in both cases you will find help in the memoir manual). on input line 399.
 
-LaTeX Info: Redefining \. on input line 396.
-LaTeX Info: Redefining \% on input line 396.
-[60]
+LaTeX Info: Redefining \. on input line 399.
+LaTeX Info: Redefining \% on input line 399.
+[68]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1746,23 +1791,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D20DEF67A7EF6FED5E4993366890598;21083.
+(rerunfilecheck)             Checksum: 6CAEE93F202E2AD4D1EB1647A28D8651;21100.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38253 strings out of 467349
- 727504 string characters out of 5419862
- 1536399 words of memory out of 5000000
- 66252 multiletter control sequences out of 15000+600000
- 730164 words of font info for 108 fonts, out of 8000000 for 9000
+ 38294 strings out of 467349
+ 728136 string characters out of 5419862
+ 1536642 words of memory out of 5000000
+ 66280 multiletter control sequences out of 15000+600000
+ 738696 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,94p,1197b,3458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (74 pages, 3025881 bytes).
+Output written on main.pdf (82 pages, 3160659 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
- 1022 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1280 PDF objects out of 1440 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
+ 1042 words of extra memory for PDF output out of 10000 (max. 10000000)
 

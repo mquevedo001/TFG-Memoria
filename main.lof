@@ -5,17 +5,21 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Generación de una onda sonora longitudinal mediante el movimiento de un pistón al final de un tubo \blx@tocontentsinit {0}\cite {sbe_sound}.}}{12}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Diferencia visual en una habitación entre un sonido mono y uno estéreo.}}{13}{figure.caption.23}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}}{15}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{16}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{18}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparativa de clasificación entre aprendizaje supervisado y no supervisado. Imagen de Juan Domingo Farnos}}{20}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{22}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{23}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de graficación de la métrica AUC. Esta métrica parte de la matriz de confusión generando un gráfico de puntos donde se evalúa la capacidad del modelo para clasificar correctamente en función de los valores por debajo de la diagonal del gráfico.}}{24}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Hann function}}{15}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{16}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{19}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Comparativa de clasificación entre aprendizaje supervisado y no supervisado. Imagen de Juan Domingo Farnos}}{21}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{23}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{24}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Ejemplo de graficación de la métrica AUC. Esta métrica parte de la matriz de confusión generando un gráfico de puntos donde se evalúa la capacidad del modelo para clasificar correctamente en función de los valores por debajo de la diagonal del gráfico.}}{25}{figure.caption.53}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{34}{figure.caption.58}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{41}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{36}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{45}{figure.caption.69}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Barra lateral de configuración de la interfaz.}}{50}{figure.caption.74}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Zona de carga de la GUI}}{51}{figure.caption.75}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Zona de carga de la GUI}}{52}{figure.caption.76}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
