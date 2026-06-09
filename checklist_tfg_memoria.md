@@ -2,11 +2,11 @@
 
 ## Resumen / Introducción
 
-- [ ] **Matizar comparación con el estado del arte**
+- [x] **Matizar comparación con el estado del arte**
   - No afirmar comparación experimental directa con modelos SOTA si no se ejecutan Demucs, Spleeter u Open-Unmix en el mismo protocolo experimental.
   - Usar una formulación del tipo: *se evalúan los modelos propios y se contextualiza el trabajo frente a tecnologías actuales de separación de fuentes musicales*.
 
-- [ ] **Distinguir identificación y separación**
+- [x] **Distinguir identificación y separación**
   - El sistema separa stems y los etiqueta por orden de salida.
   - No lo presentes como un clasificador general de instrumentos si no realiza clasificación explícita.
   - Puedes mantener “identificación” como objetivo amplio, pero en evaluación conviene hablar de separación de fuentes.
@@ -17,22 +17,22 @@
 
 ### 1.1 Objetivos
 
-- [ ] **Verificar que los objetivos concretos quedan claramente identificados**
+- [x] **Verificar que los objetivos concretos quedan claramente identificados**
   - Objetivo principal: separar fuentes musicales.
   - Objetivos técnicos: implementar pipeline, entrenar modelos, comparar pérdidas, evaluar resultados.
   - Objetivo de interfaz: facilitar el uso y visualización del sistema.
 
-- [ ] **Comprobar que la parte de interfaz está en Objetivos, no en Alcance**
+- [x] **Comprobar que la parte de interfaz está en Objetivos, no en Alcance**
   - Tu apunte indica que ya has movido esto.
   - Revisa que Objetivos mencione carga de audio, selección de modelo, separación, visualización, descarga y uso didáctico.
 
 ### 1.2 Alcance
 
-- [ ] **Revisar definición de stems**
+- [x] **Revisar definición de stems**
   - Debe quedar claro que un *stem* es una pista/fuente separada de una mezcla musical.
   - Mantener coherencia entre “fuente”, “stem”, “pista separada” y “elemento musical”.
 
-- [ ] **Revisar lista de pérdidas mencionadas**
+- [x] **Revisar lista de pérdidas mencionadas**
   - No incluyas SI-SDR como función de pérdida si finalmente solo se usa como métrica.
   - Distinguir claramente:
     - pérdidas de entrenamiento;
@@ -41,12 +41,12 @@
 
 ### 1.3 Cronograma / 1.4 Desviaciones
 
-- [ ] **Mantener narrativa V1/V2/V3 como evolución metodológica**
+- [x] **Mantener narrativa V1/V2/V3 como evolución metodológica**
   - V1: tratamiento de canales no suficientemente controlado.
   - V2: corrección a mono, pero evaluación/despliegue todavía no estabilizados.
   - V3: protocolo final validado con test fijo, baseline, inferencia común y trazabilidad.
 
-- [ ] **Explicar que las desviaciones no son solo retrasos**
+- [x] **Explicar que las desviaciones no son solo retrasos**
   - Deben entenderse como parte del proceso de validación experimental.
   - Destacar que permitieron detectar errores que afectaban a la validez de los resultados.
 
@@ -54,7 +54,7 @@
 
 ## 2. Herramientas utilizadas
 
-- [ ] **Revisar que cada herramienta tenga su papel técnico correcto**
+- [x] **Revisar que cada herramienta tenga su papel técnico correcto**
   - PyTorch: modelo, tensores, entrenamiento, backpropagation.
   - nussl: audio, STFT/iSTFT, separación, métricas.
   - Ignite: bucles de entrenamiento, validación, checkpoints, early stopping.
@@ -62,7 +62,7 @@
   - torchaudio/librosa: carga, transformación o soporte de audio.
   - Matplotlib: visualización.
 
-- [ ] **Evitar atribuir funciones que realmente no se hayan usado**
+- [x] **Evitar atribuir funciones que realmente no se hayan usado**
   - Si una librería aparece, debe estar justificado su uso real en el proyecto.
 
 ---
@@ -71,11 +71,11 @@
 
 ### Consideración general
 
-- [ ] **Mantener secciones pequeñas, pero conectar cada una con el proyecto**
+- [x] **Mantener secciones pequeñas, pero conectar cada una con el proyecto**
   - Tu decisión de mantener conceptos breves es válida.
   - Añade al final de cada concepto una frase que explique por qué importa para separación musical o para tu pipeline.
 
-- [ ] **Comprobar referencias cruzadas a figuras**
+- [] **Comprobar referencias cruzadas a figuras**
   - No usar números escritos a mano tipo “Fig. 4.2”.
   - Usar `\label{...}` y `\ref{...}`.
   - Tu apunte dice que ya has referenciado las figuras; revisa que no quede ninguna referencia manual.
@@ -92,7 +92,7 @@
 
 ### Magnitud y fase
 
-- [ ] **Corregir matiz magnitud vs energía**
+- [x] **Corregir matiz magnitud vs energía**
   - Magnitud = módulo del coeficiente complejo de la STFT.
   - Energía/potencia suele asociarse al cuadrado de la magnitud.
 
@@ -110,11 +110,11 @@
 
 ### STFT
 
-- [ ] **Confirmar acrónimo y traducción**
+- [x] **Confirmar acrónimo y traducción**
   - STFT = *Short-Time Fourier Transform*.
   - En castellano: Transformada de Fourier de tiempo corto.
 
-- [ ] **Explicar mejor el funcionamiento de la STFT**
+- [x] **Explicar mejor el funcionamiento de la STFT**
   - La STFT aplica la DFT sobre ventanas temporales sucesivas de la señal.
   - La ventana no es necesariamente triangular.
   - En tu proyecto se usa `sqrt_hann`.
