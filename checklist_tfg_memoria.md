@@ -562,7 +562,7 @@
     - supera baseline;
     - estado si no evaluado.
 
-- [ ] **Recalcular desviaciones típicas**
+- [x] **Recalcular desviaciones típicas**
   - Una desviación típica no debe ser negativa.
   - Revisar filas donde parezca copiado el SI-SDR medio.
 
@@ -586,7 +586,7 @@
 
 ### Limitaciones y margen de mejora
 
-- [ ] **Redactar limitaciones**
+- [x] **Redactar limitaciones**
   - Introducción sugerida: explicar límites técnicos que condicionan resultados sin invalidar el trabajo.
   - Incluir:
     - fase de mezcla;

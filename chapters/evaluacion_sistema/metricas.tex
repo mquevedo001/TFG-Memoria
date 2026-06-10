@@ -1,25 +1,34 @@
 En esta sección se explicará qué se ha medido, por qué , y las limitaciones encontradas.
 
 \begin{itemize}
-    \item \textbf{SI-SDR}
+    \item \textbf{SI-SDR:}
 Como métrica principal se ha utilizado \textbf{SI-SDR} ya que es una métrica habitual en separación de fuentes y permite comparar la señal estimada
 con la señal de referencia. Mide cuánta parte de la estimación se alinea con la fuente objetivo, frente a la parte que puede considerarse distorsión.
 
-A la hora de la interpretación de los resultados, para SI-SDR, se valora a mejor un valor mas alto de esta métrica mientras que un valor mas bajo implica mejor separación.
+A la hora de la interpretación de los resultados, para SI-SDR, se valora a mejor un valor mas alto de esta métrica mientras que un valor mas bajo implica peor separación.
 
 \[
 \mathrm{SI\text{-}SDR} = 10 \log_{10}\frac{\|s_{\mathrm{target}}\|^2}{\|e_{\mathrm{noise}}\|^2}
 \]
 
-    \item \textbf{Baseline de mezcla}
-
+    \item \textbf{Baseline de mezcla:}
 Un modelo no se considera útil si no supera el baseline de mezcla en el conjunto de test. Por ello, se ha añadido un baseline trivial, donde se utiliza la mezcla original como estimación de cada fuente para así detectar modelos
-que generan audio, pero no separan de verdad.
+que generan audio, pero no separan de verdad. Se utiliza como criterio mínimo para calificar una fuente como separación y si no se supera quiere decir que el modelo genera audio pero no información útil.
 
-    \item \textbf{Métricas complementarias}
+\item \textbf{Métricas de agregación:}
+
+Se han utilizado: media, da una medida de rendimiento promedio para un conjunto de valores de , por ejemplo SI-SDR. Mediana: da un valor de robustez frente a \textit{outliers}. Desviación típica: determina la distancia a la que están la mayoría de los valores de la media y se ha utilizado para valorar la estabilidad entre pistas.
+
+\item \textbf{Métricas complementarias:}
 
 Se han utilizado también varias métricas complementarias a modo de depuración y de diagnóstico: \textbf{correlación entre fuentes de salida y mezcla},\textbf{estadísticas de máscara},\textbf{matriz de correlación estimación-referencia}
+
+    
 \end{itemize}
+
+
+
+
 
 
 

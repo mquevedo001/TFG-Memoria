@@ -90,30 +90,35 @@
 \contentsline {subsection}{Interacción y aprendizaje}{49}{section*.72}%
 \contentsline {section}{\numberline {6.2}Diseño de experiencia de usuario}{50}{section.6.2}%
 \contentsline {subsection}{Organización y visualización}{50}{section*.73}%
-\contentsline {subsection}{Explicaciones y guías}{53}{section*.77}%
-\contentsline {section}{\numberline {6.3}Casos de uso}{53}{section.6.3}%
-\contentsline {subsection}{Entrenamiento parametrizable}{53}{section*.78}%
-\contentsline {subsection}{Parámetros principales ajustables}{53}{section*.79}%
-\contentsline {subsection}{Visualización de gráficos y espectrogramas}{53}{section*.80}%
-\contentsline {subsection}{Feedback}{53}{section*.81}%
-\contentsline {chapter}{\chapternumberline {7}Integración del sistema}{55}{chapter.7}%
-\contentsline {subsection}{Backend}{55}{section*.82}%
-\contentsline {subsection}{Comunicación entre módulos}{55}{section*.83}%
-\contentsline {subsection}{Incidencias de integración y depuración}{55}{section*.84}%
-\contentsline {chapter}{\chapternumberline {8}Evaluación del sistema}{57}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Métricas utilizadas}{57}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Validación del pipeline de evaluación}{58}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Resultados obtenidos}{59}{section.8.3}%
-\contentsline {subsection}{Discusión y análisis}{61}{section*.87}%
-\contentsline {subsection}{Limitaciones y margen de mejora}{61}{section*.88}%
-\contentsline {chapter}{\chapternumberline {9}Conclusiones y trabajo futuro}{63}{chapter.9}%
-\contentsline {subsection}{Síntesis del trabajo realizado}{63}{section*.89}%
-\contentsline {subsection}{Lineas de mejora}{63}{section*.90}%
-\contentsline {subsection}{Trabajo futuro}{63}{section*.91}%
-\contentsline {chapter}{\chapternumberline {10}Anexos}{65}{chapter.10}%
-\contentsline {subsection}{Código relevante}{65}{section*.92}%
-\contentsline {subsection}{Registro de incidencias técnicas}{65}{section*.93}%
-\contentsline {subsection}{Configuraciones}{65}{section*.94}%
-\contentsline {subsection}{Instrucciones posibles}{65}{section*.95}%
-\contentsline {subsection}{Resultados adicionales}{65}{section*.96}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{67}{section*.100}%
+\contentsline {paragraph}{Barra lateral de configuración.}{50}{section*.74}%
+\contentsline {paragraph}{Zona principal de carga.}{50}{section*.76}%
+\contentsline {paragraph}{Consola y logs.}{51}{section*.78}%
+\contentsline {paragraph}{Reproductores.}{51}{section*.80}%
+\contentsline {paragraph}{Gráficos.}{52}{section*.82}%
+\contentsline {paragraph}{Botones.}{53}{section*.84}%
+\contentsline {subsection}{Explicaciones y guías}{54}{section*.86}%
+\contentsline {section}{\numberline {6.3}Casos de uso}{56}{section.6.3}%
+\contentsline {subsection}{Entrenamiento parametrizable}{56}{section*.93}%
+\contentsline {subsection}{Parámetros principales ajustables}{56}{section*.94}%
+\contentsline {subsection}{Visualización de gráficos y espectrogramas}{58}{section*.96}%
+\contentsline {subsection}{Feedback}{58}{section*.97}%
+\contentsline {chapter}{\chapternumberline {7}Integración del sistema}{59}{chapter.7}%
+\contentsline {subsection}{Backend}{59}{section*.98}%
+\contentsline {subsection}{Comunicación entre módulos}{61}{section*.100}%
+\contentsline {chapter}{\chapternumberline {8}Evaluación del sistema}{63}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Métricas utilizadas}{63}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Validación del pipeline de evaluación}{64}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Resultados obtenidos}{65}{section.8.3}%
+\contentsline {subsection}{Discusión y análisis}{67}{section*.103}%
+\contentsline {subsection}{Limitaciones y margen de mejora}{67}{section*.104}%
+\contentsline {chapter}{\chapternumberline {9}Conclusiones y trabajo futuro}{71}{chapter.9}%
+\contentsline {subsection}{Síntesis del trabajo realizado}{71}{section*.105}%
+\contentsline {subsection}{Lineas de mejora}{71}{section*.106}%
+\contentsline {subsection}{Trabajo futuro}{71}{section*.107}%
+\contentsline {chapter}{\chapternumberline {10}Anexos}{73}{chapter.10}%
+\contentsline {subsection}{Código relevante}{73}{section*.108}%
+\contentsline {subsection}{Registro de incidencias técnicas}{73}{section*.109}%
+\contentsline {subsection}{Configuraciones}{73}{section*.110}%
+\contentsline {subsection}{Instrucciones posibles}{73}{section*.111}%
+\contentsline {subsection}{Resultados adicionales}{73}{section*.112}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{75}{section*.116}%

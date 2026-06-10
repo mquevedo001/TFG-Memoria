@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  10 JUN 2026 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.22)  10 JUN 2026 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -927,57 +927,65 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen348
 )
 ==> First Aid for varwidth.sty applied!
+) (c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count404
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count405
 ) (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count404
+\lrq@indent=\count406
  (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count405
-\c@listtotal=\count406
-\c@listcount=\count407
-\c@liststart=\count408
-\c@liststop=\count409
-\c@citecount=\count410
-\c@citetotal=\count411
-\c@multicitecount=\count412
-\c@multicitetotal=\count413
-\c@instcount=\count414
-\c@maxnames=\count415
-\c@minnames=\count416
-\c@maxitems=\count417
-\c@minitems=\count418
-\c@citecounter=\count419
-\c@maxcitecounter=\count420
-\c@savedcitecounter=\count421
-\c@uniquelist=\count422
-\c@uniquename=\count423
-\c@refsection=\count424
-\c@refsegment=\count425
-\c@maxextratitle=\count426
-\c@maxextratitleyear=\count427
-\c@maxextraname=\count428
-\c@maxextradate=\count429
-\c@maxextraalpha=\count430
-\c@abbrvpenalty=\count431
-\c@highnamepenalty=\count432
-\c@lownamepenalty=\count433
-\c@maxparens=\count434
-\c@parenlevel=\count435
-\blx@tempcnta=\count436
-\blx@tempcntb=\count437
-\blx@tempcntc=\count438
-\c@blx@maxsection=\count439
-\blx@maxsegment@0=\count440
-\blx@notetype=\count441
-\blx@parenlevel@text=\count442
-\blx@parenlevel@foot=\count443
-\blx@sectionciteorder@0=\count444
-\blx@sectionciteorderinternal@0=\count445
-\blx@entrysetcounter=\count446
-\blx@biblioinstance=\count447
+\c@tabx@nest=\count407
+\c@listtotal=\count408
+\c@listcount=\count409
+\c@liststart=\count410
+\c@liststop=\count411
+\c@citecount=\count412
+\c@citetotal=\count413
+\c@multicitecount=\count414
+\c@multicitetotal=\count415
+\c@instcount=\count416
+\c@maxnames=\count417
+\c@minnames=\count418
+\c@maxitems=\count419
+\c@minitems=\count420
+\c@citecounter=\count421
+\c@maxcitecounter=\count422
+\c@savedcitecounter=\count423
+\c@uniquelist=\count424
+\c@uniquename=\count425
+\c@refsection=\count426
+\c@refsegment=\count427
+\c@maxextratitle=\count428
+\c@maxextratitleyear=\count429
+\c@maxextraname=\count430
+\c@maxextradate=\count431
+\c@maxextraalpha=\count432
+\c@abbrvpenalty=\count433
+\c@highnamepenalty=\count434
+\c@lownamepenalty=\count435
+\c@maxparens=\count436
+\c@parenlevel=\count437
+\blx@tempcnta=\count438
+\blx@tempcntb=\count439
+\blx@tempcntc=\count440
+\c@blx@maxsection=\count441
+\blx@maxsegment@0=\count442
+\blx@notetype=\count443
+\blx@parenlevel@text=\count444
+\blx@parenlevel@foot=\count445
+\blx@sectionciteorder@0=\count446
+\blx@sectionciteorderinternal@0=\count447
+\blx@entrysetcounter=\count448
+\blx@biblioinstance=\count449
 \labelnumberwidth=\skip257
 \labelalphawidth=\skip258
 \biblabelsep=\skip259
@@ -988,9 +996,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language92
-\c@mincomprange=\count448
-\c@maxcomprange=\count449
-\c@mincompwidth=\count450
+\c@mincomprange=\count450
+\c@maxcomprange=\count451
+\c@mincompwidth=\count452
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1000,74 +1008,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count451
-\c@savedafterword=\count452
-\c@annotator=\count453
-\c@savedannotator=\count454
-\c@author=\count455
-\c@savedauthor=\count456
-\c@bookauthor=\count457
-\c@savedbookauthor=\count458
-\c@commentator=\count459
-\c@savedcommentator=\count460
-\c@editor=\count461
-\c@savededitor=\count462
-\c@editora=\count463
-\c@savededitora=\count464
-\c@editorb=\count465
-\c@savededitorb=\count466
-\c@editorc=\count467
-\c@savededitorc=\count468
-\c@foreword=\count469
-\c@savedforeword=\count470
-\c@holder=\count471
-\c@savedholder=\count472
-\c@introduction=\count473
-\c@savedintroduction=\count474
-\c@namea=\count475
-\c@savednamea=\count476
-\c@nameb=\count477
-\c@savednameb=\count478
-\c@namec=\count479
-\c@savednamec=\count480
-\c@translator=\count481
-\c@savedtranslator=\count482
-\c@shortauthor=\count483
-\c@savedshortauthor=\count484
-\c@shorteditor=\count485
-\c@savedshorteditor=\count486
-\c@labelname=\count487
-\c@savedlabelname=\count488
-\c@institution=\count489
-\c@savedinstitution=\count490
-\c@lista=\count491
-\c@savedlista=\count492
-\c@listb=\count493
-\c@savedlistb=\count494
-\c@listc=\count495
-\c@savedlistc=\count496
-\c@listd=\count497
-\c@savedlistd=\count498
-\c@liste=\count499
-\c@savedliste=\count500
-\c@listf=\count501
-\c@savedlistf=\count502
-\c@location=\count503
-\c@savedlocation=\count504
-\c@organization=\count505
-\c@savedorganization=\count506
-\c@origlocation=\count507
-\c@savedoriglocation=\count508
-\c@origpublisher=\count509
-\c@savedorigpublisher=\count510
-\c@publisher=\count511
-\c@savedpublisher=\count512
-\c@language=\count513
-\c@savedlanguage=\count514
-\c@origlanguage=\count515
-\c@savedoriglanguage=\count516
-\c@pageref=\count517
-\c@savedpageref=\count518
+\c@afterword=\count453
+\c@savedafterword=\count454
+\c@annotator=\count455
+\c@savedannotator=\count456
+\c@author=\count457
+\c@savedauthor=\count458
+\c@bookauthor=\count459
+\c@savedbookauthor=\count460
+\c@commentator=\count461
+\c@savedcommentator=\count462
+\c@editor=\count463
+\c@savededitor=\count464
+\c@editora=\count465
+\c@savededitora=\count466
+\c@editorb=\count467
+\c@savededitorb=\count468
+\c@editorc=\count469
+\c@savededitorc=\count470
+\c@foreword=\count471
+\c@savedforeword=\count472
+\c@holder=\count473
+\c@savedholder=\count474
+\c@introduction=\count475
+\c@savedintroduction=\count476
+\c@namea=\count477
+\c@savednamea=\count478
+\c@nameb=\count479
+\c@savednameb=\count480
+\c@namec=\count481
+\c@savednamec=\count482
+\c@translator=\count483
+\c@savedtranslator=\count484
+\c@shortauthor=\count485
+\c@savedshortauthor=\count486
+\c@shorteditor=\count487
+\c@savedshorteditor=\count488
+\c@labelname=\count489
+\c@savedlabelname=\count490
+\c@institution=\count491
+\c@savedinstitution=\count492
+\c@lista=\count493
+\c@savedlista=\count494
+\c@listb=\count495
+\c@savedlistb=\count496
+\c@listc=\count497
+\c@savedlistc=\count498
+\c@listd=\count499
+\c@savedlistd=\count500
+\c@liste=\count501
+\c@savedliste=\count502
+\c@listf=\count503
+\c@savedlistf=\count504
+\c@location=\count505
+\c@savedlocation=\count506
+\c@organization=\count507
+\c@savedorganization=\count508
+\c@origlocation=\count509
+\c@savedoriglocation=\count510
+\c@origpublisher=\count511
+\c@savedorigpublisher=\count512
+\c@publisher=\count513
+\c@savedpublisher=\count514
+\c@language=\count515
+\c@savedlanguage=\count516
+\c@origlanguage=\count517
+\c@savedoriglanguage=\count518
+\c@pageref=\count519
+\c@savedpageref=\count520
 \shorthandwidth=\skip264
 \shortjournalwidth=\skip265
 \shortserieswidth=\skip266
@@ -1091,19 +1099,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count519
-\c@textcitetotal=\count520
-\c@textcitemaxnames=\count521
-\c@biburlbigbreakpenalty=\count522
-\c@biburlbreakpenalty=\count523
-\c@biburlnumpenalty=\count524
-\c@biburlucpenalty=\count525
-\c@biburllcpenalty=\count526
+\c@textcitecount=\count521
+\c@textcitetotal=\count522
+\c@textcitemaxnames=\count523
+\c@biburlbigbreakpenalty=\count524
+\c@biburlbreakpenalty=\count525
+\c@biburlnumpenalty=\count526
+\c@biburlucpenalty=\count527
+\c@biburllcpenalty=\count528
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count527
+\c@smartand=\count529
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1113,8 +1121,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count528
-\c@bbx:relatedtotal=\count529
+\c@bbx:relatedcount=\count530
+\c@bbx:relatedtotal=\count531
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1150,9 +1158,9 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count530
-\@quotereset=\count531
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+\@quotelevel=\count532
+\@quotereset=\count533
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 116.
 (c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux
@@ -1167,38 +1175,38 @@ LaTeX Warning: Label `fig:EspectrogramasSTFT' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
  (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count532
+\scratchcounter=\count534
 \scratchdimen=\dimen349
 \scratchbox=\box77
-\nofMPsegments=\count533
-\nofMParguments=\count534
+\nofMPsegments=\count535
+\nofMParguments=\count536
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count535
+\MPscratchCnt=\count537
 \MPscratchDim=\dimen350
-\MPnumerator=\count536
-\makeMPintoPDFobject=\count537
+\MPnumerator=\count538
+\makeMPintoPDFobject=\count539
 \everyMPtoPDFconversion=\toks56
 ) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1217,7 +1225,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 116.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1235,40 +1243,40 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 112.
-Package biblatex Info: Reference segment=0 on input line 112.
-<general/logo_upv_ehu.jpg, id=478, 897.3525pt x 199.2243pt>
+Package biblatex Info: Reference section=0 on input line 116.
+Package biblatex Info: Reference segment=0 on input line 116.
+<general/logo_upv_ehu.jpg, id=474, 897.3525pt x 199.2243pt>
 File: general/logo_upv_ehu.jpg Graphic file (type jpg)
 <use general/logo_upv_ehu.jpg>
-Package pdftex.def Info: general/logo_upv_ehu.jpg  used on input line 120.
+Package pdftex.def Info: general/logo_upv_ehu.jpg  used on input line 124.
 (pdftex.def)             Requested size: 276.75pt x 61.4397pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 132.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 136.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 132.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 136.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 132.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 136.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 132.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 136.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 132.
+(Font)              <17.28> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 132.
+(Font)              <12> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 132.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132.
+(Font)              <10> on input line 136.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1335,15 +1343,15 @@ either increase the head height or redesign the header
 Overfull \vbox (0.5595pt too high) has occurred while \output is active []
 
  [6]
-LaTeX Info: Redefining \sptext on input line 111.
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
+LaTeX Info: Redefining \sptext on input line 117.
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
 
 Overfull \vbox (0.5595pt too high) has occurred while \output is active []
 
  [7])
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
 
 Overfull \vbox (0.5595pt too high) has occurred while \output is active []
 
@@ -1356,15 +1364,24 @@ Overfull \hbox (100.29533pt too wide) in paragraph at lines 12--12
  \T1/lmr/m/n/10.95 Tra-ba-jo pro-pio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940[] []  
  []
 
-) [9
 
-] [10
+Underfull \vbox (badness 1189) has occurred while \output is active []
 
-] (./main.lot
+ [9
+
+])
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+
+Overfull \vbox (0.5595pt too high) has occurred while \output is active []
+
+ [10] (./main.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [11] [12
+) [11
+
+] [12
 
 ]
 Cap\'{\i }tulo 1.
@@ -1382,12 +1399,12 @@ l.13 \end{itemize}
 
 
 ]) (./chapters/planificacion/alcance.tex) (./chapters/planificacion/cronograma.tex
-<commons/cronograma_inicial.png, id=725, 7708.8pt x 1706.375pt>
+<commons/cronograma_inicial.png, id=747, 7708.8pt x 1706.375pt>
 File: commons/cronograma_inicial.png Graphic file (type png)
 <use commons/cronograma_inicial.png>
 Package pdftex.def Info: commons/cronograma_inicial.png  used on input line 6.
 (pdftex.def)             Requested size: 258.29887pt x 57.15155pt.
-<commons/cronograma_real.png, id=727, 7708.8pt x 3754.025pt>
+<commons/cronograma_real.png, id=749, 7708.8pt x 3754.025pt>
 File: commons/cronograma_real.png Graphic file (type png)
 <use commons/cronograma_real.png>
 Package pdftex.def Info: commons/cronograma_real.png  used on input line 16.
@@ -1418,8 +1435,8 @@ Overfull \hbox (6.46315pt too wide) in paragraph at lines 58--59
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 [5])
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
  [6]
 Cap\'{\i }tulo 2.
 (./chapters/herramientas_utilizadas/python.tex) (./chapters/herramientas_utilizadas/conda.tex) (./chapters/herramientas_utilizadas/librosa.tex) (./chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex)
@@ -1429,17 +1446,17 @@ Underfull \vbox (badness 4060) has occurred while \output is active []
 
 
 ] (./chapters/herramientas_utilizadas/ignite.tex) (./chapters/herramientas_utilizadas/nussl.tex) (./chapters/herramientas_utilizadas/overleaf.tex) (./chapters/herramientas_utilizadas/pytorch.tex) (./chapters/herramientas_utilizadas/streamlit_conda.tex)
-LaTeX Info: Redefining \. on input line 217.
-LaTeX Info: Redefining \% on input line 217.
+LaTeX Info: Redefining \. on input line 221.
+LaTeX Info: Redefining \% on input line 221.
  [8] (./chapters/herramientas_utilizadas/torchaudio.tex)
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
  [9] [10
 
 ]
 Cap\'{\i }tulo 3.
 (./chapters/marco_teorico/intro.tex) (./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/intro.tex
-<commons/Fig1.png, id=769, 297.11pt x 223.83624pt>
+<commons/Fig1.png, id=791, 297.11pt x 223.83624pt>
 File: commons/Fig1.png Graphic file (type png)
 <use commons/Fig1.png>
 Package pdftex.def Info: commons/Fig1.png  used on input line 11.
@@ -1454,10 +1471,10 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 28
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex)
-LaTeX Info: Redefining \. on input line 234.
-LaTeX Info: Redefining \% on input line 234.
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
  [12{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./commons/Fig1.png>] (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex) (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo.tex
-<commons/Fig2sound.jpg, id=791, 618.81187pt x 311.66437pt>
+<commons/Fig2sound.jpg, id=813, 618.81187pt x 311.66437pt>
 File: commons/Fig2sound.jpg Graphic file (type jpg)
 <use commons/Fig2sound.jpg>
 Package pdftex.def Info: commons/Fig2sound.jpg  used on input line 5.
@@ -1466,7 +1483,7 @@ Package pdftex.def Info: commons/Fig2sound.jpg  used on input line 5.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
  [13 <./commons/Fig2sound.jpg>]
-<commons/Fig3.png, id=799, 843.15pt x 569.12625pt>
+<commons/Fig3.png, id=821, 843.15pt x 569.12625pt>
 File: commons/Fig3.png Graphic file (type png)
 <use commons/Fig3.png>
 Package pdftex.def Info: commons/Fig3.png  used on input line 19.
@@ -1474,7 +1491,7 @@ Package pdftex.def Info: commons/Fig3.png  used on input line 19.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
  [14{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<commons/Fig10.png, id=808, 962.6364pt x 500.8311pt>
+<commons/Fig10.png, id=830, 962.6364pt x 500.8311pt>
 File: commons/Fig10.png Graphic file (type png)
 <use commons/Fig10.png>
 Package pdftex.def Info: commons/Fig10.png  used on input line 29.
@@ -1482,7 +1499,7 @@ Package pdftex.def Info: commons/Fig10.png  used on input line 29.
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
  [15 <./commons/Fig3.png> <./commons/Fig10.png>]) (./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas.tex
-<commons/Fig4.png, id=816, 945.5325pt x 566.115pt>
+<commons/Fig4.png, id=838, 945.5325pt x 566.115pt>
 File: commons/Fig4.png Graphic file (type png)
 <use commons/Fig4.png>
 Package pdftex.def Info: commons/Fig4.png  used on input line 7.
@@ -1496,8 +1513,8 @@ Overfull \hbox (1.34712pt too wide) in paragraph at lines 7--8
  []
 
 ) (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex)
-LaTeX Info: Redefining \. on input line 252.
-LaTeX Info: Redefining \% on input line 252.
+LaTeX Info: Redefining \. on input line 256.
+LaTeX Info: Redefining \% on input line 256.
  [17] (./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
 File: commons/Fig4.png Graphic file (type png)
 <use commons/Fig4.png>
@@ -1515,19 +1532,19 @@ LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
  [20]) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-<commons/Fig5.jpg, id=848, 401.5pt x 172.645pt>
+<commons/Fig5.jpg, id=870, 401.5pt x 172.645pt>
 File: commons/Fig5.jpg Graphic file (type jpg)
 <use commons/Fig5.jpg>
 Package pdftex.def Info: commons/Fig5.jpg  used on input line 4.
 (pdftex.def)             Requested size: 258.29887pt x 111.0746pt.
 ) (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex)
-LaTeX Info: Redefining \. on input line 268.
-LaTeX Info: Redefining \% on input line 268.
+LaTeX Info: Redefining \. on input line 272.
+LaTeX Info: Redefining \% on input line 272.
  [21 <./commons/Fig5.jpg>] (./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex) (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  [22]
-<commons/Fig6.png, id=858, 1284.8pt x 898.35625pt>
+<commons/Fig6.png, id=880, 1284.8pt x 898.35625pt>
 File: commons/Fig6.png Graphic file (type png)
 <use commons/Fig6.png>
 Package pdftex.def Info: commons/Fig6.png  used on input line 11.
@@ -1543,7 +1560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
  []
 
 ) (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-<commons/Fig7.jpg, id=860, 406.51875pt x 418.56375pt>
+<commons/Fig7.jpg, id=882, 406.51875pt x 418.56375pt>
 File: commons/Fig7.jpg Graphic file (type jpg)
 <use commons/Fig7.jpg>
 Package pdftex.def Info: commons/Fig7.jpg  used on input line 5.
@@ -1551,20 +1568,20 @@ Package pdftex.def Info: commons/Fig7.jpg  used on input line 5.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
  [23 <./commons/Fig6.png>] (./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex) (./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/metricas_evaluacion.tex
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
  [24 <./commons/Fig7.jpg>]
-<commons/Fig8.png, id=872, 1027.84pt x 770.88pt>
+<commons/Fig8.png, id=894, 1027.84pt x 770.88pt>
 File: commons/Fig8.png Graphic file (type png)
 <use commons/Fig8.png>
 Package pdftex.def Info: commons/Fig8.png  used on input line 7.
 (pdftex.def)             Requested size: 258.29887pt x 193.71935pt.
 )
-LaTeX Info: Redefining \. on input line 285.
-LaTeX Info: Redefining \% on input line 285.
+LaTeX Info: Redefining \. on input line 289.
+LaTeX Info: Redefining \% on input line 289.
  [25 <./commons/Fig8.png (PNG copy)>] [26
 
 ]
@@ -1585,14 +1602,14 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  [32]) (./chapters/Estado del arte/posicionamiento.tex)
-LaTeX Info: Redefining \. on input line 300.
-LaTeX Info: Redefining \% on input line 300.
+LaTeX Info: Redefining \. on input line 304.
+LaTeX Info: Redefining \% on input line 304.
  [33] [34
 
 ]
 Cap\'{\i }tulo 5.
 (./chapters/Parte1_sepfuents/intro.tex) (./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex [35]) (./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
-<commons/Fig9.png, id=942, 1173.38374pt x 595.22375pt>
+<commons/Fig9.png, id=964, 1173.38374pt x 595.22375pt>
 File: commons/Fig9.png Graphic file (type png)
 <use commons/Fig9.png>
 Package pdftex.def Info: commons/Fig9.png  used on input line 4.
@@ -1645,114 +1662,252 @@ LaTeX Info: Redefining \% on input line 39.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
  [46])
-LaTeX Info: Redefining \. on input line 331.
-LaTeX Info: Redefining \% on input line 331.
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
  [47] [48
 
 ]
 Cap\'{\i }tulo 6.
 (./chapters/parte2_interfaz/intro.tex) (./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex) (./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex [49]
-<commons/Sidebar_GUI_1.png, id=1020, 214.401pt x 519.1395pt>
+<commons/Sidebar_GUI_1.png, id=1042, 214.401pt x 519.1395pt>
 File: commons/Sidebar_GUI_1.png Graphic file (type png)
 <use commons/Sidebar_GUI_1.png>
-Package pdftex.def Info: commons/Sidebar_GUI_1.png  used on input line 10.
-(pdftex.def)             Requested size: 177.11842pt x 428.88155pt.
-<commons/Sidebar_GUI_2.png, id=1021, 214.401pt x 461.92575pt>
+Package pdftex.def Info: commons/Sidebar_GUI_1.png  used on input line 11.
+(pdftex.def)             Requested size: 135.33505pt x 327.69331pt.
+<commons/Sidebar_GUI_2.png, id=1043, 214.401pt x 461.92575pt>
 File: commons/Sidebar_GUI_2.png Graphic file (type png)
 <use commons/Sidebar_GUI_2.png>
-Package pdftex.def Info: commons/Sidebar_GUI_2.png  used on input line 16.
-(pdftex.def)             Requested size: 177.11842pt x 381.61502pt.
-<commons/ZonaCarga_GUI_2.png, id=1022, 650.43pt x 449.88075pt>
-File: commons/ZonaCarga_GUI_2.png Graphic file (type png)
-<use commons/ZonaCarga_GUI_2.png>
-Package pdftex.def Info: commons/ZonaCarga_GUI_2.png  used on input line 28.
-(pdftex.def)             Requested size: 258.29887pt x 178.65855pt.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+Package pdftex.def Info: commons/Sidebar_GUI_2.png  used on input line 18.
+(pdftex.def)             Requested size: 152.10144pt x 327.70174pt.
+<commons/ZonaCarga_GUI_1.png, id=1044, 660.066pt x 446.8695pt>
+File: commons/ZonaCarga_GUI_1.png Graphic file (type png)
+<use commons/ZonaCarga_GUI_1.png>
+Package pdftex.def Info: commons/ZonaCarga_GUI_1.png  used on input line 39.
+(pdftex.def)             Requested size: 166.04341pt x 112.4126pt.
+File: commons/Sidebar_GUI_2.png Graphic file (type png)
+<use commons/Sidebar_GUI_2.png>
+Package pdftex.def Info: commons/Sidebar_GUI_2.png  used on input line 46.
+(pdftex.def)             Requested size: 152.10144pt x 327.70174pt.
+
+Underfull \vbox (badness 5681) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
  [50 <./commons/Sidebar_GUI_1.png> <./commons/Sidebar_GUI_2.png>]
-<commons/Consola_GUI_2.png, id=1029, 176.45924pt x 380.622pt>
+<commons/Consola_GUI_2.png, id=1053, 681.14474pt x 263.18324pt>
 File: commons/Consola_GUI_2.png Graphic file (type png)
 <use commons/Consola_GUI_2.png>
-Package pdftex.def Info: commons/Consola_GUI_2.png  used on input line 38.
-(pdftex.def)             Requested size: 258.29887pt x 557.2135pt.
+Package pdftex.def Info: commons/Consola_GUI_2.png  used on input line 62.
+(pdftex.def)             Requested size: 276.75594pt x 106.93399pt.
+<commons/Reproductor1_GUI.png, id=1054, 181.8795pt x 133.09724pt>
+File: commons/Reproductor1_GUI.png Graphic file (type png)
+<use commons/Reproductor1_GUI.png>
+Package pdftex.def Info: commons/Reproductor1_GUI.png  used on input line 77.
+(pdftex.def)             Requested size: 130.2732pt x 95.33235pt.
+<commons/Reproductor2_GUI.png, id=1055, 186.6975pt x 71.0655pt>
+File: commons/Reproductor2_GUI.png Graphic file (type png)
+<use commons/Reproductor2_GUI.png>
+Package pdftex.def Info: commons/Reproductor2_GUI.png  used on input line 84.
+(pdftex.def)             Requested size: 166.05484pt x 63.20795pt.
+<commons/Reproductor3_GUI.png, id=1056, 185.493pt x 79.497pt>
+File: commons/Reproductor3_GUI.png Graphic file (type png)
+<use commons/Reproductor3_GUI.png>
+Package pdftex.def Info: commons/Reproductor3_GUI.png  used on input line 93.
+(pdftex.def)             Requested size: 166.0534pt x 71.16574pt.
+<commons/Reproductor4_GUI.png, id=1057, 180.675pt x 73.4745pt>
+File: commons/Reproductor4_GUI.png Graphic file (type png)
+<use commons/Reproductor4_GUI.png>
+Package pdftex.def Info: commons/Reproductor4_GUI.png  used on input line 100.
+(pdftex.def)             Requested size: 166.04932pt x 67.5267pt.
+<commons/Reproductor5_GUI.png, id=1058, 181.27725pt x 76.48575pt>
+File: commons/Reproductor5_GUI.png Graphic file (type png)
+<use commons/Reproductor5_GUI.png>
+Package pdftex.def Info: commons/Reproductor5_GUI.png  used on input line 109.
+(pdftex.def)             Requested size: 166.0579pt x 70.06427pt.
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+ [51 <./commons/ZonaCarga_GUI_1.png> <./commons/Consola_GUI_2.png>]
+<commons/Graficos_GUI.png, id=1067, 184.2885pt x 244.5135pt>
+File: commons/Graficos_GUI.png Graphic file (type png)
+<use commons/Graficos_GUI.png>
+Package pdftex.def Info: commons/Graficos_GUI.png  used on input line 125.
+(pdftex.def)             Requested size: 246.99028pt x 327.70607pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
- [51 <./commons/ZonaCarga_GUI_2.png>]) (./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex) (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex)
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
+ [52 <./commons/Reproductor1_GUI.png> <./commons/Reproductor2_GUI.png> <./commons/Reproductor3_GUI.png> <./commons/Reproductor4_GUI.png> <./commons/Reproductor5_GUI.png>]
+<commons/Botones1_GUI.png, id=1078, 200.54926pt x 134.30174pt>
+File: commons/Botones1_GUI.png Graphic file (type png)
+<use commons/Botones1_GUI.png>
+Package pdftex.def Info: commons/Botones1_GUI.png  used on input line 140.
+(pdftex.def)             Requested size: 142.35728pt x 95.33235pt.
+<commons/Botones2_GUI.png, id=1079, 190.311pt x 93.951pt>
+File: commons/Botones2_GUI.png Graphic file (type png)
+<use commons/Botones2_GUI.png>
+Package pdftex.def Info: commons/Botones2_GUI.png  used on input line 147.
+(pdftex.def)             Requested size: 166.05997pt x 81.97899pt.
+<commons/Botones3_GUI.png, id=1080, 178.266pt x 87.32625pt>
+File: commons/Botones3_GUI.png Graphic file (type png)
+<use commons/Botones3_GUI.png>
+Package pdftex.def Info: commons/Botones3_GUI.png  used on input line 156.
+(pdftex.def)             Requested size: 166.0631pt x 81.34848pt.
+<commons/Botones4_GUI.png, id=1081, 181.27725pt x 49.3845pt>
+File: commons/Botones4_GUI.png Graphic file (type png)
+<use commons/Botones4_GUI.png>
+Package pdftex.def Info: commons/Botones4_GUI.png  used on input line 163.
+(pdftex.def)             Requested size: 166.0579pt x 45.23836pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
- [52 <./commons/Consola_GUI_2.png>]
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
- [53] [54
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [53 <./commons/Graficos_GUI.png>]) (./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
+<commons/BotonConfig_GUI.png, id=1089, 205.9695pt x 43.362pt>
+File: commons/BotonConfig_GUI.png Graphic file (type png)
+<use commons/BotonConfig_GUI.png>
+Package pdftex.def Info: commons/BotonConfig_GUI.png  used on input line 5.
+(pdftex.def)             Requested size: 368.99736pt x 77.68362pt.
+<commons/ParamsSTFT_GUI.png, id=1090, 284.262pt x 207.77625pt>
+File: commons/ParamsSTFT_GUI.png Graphic file (type png)
+<use commons/ParamsSTFT_GUI.png>
+Package pdftex.def Info: commons/ParamsSTFT_GUI.png  used on input line 16.
+(pdftex.def)             Requested size: 130.42377pt x 95.33093pt.
+<commons/ParamsModelo_GUI.png, id=1091, 272.217pt x 254.1495pt>
+File: commons/ParamsModelo_GUI.png Graphic file (type png)
+<use commons/ParamsModelo_GUI.png>
+Package pdftex.def Info: commons/ParamsModelo_GUI.png  used on input line 25.
+(pdftex.def)             Requested size: 102.10603pt x 95.32909pt.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+ [54 <./commons/Botones1_GUI.png> <./commons/Botones2_GUI.png> <./commons/Botones3_GUI.png> <./commons/Botones4_GUI.png> <./commons/BotonConfig_GUI.png> <./commons/ParamsSTFT_GUI.png>]
+<commons/ParamsEntrenamiento_GUI.png, id=1102, 281.25075pt x 373.395pt>
+File: commons/ParamsEntrenamiento_GUI.png Graphic file (type png)
+<use commons/ParamsEntrenamiento_GUI.png>
+Package pdftex.def Info: commons/ParamsEntrenamiento_GUI.png  used on input line 34.
+(pdftex.def)             Requested size: 71.80167pt x 95.32556pt.
+<commons/ParamsEfectos_GUI.png, id=1103, 272.217pt x 327.02174pt>
+File: commons/ParamsEfectos_GUI.png Graphic file (type png)
+<use commons/ParamsEfectos_GUI.png>
+Package pdftex.def Info: commons/ParamsEfectos_GUI.png  used on input line 43.
+(pdftex.def)             Requested size: 79.35211pt x 95.32787pt.
+<commons/ParamsMezclas_GUI.png, id=1104, 278.2395pt x 61.4295pt>
+File: commons/ParamsMezclas_GUI.png Graphic file (type png)
+<use commons/ParamsMezclas_GUI.png>
+Package pdftex.def Info: commons/ParamsMezclas_GUI.png  used on input line 52.
+(pdftex.def)             Requested size: 369.02644pt x 81.47334pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
+ [55 <./commons/ParamsModelo_GUI.png> <./commons/ParamsEntrenamiento_GUI.png> <./commons/ParamsEfectos_GUI.png>] (./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex) (./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+ [56 <./commons/ParamsMezclas_GUI.png>]
+<commons/BotónAyudaParametros.png, id=1117, 572.1375pt x 49.98676pt>
+File: commons/BotónAyudaParametros.png Graphic file (type png)
+<use commons/BotónAyudaParametros.png>
+Package pdftex.def Info: commons/BotónAyudaParametros.png  used on input line 48.
+(pdftex.def)             Requested size: 166.04657pt x 14.50722pt.
+<commons/AyudaParametros.png, id=1118, 548.0475pt x 298.716pt>
+File: commons/AyudaParametros.png Graphic file (type png)
+<use commons/AyudaParametros.png>
+Package pdftex.def Info: commons/AyudaParametros.png  used on input line 55.
+(pdftex.def)             Requested size: 166.0462pt x 90.5043pt.
+) (./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex) (./chapters/parte2_interfaz/casos_de_uso/feedback.tex
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+ [57 <./commons/BotónAyudaParametros.png> <./commons/AyudaParametros.png>])
+LaTeX Info: Redefining \. on input line 355.
+LaTeX Info: Redefining \% on input line 355.
+ [58]
 Cap\'{\i }tulo 7.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 352.
+(hyperref)                than one, level fixed on input line 356.
 
-(./chapters/integracion_sistema/backend.tex) (./chapters/integracion_sistema/comunicacion_modulos.tex) (./chapters/integracion_sistema/incidencias.tex) [55] [56
+(./chapters/integracion_sistema/backend.tex
+<commons/DiagramaFlujo.png, id=1129, 1155.31625pt x 1656.1875pt>
+File: commons/DiagramaFlujo.png Graphic file (type png)
+<use commons/DiagramaFlujo.png>
+Package pdftex.def Info: commons/DiagramaFlujo.png  used on input line 5.
+(pdftex.def)             Requested size: 258.29887pt x 370.27588pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59
+
+]
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+ [60 <./commons/DiagramaFlujo.png>]) (./chapters/integracion_sistema/comunicacion_modulos.tex
+Overfull \hbox (9.2389pt too wide) in paragraph at lines 13--14
+[]\T1/lmr/m/n/10.95 8. Re-sul-ta-dos se guar-dan en car-pe-ta de check-points/JSON/gr�ficas/tablas. 
+ []
+
+) [61] [62
 
 ]
 Cap\'{\i }tulo 8.
-(./chapters/evaluacion_sistema/metricas.tex
-Overfull \hbox (6.13077pt too wide) in paragraph at lines 21--22
+(./chapters/evaluacion_sistema/metricas.tex [63]
+Overfull \hbox (6.13077pt too wide) in paragraph at lines 24--25
 \T1/lmr/bx/sc/10.95 mez-cla\T1/lmr/m/n/10.95 ,\T1/lmr/bx/sc/10.95 estad�sticas de m�s-ca-ra\T1/lmr/m/n/10.95 ,\T1/lmr/bx/sc/10.95 matriz de co-rre-la-ci�n estimaci�n-
  []
 
-) (./chapters/evaluacion_sistema/evaluacion_pipeline.tex [57]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [58]) (./chapters/evaluacion_sistema/results.tex
-Underfull \vbox (badness 6675) has occurred while \output is active []
-
+) (./chapters/evaluacion_sistema/evaluacion_pipeline.tex
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+ [64]) (./chapters/evaluacion_sistema/results.tex
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
- [59]) (./chapters/evaluacion_sistema/discusion_analisis.tex) (./chapters/evaluacion_sistema/limitaciones_margen_mejora.tex)
+ [65]) (./chapters/evaluacion_sistema/discusion_analisis.tex) (./chapters/evaluacion_sistema/limitaciones_margen_mejora.tex
 Underfull \vbox (badness 5924) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 371.
-LaTeX Info: Redefining \% on input line 371.
- [60]
-LaTeX Info: Redefining \. on input line 371.
-LaTeX Info: Redefining \% on input line 371.
- [61] [62
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+ [66]
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+ [67]
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+ [68])
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
+ [69] [70
 
 ]
 Cap\'{\i }tulo 9.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 373.
+(hyperref)                than one, level fixed on input line 377.
 
-(./chapters/conclusiones_y_futuro/sintesis.tex) (./chapters/conclusiones_y_futuro/linea_mejora.tex) (./chapters/conclusiones_y_futuro/trabajo_futuro.tex) [63] [64
+(./chapters/conclusiones_y_futuro/sintesis.tex) (./chapters/conclusiones_y_futuro/linea_mejora.tex) (./chapters/conclusiones_y_futuro/trabajo_futuro.tex) [71] [72
 
 ]
 Cap\'{\i }tulo 10.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 380.
+(hyperref)                than one, level fixed on input line 384.
 
-(./chapters/anexos/codigo_relevante.tex) (./chapters/anexos/configuraciones.tex) (./chapters/anexos/instrucciones.tex) [65] [66
+(./chapters/anexos/codigo_relevante.tex) (./chapters/anexos/configuraciones.tex) (./chapters/anexos/instrucciones.tex) [73] [74
 
 ]
-Overfull \hbox (7.11592pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.11592pt too wide) in paragraph at lines 402--402
 []\T1/lmr/m/n/10.95 Source Se-pa-ra-tion Tu-to-rial. \T1/lmr/m/it/10.95 Pha-se in sour-ce se-pa-ra-tion\T1/lmr/m/n/10.95 . []$\T1/lmtt/m/n/10.95 https : / / source -[]
  []
 
-[67
+[75
 
 ]
-Overfull \hbox (3.85002pt too wide) in paragraph at lines 398--398
+Overfull \hbox (3.85002pt too wide) in paragraph at lines 402--402
 \T1/lmr/m/n/10.95 with ex-tra un-la-be-led da-ta re-mi-xed''. En: \T1/lmr/m/it/10.95 ar-Xiv pre-print ar-Xiv:1909.01174
  []
 
 
-Overfull \hbox (8.18216pt too wide) in paragraph at lines 398--398
+Overfull \hbox (8.18216pt too wide) in paragraph at lines 402--402
 []\T1/lmr/m/n/10.95 Jpineau. ``Ma-chi-ne Lear-ning Pa-per Re-pro-du-ci-bi-lity Chec-klist''. En: (2020). 
  []
 
@@ -1760,11 +1915,11 @@ Overfull \hbox (8.18216pt too wide) in paragraph at lines 398--398
 Class memoir Warning: The material used in the headers is too large
 (14.1595pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 399.
+(in both cases you will find help in the memoir manual). on input line 403.
 
-LaTeX Info: Redefining \. on input line 399.
-LaTeX Info: Redefining \% on input line 399.
-[68]
+LaTeX Info: Redefining \. on input line 403.
+LaTeX Info: Redefining \% on input line 403.
+[76]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1791,23 +1946,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6CAEE93F202E2AD4D1EB1647A28D8651;21100.
+(rerunfilecheck)             Checksum: 9183AE0C1C2036ACD8A6F40C1D976A19;20846.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38294 strings out of 467349
- 728136 string characters out of 5419862
- 1536642 words of memory out of 5000000
- 66280 multiletter control sequences out of 15000+600000
- 738696 words of font info for 110 fonts, out of 8000000 for 9000
+ 38629 strings out of 467349
+ 736421 string characters out of 5419862
+ 1542141 words of memory out of 5000000
+ 66588 multiletter control sequences out of 15000+600000
+ 741686 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,94p,1197b,3458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (82 pages, 3160659 bytes).
+Output written on main.pdf (90 pages, 3461898 bytes).
 PDF statistics:
- 1280 PDF objects out of 1440 (max. 8388607)
- 256 named destinations out of 1000 (max. 500000)
- 1042 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1384 PDF objects out of 1440 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 1129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

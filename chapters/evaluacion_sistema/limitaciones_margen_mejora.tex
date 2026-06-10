@@ -1,0 +1,33 @@
+A lo largo del desarrollo del trabajo, se ha tomado consciencia de las limitaciones que se pueden presentar en este tipo de taresa y que resultan en un peor desempeño del sistema.
+
+\begin{itemize}
+    \item Fase de mezcla: como ya se ha comentado previamente, el uso de la fase de mezcla como estimación de la fase de las fuentes para reconstrucción limita en gran parte la tarea del modelo. Durante el entrenamiento y la inferencia, la red aprende a estimar máscaras aplicadas sobre la magnitud de la STFT de la mezcla, y posteriormente, se reutiliza la fase de la mezcla como aproximación para reconstruir la señal temporal de cada fuente.
+    
+    Este procedimiento simplifica considerablemente el problema, ya que evita tener que modelar la componente de fase pero también intrudoduce una limitación importante. La fase real de cada fuente , como ya se comenta previamente en la memoria, no teine por qué coincidir con la fase de la mezcla por lo que esto puede resultar en la presencia de ruido o pérdida de calidad perceptual, especialmente en casos donde varias fuentes se solapan \cite{rafii18}.
+    
+    \item Arquitectura simple: la arquitectura utilizada se basa en un modelo de inferencia de máscaras con una red recurrente LSTM. Esta selección permite trabajar con una estructura interpretable y adecuada para el procesado de espectrogramas como secuencias temporales y sin embargo se trata de una arquitectura sencilla en comparación con modelos actuales de separación musical, que suelen emplear redes más profundas, arquitecturas convolucionales o Transformers.
+    
+    \item Entrenamiento en mono: otra limitación relevante es que el sistema trabaja principalmente con señales mono-canal. Si bien esto reduce complejidad y facilita el entrenamiento, también implica la pérdida de información espacial de las señales estéreo. En música real, la presencia de instrumentos en los canales puee facilitar información útil a la hora de separar fuentes.
+    
+    Si bien el procesamiento en mono-canal permite simplificar el problema y mantener un coste computacional asumible, también limita la capacidad del sistema para aprender sobre pistas especiales que podrían mejorar la calidad de la separación.
+    
+    \item Recursos computacionales: el entrenamiento de modelos de separación musical, y en general de modelos que trabajan con pistas de audio, requiere una cantidad considerable de recursos computacionales, especialmente cuando se trabaja con más de dos fuentes o funciones de pérdida complejas, como \textit{l\_mrs} o \textit{lpsa\_phase}.
+    
+    Los recursos disponibles se limitaban a un procesador Intel de onceava generación y una tarjeta gráfica Nvidia RTX 3060Ti, que si bien no son recursos flojos, se quedan cortos para la tarea esperada, algunos entrenamientos llegaron a tardar tres días y el tamaño del \textit{batch} no era especialmente grande.Estas restricciones han condicionado decisiones como el tamaño del modelo, duración de fragmentos de audio, número de iteraciones de entrenamiento o cantidad de configuraciones evaluadas.
+    
+    \item Limitaciones del dataset: el rendimiento del sistema también lo condiciona el \textit{dataset} utilizado. Si bien MUSDB18 es una referencia habitual, su tamaño es limitado en comparación con los utilizados para el entrenamiento de sistemas comerciales o modelos a gran escala.
+    
+    Además, el dataset no cubre en su totalidad toda la variedad posible de géneros,mezclas,estilos de producción o calidades de grabación y instrumentación. Esto afecta a la capacidad de generalización del modelo, principalmente. Si bien es complicado , porque en música, como en cualquier arte, no hay una norma fija que defina el objeto "música", la solución sería tener cantidad de datos grande por género, por ejemplo.
+
+    \item Métricas objetivas y percepción auditiva: la evaluación del sistema se ha basado principalmente en métricas objetivas como SI-SDR que permiten comparar de forma cuantitativa las estimaciones generadas por los diferentes modelos. Se eligió utilizar estas métricas ya que se necesitaba una medida reproducible objetiva y homogénea para evaluar el rendimiento.
+    
+    No obstante, las métricas objetivas no siempre reflejan completamente la percepción auditiva humanay de hecho, se repite en el estado del arte que las métricas numéricas no suelen ser una medida fiable de calidad y que es mejor conducirse por una opinión humana. Dos separaciones con valores similares de SI-SDR pueden percibirse de manera diferente en términos de ruido, naturalidad o inteligibilidad de la voz. Por ello, la escucha perceptual se consideró necesaria para interpretar los resultados. Se tenía intención de
+    realizar una encuesta de evaluación pública con diferentes salidas del modelo para cada una de las funciones de pérdida, pero por falta de tiempo se terminó por dejar de lado.
+
+    \item Interfaz demostrativa: la interfaz gráfica tiene un objetivo principalmente demostrativo. Su finalidad es dar facilidad para el uso del sistema a un usuario ajeno al entorno de un IDE.
+    
+    Aunque la interfaz permite la interacción directa con el pipeline y visualizar gráficos y logs, no debe entenderse como un producto comercial final, ya que no se han contemplado aspectos como control de errores,optimización de tiempos de respuesta, \textit{hosting} , diseño visual de calidad o gestión de usuarios.
+
+\end{itemize}
+
+En conjunto , estas limitaciones no invalidan el sistema desarrollado, si no que más bien delimitan su alcance. El proyecto se centra en construir y validar un flujo completo de entrenamiento, inferencia y evaluación, sumandole a esto la interfaz.Se deja como trabajo futuro la incorporación de arquitecturas más avanzadas, datasets variados, entrenamiento estéreo y evaluaciones más valorables.

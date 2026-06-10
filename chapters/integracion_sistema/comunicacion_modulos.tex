@@ -1,0 +1,15 @@
+La comunicación entre módulos es la definida en el diagrama de flujo que se presenta en la figura 7.1.
+El núcleo principal de la configuración entre módulos son los archivos \textit{main.py} y \textit{config.py}. En el archivo main se decide
+la acción que se va a ejecutar y se llama a una función que lleva a cabo la tarea requerida. Previamente se cambian valores del archivo config, por ejemplo, la función de pérdida.
+
+\begin{itemize}
+    \item 1. CLI / GUI modifica configuración
+    \item 2. Se cargan datos o audio externo.
+    \item 3. Se calcula STFT.
+    \item 4. El modelo estima máscaras.
+    \item 5. \textit{run\_inference} reconstruye audio.
+    \item 6. \textit{deployment} guarda stems.
+    \item 7. Evaluación calcula métricas.
+    \item 8. Resultados se guardan en carpeta de checkpoints/JSON/gráficas/tablas.
+
+\end{itemize}

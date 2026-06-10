@@ -1,0 +1,23 @@
+El sistema está conectado internamente a partir de módulos. Estos son entrenamiento, inferencia, despliegue, evaluación e interfaz. La conexión principal es el archivo \textit{\textbf{config.py}}, el cuál contiene un diccionario de configuración que se va modificando a lo largo de las diferentes rutas de ejecución que parten desde \textit{main.py}. El flujo de ejecución y comunicación entre módulos sigue el diagrama a continuación:
+
+\begin{figure}[H]
+    {\begin{center}
+    \includegraphics[width=0.7\textwidth]{commons/DiagramaFlujo.png}
+    \caption{Diagrama de flujo para el backend}
+    \label{fig:DiagramaFlujo}
+    \end{center}}
+\end{figure}
+
+Y por módulos:
+
+\begin{itemize}
+    \item main.py : punto de entrada principal, recibe por comando y ejecuta entrenamiento/despliegue/evaluación
+    \item config.py : fuente central de parámetros, entre los que están parámetros de la STFT, hiperparámetros del modelo, función de pérdida, número de fuentes, rutas y dispositivo de ejecución.
+    \item train.py : lee configuración, construye MaskInference, entrena, calcula pérdida y validación y guarda checkpoints en la carpeta checkpoints.
+    \item deployment.py : infiere máscara sobre un audio concreto. Lee audio de entrada, carga el checkpoint, reconstruye el modelo, ejecuta inferencia, reconstruye stems y guarda resultados.
+    \item evaluate\_models.py : evalúa sistemáticamente modelos ya entrenados sobre el conjunto de test fijo. Selecciona modelos, carga checkpoints, reconstruye cada modelo, ejecuta una inferencia sobre el conjunto de test y calcula métricas y guarda resúmenes en .json.
+    \item MaskInference : contiene la arquictectura del modelo y la función de forward. Toma como entrada la magnitud de mezcla y aplica: AmplitudeToDB,BatchNorm,reordenación dimensional, LSTM/RecurrentStack, Embedding, máscaras estimadas y estimación de fuentes.
+    \item Carpetas de checkpoints : guardan archivos .pth ordenados por función de pérdida y por número de fuentes.
+    \item Carpetas de resultados : guardan las salidas del backend. Contienen fuentes separados junto con mezcla original, métricas, gráficos y ficheros resumen.
+\end{itemize}
+
