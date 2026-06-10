@@ -405,7 +405,7 @@
     - `lpsa_phase`;
     - `l_mrs` si aparece como no evaluada.
 
-- [ ] **Reforzar que V3 es protocolo final**
+- [x] **Reforzar que V3 es protocolo final**
   - No describirlo solo como otra tanda de entrenamiento.
   - Debe quedar claro que V3 introduce:
     - test fijo;
@@ -420,13 +420,13 @@
 
 ### Introducción general de la Parte 2
 
-- [ ] **Añadir introducción de la interfaz**
+- [x] **Añadir introducción de la interfaz**
   - La interfaz actúa como herramienta demostrativa y didáctica.
   - Permite aplicar modelos entrenados, visualizar resultados y facilitar el uso del sistema.
 
 ### 6.1 Objetivos
 
-- [ ] **Completar objetivos de la interfaz**
+- [x] **Completar objetivos de la interfaz**
   - Cargar audio.
   - Seleccionar modelo.
   - Elegir función de pérdida/modelo entrenado.
@@ -439,7 +439,7 @@
 
 ### 6.2 Diseño de experiencia de usuario
 
-- [ ] **Completar organización y visualización**
+- [x] **Completar organización y visualización**
   - Sidebar de configuración.
   - Zona principal de carga.
   - Consola/logs.
@@ -460,12 +460,12 @@
   - Visualizar espectrogramas.
   - Descargar stems.
 
-- [ ] **Explicar entrenamiento parametrizable con cautela**
+- [x] **Explicar entrenamiento parametrizable con cautela**
   - No presentarlo como proceso instantáneo.
   - Es una funcionalidad avanzada.
   - Lanza entrenamiento y muestra logs/resultados.
 
-- [ ] **Definir feedback**
+- [x] **Definir feedback**
   - Feedback = mensajes del sistema, logs, progreso, errores, rutas y resultados visuales.
   - No es feedback aprendido por el modelo.
 
@@ -475,7 +475,7 @@
 
 ### Backend
 
-- [ ] **Redactar sección Backend**
+- [x] **Redactar sección Backend**
   - Introducción sugerida: describir cómo se conectan entrenamiento, inferencia, despliegue, evaluación e interfaz en un sistema único.
   - Incluir:
     - `main.py`;
@@ -489,7 +489,7 @@
 
 ### Comunicación entre módulos
 
-- [ ] **Redactar comunicación entre módulos**
+- [x] **Redactar comunicación entre módulos**
   - Flujo recomendado:
     1. CLI o GUI modifica configuración.
     2. Se cargan datos o audio externo.
@@ -502,7 +502,7 @@
 
 ### Incidencias de integración y depuración
 
-- [ ] **Redactar incidencias**
+- [x] **Redactar incidencias**
   - Incluir:
     - checkpoint mismatch;
     - `strict=False` no soluciona shapes incompatibles;
@@ -520,27 +520,27 @@
 
 ### 8.1 Métricas utilizadas
 
-- [ ] **Corregir interpretación de SI-SDR**
+- [x] **Corregir interpretación de SI-SDR**
   - Mayor SI-SDR = mejor separación.
   - Valor bajo o negativo = peor estimación respecto a referencia.
 
-- [ ] **Explicar agregación**
+- [x] **Explicar agregación**
   - Media: rendimiento promedio.
   - Mediana: robustez frente a outliers.
   - Desviación típica: estabilidad entre pistas.
 
-- [ ] **Explicar baseline**
+- [x] **Explicar baseline**
   - Baseline = usar la mezcla como estimación de cada fuente.
   - Sirve como criterio mínimo.
   - Si un modelo no supera baseline, genera audio pero no demuestra separación útil.
 
 ### 8.2 Validación del pipeline de evaluación
 
-- [ ] **Pulir finalidad de la validación**
+- [x] **Pulir finalidad de la validación**
   - No demuestra que el modelo sea bueno.
   - Demuestra que la comparación entre modelos es homogénea, justa y trazable.
 
-- [ ] **Mantener protocolo claro**
+- [x] **Mantener protocolo claro**
   - `representative_test`.
   - Misma inferencia que deployment.
   - Conversión a mono.
