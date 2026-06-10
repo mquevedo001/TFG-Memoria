@@ -1,6 +1,20 @@
-Para mejorar el desempeño, evitar \textit{overfitting} y mejorar generalización en el modelo.
+El sistema desarrollado ha cumplido con el objetivo de implementar un flujo completo de separación de fuentes musicales, incluyendo entrenamiento,inferencia,evaluación e interfaz gráfica. De todas formas, existen aun así diferentes líneas de mejora que permitirán ampliar el alcance del trabajo.
 
-Se planteaba inicialmente aplicar transformaciones como:
+Inicialmente, una primera fase de trabajo futuro sería realizar una comparación directa en desempeño frente a modelos ampliamente utilizados en separación musical de la función de pérdida que mas desempeño presenta en este proyecto. En este trabajo dichos sistemas se han usado únicamente como referencia dentro del estado del arte, 
+pero no se han tenido en cuenta para realización de una evaluación directa experimental bajo el mismo protocolo. Una comparación justa requeriría ejecutar todos los modelos sobre el mismo conjunto de test, con las mismas métricas y condiciones de evaluación, permitiendo así contextualizar de forma más precisa el rendimiento del sistema desarrollado.
+
+Otra mejora considerable sería ampliar el conjunto de datos empleado. Si bien MUSDB18 presenta un conjunto de datos de referencia en separación de fuentes, su tamaño es limitado frente a colecciones más amplias utilizadas en, por ejemplo, competiciones como MDX. 
+
+Por otro lado, sería también un punto a favor estudiar la implementación de estructuras de arquitectura h íbridas que combinen informacion en el dominio temporal con información en el dominio tiempo-frecuencia.  El sistema trabaja con magnitudes de la STFT y aplica la fase de la mezcla sobre las magnitudes de las fuentes para reconstruir las fuentes. Los modelos híbridos
+aprovechan la interpretabilidad de las representaciones espectrales y la capacidad de los modelos en forma de onda para aprender información temporal y de fase de forma más directa.
+
+Otra mejora posible sería adaptar el sistema para la separación en tiempo real. La implementación actual está orientada a procesar archivos de audio completos o fragmentos previamente cargados. Para trabajar a tiempo real seria necesario rediseñar el flujo de inferencia, añadir procesado de audio por bloques y optimizar la cargaa del modelo y controlar solapamiento entre ventanas.
+
+También se podría añadir al sistema la posibilidad de separar un mayor número de fuentes. En este trabajo se han reducido las posibilidades por limitaciones a dos y cuatro fuentes, pero existen pistas donde sería relevante separar instrumentos más específicos como guitarra, piano, sintetizadores coros u otros elementos de la mezcla. Esta ampliación requeriría bases de datos con anotaciones
+de cinco fuentes, mayor capacidad de cómputo, modelos con mayor capacidad y una evaluación adaptada.
+
+Finalmente, también se podría introducir la posibilidad de añadir efectos a las pistas de entrada para mejorar generalizaciones. La música contemporánea por lo general presenta una gran cantidad de post producción y cada caso es un mundo, se introducen 
+muchos elementos que varían la producción inicial y esto varía en cada pista. Se planteaba inicialmente añadir esta posibilidad , pero por falta de tiempo y limitaciones no se pudo hacer. Entre las transformaciones a aplicar:
 
 \begin{itemize}
     \item Reverberación

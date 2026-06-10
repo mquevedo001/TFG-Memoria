@@ -1,0 +1,12 @@
+El anexo de código recoge fragmentos representativos del sistema. No se incluirán archivos completos, sino secciones seleccionadas para dar luz sobre las partes más importantes del proceso
+
+\begin{itemize}
+    \item \textbf{\texttt{main.py}:} punto de entrada principal del \textit{backend}. Permite seleccionar modo de ejecución, y su relevancia reside en centralizar el enrutamiento hacia los diferentes módulos del proyecto.
+    \item \textbf{\texttt{MaskInference.forward()}:}  se incluye para documentar el proceso de entrenamiento y validación. Contiene la construcción del modelo, carga de atos, cálculo del valor de la pérdida, control de entrenamiento, \textit{early\_stopping} y guardado de \textit{checkpoints}.
+    \item \textbf{\texttt{metrics.py}:} contiene las funciones de pérdida utilizadas. Es relevante para entender cómo se comparan las estimaciones del modelo con las referencias y cómo se implementan las variantes de pérdidas utilizadas.
+    \item \textbf{\texttt{commons/inference.py}} proceso de inferencia completo.
+    \item \textbf{\texttt{commons/audio\_utils.py}:} se incluye por su papel en la carga de modelos e inferencia de parámetros. Resultó especialmente importante para resolver incompatibilidades entre configuración actual y modelos previos.
+    \item \textbf{\texttt{deployment.py}:} módulo encargado de aplicar el sistema a audios. Permite cargar un archivo de entrada, ejecutar separación, reconstruir fuentes y guardar resultados.
+    \item \textbf{\texttt{evaluate\_mixture\_baseline.py}:} identifica baseline utilizado.
+    \item \textbf{\texttt{GUI/gui.py}:} contiene la implementación de la interfaz gráfica. Integra la implementación de la interfaz gráfica para selección de moelo, carga de \textit{checkpoints}, separación de audio, visualización de resultados, generación de gráficas, consola y descarga de resultados.
+\end{itemize}

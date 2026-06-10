@@ -1041,16 +1041,12 @@ INPUT ./chapters/anexos/codigo_relevante.tex
 INPUT ./chapters/anexos/codigo_relevante.tex
 INPUT ./chapters/anexos/codigo_relevante.tex
 INPUT chapters/anexos/codigo_relevante.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtk10.tfm
 INPUT ./chapters/anexos/configuraciones.tex
 INPUT ./chapters/anexos/configuraciones.tex
 INPUT ./chapters/anexos/configuraciones.tex
 INPUT ./chapters/anexos/configuraciones.tex
 INPUT chapters/anexos/configuraciones.tex
-INPUT ./chapters/anexos/instrucciones.tex
-INPUT ./chapters/anexos/instrucciones.tex
-INPUT ./chapters/anexos/instrucciones.tex
-INPUT ./chapters/anexos/instrucciones.tex
-INPUT chapters/anexos/instrucciones.tex
 OUTPUT main.toc
 OUTPUT main.lof
 OUTPUT main.lot
@@ -1077,5 +1073,6 @@ INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri9.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
+INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtk10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

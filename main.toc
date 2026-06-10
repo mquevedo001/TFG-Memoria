@@ -117,8 +117,17 @@
 \contentsline {subsection}{Trabajo futuro}{71}{section*.107}%
 \contentsline {chapter}{\chapternumberline {10}Anexos}{73}{chapter.10}%
 \contentsline {subsection}{Código relevante}{73}{section*.108}%
-\contentsline {subsection}{Registro de incidencias técnicas}{73}{section*.109}%
-\contentsline {subsection}{Configuraciones}{73}{section*.110}%
-\contentsline {subsection}{Instrucciones posibles}{73}{section*.111}%
-\contentsline {subsection}{Resultados adicionales}{73}{section*.112}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{75}{section*.116}%
+\contentsline {subsection}{Registro de incidencias técnicas}{74}{section*.109}%
+\contentsline {subsection}{Configuraciones}{74}{section*.110}%
+\contentsline {paragraph}{Entrenamiento individual.}{74}{section*.111}%
+\contentsline {paragraph}{Entrenamiento por lotes.}{74}{section*.112}%
+\contentsline {paragraph}{Evaluación de modelos.}{74}{section*.113}%
+\contentsline {paragraph}{Evaluación del baseline de mezcla.}{74}{section*.114}%
+\contentsline {paragraph}{Separación sobre audio externo.}{74}{section*.115}%
+\contentsline {paragraph}{Ejecución de la interfaz gráfica.}{74}{section*.116}%
+\contentsline {paragraph}{Generación del conjunto de test representativo.}{74}{section*.117}%
+\contentsline {paragraph}{Diagnóstico de salidas separadas.}{75}{section*.118}%
+\contentsline {paragraph}{Inspección de checkpoints.}{75}{section*.119}%
+\contentsline {paragraph}{Generación de medias,medianas y desviaciones.}{75}{section*.120}%
+\contentsline {subsection}{Resultados adicionales}{75}{section*.121}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{77}{section*.125}%

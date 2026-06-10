@@ -615,7 +615,7 @@
 
 ### Líneas de mejora
 
-- [ ] **Redactar líneas de mejora**
+- [x] **Redactar líneas de mejora**
   - Arquitectura más potente.
   - Entrenamiento estéreo.
   - Estimación de fase.
@@ -626,7 +626,7 @@
 
 ### Trabajo futuro
 
-- [ ] **Redactar trabajo futuro**
+- [x] **Redactar trabajo futuro**
   - Comparación directa con Demucs, Spleeter y Open-Unmix.
   - Uso de MUSDB18/MDX completo.
   - Modelos híbridos waveform/espectrograma.
@@ -640,7 +640,7 @@
 
 ### Código relevante
 
-- [ ] **Incluir fragmentos seleccionados, no archivos completos**
+- [x] **Incluir fragmentos seleccionados, no archivos completos**
   - Introducción sugerida: el anexo recoge fragmentos representativos del sistema implementado.
   - Para cada fragmento, explicar por qué es relevante.
 
@@ -698,7 +698,7 @@
 
 ### Instrucciones posibles
 
-- [ ] **Incluir comandos reproducibles**
+- [x] **Incluir comandos reproducibles**
   - Entrenamiento individual.
   - Entrenamiento batch.
   - Evaluación.

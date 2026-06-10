@@ -1,0 +1,50 @@
+A continuación se recogen ejemplos de comandos utilizados para ejecutar las funciones del sistema. Las rutas y nombres concretos se deben adaptar en función de la configuración local del proyecto.
+
+\paragraph{Entrenamiento individual.} Permite entrenar un modelo concreto a partir de la configuración seleccionada.
+
+\begin{verbatim} python main.py --mode train \end{verbatim}
+
+\paragraph{Entrenamiento por lotes.} Permite lanzar varios entrenamientos asociados a distintas
+funciones de pérdida o configuraciones.
+
+\begin{verbatim} python -m scripts.train_V2 \end{verbatim}
+
+\paragraph{Evaluación de modelos.} Ejecuta la evaluación de los modelos entrenados sobre el conjunto de test fijo.
+
+\begin{verbatim} python -m scripts.evaluate_models \end{verbatim}
+
+\paragraph{Evaluación del baseline de mezcla.} Da el valor baseline trivial que se utiliza para determinar si un modelo entrenado mejora una solución mínima.
+
+\begin{verbatim}
+python -m scripts.evaluate_mixture_baseline
+\end{verbatim}
+
+\paragraph{Separación sobre audio externo.} Aplica el proceso a un archivo de audio de entrada.
+
+\begin{verbatim} python main.py --mode deploy \end{verbatim}
+
+\paragraph{Ejecución de la interfaz gráfica.} Lanza en local la interfaz.
+
+\begin{verbatim} streamlit run GUI/gui.py \end{verbatim}
+
+\paragraph{Generación del conjunto de test representativo.} Genera una copia local de un subconjunto representativo de MUSDB18.
+
+\begin{verbatim}
+python -m scripts.script_musdb
+\end{verbatim}
+
+\paragraph{Diagnóstico de salidas separadas.} Compara las fuentes estimadas con las referencias mediante una matriz de correlación.
+
+\begin{verbatim}
+python -m scripts.diagnose_track_outputs
+\end{verbatim}
+
+\paragraph{Inspección de checkpoints.} Permite cargar un \textit{checkpoint} y mostrar la forma de algunas capas relevantes del modelo.
+
+\begin{verbatim}
+python -m scripts.test
+\end{verbatim}
+
+\paragraph{Generación de medias,medianas y desviaciones.} Permite obtener en tres archivos diferentes los valores de la media, mediana y desviación típica de la SI-SDR de cada modelo.
+
+\begin{verbatim} python -m scripts.sacar_medianas \end{verbatim}
