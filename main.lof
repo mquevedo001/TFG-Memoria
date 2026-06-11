@@ -11,27 +11,34 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Comparativa de clasificación entre aprendizaje supervisado y no supervisado. Imagen de Juan Domingo Farnos}}{21}{figure.caption.41}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{23}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{24}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Ejemplo de graficación de la métrica AUC. Esta métrica parte de la matriz de confusión generando un gráfico de puntos donde se evalúa la capacidad del modelo para clasificar correctamente en función de los valores por debajo de la diagonal del gráfico.}}{25}{figure.caption.53}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{36}{figure.caption.59}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{45}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{38}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Average SNR and SDR by genre}}{47}{figure.caption.68}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Barra lateral de configuración de la interfaz.}}{50}{figure.caption.75}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Zona de carga de la GUI.}}{51}{figure.caption.77}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Consola y logs de la GUI.}}{51}{figure.caption.79}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Reproductores de audio de la interfaz.}}{52}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Ejemplo de representación gráfica de la fuente vocal.}}{53}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Botones principales de la interfaz.}}{54}{figure.caption.85}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Botón de configuración.}}{54}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Parámetros de formación de transformadas de Fourier modificables en la interfaz visual.}}{54}{figure.caption.88}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Parámetros intrínsecos del modelo modificables en la interfaz visual.}}{55}{figure.caption.89}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Parámetros modificables de entrenamiento de nuevos modelos en la interfaz visual.}}{55}{figure.caption.90}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Parámetros modificables de generación de efectos en la interfaz visual.}}{55}{figure.caption.91}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Parámetros modificables de generación de mezclas en la interfaz visual.}}{56}{figure.caption.92}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Entrada a la ventana de información sobre los parámetros de la configuración avanzada}}{57}{figure.caption.95}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Barra lateral de configuración de la interfaz.}}{52}{figure.caption.74}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Zona de carga de la GUI.}}{53}{figure.caption.76}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Consola y logs de la GUI.}}{53}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Reproductores de audio de la interfaz.}}{54}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Ejemplo de representación gráfica de la fuente vocal.}}{55}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Botones principales de la interfaz.}}{56}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Botón de configuración.}}{56}{figure.caption.86}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Parámetros de formación de transformadas de Fourier modificables en la interfaz visual.}}{56}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Parámetros intrínsecos del modelo modificables en la interfaz visual.}}{57}{figure.caption.88}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Parámetros modificables de entrenamiento de nuevos modelos en la interfaz visual.}}{57}{figure.caption.89}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Parámetros modificables de generación de efectos en la interfaz visual.}}{57}{figure.caption.90}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Parámetros modificables de generación de mezclas en la interfaz visual.}}{58}{figure.caption.91}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Entrada a la ventana de información sobre los parámetros de la configuración avanzada}}{59}{figure.caption.94}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Ejemplo de una forma de onda mostrada en la interfaz al finalizar la separación de una pista.}}{60}{figure.caption.96}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Ejemplo de un espectrograma mostrado en la interfaz al finalizar la separación de una pista.}}{60}{figure.caption.97}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Ejemplo de \textit {logs} mostrados en la consola de la interfaz}}{61}{figure.caption.99}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Ejemplo de mensaje de error mostrado en la interfaz al intentar separar una pista sin haber cargado una configuración de modelo previa.}}{61}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Ejemplo de indicador de espera en la interfaz mientras se está realizando el proceso de separar una pista.}}{62}{figure.caption.101}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Botón de la interfaz que descarga un archivo wav de fuente en el almacenamiento del usuario.}}{62}{figure.caption.102}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de flujo para el backend}}{60}{figure.caption.99}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de flujo para el backend}}{64}{figure.caption.104}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de dos fuentes}}{72}{figure.caption.114}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de cuatro fuentes}}{72}{figure.caption.115}%
 \addvspace {10pt}
 \addvspace {10pt}
