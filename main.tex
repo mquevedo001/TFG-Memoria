@@ -6,7 +6,6 @@
 \usepackage[spanish]{babel}
 \usepackage{lmodern}
 
-% --- Gráficos y utilidades ---
 \usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{float}
@@ -14,20 +13,18 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{caption}
-\usepackage[hidelinks]{hyperref} % ocultar colores en enlaces
-\usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage[hidelinks]{hyperref}
+\usepackage[table]{xcolor}
 \usepackage{tikz}
-\usepackage{float}
+
 \usepackage{tabularx}
+\usepackage{longtable}
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{makecell}
 \usepackage{adjustbox}
 \usepackage{placeins}
-\usepackage{subcaption}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{longtable}
 
 % --- Bibliografía ---
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
@@ -98,9 +95,6 @@
   \renewcommand*{\printchaptertitle}[1]{\chaptitlefont ##1}%
 }
 
-% Configuración PDF
-\pdfobjcompresslevel=0
-
 % Información personalizable
 \newcommand{\egilea}{Martín Quevedo Poyal}
 \newcommand{\zuzendariak}{
@@ -161,7 +155,7 @@
 \chapterstyle{rightchapter} % capítulos sin numerar alineados a la derecha
 
 % Resumen
-\chapter*{Introducción}
+\chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen} % aparece en TOC
 \input{chapters/abstract}
 \cleardoublepage
@@ -172,7 +166,7 @@
 \input{chapters/ODS.tex}
 \cleardoublepage
 
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{4} % para numerar también en el texto
 % Índices automáticos
 \tableofcontents
@@ -188,12 +182,14 @@
 
 \chapterstyle{ehu2} % solo capítulos numerados usarán este estilo
 
+\chapter{Introducción}
+\input{chapters/introduccion.tex}
 \chapter{Planificación}
 \input{chapters/planificacion/Planificacion}
-\section{Objetivos}
-\input{chapters/planificacion/objetivo}
 \section{Alcance}
 \input{chapters/planificacion/alcance}
+\section{Objetivos}
+\input{chapters/planificacion/objetivo}
 \section{Cronograma}
 \input{chapters/planificacion/cronograma}
 \section{Desviaciones respecto a la planificación inicial}
@@ -201,22 +197,22 @@
 \cleardoublepage
 
 \chapter{Herramientas utilizadas}
-\section{Python}
+\section{Python 3.10.19}
 \input{chapters/herramientas_utilizadas/python}
-\section{Anaconda}
-\input{chapters/herramientas_utilizadas/conda}
+%\section{Anaconda}
+%\input{chapters/herramientas_utilizadas/conda}
 \section{Librosa}
 \input{chapters/herramientas_utilizadas/librosa}
 \section{Matplotlib}
 \input{chapters/herramientas_utilizadas/matplotlib_numpy_scipy}
-\section{Ignite}
-\input{chapters/herramientas_utilizadas/ignite}
-\section{Nussl}
+\section{Nussl (\textit{Northwestern University Source Separation Library} )}
 \input{chapters/herramientas_utilizadas/nussl}
-\section{Overleaf}
-\input{chapters/herramientas_utilizadas/overleaf}
+%\section{Overleaf}
+%\input{chapters/herramientas_utilizadas/overleaf}
 \section{Pytorch}
 \input{chapters/herramientas_utilizadas/pytorch}
+\section{Ignite}
+\input{chapters/herramientas_utilizadas/ignite}
 \section{Streamlit}
 \input{chapters/herramientas_utilizadas/streamlit_conda}
 \section{Torchaudio}
@@ -250,14 +246,10 @@
 \input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_lineales}
 \subsubsection{Mezclas coherentes e incoherentes}
 \input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes}
-\subsubsection{Separación ciega de fuentes}
-\input{chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes}
 \subsection{Representaciones digitales}
 \input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro}
 \subsubsection{Formatos del audio}
 \input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio}
-\subsubsection{Muestreo y cuantización}
-\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant}
 \subsubsection{Tasa de muestreo}
 \input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res}
 

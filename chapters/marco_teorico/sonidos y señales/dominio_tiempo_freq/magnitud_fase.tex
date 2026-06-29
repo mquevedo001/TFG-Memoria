@@ -1,5 +1,5 @@
 La magnitud y fase son los dos principales componentes sonoros en los que descomponemos una señal. 
-Se obtienen mediante la aplicación de la \textit{transformada en tiempo corto de Fourier}.La magnitud es el módulo del coeficiente complejo de la STFT:
+Se obtienen mediante la aplicación de la \textit{transformada en tiempo corto de Fourier}. La magnitud es el módulo del coeficiente complejo de la STFT\footnote{Siglas para la transformada en tiempo corto de Fourier en inglés. Se explica en una sección más abajo que requiere de la explicación de la magnitud y fase.}:
 
 \begin{center}    
 \( |X(t,f)| \)
@@ -10,5 +10,14 @@ Mientras que la fase determina el desfase temporal relativo de esa componente:
 \begin{center}
 \( \angle X(t,f) \)
 \end{center}
+
+\begin{figure}[H]
+    {\begin{center}
+    \includegraphics[width=0.7\textwidth]{commons/Phase.png}
+    \label{fig:OndasPhase}
+    \end{center}}
+\end{figure}
+
+En la 
 
 Aunque la magnitud es frecuentemente usada como entrada a modelos de separación, la fase es esencial para reconstruir una señal con facilidad, y también la componente que más complicaciones supone, pues no siempre puede asumirse uniforme y se suele reutilizar la fase de la mezcla como aproximación\cite{source_separation_phase}.

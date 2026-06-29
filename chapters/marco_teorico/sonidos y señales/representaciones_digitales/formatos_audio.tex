@@ -1,24 +1,23 @@
-Las diferentes maneras de representaciones digitales que existen para el sonido digital no solo son una secuencia de muestras, sino que además se guardan en diferentes formatos:
+Existen varias formas de guardar una representación digital del sonido:
 
 \begin{itemize}
     \item \textbf{Formatos sin compresión:} \textit{WAV, AIFF}. Formatos que guardan directamente las muestras de audio codificadas, ofrecen mayor fidelidad al original pero también generan archivos más pesados. Es el formato utilizado en todo el proyecto.
-    \item \textbf{Formatos comprimidos sin pérdida:} \textit{FLAC, ALAC}. Formatos que reducen el tamaño sin alterar la información.
-    \item \textbf{Formatos comprimidos con pérdida:} \textit{MP3, AAC, OGG...}. Utilizan modelos psicoacústicos para descartar información que el oído humano no percibe. Se usan en transmisión y almacenamiento masivo de audio para consumo (\textit{streaming}, etc.).
-    \item \textbf{Espectrogramas:} 
+    \item \textbf{Otros formatos:} como formatos comprimidos sin pérdida (\textit{FLAC,ALAC...} reducen el tamaño sin alterar información) o formatos comprimidos con pérdida (\textit{MP3,AAC,OGG...} descartan información que el oído humano no percibe)
+    \item \textbf{Espectrogramas:} ya definidos en una sección anterior.
 
-Es la representación visual de la magnitud de la STFT, y contrapone gráficamente tiempo y frecuencia haciendo una gradiente de color a mas oscuro cuanta mas intensidad/magnitud presente la señal en ese punto.
-Existen diferentes tipos, en función de cómo se traten los respectivos elementos de la STFT ( magnitud , cuadrado, logarítmico, logarítmico cuadrado), ver Fig.4.5 .
+
+En el proyecto, el  sistema trabaja con espectrogramas de magnitud lineal obtenidos mediante STFT ya que posteriormente se reconstruye el resultado obtenido mediante iSTFT.
+
+Aunque por lo general en procesamiento de audio se utilizan otro tipo de espectrogramas ( espectrogramas de Mel, explicados en el siguiente párrafo) ya que el objetivo del modelo es estimar máscaras tiempo-frecuencia que posteriormente se aplican sobre la magnitud STFT de la mezcla para reconstruir las fuentes usando la fase de la mezcla.
+
+Un espectrograma de Mel es similar a un espectrograma en el sentido de que muestra el contenido de frecuencia de una señal de audio a lo largo del tiempo, pero en un eje de frecuencia diferente.En un espectrograma estándar, el eje de frecuencia es lineal y se mide en hercios (Hz). Sin embargo, el sistema auditivo humano es más sensible a los cambios en las frecuencias bajas que en las frecuencias altas, y esta sensibilidad disminuye de manera logarítmica a medida que la frecuencia aumenta. La escala mel es una escala perceptual que aproxima la respuesta de frecuencia no lineal del oído humano. \cite{HuggingFaceCourse}. En la Figura 4.6 se muestra la diferencia en la representación visual de ambos métodos. 
 
 \begin{figure}[H]
     {\begin{center}
-    \includegraphics[width=0.7\textwidth]{commons/Fig4.png}
-    \caption{Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}
-    \label{fig:EspectrogramasSTFT}
-    \cite{rafii18}
+    \includegraphics[width=0.7\textwidth]{commons/SpectrogramNormalMel.png}
+    \caption{Espectrograma estándar arriba y espectrograma de Mel abajo.}
+    \label{fig:EspectrogramasNormalMel}
     \end{center}}
 \end{figure}
-
-En el proyecto, el  sistema trabaja con espectrogramas de magnitud lineal obtenidos mediante STFT ya que posteriormente se reconstruye el resultado obtenido mediante iSTFT, aunque por lo general en procesamiento de audio se utilizan Espectrogramas de Mel ( explicados a continuación ) ya que el objetivo del modelo es estimar máscaras tiempo-frecuencia que posteriormente se aplican sobre la magnitud STFT de la mezcla para reconstruir las fuentes usando la fase de la mezcla.
-Un espectrograma de Mel es similar a un espectrograma en el sentido de que muestra el contenido de frecuencia de una señal de audio a lo largo del tiempo, pero en un eje de frecuencia diferente.En un espectrograma estándar, el eje de frecuencia es lineal y se mide en hercios (Hz). Sin embargo, el sistema auditivo humano es más sensible a los cambios en las frecuencias bajas que en las frecuencias altas, y esta sensibilidad disminuye de manera logarítmica a medida que la frecuencia aumenta. La escala mel es una escala perceptual que aproxima la respuesta de frecuencia no lineal del oído humano. \cite{HuggingFaceCourse} 
 
 \end{itemize}

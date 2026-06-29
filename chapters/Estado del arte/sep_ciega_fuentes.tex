@@ -1,0 +1,22 @@
+La separación ciega de fuentes es aquella que busca separar las señales originales a partir únicamente de las mezclas observadas, sin información previa sobre las fuentes ni sobre el proceso de mezcla.\cite{cardoso1998blind}
+
+Dos técnicas clásicas son:
+\begin{itemize}
+    \item \textbf{Análisis de componentes independientes (\textit{ICA} por sus siglas en inglés)} busca componentes estadísticamente independientes, muy usada en aplicaciones de separación de voz.
+    
+    En aplicaciones de audio, cada señal observada suele corresponder a un micrófono o canal diferente. Por ejemplo, si dos personas hablan simultáneamente y sus voces son registradas mediante dos micrófonos situados en posiciones distintas, cada micrófono recoge una combinación diferente de ambas voces. ICA puede aprovechar estas diferencias para estimar las señales originales.
+    Por otro lado, lo más común en el mundo real es que exista solapamiento en cada señal, o suelen compartir el ritmo, la armonía, la tonalidad y la estructura temporal. Por estos motivos el método ICA no suele dar buenos resultados centrándose solamente en buscar elementos estadísticamente independientes y necesita de hipótesis adicionales.
+
+    \item \textbf{\textit{Non-negative Matrix Factorization NMF (Factorización no negativa de matrices)}:} descompone el espectrograma en bases y activaciones.
+    
+    NMF trata de estimar una matriz de separación y tiene en cuenta el patrón frecuencial asociado, por ejemplo, al timbre de un instrumento, una nota musical o un tipo de evento sonoro. Cada fila de la matriz indica cuándo y con qué intensidad aparece dicho patrón a lo largo del tiempo. 
+    Debido a la restricción de no negatividad, la reconstrucción se realiza mediante la suma de contribuciones positivas, sin cancelaciones entre componentes \cite{lee1999learning}. Estas características suelen terminar en mejores resultados.
+    Otra diferencia importante es que NMF puede aplicarse a una única mezcla mono. A diferencia de ICA, no necesita obligatoriamente disponer de varias grabaciones de la misma escena sonora. La separación se apoya en la estructura espectral y temporal del audio, y no únicamente en las diferencias espaciales existentes entre varios micrófonos.
+
+\end{itemize}
+
+La versión contraria sería la separación supervisada, donde se aprende teniendo información de los resultados. Es el caso de este trabajo.
+
+
+
+

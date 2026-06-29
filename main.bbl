@@ -192,40 +192,6 @@
       \verb 10.1109/TASLP.2018.2825440
       \endverb
     \endentry
-    \entry{cardoso1998blind}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=9ab68cfa408885fe52dd255419595ba9}{%
-           family={Cardoso},
-           familyi={C\bibinitperiod},
-           given={Jean-François},
-           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{fullhash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{fullhashraw}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{bibnamehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authorbibnamehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authornamehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authorfullhash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authorfullhashraw}{9ab68cfa408885fe52dd255419595ba9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE}
-      \field{number}{10}
-      \field{title}{Blind Signal Separation: Statistical Principles}
-      \field{volume}{86}
-      \field{year}{1998}
-      \field{pages}{2009\bibrangedash 2025}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1109/5.720250
-      \endverb
-    \endentry
     \entry{HuggingFaceCourse}{article}{}{}
       \name{author}{1}{}{%
         {{hash=e0b6bb846c6a3e0649ce0e3cd9355df3}{%
@@ -251,87 +217,6 @@
       \endverb
       \verb{url}
       \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
-      \endverb
-    \endentry
-    \entry{shannon1949communication}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=536c91678d1dde76c9acd47047556291}{%
-           family={Shannon},
-           familyi={S\bibinitperiod},
-           given={Claude\bibnamedelima E.},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=c912bb61084481fe9b3162f421319179}{%
-           family={Weaver},
-           familyi={W\bibinitperiod},
-           given={Warren},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Urbana, IL}%
-      }
-      \list{publisher}{1}{%
-        {University of Illinois Press}%
-      }
-      \strng{namehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{fullhash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{fullhashraw}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{bibnamehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authorbibnamehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authornamehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authorfullhash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authorfullhashraw}{b1ee21e09e255e9472a75b376837ad91}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Originally published in Bell System Technical Journal, 1948.}
-      \field{title}{The Mathematical Theory of Communication}
-      \field{year}{1949}
-    \endentry
-    \entry{doi:10.1177/0008125619864925}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=146c7381fa3e25c333d754ee6c0f683b}{%
-           family={Haenlein},
-           familyi={H\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=79d63985e11c74c107449cb5581be70c}{%
-           family={Kaplan},
-           familyi={K\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{fullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{fullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{bibnamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authorbibnamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authornamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authorfullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authorfullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This introduction to this special issue discusses artificial intelligence (AI), commonly defined as “a system’s ability to interpret external data correctly, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation.” It summarizes seven articles published in this special issue that present a wide variety of perspectives on AI, authored by several of the world’s leading experts and specialists in AI. It concludes by offering a comprehensive outlook on the future of AI, drawing on micro-, meso-, and macro-perspectives.}
-      \field{journaltitle}{California Management Review}
-      \field{number}{4}
-      \field{title}{A Brief History of Artificial Intelligence: On the Past, Present, and Future of Artificial Intelligence}
-      \field{volume}{61}
-      \field{year}{2019}
-      \field{pages}{5\bibrangedash 14}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1177/0008125619864925
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1177/0008125619864925
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/0008125619864925
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/0008125619864925
       \endverb
     \endentry
     \entry{rafii2018overview}{article}{}{}
@@ -376,8 +261,8 @@
       \strng{authorfullhash}{541e8f9668bf3797990ba81e523e1114}
       \strng{authorfullhashraw}{541e8f9668bf3797990ba81e523e1114}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
@@ -577,8 +462,8 @@
       \strng{authornamehash}{b79b9068a76c01ed062d6d76e5fac4d9}
       \strng{authorfullhash}{b444affc3f111d350340d1eaccb09afd}
       \strng{authorfullhashraw}{b444affc3f111d350340d1eaccb09afd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780323901840}

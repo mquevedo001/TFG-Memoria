@@ -397,35 +397,198 @@
       \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
       \endverb
     \endentry
-    \entry{DeepLearningforChestRadiographs}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=70e5597ef416362914d32bd15e5a1183}{%
-           family={Yashvi\bibnamedelima Chandola},
-           familyi={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={...\bibnamedelimi Papendra\bibnamedelima Kumar},
-           giveni={.\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim K\bibinitperiod},
-           suffix={Jitendra\bibnamedelima Virmani},
-           suffixi={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+    \entry{openunmix2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=aa6c3a459ce17ffc9ac824c596691dbc}{%
+           family={Uhlich},
+           familyi={U\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4887153a80d429a1020202b811ab9739}{%
+           family={Mitsufuji},
+           familyi={M\bibinitperiod},
+           given={Yuki},
+           giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{70e5597ef416362914d32bd15e5a1183}
-      \strng{fullhash}{70e5597ef416362914d32bd15e5a1183}
-      \strng{fullhashraw}{70e5597ef416362914d32bd15e5a1183}
-      \strng{bibnamehash}{70e5597ef416362914d32bd15e5a1183}
-      \strng{authorbibnamehash}{70e5597ef416362914d32bd15e5a1183}
-      \strng{authornamehash}{70e5597ef416362914d32bd15e5a1183}
-      \strng{authorfullhash}{70e5597ef416362914d32bd15e5a1183}
-      \strng{authorfullhashraw}{70e5597ef416362914d32bd15e5a1183}
+      \strng{namehash}{a6c5cc962790b8193cbbe2492622059f}
+      \strng{fullhash}{5ca0ef34ef35b1e96e3abfe9a6b01e1e}
+      \strng{fullhashraw}{5ca0ef34ef35b1e96e3abfe9a6b01e1e}
+      \strng{bibnamehash}{a6c5cc962790b8193cbbe2492622059f}
+      \strng{authorbibnamehash}{a6c5cc962790b8193cbbe2492622059f}
+      \strng{authornamehash}{a6c5cc962790b8193cbbe2492622059f}
+      \strng{authorfullhash}{5ca0ef34ef35b1e96e3abfe9a6b01e1e}
+      \strng{authorfullhashraw}{5ca0ef34ef35b1e96e3abfe9a6b01e1e}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Science Direct}
-      \field{title}{Deep Learning for Chest Radiographs}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{41}
+      \field{title}{Open-Unmix: A Reference Implementation for Music Source Separation}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{1667}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.01667
+      \endverb
+    \endentry
+    \entry{HybridDemucs}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5dbeaae01b9f285b48c87885d9e41e8d}{%
+           family={Défossez},
+           familyi={D\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=26e026be6d5366fce878100ba03d68c1}{%
+           family={Usunier},
+           familyi={U\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ac762f2592005edf6bad58f566967c6c}{%
+           family={Bottou},
+           familyi={B\bibinitperiod},
+           given={Léon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=93da2819ab01d8a5e7bae39ce6f17c1f}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{726bac973e06915ce740e91f0c59fc42}
+      \strng{fullhash}{5b5eb16b19b03b33d8b3ff7f32847e5c}
+      \strng{fullhashraw}{5b5eb16b19b03b33d8b3ff7f32847e5c}
+      \strng{bibnamehash}{726bac973e06915ce740e91f0c59fc42}
+      \strng{authorbibnamehash}{726bac973e06915ce740e91f0c59fc42}
+      \strng{authornamehash}{726bac973e06915ce740e91f0c59fc42}
+      \strng{authorfullhash}{5b5eb16b19b03b33d8b3ff7f32847e5c}
+      \strng{authorfullhashraw}{5b5eb16b19b03b33d8b3ff7f32847e5c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1909.01174}
+      \field{title}{Demucs: Deep Extractor for Music Sources with extra unlabeled data remixed}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.48550/arXiv.1909.01174
+      \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \verb https://arxiv.org/abs/1909.01174
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/book/monograph/9780323901840/deep-learning-for-chest-radiographs
+      \verb https://arxiv.org/abs/1909.01174
+      \endverb
+    \endentry
+    \entry{Deezer}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f2e58a393831e531ef1f4bd84eeedfc}{%
+           family={Hennequin},
+           familyi={H\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e1ff6ca9aec6515636e8f5d854ce8a47}{%
+           family={Khlif},
+           familyi={K\bibinitperiod},
+           given={Anis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df726fdee3883d26e22b5d8aef6db507}{%
+           family={Voituret},
+           familyi={V\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=02ac89115e217f16ac168f871090a7e2}{%
+           family={Moussallam},
+           familyi={M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{fullhash}{f2a98c06778d23216fd00fde94407975}
+      \strng{fullhashraw}{f2a98c06778d23216fd00fde94407975}
+      \strng{bibnamehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{authorbibnamehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{authornamehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{authorfullhash}{f2a98c06778d23216fd00fde94407975}
+      \strng{authorfullhashraw}{f2a98c06778d23216fd00fde94407975}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{50}
+      \field{title}{Spleeter: a fast and efficient music source separation tool with pre-trained models}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{pages}{2154}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.02154
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.02154
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.02154
+      \endverb
+    \endentry
+    \entry{DeepLearningforChestRadiographs}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=c26b8b206e19e7dacb72a87c2d241556}{%
+           family={Chandola},
+           familyi={C\bibinitperiod},
+           given={Yashvi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=449f015cb83debf51740c54fd95f3f92}{%
+           family={Virmani},
+           familyi={V\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c25c944a5371c80112d323b432454d91}{%
+           family={Bhadauria},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f4441f9b18bf52fcbe8ae00f654464cb}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Papendra},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{b79b9068a76c01ed062d6d76e5fac4d9}
+      \strng{fullhash}{b444affc3f111d350340d1eaccb09afd}
+      \strng{fullhashraw}{b444affc3f111d350340d1eaccb09afd}
+      \strng{bibnamehash}{b79b9068a76c01ed062d6d76e5fac4d9}
+      \strng{authorbibnamehash}{b79b9068a76c01ed062d6d76e5fac4d9}
+      \strng{authornamehash}{b79b9068a76c01ed062d6d76e5fac4d9}
+      \strng{authorfullhash}{b444affc3f111d350340d1eaccb09afd}
+      \strng{authorfullhashraw}{b444affc3f111d350340d1eaccb09afd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780323901840}
+      \field{title}{Deep Learning for Chest Radiographs: Computer-Aided Classification}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.oreilly.com/library/view/deep-learning-for/9780323906869/
+      \endverb
+      \verb{url}
+      \verb https://www.oreilly.com/library/view/deep-learning-for/9780323906869/
       \endverb
     \endentry
     \entry{Arxiv}{article}{}{}
@@ -446,8 +609,8 @@
       \strng{authornamehash}{f340782adf35e69f8f42d2f15f1d25ed}
       \strng{authorfullhash}{f340782adf35e69f8f42d2f15f1d25ed}
       \strng{authorfullhashraw}{f340782adf35e69f8f42d2f15f1d25ed}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Arxiv}
@@ -490,8 +653,8 @@
       \strng{authornamehash}{55cd032eef1794d6f8b692515c9b2a45}
       \strng{authorfullhash}{c37845b293317fa9b5d274326a515553}
       \strng{authorfullhashraw}{c37845b293317fa9b5d274326a515553}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}
@@ -524,8 +687,8 @@
       \strng{authornamehash}{d500c8600661c59df111f533a73e9d4a}
       \strng{authorfullhash}{d500c8600661c59df111f533a73e9d4a}
       \strng{authorfullhashraw}{d500c8600661c59df111f533a73e9d4a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{European Signal Processing Conference (EUSIPCO)}
@@ -558,8 +721,8 @@
       \strng{authornamehash}{e07ad197b67945b1dcce49ed3aa594f4}
       \strng{authorfullhash}{e07ad197b67945b1dcce49ed3aa594f4}
       \strng{authorfullhashraw}{e07ad197b67945b1dcce49ed3aa594f4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Using Optimal Ratio Mask as Training Target for Supervised Speech Separation}
@@ -581,8 +744,8 @@
       \strng{authornamehash}{0a1bd97b59cb3cf65dc849873adf0d25}
       \strng{authorfullhash}{0a1bd97b59cb3cf65dc849873adf0d25}
       \strng{authorfullhashraw}{0a1bd97b59cb3cf65dc849873adf0d25}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Trends in Amplification}
@@ -603,8 +766,8 @@
       \strng{authornamehash}{3fa8fd00a141b4a99028859edf082794}
       \strng{authorfullhash}{3fa8fd00a141b4a99028859edf082794}
       \strng{authorfullhashraw}{3fa8fd00a141b4a99028859edf082794}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Machine Learning Paper Reproducibility Checklist}

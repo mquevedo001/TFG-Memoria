@@ -1,19 +1,87 @@
-Inicialmente, la planificación del proyecto planteaba seguir una estructura de acuerdo al siguiente cronograma:
+Inicialmente, la planificación del proyecto planteaba seguir una estructura de fases organizada según el cuadro 2.1.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Comparación entre las horas estimadas y las horas reales dedicadas a los bloques y tareas del proyecto.}
+\label{tab:estimacion-horas-proyecto}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}
+{\textwidth}{|>{\raggedright\arraybackslash}X|>{\centering\arraybackslash}p{0.16\textwidth}|>{\centering\arraybackslash}p{0.16\textwidth}|}
+\hline
+\textbf{Trabajo Fin de Grado} & \cellcolor{yellow!45}\textbf{Horas estimadas} & \cellcolor{yellow!45}\textbf{Horas reales} \\
+\hline
+\rowcolor{blue!40}\textbf{PT 1 Aprendizaje y desarrollo inicial} & \textbf{62} & \textbf{76} \\
+\hline
+T 1.1 Análisis del problema e investigación técnica & 24 & 22 \\
+\hline
+T 1.2 Integración del modelo y de las funciones de pérdida & 22 & 40 \\
+\hline
+T 1.3 Diseño del preprocesamiento & 16 & 14 \\
+\hline
+\rowcolor{blue!40}\textbf{PT 2 Entrenamiento} & \textbf{150} & \textbf{137} \\
+\hline
+T 2.1 Diseño del protocolo de entrenamiento & 10 & 10 \\
+\hline
+T 2.2 Ajuste de los parámetros de entrenamiento & 28 & 36 \\
+\hline
+T 2.3 Entrenamiento de dos fuentes y análisis de resultados & 22 & 40 \\
+\hline
+T 2.4 Entrenamiento de cuatro fuentes y análisis de resultados & 30 & 50 \\
+\hline
+T 2.5 Organización de los resultados & 10 & 8 \\
+\hline
+\rowcolor{blue!40}\textbf{PT 3 Implementación de la interfaz} & \textbf{44} & \textbf{39} \\
+\hline
+T 3.1 Análisis de requisitos & 8 & 6 \\
+\hline
+T 3.2 Elección de herramientas & 6 & 5 \\
+\hline
+T 3.3 Diseño del flujo & 14 & 12 \\
+\hline
+T 3.4 Implementación & 16 & 16 \\
+\hline
+\rowcolor{blue!40}\textbf{PT 4 Evaluación final} & \textbf{80} & \textbf{150} \\
+\hline
+T 4.1 Definición del protocolo de evaluación & 10 & 11 \\
+\hline
+T 4.2 Preparación del conjunto de evaluación & 12 & 12 \\
+\hline
+T 4.3 Cálculo de métricas & 4 & 4 \\
+\hline
+T 4.4 Análisis y representación de los resultados & 14 & 14 \\
+\hline
+T 4.5 Elaboración de conclusiones y trabajo futuro & 12 & 46 \\
+\hline
+\rowcolor{blue!40}\textbf{PT 5 Documentación} & \textbf{80} & \textbf{150} \\
+\hline
+T 5.1 Redacción y revisión de la memoria final & 18 & 58 \\
+\hline
+T 5.2 Limpieza y documentación del código & 4 & 6 \\
+\rowcolor{blue!55}\textbf{TIEMPO TOTAL} & \textbf{300} & \textbf{400} \\
+\hline
+\end{tabularx}
+\end{table}
+
+
+
+
+
+
+La estimación global del proyecto asciende a aproximadamente 350 horas de trabajo efectivo. Esta cifra incluye las tareas de análisis, implementación, depuración, supervisión de entrenamientos, evaluación y documentación. No se contabiliza íntegramente el tiempo durante el cual los modelos se entrenan de forma automática, sino únicamente el esfuerzo dedicado a preparar, supervisar y analizar dichas ejecuciones.
+En la Figura 2.1 se puede ver el cronograma inicial
 
 \begin{figure}[H]
-    {
-    \begin{center}
-    \includegraphics[width=0.7\textwidth]{commons/cronograma_inicial.png}
-    \end{center}
+    \centering
+    \makebox[\textwidth][c]{%
+        \includegraphics[
+            width=1.25\textwidth,
+            keepaspectratio
+        ]{commons/cronograma_inicial_2}%
     }
+    \caption{Cronograma inicial del proyecto.}
+    \label{fig:cronograma-inicial}
 \end{figure}
 
-Sin embargo, durante el desarrollo del proyecto, fueron surgiendo complicaciones que retrasaron la planifición inicial. Además, por otros motivos, hubo un parón en el proyecto desde septiembre a enero. Finalmente el desarrollo terminó por ir de acuerdo al siguiente cronograma:
 
-\begin{figure}[H]
-    {
-    \begin{center}
-    \includegraphics[width=0.7\textwidth]{commons/cronograma_real.png}
-    \end{center}
-    }
-\end{figure}

@@ -1,18 +1,31 @@
-Se calcula sobre la representación en forma de onda del sonido computando una transformación discreta de Fourier ( una transformación discreta de Fourier consiste en la captura mediante ventanas sucesivas, no necesariamente triangulares, pero sí normalmente, en movimiento L de secciones de la onda , Fig. 4.3) trasladada a lo largo de la onda ( L ,2L, 3L ... )
+Se calcula sobre la representación en forma de onda del sonido computando una transformación discreta de Fourier (una transformación discreta de Fourier consiste en la captura mediante ventanas sucesivas, no necesariamente triangulares, pero sí normalmente, en movimiento L de secciones de la onda , Fig. 4.3) trasladada a lo largo de la onda (L ,2L, 3L ...)
+Método que captura mediante ventanas sucesivas de diferentes formas secciones de una onda y que permite analizar la evolución de su frecuencia a lo largo del tiempo. Se define de acuerdo a la siguiente fórmula:
+
 \begin{center}
   \[
 X(n, \omega) = \sum_{m=-\infty}^{\infty} x[m] \cdot w[m - n] \cdot e^{-j \omega m}
 \]  
 \end{center}
+
 Donde:
+
 \begin{itemize}
-  \item \textbf{\[x[m]\]} Señal original de audio en tiempo discreto. P.ej: muestras digitales del sonido
-  \item \textbf{\[m\]} Índice de la muestra para recorrer la señal punto a punto.
-  \item \[w[m - n]\] Ventana aplicada sobre la señal al rededor del instante \[n\].
-  \item \[n\] Posición temporal de la ventana.
-  \item \[\cdot e^{-j \omega m}\] Onda compleja usada para medir la presencia de una frecuencia concreta. \[j\] es la unidad imaginaria, \[w\] es la frecuencia angular digital.
+\item (x[m]) es la señal de audio original en tiempo discreto. Cada valor representa una muestra digital de la señal.
+
+\item \(m\) es el índice de muestra utilizado para recorrer la señal.
+
+\item \(w[m-n]\) es la función de ventana desplazada hasta la posición temporal \(n\). Esta ventana selecciona el fragmento de la señal que se analiza en cada instante.
+
+\item \(n\) representa la posición temporal de la ventana dentro de la señal.
+
+\item \(e^{-j\omega m}\) es una exponencial compleja utilizada para analizar la presencia de una determinada frecuencia en el fragmento seleccionado.
+
+\item \(j\) es la unidad imaginaria, definida mediante \(j^2=-1\).
+
+\item \(\omega\) es la frecuencia angular digital, normalmente expresada en radianes por muestra.
+
 \end{itemize}
-Cada celda de la transformada es compleja ( contiene magnitud y fase ) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
+Cada celda de la transformada es compleja (contiene magnitud y fase) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
 
 \begin{figure}[H]
     \begin{center}
@@ -22,7 +35,8 @@ Cada celda de la transformada es compleja ( contiene magnitud y fase ) y la tran
     \cite{rafii18}
     \end{center}
 \end{figure}
-Como parámetros importantes, presenta el tipo de ventana que utiliza ( gaussiana, rectangular , triangular, cuadrática ... ), la longitud de la ventana y la distancia entre ventanas adyacentes.En el proyecto llevado a cabo se utiliza \textit{$sqrt\_hann$}.
+
+Un parámetro importante en la transformada de fourier es la forma de la de ventana que se utiliza (gaussiana, rectangular , triangular, cuadrática ...), la longitud de la ventana y la distancia entre ventanas adyacentes.En el proyecto llevado a cabo se utiliza \textit{$sqrt\_hann$}. En la Figura 4.4 se puede ver el desempeño en separación de fuentes según las diferentes ventanas utilizadas.
 
 \begin{figure}[H]
     \begin{center}
@@ -32,7 +46,7 @@ Como parámetros importantes, presenta el tipo de ventana que utiliza ( gaussian
     \end{center}
 \end{figure}
 
-Algunos parámetros importantes en una transformada de fourier:
+Más parámetros que pueden variar en función de lo que se busque en una transformada de fourier:
 
 \begin{itemize}
   \item 1. \textit{window length}: tamaño de la ventana.

@@ -132,6 +132,8 @@ INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/caption-memoir.sto
 INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/caption-memoir.sto
 INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/caption-memoir.sto
+INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -167,6 +169,9 @@ INPUT c:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/memoir/memhfixc.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/memoir/memhfixc.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -263,6 +268,8 @@ INPUT c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 INPUT c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT c:/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/adjustbox/adjustbox.sty
@@ -288,10 +295,6 @@ INPUT c:/texlive/2026/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
-INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
-INPUT c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
-INPUT c:/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
-INPUT c:/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
@@ -418,11 +421,16 @@ INPUT ./chapters/abstract.tex
 INPUT ./chapters/abstract.tex
 INPUT chapters/abstract.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./chapters/ODS.tex
 INPUT ./chapters/ODS.tex
 INPUT chapters/ODS.tex
+INPUT ./commons/ODS.jpg
+INPUT ./commons/ODS.jpg
+INPUT ./commons/ODS.jpg
+INPUT ./commons/ODS.jpg
+INPUT ./commons/ODS.jpg
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
@@ -450,11 +458,19 @@ INPUT ./main.lot
 INPUT main.lot
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT ./chapters/introduccion.tex
+INPUT ./chapters/introduccion.tex
+INPUT chapters/introduccion.tex
 INPUT ./chapters/planificacion/Planificacion.tex
 INPUT ./chapters/planificacion/Planificacion.tex
 INPUT ./chapters/planificacion/Planificacion.tex
 INPUT ./chapters/planificacion/Planificacion.tex
 INPUT chapters/planificacion/Planificacion.tex
+INPUT ./chapters/planificacion/alcance.tex
+INPUT ./chapters/planificacion/alcance.tex
+INPUT ./chapters/planificacion/alcance.tex
+INPUT ./chapters/planificacion/alcance.tex
+INPUT chapters/planificacion/alcance.tex
 INPUT ./chapters/planificacion/objetivo.tex
 INPUT ./chapters/planificacion/objetivo.tex
 INPUT ./chapters/planificacion/objetivo.tex
@@ -474,41 +490,31 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri9.tfm
-INPUT ./chapters/planificacion/alcance.tex
-INPUT ./chapters/planificacion/alcance.tex
-INPUT ./chapters/planificacion/alcance.tex
-INPUT ./chapters/planificacion/alcance.tex
-INPUT chapters/planificacion/alcance.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT chapters/planificacion/cronograma.tex
-INPUT ./commons/cronograma_inicial.png
-INPUT ./commons/cronograma_inicial.png
-INPUT ./commons/cronograma_inicial.png
-INPUT ./commons/cronograma_inicial.png
-INPUT ./commons/cronograma_inicial.png
-INPUT ./commons/cronograma_real.png
-INPUT ./commons/cronograma_real.png
-INPUT ./commons/cronograma_real.png
-INPUT ./commons/cronograma_real.png
-INPUT ./commons/cronograma_real.png
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
+INPUT ./commons/cronograma_inicial_2.png
+INPUT ./commons/cronograma_inicial_2.png
+INPUT ./commons/cronograma_inicial_2.png
+INPUT ./commons/cronograma_inicial_2.png
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT chapters/planificacion/desviaciones.tex
+INPUT ./commons/cronograma_real_2.png
+INPUT ./commons/cronograma_real_2.png
+INPUT ./commons/cronograma_real_2.png
+INPUT ./commons/cronograma_real_2.png
+INPUT ./commons/cronograma_real_2.png
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT chapters/herramientas_utilizadas/python.tex
-INPUT ./chapters/herramientas_utilizadas/conda.tex
-INPUT ./chapters/herramientas_utilizadas/conda.tex
-INPUT ./chapters/herramientas_utilizadas/conda.tex
-INPUT ./chapters/herramientas_utilizadas/conda.tex
-INPUT chapters/herramientas_utilizadas/conda.tex
 INPUT ./chapters/herramientas_utilizadas/librosa.tex
 INPUT ./chapters/herramientas_utilizadas/librosa.tex
 INPUT ./chapters/herramientas_utilizadas/librosa.tex
@@ -519,26 +525,22 @@ INPUT ./chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex
 INPUT ./chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex
 INPUT ./chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex
 INPUT chapters/herramientas_utilizadas/matplotlib_numpy_scipy.tex
-INPUT ./chapters/herramientas_utilizadas/ignite.tex
-INPUT ./chapters/herramientas_utilizadas/ignite.tex
-INPUT ./chapters/herramientas_utilizadas/ignite.tex
-INPUT ./chapters/herramientas_utilizadas/ignite.tex
-INPUT chapters/herramientas_utilizadas/ignite.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT ./chapters/herramientas_utilizadas/nussl.tex
 INPUT ./chapters/herramientas_utilizadas/nussl.tex
 INPUT ./chapters/herramientas_utilizadas/nussl.tex
 INPUT ./chapters/herramientas_utilizadas/nussl.tex
 INPUT chapters/herramientas_utilizadas/nussl.tex
-INPUT ./chapters/herramientas_utilizadas/overleaf.tex
-INPUT ./chapters/herramientas_utilizadas/overleaf.tex
-INPUT ./chapters/herramientas_utilizadas/overleaf.tex
-INPUT ./chapters/herramientas_utilizadas/overleaf.tex
-INPUT chapters/herramientas_utilizadas/overleaf.tex
 INPUT ./chapters/herramientas_utilizadas/pytorch.tex
 INPUT ./chapters/herramientas_utilizadas/pytorch.tex
 INPUT ./chapters/herramientas_utilizadas/pytorch.tex
 INPUT ./chapters/herramientas_utilizadas/pytorch.tex
 INPUT chapters/herramientas_utilizadas/pytorch.tex
+INPUT ./chapters/herramientas_utilizadas/ignite.tex
+INPUT ./chapters/herramientas_utilizadas/ignite.tex
+INPUT ./chapters/herramientas_utilizadas/ignite.tex
+INPUT ./chapters/herramientas_utilizadas/ignite.tex
+INPUT chapters/herramientas_utilizadas/ignite.tex
 INPUT ./chapters/herramientas_utilizadas/streamlit_conda.tex
 INPUT ./chapters/herramientas_utilizadas/streamlit_conda.tex
 INPUT ./chapters/herramientas_utilizadas/streamlit_conda.tex
@@ -581,6 +583,11 @@ INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_f
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
 INPUT chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
+INPUT ./commons/Phase.png
+INPUT ./commons/Phase.png
+INPUT ./commons/Phase.png
+INPUT ./commons/Phase.png
+INPUT ./commons/Phase.png
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo.tex
@@ -596,12 +603,12 @@ INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft.tex
 INPUT chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft.tex
-INPUT ./commons/Fig3.png
-INPUT ./commons/Fig3.png
-INPUT ./commons/Fig3.png
-INPUT ./commons/Fig3.png
-INPUT ./commons/Fig3.png
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
+INPUT ./commons/Fig3.png
+INPUT ./commons/Fig3.png
+INPUT ./commons/Fig3.png
+INPUT ./commons/Fig3.png
+INPUT ./commons/Fig3.png
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT ./commons/Fig10.png
@@ -634,12 +641,6 @@ INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/me
 INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex
 INPUT chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/mezclas_coherentes_incoherentes.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
-INPUT chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/sep_ciega_fuentes.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro.tex
@@ -650,15 +651,11 @@ INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/for
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
 INPUT chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
-INPUT ./commons/Fig4.png
-INPUT ./commons/Fig4.png
-INPUT ./commons/Fig4.png
-INPUT ./commons/Fig4.png
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
-INPUT chapters/marco_teorico/sonidos y señales/representaciones_digitales/muestreo_cuant.tex
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
@@ -744,6 +741,7 @@ INPUT chapters/Estado del arte/metodos_clasicos.tex
 INPUT ./chapters/Estado del arte/aprendizaje_profundo.tex
 INPUT ./chapters/Estado del arte/aprendizaje_profundo.tex
 INPUT chapters/Estado del arte/aprendizaje_profundo.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT ./chapters/Estado del arte/herramientas_actuales.tex
 INPUT ./chapters/Estado del arte/herramientas_actuales.tex
@@ -1090,6 +1088,7 @@ OUTPUT main.run.xml
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb
+INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx9.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb
