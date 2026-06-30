@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish]{babel}
+
 \usepackage{lmodern}
 
 \usepackage{graphicx}
@@ -37,6 +38,8 @@
 \setlength\bibitemsep{1.5\itemsep}
 \setlength\bibhang{1em}
 \addbibresource{referencias.bib}
+
+
 
 % --------------------------
 % Estilo del Índice de contenidos
@@ -107,6 +110,9 @@
 
 \author{\egilea}
 \date{\data}
+
+\renewcommand{\spanishtablename}{Tabla}
+\renewcommand{\listtablename}{Índice de Tablas}
 
 \begin{document}
 
@@ -227,9 +233,9 @@
 %\subsubsection{Ondas sonoras}
 %\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/ondas_sonoras}
 %\subsubsection{Frecuencia y tono}
-%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
-%\subsubsection{Amplitud e intensidad}
-%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
+\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
+\subsubsection{Amplitud e intensidad}
+\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
 \subsection{Dominio tiempo frecuencia}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro}
 \subsubsection{Magnitud y fase}

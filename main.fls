@@ -496,20 +496,21 @@ INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT chapters/planificacion/cronograma.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
-INPUT ./commons/cronograma_inicial_2.png
-INPUT ./commons/cronograma_inicial_2.png
-INPUT ./commons/cronograma_inicial_2.png
-INPUT ./commons/cronograma_inicial_2.png
+INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
+INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
+INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
+INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
+INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT ./chapters/planificacion/desviaciones.tex
 INPUT chapters/planificacion/desviaciones.tex
-INPUT ./commons/cronograma_real_2.png
-INPUT ./commons/cronograma_real_2.png
-INPUT ./commons/cronograma_real_2.png
-INPUT ./commons/cronograma_real_2.png
-INPUT ./commons/cronograma_real_2.png
+INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
+INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
+INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
+INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
+INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
@@ -569,15 +570,35 @@ INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmri10.tfm
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
+INPUT chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
+INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
+INPUT chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
 INPUT chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex

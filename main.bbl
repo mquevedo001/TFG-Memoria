@@ -124,8 +124,8 @@
       \strng{authornamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
       \strng{authorfullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
       \strng{authorfullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://source-separation.github.io/tutorial/basics/phase.html}}
@@ -175,8 +175,8 @@
       \strng{authorfullhash}{1418eadc0963c269eefd28bc2744fa71}
       \strng{authorfullhashraw}{1418eadc0963c269eefd28bc2744fa71}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2329-9290}
@@ -462,8 +462,8 @@
       \strng{authornamehash}{b79b9068a76c01ed062d6d76e5fac4d9}
       \strng{authorfullhash}{b444affc3f111d350340d1eaccb09afd}
       \strng{authorfullhashraw}{b444affc3f111d350340d1eaccb09afd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780323901840}

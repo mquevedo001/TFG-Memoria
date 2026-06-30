@@ -8,7 +8,7 @@ Existen varias formas de guardar una representación digital del sonido:
 
 En el proyecto, el  sistema trabaja con espectrogramas de magnitud lineal obtenidos mediante STFT ya que posteriormente se reconstruye el resultado obtenido mediante iSTFT.
 
-Aunque por lo general en procesamiento de audio se utilizan otro tipo de espectrogramas ( espectrogramas de Mel, explicados en el siguiente párrafo) ya que el objetivo del modelo es estimar máscaras tiempo-frecuencia que posteriormente se aplican sobre la magnitud STFT de la mezcla para reconstruir las fuentes usando la fase de la mezcla.
+Aunque por lo general, en procesamiento de audio, se utilizan otro tipo de espectrogramas: los espectrogramas de Mel (explicados en el siguiente párrafo). El uso el espectrograma estándar en el proyecto se debe que el objetivo del modelo es estimar máscaras tiempo-frecuencia que posteriormente se aplican sobre la magnitud STFT de la mezcla para reconstruir las fuentes usando la fase de la mezcla.
 
 Un espectrograma de Mel es similar a un espectrograma en el sentido de que muestra el contenido de frecuencia de una señal de audio a lo largo del tiempo, pero en un eje de frecuencia diferente.En un espectrograma estándar, el eje de frecuencia es lineal y se mide en hercios (Hz). Sin embargo, el sistema auditivo humano es más sensible a los cambios en las frecuencias bajas que en las frecuencias altas, y esta sensibilidad disminuye de manera logarítmica a medida que la frecuencia aumenta. La escala mel es una escala perceptual que aproxima la respuesta de frecuencia no lineal del oído humano. \cite{HuggingFaceCourse}. En la Figura 4.6 se muestra la diferencia en la representación visual de ambos métodos. 
 
