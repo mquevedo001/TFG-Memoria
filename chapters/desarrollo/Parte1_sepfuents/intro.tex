@@ -1,0 +1,10 @@
+Para el objetivo de la identificación y separación de elementos en una obra musical, se ha utilizado una arquitectura \textit{LSTM}, en particular la de \textit{Open-Unminx} \cite{rafii18}. Su artículo de presentación incluye una sección didáctica donde se ha aprendido gran parte del método usado. 
+
+En el desarrollo se han contemplado dos escenarios de separación:
+
+\begin{itemize}
+    \item 2 fuentes: voz/acompañamiento
+    \item 4 fuentes: voz/bajo/batería/otros
+\end{itemize}
+
+En dos fuentes, cuando la entrada al proceso es de una canción con mas de dos elementos , todo lo que no sea voz se agrupa en el acompañamiento.

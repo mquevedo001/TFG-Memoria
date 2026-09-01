@@ -1,7 +1,6 @@
 Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo anterior a los modelos entrenados. Los resultados se presentan separando los escenarios de dos y cuatro fuentes, ya que ambos problemas presentan distinta dificultad y no son directamente comparables.
 
-
-\paragraph{Resultados en dos fuentes}
+En la Tabla \ref{tab:resultados-2-fuentes-sisdri} se presentan los resultados de separación en dos fuentes, mientras que en la Tabla \ref{tab:resultados-4-fuentes-sisdri} se presentan los resultados de separación en cuatro fuentes. En ambas tablas se muestran las métricas de SI-SDRi y SI-SAR, así como la desviación típica y si el modelo supera o no al \textit{baseline}.
 
 \begin{table}[H]
     \centering
@@ -41,8 +40,6 @@ Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo 
     \end{adjustbox}
 \end{table}
 
-\paragraph{Resultados en cuatro fuentes}
-
 \begin{table}[H]
     \centering
     \caption{Tabla para los resultados de separación en 4 fuentes}
@@ -81,14 +78,15 @@ Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo 
     \end{adjustbox}
 \end{table}
 
-\paragraph{Rankings}
+\subsubsection{Rankings}
 
+En esta sección se presentan los rankings de los modelos entrenados, ordenados por la métrica de SI-SDRi medio, para los escenarios de dos y cuatro fuentes. Estos rankings permiten identificar rápidamente qué modelos han obtenido un mejor rendimiento en términos de separación de fuentes.
 \begin{table}[H]
 \centering
 \caption{Ranking para los resultados de separación en 2 fuentes}
 \label{tab:ranking-2-fuentes}
 
-```
+
 \begin{adjustbox}{center,max width=\textwidth}
     \begin{tabular}{clrrrrc}
         \toprule
@@ -118,7 +116,7 @@ Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo 
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-```
+
 
 \end{table}
 
@@ -127,7 +125,7 @@ Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo 
 \caption{Ranking para los resultados de separación en 4 fuentes}
 \label{tab:ranking-4-fuentes}
 
-```
+
 \begin{adjustbox}{center,max width=\textwidth}
     \begin{tabular}{clrrrrc}
         \toprule
@@ -156,20 +154,19 @@ Una vez definido y validado el pipeline de evaluación, se aplicó el protocolo 
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-```
+
 
 \end{table}
 
-\paragraph{Graficos de barras}
+\subsubsection{Graficos de barras}
 
-Se han llevado a cabo dos gráficos de barras para dar una imágen que represente visualmente los resultados:
+Se han generado dos gráficos de barras para dar una imágen que represente visualmente los resultados:
 
 \begin{figure}[H]
     {\begin{center}
     \includegraphics[width=0.7\textwidth]{commons/barplot_sisdr_2stems.png}
     \caption{Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de dos fuentes}
     \label{fig:barplot-2sources}
-    \cite{rafii18}
     \end{center}}
 \end{figure}
 
@@ -178,7 +175,6 @@ Se han llevado a cabo dos gráficos de barras para dar una imágen que represent
     \includegraphics[width=0.7\textwidth]{commons/barplot_sisdr_4stems.png}
     \caption{Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de cuatro fuentes}
     \label{fig:barplot-4sources}
-    \cite{rafii18}
     \end{center}}
 \end{figure}
 

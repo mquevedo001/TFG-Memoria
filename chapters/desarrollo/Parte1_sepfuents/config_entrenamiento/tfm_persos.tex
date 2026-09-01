@@ -1,0 +1,59 @@
+\paragraph{Transformaciones personalizadas de los datos}
+
+En esta sección se comentarán las transformaciones (TFMs) aplicadas al audio/tensores antes del entrenamiento:
+
+El flujo de procesado avanza de la siguiente manera:
+
+\[
+\text{Audio} \rightarrow \text{STFT} \rightarrow \text{Magnitud y fase}
+\]
+\[
+\text{Magnitud} \rightarrow \text{AmplitudeToDB} \rightarrow \text{BatchNorm} \rightarrow [B,T,F] \rightarrow \text{LSTM} \rightarrow \text{Máscara estimada}
+\]
+\[
+\text{Máscara estimada} \times \text{Magnitud de la mezcla} + \text{Fase de la mezcla} \rightarrow \text{iSTFT}
+\]
+
+Donde cada transformación es:
+
+\begin{itemize}
+
+    \item \textbf{Transformaciones espectrales.}
+
+    En primer lugar, la señal de audio se transforma desde el dominio temporal al dominio tiempo-frecuencia mediante la STFT (\textit{Short-Time Fourier Transform}). Esta transformación divide la señal en ventanas temporales sucesivas y aplica una transformada de Fourier a cada una de ellas, obteniendo una representación compleja que indica el contenido frecuencial de la señal en cada instante temporal.
+
+    A partir de la STFT se separan dos componentes principales:
+
+    \begin{itemize}
+        \item \textbf{Magnitud:} corresponde al módulo de cada coeficiente complejo de la STFT. Representa la intensidad relativa de cada componente frecuencial en cada frame temporal. En este trabajo, la magnitud de la mezcla se utiliza como entrada principal del modelo, mientras que las magnitudes de las fuentes reales se utilizan como objetivos durante el entrenamiento.
+
+        \item \textbf{Fase:} corresponde al ángulo de cada coeficiente complejo de la STFT. Contiene información sobre el desplazamiento temporal relativo de las componentes frecuenciales. El modelo no estima directamente la fase de cada fuente, por lo que durante la reconstrucción se reutiliza la fase conocida de la mezcla como aproximación.
+    \end{itemize}
+
+    En el caso de separación en dos fuentes, las fuentes del dataset pueden agruparse para formar los objetivos vocales y acompañamiento. En este caso, el acompañamiento se obtiene a partir de la combinación de las fuentes no vocales, como bajo, batería y resto.
+
+    \item \textbf{Transformaciones internas del modelo.}
+
+    Una vez obtenida la magnitud de la mezcla, se aplican varias transformaciones internas antes de introducirla en la red recurrente:
+
+    \begin{itemize}
+        \item \textbf{AmplitudeToDB:} convierte la magnitud lineal a una escala logarítmica expresada en decibelios. Esta transformación comprime el rango dinámico de la señal, reduciendo la diferencia entre componentes de muy alta y muy baja energía. Esto facilita que el modelo trabaje con valores más estables durante el entrenamiento.
+
+        \item \textbf{BatchNorm:} la normalización por lotes normaliza las activaciones utilizando estadísticas calculadas sobre el batch. En este trabajo se aplica después de la conversión a decibelios y antes de la LSTM, con el objetivo de estabilizar el entrenamiento y facilitar la convergencia del modelo.
+
+        \item \textbf{Reordenación dimensional:} las operaciones de carga de datos, cálculo de STFT y procesamiento con redes recurrentes pueden requerir distintas ordenaciones de los ejes del tensor. Por ello, antes de introducir los datos en la LSTM, la magnitud se adapta al formato \([B,T,F]\). De esta forma, el espectrograma se interpreta como una secuencia temporal de vectores frecuenciales.
+    \end{itemize}
+
+    La LSTM procesa esta secuencia temporal y produce una representación a partir de la cual se estiman máscaras tiempo-frecuencia para cada fuente. Estas máscaras se aplican sobre la magnitud de la mezcla para obtener las magnitudes estimadas de los distintos \textit{stems}.
+
+    \item \textbf{Transformaciones para pérdidas concretas.}
+
+    Algunas funciones de pérdida requieren adaptar la forma de los tensores antes de calcular el error entre la estimación y el objetivo. Estas transformaciones no modifican el contenido de la señal, sino la organización de sus dimensiones para adecuarlas al tipo de comparación que realiza cada pérdida.
+
+    \begin{itemize}
+        \item \textbf{Pérdidas de frecuencia:} en las pérdidas que comparan directamente representaciones frecuenciales, las estimaciones y los objetivos pueden reformularse al formato \([B \cdot S, F, T]\), donde \(S\) es el número de fuentes. De este modo, cada fuente de cada ejemplo del batch se trata como una muestra independiente en el cálculo de la pérdida.
+
+        \item \textbf{Pérdidas \textit{deep-feature}:} en las pérdidas basadas en características profundas, las magnitudes estimadas y objetivo se adaptan al formato \([B \cdot S, 1, F, T]\). Esta forma permite introducir los espectrogramas en una red convolucional auxiliar, donde el eje \(1\) representa un único canal de entrada y las dimensiones \(F\) y \(T\) se tratan como una representación bidimensional tiempo-frecuencia.
+    \end{itemize}
+
+\end{itemize}

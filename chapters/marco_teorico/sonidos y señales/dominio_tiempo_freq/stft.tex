@@ -1,6 +1,5 @@
-Se calcula sobre la representación en forma de onda del sonido computando una transformación discreta de Fourier (una transformación discreta de Fourier consiste en la captura mediante ventanas sucesivas, no necesariamente triangulares, pero sí normalmente, en movimiento L de secciones de la onda , Fig. 4.3) trasladada a lo largo de la onda (L ,2L, 3L ...)
 
-Es un método que captura mediante ventanas sucesivas de diferentes formas secciones de una onda y que permite analizar la evolución de su frecuencia a lo largo del tiempo. Se define de acuerdo a la siguiente fórmula:
+La Transformada en Tiempo corto de Fourier es un método que captura mediante ventanas sucesivas de diferentes formas secciones de una onda y que permite analizar la evolución de su frecuencia a lo largo del tiempo. Se define de acuerdo a la siguiente fórmula:
 
 \begin{center}
   \[
@@ -26,36 +25,49 @@ Donde:
 \item \(\omega\) es la frecuencia angular digital, normalmente expresada en radianes por muestra.
 
 \end{itemize}
-Cada celda de la transformada es compleja (contiene magnitud y fase) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
+El método para aplicar la transformación discreta de Fourier consiste en la captura mediante ventanas sucesivas, no necesariamente triangulares, pero sí normalmente, en movimiento L de secciones de la onda trasladada a lo largo de la onda (L ,2L, 3L ...). Finalmente, se aplica la transformada discreta de Fourier a cada segmento, obteniendo una representación de la evolución temporal del contenido frecuencial de la señal, como se muestra en la Figura \ref{fig:STFT}
 
 \begin{figure}[H]
     \begin{center}
     \includegraphics[width=0.7\textwidth]{commons/Fig3.png}
     \caption{Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}
     \label{fig:STFT}
-    \cite{rafii18}
     \end{center}
 \end{figure}
 
-Un parámetro importante en la transformada de fourier es la forma de la de ventana que se utiliza (gaussiana, rectangular , triangular, cuadrática ...), la longitud de la ventana y la distancia entre ventanas adyacentes.En el proyecto llevado a cabo se utiliza \textit{$sqrt\_hann$}. En la Figura 4.4 se puede ver el desempeño en separación de fuentes según las diferentes ventanas utilizadas.
+Cada celda resultante de la transformada es compleja (contiene magnitud y fase) y la transformada en general es invertible, por lo que se puede obtener la onda inicial a partir de la representación.
+
+Los parámetros importantes en la transformada de fourier son:
+
+\begin{itemize}
+  \item 1. Forma de la ventana: gaussiana, rectangular , triangular, cuadrática ... Determina la cantidad de información que se captura en una ventana,
+  \item 2. Longitud de la ventana: determina la precisión con la que se verá cuándo ocurren los eventos o cuáles son exactamente las frecuencias
+  \item 3. Distancia entre ventanas: salto entre ventanas consecutivas, tiene relación directa con el equilibrio entre resolución temporal, precisión y costo computacional.
+\end{itemize}
+
+
+En el proyecto se computa la transformada con la aplicación de una ventana Han que se caracteriza porrr un lóbulo principal ancho y lóbulos laterales pequeños que decaen rápidamente. Esto se traduce en extrremos de la señal
+suavizados a cero, lo que elimina las discontinuidades en los bordes antes de aplicar la Transforamda Rápida de Fourier. El lóbulo principal es el doble de ancho que el de una ventana rectangular tradicional, lo que disminuye ligeramente la resolución espetral,
+y los laterales atenúan -32dB y  18dB por octava, respectivamente. En la Figura \ref{fig:hann window} se puede ver la graficación de una ventana Hann y su respuesta frecuencial.
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=0.7\textwidth]{commons/scipy-signal-hann-1_01.png}
+    \caption{Respuesta frecuencial de la ventana Hann}
+    \label{fig:hann window}
+    \end{center}
+\end{figure}
 
 \begin{figure}[H]
     \begin{center}
     \includegraphics[width=0.7\textwidth]{commons/Fig10.png}
-    \caption{Hann function}
+    \caption{Comparativa de efectividad en el problema de separación de fuentes de la ventana Hann en distintos géneros musicales.}
     \label{fig:hann function}
     \end{center}
 \end{figure}
 
-Más parámetros que pueden variar en función de lo que se busque en una transformada de fourier:
-
-\begin{itemize}
-  \item 1. \textit{window length}: tamaño de la ventana.
-  \item 2. \textit{hop length}: salto entre ventanas consecutivas
-  \item 3. Solapamiento: solapamiento entre ventanas.
-\end{itemize}
-
-Existe también el término \textit{iSTFT} que refiere al proceso inverso de la transformada de fourier, donde se reconstruye una señal de audio u onda a partir de su representación en el dominio tiempo-frecuencia
+\paragraph{iSTFT}
+Otro término a tener en cuenta en relación con la Transformada en Tiempo corto de Fourier es su versión inversa, la \textit{iSTFT}, donde se reconstruye una señal de audio u onda a partir de su representación en el dominio tiempo-frecuencia
 
 
 

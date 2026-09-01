@@ -1,0 +1,9 @@
+Tras un estudio en profundidad de los métodos comúnmente utilizados para el objetivo que nos concierne se observó que existe un gran abanico de posibilidades. Se termina por optar por un modelo de inferencia de máscaras ya que presentaba el recurso de un tutorial de uso en formato web junto a la definición técnica del modelo.
+Algunas particularidades del modelo elegido son las siguientes:
+
+\begin{itemize}
+    \item El modelo no produce directamente una señal acústica, si no que predice una máscara tiempo-frecuencia que se aplica sobre la mezcla filtrando la señal, intentando así proporcionar una fuente como salida del filtrado.
+    \item La estimación que proporciona la salida no es una señal, es el valor de la magnitud de la señal en cada punto del espectrograma.  
+    \item En el entrenamiento se comparan magnitudes estimadas hasta el momento por el modelo con magnitudes objetivo proporcionadas por la base de datos.
+    \item Tras el proceso de inferencia de la máscara se reconstruye el audio usando la fase de la mezcla.
+\end{itemize}

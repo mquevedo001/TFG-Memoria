@@ -1,4 +1,4 @@
-En esta sección se explicará qué se ha medido, por qué , y las limitaciones encontradas.
+En esta sección se explicará qué se ha medido, por qué, y las limitaciones encontradas.
 
 \begin{itemize}
     \item \textbf{SI-SDR:}
@@ -11,17 +11,29 @@ A la hora de la interpretación de los resultados, para SI-SDR, se valora a mejo
 \mathrm{SI\text{-}SDR} = 10 \log_{10}\frac{\|s_{\mathrm{target}}\|^2}{\|e_{\mathrm{noise}}\|^2}
 \]
 
+Donde: 
+\begin{itemize}
+    \item $s_{\mathrm{target}}$ es la señal de referencia.
+    \item $e_{\mathrm{noise}}$ es el error residual, es decir, todo lo que queda en la estimación y que no pertenece a $s_{\mathrm{target}}$.
+\end{itemize}
+
     \item \textbf{Baseline de mezcla:}
-Un modelo no se considera útil si no supera el baseline de mezcla en el conjunto de test. Por ello, se ha añadido un baseline trivial, donde se utiliza la mezcla original como estimación de cada fuente para así detectar modelos
-que generan audio, pero no separan de verdad. Se utiliza como criterio mínimo para calificar una fuente como separación y si no se supera quiere decir que el modelo genera audio pero no información útil.
+Un modelo no se considera útil si no supera el la linea base de mezcla en el conjunto de test. Por ello, se ha añadido un \textit{baseline} trivial, donde se utiliza la mezcla original como estimación de cada fuente para así detectar modelos
+que generan audio, pero no separan de verdad, para ello se ha definido el un criterio mínimo para el valor de la correlación entre la mezcla y la fuente separada y eso es lo que determina el \textit{baseline}. Se utiliza como criterio mínimo para calificar una fuente como separación y si no se supera quiere decir que el modelo genera audio pero no información útil.
 
 \item \textbf{Métricas de agregación:}
 
-Se han utilizado: media, da una medida de rendimiento promedio para un conjunto de valores de , por ejemplo SI-SDR. Mediana: da un valor de robustez frente a \textit{outliers}. Desviación típica: determina la distancia a la que están la mayoría de los valores de la media y se ha utilizado para valorar la estabilidad entre pistas.
+Se han utilizado algunas métricas de agregación para tener información adicional sobre el rendimiento de los procesos realizamos, así como:
+
+\begin{itemize}
+    \item Media:da una medida de rendimiento promedio para un conjunto de valores de, por ejemplo SI-SDR.
+    \item Mediana:da un valor de robustez frente a \textit{outliers}.
+    \item Desviación típica: determina la distancia a la que están la mayoría de los valores de la media y se ha utilizado para valorar la estabilidad entre pistas.
+\end{itemize}
 
 \item \textbf{Métricas complementarias:}
 
-Se han utilizado también varias métricas complementarias a modo de depuración y de diagnóstico: \textbf{correlación entre fuentes de salida y mezcla},\textbf{estadísticas de máscara},\textbf{matriz de correlación estimación-referencia}
+Se han utilizado también varias métricas complementarias a modo de depuración y de diagnóstico: correlación entre fuentes de salida y mezcla,estadísticas de máscara y matriz de correlación estimación-referencia.
 
     
 \end{itemize}

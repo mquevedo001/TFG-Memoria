@@ -69,6 +69,14 @@ INPUT c:/texlive/2026/texmf-dist/tex/generic/babel/locale/es/babel-es.ini
 INPUT c:/texlive/2026/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 INPUT c:/texlive/2026/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 INPUT c:/texlive/2026/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -295,6 +303,8 @@ INPUT c:/texlive/2026/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
@@ -476,7 +486,6 @@ INPUT ./chapters/planificacion/objetivo.tex
 INPUT ./chapters/planificacion/objetivo.tex
 INPUT ./chapters/planificacion/objetivo.tex
 INPUT chapters/planificacion/objetivo.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
@@ -488,14 +497,30 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri9.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
+INPUT ./chapters/planificacion/paquetes_trabajo.tex
+INPUT ./chapters/planificacion/paquetes_trabajo.tex
+INPUT ./chapters/planificacion/paquetes_trabajo.tex
+INPUT ./chapters/planificacion/paquetes_trabajo.tex
+INPUT chapters/planificacion/paquetes_trabajo.tex
+INPUT ./commons/EDT.png
+INPUT ./commons/EDT.png
+INPUT ./commons/EDT.png
+INPUT ./commons/EDT.png
+INPUT ./commons/EDT.png
+INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT ./chapters/planificacion/estimacion.tex
+INPUT ./chapters/planificacion/estimacion.tex
+INPUT chapters/planificacion/estimacion.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT ./chapters/planificacion/cronograma.tex
 INPUT chapters/planificacion/cronograma.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
 INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
 INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
 INPUT ./commons/cronograma_inicial_PT5_julio2026.pdf
@@ -511,6 +536,9 @@ INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
 INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
 INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
 INPUT ./commons/cronograma_real_PT5_entrega_septiembre2026.pdf
+INPUT ./chapters/herramientas_utilizadas/intro.tex
+INPUT ./chapters/herramientas_utilizadas/intro.tex
+INPUT chapters/herramientas_utilizadas/intro.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
 INPUT ./chapters/herramientas_utilizadas/python.tex
@@ -566,34 +594,17 @@ INPUT ./commons/Fig1.png
 INPUT ./commons/Fig1.png
 INPUT ./commons/Fig1.png
 INPUT ./commons/Fig1.png
-INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/onda_freq_alta_freq_baja.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
+INPUT ./commons/ondas_amplitud.jpg
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmri10.tfm
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
-INPUT chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-INPUT ./commons/onda_freq_alta_freq_baja.jpg
-INPUT ./commons/onda_freq_alta_freq_baja.jpg
-INPUT ./commons/onda_freq_alta_freq_baja.jpg
-INPUT ./commons/onda_freq_alta_freq_baja.jpg
-INPUT ./commons/onda_freq_alta_freq_baja.jpg
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
-INPUT chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad.tex
-INPUT ./commons/ondas_amplitud.jpg
-INPUT ./commons/ondas_amplitud.jpg
-INPUT ./commons/ondas_amplitud.jpg
-INPUT ./commons/ondas_amplitud.jpg
-INPUT ./commons/ondas_amplitud.jpg
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro.tex
@@ -604,6 +615,9 @@ INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_f
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
 INPUT chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT ./commons/Phase.png
 INPUT ./commons/Phase.png
 INPUT ./commons/Phase.png
@@ -630,8 +644,11 @@ INPUT ./commons/Fig3.png
 INPUT ./commons/Fig3.png
 INPUT ./commons/Fig3.png
 INPUT ./commons/Fig3.png
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
+INPUT ./commons/scipy-signal-hann-1_01.png
+INPUT ./commons/scipy-signal-hann-1_01.png
+INPUT ./commons/scipy-signal-hann-1_01.png
+INPUT ./commons/scipy-signal-hann-1_01.png
+INPUT ./commons/scipy-signal-hann-1_01.png
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
@@ -647,6 +664,11 @@ INPUT ./commons/Fig4.png
 INPUT ./commons/Fig4.png
 INPUT ./commons/Fig4.png
 INPUT ./commons/Fig4.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
+INPUT ./commons/SpectrogramNormalMel.png
 INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/mezcla_señales_sep_fuentes/intro.tex
@@ -672,90 +694,9 @@ INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/for
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
 INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
 INPUT chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio.tex
-INPUT ./commons/SpectrogramNormalMel.png
-INPUT ./commons/SpectrogramNormalMel.png
-INPUT ./commons/SpectrogramNormalMel.png
-INPUT ./commons/SpectrogramNormalMel.png
-INPUT ./commons/SpectrogramNormalMel.png
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
-INPUT ./chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
-INPUT chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/intro.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/intro.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/intro.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado.tex
-INPUT ./commons/Fig5.jpg
-INPUT ./commons/Fig5.jpg
-INPUT ./commons/Fig5.jpg
-INPUT ./commons/Fig5.jpg
-INPUT ./commons/Fig5.jpg
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes.tex
-INPUT ./commons/Fig6.png
-INPUT ./commons/Fig6.png
-INPUT ./commons/Fig6.png
-INPUT ./commons/Fig6.png
-INPUT ./commons/Fig6.png
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente.tex
-INPUT ./commons/Fig7.jpg
-INPUT ./commons/Fig7.jpg
-INPUT ./commons/Fig7.jpg
-INPUT ./commons/Fig7.jpg
-INPUT ./commons/Fig7.jpg
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
-INPUT ./chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
-INPUT chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
 INPUT ./chapters/Estado del arte/intro.tex
 INPUT ./chapters/Estado del arte/intro.tex
 INPUT chapters/Estado del arte/intro.tex
-INPUT ./chapters/Estado del arte/separacion_fuentes.tex
-INPUT ./chapters/Estado del arte/separacion_fuentes.tex
-INPUT chapters/Estado del arte/separacion_fuentes.tex
-INPUT ./chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex
-INPUT ./chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex
-INPUT chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex
 INPUT ./chapters/Estado del arte/metodos_clasicos.tex
 INPUT ./chapters/Estado del arte/metodos_clasicos.tex
 INPUT chapters/Estado del arte/metodos_clasicos.tex
@@ -767,116 +708,119 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT ./chapters/Estado del arte/herramientas_actuales.tex
 INPUT ./chapters/Estado del arte/herramientas_actuales.tex
 INPUT chapters/Estado del arte/herramientas_actuales.tex
-INPUT ./chapters/Estado del arte/posicionamiento.tex
-INPUT ./chapters/Estado del arte/posicionamiento.tex
-INPUT chapters/Estado del arte/posicionamiento.tex
-INPUT ./chapters/Parte1_sepfuents/intro.tex
-INPUT ./chapters/Parte1_sepfuents/intro.tex
-INPUT chapters/Parte1_sepfuents/intro.tex
-INPUT ./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
-INPUT ./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
-INPUT ./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
-INPUT ./chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
-INPUT chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
-INPUT ./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
-INPUT ./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
-INPUT ./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
-INPUT ./chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
-INPUT chapters/Parte1_sepfuents/arq_base/arq_base_maskinference.tex
+INPUT ./chapters/desarrollo/intro.tex
+INPUT ./chapters/desarrollo/intro.tex
+INPUT chapters/desarrollo/intro.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/base_datos.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/base_datos.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/base_datos.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/base_datos.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/diseño_modelo/base_datos.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/funcs_perdida.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/funcs_perdida.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/funcs_perdida.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/funcs_perdida.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/mod_propuestas/funcs_perdida.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/arq_base_maskinference.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/arq_base_maskinference.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/arq_base_maskinference.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/diseño_modelo/arq_base_maskinference.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/diseño_modelo/arq_base_maskinference.tex
 INPUT ./commons/Fig9.png
 INPUT ./commons/Fig9.png
 INPUT ./commons/Fig9.png
 INPUT ./commons/Fig9.png
 INPUT ./commons/Fig9.png
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-INPUT chapters/Parte1_sepfuents/mod_propuestas/arq_y_params.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex
-INPUT ./chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex
-INPUT chapters/Parte1_sepfuents/mod_propuestas/func_perdida.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-INPUT chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
-INPUT chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
-INPUT ./chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
-INPUT chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/intro.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/intro.tex
-INPUT chapters/Parte1_sepfuents/entrenamiento_modelo/intro.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
-INPUT chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
-INPUT chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt9.tfm
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/dataset_preproces.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets.tex
+INPUT ./commons/diagrama_procesado.drawio.pdf
+INPUT ./commons/diagrama_procesado.drawio.pdf
+INPUT ./commons/diagrama_procesado.drawio.pdf
+INPUT ./commons/diagrama_procesado.drawio.pdf
+INPUT ./commons/diagrama_procesado.drawio.pdf
+INPUT ./chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+INPUT ./chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+INPUT ./chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+INPUT ./chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+INPUT chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas.tex
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
 INPUT ./commons/Fig10.png
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
-INPUT chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
-INPUT ./chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
-INPUT chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
-INPUT ./chapters/parte2_interfaz/intro.tex
-INPUT ./chapters/parte2_interfaz/intro.tex
-INPUT chapters/parte2_interfaz/intro.tex
-INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
-INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
-INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
-INPUT ./chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
-INPUT chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
-INPUT chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
-INPUT ./commons/Sidebar_GUI_1.png
-INPUT ./commons/Sidebar_GUI_1.png
-INPUT ./commons/Sidebar_GUI_1.png
-INPUT ./commons/Sidebar_GUI_1.png
-INPUT ./commons/Sidebar_GUI_1.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/ZonaCarga_GUI_1.png
-INPUT ./commons/ZonaCarga_GUI_1.png
-INPUT ./commons/ZonaCarga_GUI_1.png
-INPUT ./commons/ZonaCarga_GUI_1.png
-INPUT ./commons/ZonaCarga_GUI_1.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
-INPUT ./commons/Sidebar_GUI_2.png
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/intro.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/intro.tex
+INPUT chapters/desarrollo/parte2_interfaz/intro.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
+INPUT chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion.tex
+INPUT ./commons/GUI_completa.png
+INPUT ./commons/GUI_completa.png
+INPUT ./commons/GUI_completa.png
+INPUT ./commons/GUI_completa.png
+INPUT ./commons/GUI_completa.png
+INPUT ./commons/ZonaCarga_GUI.png
+INPUT ./commons/ZonaCarga_GUI.png
+INPUT ./commons/ZonaCarga_GUI.png
+INPUT ./commons/ZonaCarga_GUI.png
+INPUT ./commons/ZonaCarga_GUI.png
 INPUT ./commons/Consola_GUI_2.png
 INPUT ./commons/Consola_GUI_2.png
 INPUT ./commons/Consola_GUI_2.png
@@ -932,16 +876,21 @@ INPUT ./commons/Botones4_GUI.png
 INPUT ./commons/Botones4_GUI.png
 INPUT ./commons/Botones4_GUI.png
 INPUT ./commons/Botones4_GUI.png
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
-INPUT ./chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
-INPUT chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
+INPUT chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas.tex
 INPUT ./commons/BotonConfig_GUI.png
 INPUT ./commons/BotonConfig_GUI.png
 INPUT ./commons/BotonConfig_GUI.png
 INPUT ./commons/BotonConfig_GUI.png
 INPUT ./commons/BotonConfig_GUI.png
+INPUT ./commons/config-avanzada-completa-GUI.png
+INPUT ./commons/config-avanzada-completa-GUI.png
+INPUT ./commons/config-avanzada-completa-GUI.png
+INPUT ./commons/config-avanzada-completa-GUI.png
+INPUT ./commons/config-avanzada-completa-GUI.png
 INPUT ./commons/ParamsSTFT_GUI.png
 INPUT ./commons/ParamsSTFT_GUI.png
 INPUT ./commons/ParamsSTFT_GUI.png
@@ -967,16 +916,16 @@ INPUT ./commons/ParamsMezclas_GUI.png
 INPUT ./commons/ParamsMezclas_GUI.png
 INPUT ./commons/ParamsMezclas_GUI.png
 INPUT ./commons/ParamsMezclas_GUI.png
-INPUT ./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
-INPUT chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
-INPUT chapters/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
+INPUT chapters/desarrollo/parte2_interfaz/casos_de_uso/entrenamiento_personalizado.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
+INPUT chapters/desarrollo/parte2_interfaz/casos_de_uso/parametros_ajustables.tex
 INPUT ./commons/BotónAyudaParametros.png
 INPUT ./commons/BotónAyudaParametros.png
 INPUT ./commons/BotónAyudaParametros.png
@@ -987,11 +936,11 @@ INPUT ./commons/AyudaParametros.png
 INPUT ./commons/AyudaParametros.png
 INPUT ./commons/AyudaParametros.png
 INPUT ./commons/AyudaParametros.png
-INPUT ./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
-INPUT chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
+INPUT chapters/desarrollo/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas.tex
 INPUT ./commons/Waveform_GUI.png
 INPUT ./commons/Waveform_GUI.png
 INPUT ./commons/Waveform_GUI.png
@@ -1002,11 +951,11 @@ INPUT ./commons/Espectrograma_GUI.png
 INPUT ./commons/Espectrograma_GUI.png
 INPUT ./commons/Espectrograma_GUI.png
 INPUT ./commons/Espectrograma_GUI.png
-INPUT ./chapters/parte2_interfaz/casos_de_uso/feedback.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/feedback.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/feedback.tex
-INPUT ./chapters/parte2_interfaz/casos_de_uso/feedback.tex
-INPUT chapters/parte2_interfaz/casos_de_uso/feedback.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/feedback.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/feedback.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/feedback.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/casos_de_uso/feedback.tex
+INPUT chapters/desarrollo/parte2_interfaz/casos_de_uso/feedback.tex
 INPUT ./commons/logs_GUI.png
 INPUT ./commons/logs_GUI.png
 INPUT ./commons/logs_GUI.png
@@ -1027,6 +976,20 @@ INPUT ./commons/descarga_GUI.png
 INPUT ./commons/descarga_GUI.png
 INPUT ./commons/descarga_GUI.png
 INPUT ./commons/descarga_GUI.png
+INPUT chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida.tex
+INPUT ./chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida.tex
+INPUT chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
+INPUT ./chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
+INPUT chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje.tex
+INPUT ./chapters/integracion_sistema/intro.tex
+INPUT ./chapters/integracion_sistema/intro.tex
+INPUT chapters/integracion_sistema/intro.tex
 INPUT ./chapters/integracion_sistema/backend.tex
 INPUT ./chapters/integracion_sistema/backend.tex
 INPUT ./chapters/integracion_sistema/backend.tex
@@ -1042,6 +1005,9 @@ INPUT ./chapters/integracion_sistema/comunicacion_modulos.tex
 INPUT ./chapters/integracion_sistema/comunicacion_modulos.tex
 INPUT ./chapters/integracion_sistema/comunicacion_modulos.tex
 INPUT chapters/integracion_sistema/comunicacion_modulos.tex
+INPUT ./chapters/evaluacion_sistema/intro.tex
+INPUT ./chapters/evaluacion_sistema/intro.tex
+INPUT chapters/evaluacion_sistema/intro.tex
 INPUT ./chapters/evaluacion_sistema/metricas.tex
 INPUT ./chapters/evaluacion_sistema/metricas.tex
 INPUT ./chapters/evaluacion_sistema/metricas.tex
@@ -1057,6 +1023,7 @@ INPUT ./chapters/evaluacion_sistema/results.tex
 INPUT ./chapters/evaluacion_sistema/results.tex
 INPUT ./chapters/evaluacion_sistema/results.tex
 INPUT chapters/evaluacion_sistema/results.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT ./commons/barplot_sisdr_2stems.png
 INPUT ./commons/barplot_sisdr_2stems.png
 INPUT ./commons/barplot_sisdr_2stems.png
@@ -1119,16 +1086,15 @@ INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi7.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb
-INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr7.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb
-INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri9.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmro10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtk10.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
+INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

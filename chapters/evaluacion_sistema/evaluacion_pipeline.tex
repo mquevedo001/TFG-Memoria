@@ -1,15 +1,12 @@
 La validez de los resultados del enfoque investigador del proyecto se basa en la comparabilidad de estos mismos, y , por ello, la validación de estos debería de responder a las siguientes preguntas:
 
--¿Qué problema había antes?
-
--¿Qué se hizo para validar la evaluación?
-
--¿Por qué esto hace que los resultados sean comparables?
-
--¿Qué se corrigió respecto a versiones anteriores?
-
--¿Qué papel tiene el baseline?
-
+\begin{itemize}
+    \item ¿Con qué problemas nos encontrabamos antes en el proceso de evaluación?
+    \item ¿Qué se hizo para validar la evaluación?
+    \item ¿Por qué esto hace que los resultados sean comparables?
+    \item ¿Qué se corrigió respecto a versiones anteriores?
+    \item ¿Qué papel tiene el \textit{baseline}?
+\end{itemize}
 
 \textbf{Protocolo de evaluación utilizado}:
 
@@ -17,28 +14,28 @@ El objetivo de crear un protocolo de evaluación no ha sido solo tener un proces
 El protocolo de evaluación propuesto es el siguiente:
 
 \begin{itemize}
-    \item 1. Uso de \textit{dataset} / \textit{representative\_test}.
+    \item 1. División del \textit{dataset} completo en el subgrupo \textit{representative\_test}, siendo este un conjunto fijo de test para cada modelo.
     \item 2. Evaluación de todos los modelos sobre las mismas pistas.
     \item 3. Normalización de referencias y estimaciones a mono-canal.
     \item 4. Se recortan las pistas a una longitud común
-    \item 5. Se usa la misma función de despliegue del modelo que en \textit{deployment}.
-    \item 6. Se guarda un sumario en formato \textit{JSON} para cada modelo.
+    \item 5. Se guarda un sumario en formato \textit{JSON} para cada modelo.
 \end{itemize}
 
 Esto se ha hecho siguiendo las recomendaciones habituales de reproducibilidad en \textit{Machine Learning} \cite{MachineLearningPaperReproducibilityChecklist}:
 documentar dataset, \textit{splits}, preprocesado, hiperparámetros y resultados. La checklist de reproducibilidad incluye precisamente detalles del dataset,
 particiones \textit{train}/\textit{validation}/\textit{test}, datos excluidos y pasos de preprocesado.
 
-Inicialmente el proceso, aunque generase archivos, esto no significaba que los resultados fuesen realmente los buscados, en particular, porque las pistas de salida eran exactamente iguales a las pistas de entrada en la mayoría de los casos, por lo que algo se estaba haciendo mal.
-Para dar alguna medida de validez a los resultados obtenidos, se trasladó el conjunto de test a un test fijo, se creó la validación de \textit{baseline}, se añadió una sección en el código donde se normalizaban las pistas en mono-canal, recorte de pistas a una longitud común, impresión de métricas de análisis de las máscaras por pantalla en el entrenamiento y normalización del flujo de inferencia para todas las funciones de pérdida, donde previamente existían variaciones.
-A partir de aquí, todos los modelos pasan a evaluarse sobre las mismas pistas, con el mismo preprocesado, la misma métrica de evaluación y el mismo flujo de inferencia, además , añadir la métrica \textit{baseline} ayuda a identificar los resultados que generaban audios pero no separaban mas allá de copiar la mezcla de entrada.
+Inicialmente el proceso aunque generase archivos no se daba la situación en la que los resultados fuesen realmente los buscados, en particular, porque las pistas de salida eran exactamente iguales a las pistas de entrada en la mayoría de los casos, por lo que algo se estaba haciendo mal.
+Para dar alguna medida de validez a los resultados obtenidos, se creó el subconjunto fijo de test desde el dataset, se creó la validación de \textit{baseline}, se añadió una sección en el código donde se normalizaban las pistas en mono-canal, recorte de pistas a una longitud común, impresión de métricas de análisis de las máscaras por pantalla en el entrenamiento y normalización del flujo de inferencia para todas las funciones de pérdida, donde previamente existían variaciones.
+
+A partir de aquí, todos los modelos pasan a evaluarse sobre las mismas pistas, con el mismo preprocesado, la misma métrica de evaluación y el mismo flujo de inferencia, además,al añadir la métrica \textit{baseline} proporciona ayuda para identificar los resultados que generaban audios pero no separaban mas allá de copiar la mezcla de entrada.
 
 El protocolo de evaluación final queda definido así:
 
 \begin{enumerate}
     \item Cargar el conjunto de test fijo \textit{representative\_test}.
     \item Evaluar todos los modelos sobre las mismas pistas. 
-    \item Ejecutar la inferencia mediante la misma función utilizada en el despliegue. 
+    \item Ejecutar la inferencia mediante la misma función utilizada en el despliegue. Previamente se utilizaban funciones diferentes definidas en versiones anteriores. 
     \item Convertir referencias y estimaciones a mono-canal. 
     \item Recortar referencias y estimaciones a una longitud común. 
     \item Mantener un orden fijo de fuentes para dos y cuatro \textit{stems}. 

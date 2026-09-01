@@ -6,6 +6,7 @@ x(t) = \sum_{i=1}^{N} a_i \cdot s_i(t)
 \]
 \end{center}
 
-En música esto sucede al grabar instrumentos o voces con micrófonos con distinto valor de ganancia\footnote{La ganancia en un micrófono es un ajuste que controla el nivel de la señal de entrada en el preamplificador antes de procesarse o grabarse. El preamplificador es un dispositivo electrónico que eleva el voltaje bajo de la señal. }.Esto simplifica la realidad física de como el sonido se propaga y se capta y ha facilitado el desarrollo de muchos de los modelos actuales con este objetivo.
+En una producción musical estos coeficientes pueden representar de manera simplificada las diferenciuas de nivel entre las pistas producidas por la distancia entre la fuente y el micrófono, la sensibilidad del micrófono, la aplicación de ganancia a la señal o los ajustes realizados durante la mezcla
 
-En casos reales es mas complicado. La música real incluye paneo (por dónde se orienta el sonido, en auriculares, por ejemplo, izquierdo o derecho), reveberación (fenómeno acústico en el que un sonido persiste ligeramente después de que la fuente original ha dejado de emitirlo), efectos, retardos (como el eco)\dots
+Sin embargo una mezcla de música real no puede describirse únicamente mediante la suma de fuentes multiplicadas por ganancias constantes. En una señal estéreo cada fuente puede distribuirse de forma diferente entre los canales izquierdo y derecho mediante el paneo. Además la propagación del sonido en una sala real introduce
+retardos y reverberación, a lo que pueden añadirse efectos de producción como ecualización o compresión, entre otros. Por tanto, en un modelo realista, cada fuente puede experimentar transformaciones diferentes antes de incorporarse a la mezcla lo que demuestra poca relación con la realidad de esta interpretación.

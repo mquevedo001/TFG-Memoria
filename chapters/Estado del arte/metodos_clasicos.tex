@@ -1,43 +1,52 @@
-Los métodos clásicos de separación de fuentes musicales se pueden agrupar en tres categorías principales: modelado de la señal principal, modelado del acompañamiento, y acercamientos conjuntos y probabilísticos
-
+Dentro de la clasificación general de la introducción de este capítulo, los métodos clásicos de la separación de fuentes pueden organizarse, de manera más específica, en función del elemento que modelan: métodos basados en el modelado de la fuente principal, métodos centrados en el acompañamiento y enfoques conjuntos o probabilísticos, que consideran simultáneamente varias fuentes o sus relaciones estadísticas.
 \subsection{Modelado de la señal principal}
 
-En este enfoque se busca modelar la voz o melodía principal como una señal armónica, para, posteriormente, substraer esa señal de la mezcla original y obtener el acompañamiento \cite{rafii18}. 
-La voz cantada se produce por vibración de cuerdas vocales, y suele presentar frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal. En la cita 
-utilizada para informarse de este tema, se resume esta familia de métodos como métodos basados en la hioótesis de harmonicidad: primero se estima la frecuencia fundamental de la señal princiapl y despues se obtiene separación por resíntesis o filtrado.
-La estructura más común suele ser:
+En este enfoque se busca modelar la voz o melodía principal como una señal armónica, para, posteriormente, sustraer esa señal de la mezcla original y obtener el acompañamiento \cite{rafii18}. 
+La voz cantada se produce por vibración de cuerdas vocales, y suele presentar frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal.Dentro de la bibliografía se engloba esta familia de métodos en métodos basados en la hipótesis de harmonicidad \cite{rafii18}: primero se estima la frecuencia fundamental de la señal principal y despues se obtiene una separación por resíntesis, que consiste en aproximar la fuente mediante los parámetros estimados de su modelo armónico, es decir re generar la pista, o filtrado, donde se modifica la mezcla original mediante un filtro o máscara que conserva los elementos objetivo y atenúa el resto.
 
--Hipótesis: la señal principal suele ser armónica.
+El procedimiento más común suele ser:
 
--Se estima la frecuencia fundamental.
+1. Se parte de la hipótesis de que la señal principal es armónica, que es una señal cuya energía se concentra en una frecuencia fundamental $f_{0}$ y en múltiplos enteros de esta dentro del espectro frecuencial, que son los armónicos.
 
--Se localizan armónicos.
+2. Se estima la frecuencia fundamental.
 
--Se reconstruye o filtra la fuente principal.
+3. Se localizan los armónicos.
 
+4. Se reconstruye o filtra la fuente principal.
 
-Limitaciones comunes: el método falla si la voz no es puramente armónica, si hay fonemas sordos, saturaciones, no se identifica bien la voz o no se detecta bien la frecuencia fundamental. También dificultan el método los casos en los que los instrumentos son armónicos o la voz pueda estar muy mezclada con reverberación o efectos.
+El método se realiza sobre el espectro de la mezcla identificando en secciones la frecuencia fundamental con métodos como la detección de picos, por ejemplo. Posteriormente se selecciona como fundamental la frecuencia que mejor explica la periodicidad observada y a partir de ella se encuentran los armónicos en torno a sus múltiplos enteros. Este método presenta algunas limitaciones:
+
+- El método falla si la voz no es puramente armónica, cosa que ocurre con frecuencia por factores como que las vocales introducen vibraciones periódicas de los pliegues vocales o que las consonantes sordas y la respiración introducen componentes aperiódicos o ruidosos.
+
+- Dificultan el método los casos en los que los instrumentos son armónicos o la voz pueda estar muy mezclada con reverberación o efectos.
 
 \subsection{Modelado del acompañamiento}
 
-Este enfoque es un poco la idea opuesta al anterior: se modela el acompañamiento para posteriormente substraerlo de la mezcla original y obtener la voz.
+Este enfoque es un poco la idea opuesta al anterior: se modela el acompañamiento para posteriormente substraerlo de la mezcla original y obtener la voz. Esto se realiza normalmente transformando la mezla en un espectrograma e identificando en el patrones repetitivos.
 
-El acompañamiento suele ser más redundante o repetitivo que la señal principal: patrones rítmicos, armónicos, o estructurales que suelen repetirse en el tiempo. Esta redundancia permite modelarlo y separarlo, muchos acercamientos clásicos basados en el modelado del acompañamiento toman ventaja de esta característica: la redundancia, se aprovechan componentes de bajo rango, voz dispersa, y repeticiones internas del acompañamiento.
+El acompañamiento suele ser más redundante o repetitivo que la señal principal \cite{arreglosGuitarra}: patrones rítmicos, armónicos, o estructurales que suelen repetirse en el tiempo. Esta redundancia permite modelarlo y separarlo, muchos acercamientos clásicos basados en el modelado del acompañamiento toman ventaja de esta característica: la redundancia, se aprovechan componentes de bajo rango, voz dispersa, y repeticiones internas del acompañamiento.
 
-Entre las limitaciones de este acercamiento se encuentran que: no todo acompañamiento es repetitivo, la existencia de canciones con cambios estructurales fuertes, existencia de elementos solistas o improvisados que producen imprevisibilidad o presencia de repetibilidad en el elemento vocal.
+Entre las limitaciones de este enfoque se encuentran que: no todo acompañamiento es repetitivo \cite{acompañamientoNoRepetitivo}, la existencia de canciones con cambios estructurales fuertes, existencia de elementos solistas o improvisados que producen imprevisibilidad o presencia de repetibilidad en el elemento vocal.
 
 \subsection{Acercamientos conjuntos y probabilísticos}
 
-En este enfoque no se modelan solo voz o acompañamiento y posteriormente se extrae el contrario de la mezcla original. En este caso se busca modelar ambos de forma conjunta.
+A diferencia de los métodos anteriores, estos enfoques no modelan únicamente la voz o el acompañamiento para obtener la otra fuente por sustracción, sino que representan ambas fuentes de manera conjunta mediante modelos estadísticos.
 
 Entre los modelos que históricamente han presentado mejor desempeño se encuentran:
 
-- Modelo oculto de Markov (HMM): modelo estadístico que analiza secuencias de datos donde los estados reales no se pueden observar directamente, pero quese pueden inferir a través de efectos observables y medibles. Dada esta definición, el modelo oculto de Markov es útil para el problema de la separación de fuentes para observar variantes en el tiempo.
-- Modelo de mezcla Gaussiana (GMM): modelo probabilístico para agrupar datos o estimar densidades. En el caso de la separación de fuentes se utiliza como forma de aproximar distribuciones mediante sumas ponderadas Gaussianas.
+- Modelo oculto de Markov \cite{markovModels} (HMM): es un modelo estadístico que modela una secuencia mediante estados ocultos cuya evolución depende del estado anterior. En separación de ufentes estos estados pueden representar diferentes configuraciones de la voz y el acompañamiento, mientras que las observaciones corresponden a características espectrales extraídas de la mezcla. Así, el modelo permite estimar la secuencia de estados más probable y aprovechar la continuidad temporal de las fuentes.
+
+- Modelo de mezcla Gaussiana \cite{gaussianMixModels} (GMM): modela las características espectrales de cada fuente mediante una combinación de distribuciones gaussianas. Para cada observación de la mezcla calcula la probabilidad de que haya sido generada bien por la voz o bien por el acompañamiento. Estas probabilidades se emplean para construir una máscara tiempo-frecuencia y estimar la contribución de cada fuente.
 
 Ambos modelos se utilizan para asignar valores a celdas tiempo-frecuencia de fuentes. Modelan estados o distribuciones que pueden ayudar a estimar fuentes o máscaras y no siempre asignan directamente celdas TF.
 
-Entre las limitaciones de estos acercamientos encontramos: requerimiento de hipótesis explícitas previas, posible dificultad de ajustar parámetros, requerimiento de un modelo estadístico que aproxime bien la música real\dots
+Entre las limitaciones de estos acercamientos encontramos:
+
+- Requerimiento de hipótesis explícitas previas tratando de dar explicación al comportamiento de las fuentes
+
+- Posible dificultad de ajustar los parámetros que requieren ambos modelos, especialmente porque se suele disponer de pocos datos.
+
+- La posible falta de correspondencia entre el modelo estadístico elegido y la complejidad de la música real, lo que reduce la calidad de la separación.
 
 
 

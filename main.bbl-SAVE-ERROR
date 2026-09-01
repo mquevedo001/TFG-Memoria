@@ -110,28 +110,32 @@
       \verb https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level
       \endverb
     \endentry
-    \entry{source_separation_phase}{misc}{}{}
+    \entry{HuggingFaceCourse}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=3370ccd1b2b24dfa65786e60d83a59a4}{%
-           family={{Source Separation Tutorial}},
-           familyi={S\bibinitperiod}}}%
+        {{hash=e0b6bb846c6a3e0649ce0e3cd9355df3}{%
+           family={HuggingFace},
+           familyi={H\bibinitperiod}}}%
       }
-      \strng{namehash}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{fullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{fullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{bibnamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{authorbibnamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{authornamehash}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{authorfullhash}{3370ccd1b2b24dfa65786e60d83a59a4}
-      \strng{authorfullhashraw}{3370ccd1b2b24dfa65786e60d83a59a4}
+      \strng{namehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{fullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{fullhashraw}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{bibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorbibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authornamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorfullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorfullhashraw}{e0b6bb846c6a3e0649ce0e3cd9355df3}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://source-separation.github.io/tutorial/basics/phase.html}}
-      \field{note}{Accedido: 28 de agosto de 2025}
-      \field{title}{Phase in source separation}
-      \field{year}{2025}
+      \field{title}{AudioCourse}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
+      \endverb
     \endentry
     \entry{rafii18}{article}{}{}
       \name{author}{6}{}{%
@@ -192,209 +196,183 @@
       \verb 10.1109/TASLP.2018.2825440
       \endverb
     \endentry
-    \entry{cardoso1998blind}{article}{}{}
+    \entry{cepstrum}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=9ab68cfa408885fe52dd255419595ba9}{%
-           family={Cardoso},
-           familyi={C\bibinitperiod},
-           given={Jean-François},
-           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{fullhash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{fullhashraw}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{bibnamehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authorbibnamehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authornamehash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authorfullhash}{9ab68cfa408885fe52dd255419595ba9}
-      \strng{authorfullhashraw}{9ab68cfa408885fe52dd255419595ba9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE}
-      \field{number}{10}
-      \field{title}{Blind Signal Separation: Statistical Principles}
-      \field{volume}{86}
-      \field{year}{1998}
-      \field{pages}{2009\bibrangedash 2025}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1109/5.720250
-      \endverb
-    \endentry
-    \entry{HuggingFaceCourse}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=e0b6bb846c6a3e0649ce0e3cd9355df3}{%
-           family={HuggingFace},
-           familyi={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{fullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{fullhashraw}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{bibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{authorbibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{authornamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{authorfullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \strng{authorfullhashraw}{e0b6bb846c6a3e0649ce0e3cd9355df3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{AudioCourse}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
-      \endverb
-      \verb{url}
-      \verb https://huggingface.co/learn/audio-course/es/chapter0/introduction
-      \endverb
-    \endentry
-    \entry{shannon1949communication}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=536c91678d1dde76c9acd47047556291}{%
-           family={Shannon},
-           familyi={S\bibinitperiod},
-           given={Claude\bibnamedelima E.},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=c912bb61084481fe9b3162f421319179}{%
-           family={Weaver},
-           familyi={W\bibinitperiod},
-           given={Warren},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Urbana, IL}%
-      }
-      \list{publisher}{1}{%
-        {University of Illinois Press}%
-      }
-      \strng{namehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{fullhash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{fullhashraw}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{bibnamehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authorbibnamehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authornamehash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authorfullhash}{b1ee21e09e255e9472a75b376837ad91}
-      \strng{authorfullhashraw}{b1ee21e09e255e9472a75b376837ad91}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Originally published in Bell System Technical Journal, 1948.}
-      \field{title}{The Mathematical Theory of Communication}
-      \field{year}{1949}
-    \endentry
-    \entry{doi:10.1177/0008125619864925}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=146c7381fa3e25c333d754ee6c0f683b}{%
-           family={Haenlein},
-           familyi={H\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=79d63985e11c74c107449cb5581be70c}{%
-           family={Kaplan},
+        {{hash=a87a780d9f0bc6e91c081276f99e9d4c}{%
+           family={Kemerait},
            familyi={K\bibinitperiod},
-           given={Andreas},
+           given={D.G.\bibnamedelimi Childers;\bibnamedelimb D.P.\bibnamedelimi Skinner;\bibnamedelima R.C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{fullhash}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{fullhashraw}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{bibnamehash}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{authorbibnamehash}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{authornamehash}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{authorfullhash}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \strng{authorfullhashraw}{a87a780d9f0bc6e91c081276f99e9d4c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The cepstrum: A guide to processing}
+      \field{year}{1977}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/1455016
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/1455016
+      \endverb
+    \endentry
+    \entry{hiddenmarkov}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=764fb2e2ebc32ae92510a5ce50f5e4ca}{%
+           family={Franzese},
+           familyi={F\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5ecfae8459869bb19bc8dfcca27b216e}{%
+           family={Iuliano},
+           familyi={I\bibinitperiod},
+           given={Antonella},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{fullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{fullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{bibnamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authorbibnamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authornamehash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authorfullhash}{a67f043ea812ccb0ad92b8dca34fbeb8}
-      \strng{authorfullhashraw}{a67f043ea812ccb0ad92b8dca34fbeb8}
+      \strng{namehash}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{fullhash}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{fullhashraw}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{bibnamehash}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{authorbibnamehash}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{authornamehash}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{authorfullhash}{4322b0e349d338c0b2b7fece3bd649c2}
+      \strng{authorfullhashraw}{4322b0e349d338c0b2b7fece3bd649c2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This introduction to this special issue discusses artificial intelligence (AI), commonly defined as “a system’s ability to interpret external data correctly, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation.” It summarizes seven articles published in this special issue that present a wide variety of perspectives on AI, authored by several of the world’s leading experts and specialists in AI. It concludes by offering a comprehensive outlook on the future of AI, drawing on micro-, meso-, and macro-perspectives.}
-      \field{journaltitle}{California Management Review}
-      \field{number}{4}
-      \field{title}{A Brief History of Artificial Intelligence: On the Past, Present, and Future of Artificial Intelligence}
-      \field{volume}{61}
+      \field{title}{Hidden Markov Models}
       \field{year}{2019}
-      \field{pages}{5\bibrangedash 14}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1177/0008125619864925
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1177/0008125619864925
-      \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1177/0008125619864925
+      \verb https://iris.unibas.it/retrieve/33a13d75-9d90-421f-a972-efc879b92003/2019_HMM_Elsevier.pdf
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1177/0008125619864925
+      \verb https://iris.unibas.it/retrieve/33a13d75-9d90-421f-a972-efc879b92003/2019_HMM_Elsevier.pdf
       \endverb
     \endentry
-    \entry{rafii2018overview}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
-           family={Rafii},
+    \entry{gaussianMixModels}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=018a7d536ec534153231e58512c8deec}{%
+           family={Reynolds},
            familyi={R\bibinitperiod},
-           given={Zafar},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
-           family={Liutkus},
-           familyi={L\bibinitperiod},
-           given={Antoine},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
-           family={Stöter},
-           familyi={S\bibinitperiod},
-           given={Fabian-Robert},
-           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
-        {{hash=5ee42f0b3cc079a674cab6cef5a3827d}{%
-           family={Mimilakis},
-           familyi={M\bibinitperiod},
-           given={Stylianos\bibnamedelima I.},
-           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
-           family={FitzGerald},
-           familyi={F\bibinitperiod},
-           given={Derry},
+           given={Douglas},
            giveni={D\bibinitperiod}}}%
-        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
-           family={Pardo},
-           familyi={P\bibinitperiod},
-           given={Bryan},
-           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{2e012ac9fb071e30a61e71475f8c312c}
-      \strng{fullhash}{541e8f9668bf3797990ba81e523e1114}
-      \strng{fullhashraw}{541e8f9668bf3797990ba81e523e1114}
-      \strng{bibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
-      \strng{authorbibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
-      \strng{authornamehash}{2e012ac9fb071e30a61e71475f8c312c}
-      \strng{authorfullhash}{541e8f9668bf3797990ba81e523e1114}
-      \strng{authorfullhashraw}{541e8f9668bf3797990ba81e523e1114}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{018a7d536ec534153231e58512c8deec}
+      \strng{fullhash}{018a7d536ec534153231e58512c8deec}
+      \strng{fullhashraw}{018a7d536ec534153231e58512c8deec}
+      \strng{bibnamehash}{018a7d536ec534153231e58512c8deec}
+      \strng{authorbibnamehash}{018a7d536ec534153231e58512c8deec}
+      \strng{authornamehash}{018a7d536ec534153231e58512c8deec}
+      \strng{authorfullhash}{018a7d536ec534153231e58512c8deec}
+      \strng{authorfullhashraw}{018a7d536ec534153231e58512c8deec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
-      \field{number}{8}
-      \field{title}{An Overview of Lead and Accompaniment Separation in Music}
-      \field{volume}{26}
-      \field{year}{2018}
-      \field{pages}{1307\bibrangedash 1335}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1109/TASLP.2018.2825440
-      \endverb
+      \field{title}{Gaussian Mixture Models}
+      \field{year}{2009}
       \verb{urlraw}
-      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \verb http://leap.ee.iisc.ac.in/sriram/teaching/MLSP_16/refs/GMM_Tutorial_Reynolds.pdf
       \endverb
       \verb{url}
-      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \verb http://leap.ee.iisc.ac.in/sriram/teaching/MLSP_16/refs/GMM_Tutorial_Reynolds.pdf
+      \endverb
+    \endentry
+    \entry{arreglosGuitarra}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a97a01f34bcbde69afdab73aa048f788}{%
+           family={Gascón},
+           familyi={G\bibinitperiod},
+           given={Juan\bibnamedelima Pablo},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{fullhash}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{fullhashraw}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{bibnamehash}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{authorbibnamehash}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{authornamehash}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{authorfullhash}{a97a01f34bcbde69afdab73aa048f788}
+      \strng{authorfullhashraw}{a97a01f34bcbde69afdab73aa048f788}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ALGUNAS CONSIDERACIONES TEXTURALES EN LA REALIZACIÓN DE ARREGLOS PARA GUITARRA Y VOZ}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://sedici.unlp.edu.ar/bitstream/handle/10915/80530/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y
+      \endverb
+      \verb{url}
+      \verb https://sedici.unlp.edu.ar/bitstream/handle/10915/80530/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y
+      \endverb
+    \endentry
+    \entry{acompañamientoNoRepetitivo}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a5e0ed294779084d0a5fc302c6f68c56}{%
+           family={SÁNCHEZ},
+           familyi={S\bibinitperiod},
+           given={DIEGO\bibnamedelimb DE\bibnamedelima JESÚS},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{fullhash}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{fullhashraw}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{bibnamehash}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{authorbibnamehash}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{authornamehash}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{authorfullhash}{a5e0ed294779084d0a5fc302c6f68c56}
+      \strng{authorfullhashraw}{a5e0ed294779084d0a5fc302c6f68c56}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LA IMPORTANCIA DEL ACOMPAÑAMIENTO BATERÍSTICO EN GRAHAM:LA IMPROVISACIÓN COMO RECURSO CREATIVO}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://ri-ng.uaq.mx/bitstream/123456789/3345/7/BALIN-246576%20%28PDF%20-A%29.pdf
+      \endverb
+      \verb{url}
+      \verb https://ri-ng.uaq.mx/bitstream/123456789/3345/7/BALIN-246576%20%28PDF%20-A%29.pdf
+      \endverb
+    \endentry
+    \entry{markovModels}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f2124a34ebffb63a2444c27541980f8c}{%
+           family={Juang},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi Rabiner;\bibnamedelima B.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{fullhash}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{fullhashraw}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{bibnamehash}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{authorbibnamehash}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{authornamehash}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{authorfullhash}{f2124a34ebffb63a2444c27541980f8c}
+      \strng{authorfullhashraw}{f2124a34ebffb63a2444c27541980f8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to hidden Markov models}
+      \field{year}{1986}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/1165342
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/1165342
       \endverb
     \endentry
     \entry{openunmix2019}{article}{}{}
@@ -428,8 +406,8 @@
       \strng{authornamehash}{a6c5cc962790b8193cbbe2492622059f}
       \strng{authorfullhash}{5ca0ef34ef35b1e96e3abfe9a6b01e1e}
       \strng{authorfullhashraw}{5ca0ef34ef35b1e96e3abfe9a6b01e1e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Open Source Software}
@@ -441,6 +419,85 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.21105/joss.01667
+      \endverb
+    \endentry
+    \entry{Deezer}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f2e58a393831e531ef1f4bd84eeedfc}{%
+           family={Hennequin},
+           familyi={H\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e1ff6ca9aec6515636e8f5d854ce8a47}{%
+           family={Khlif},
+           familyi={K\bibinitperiod},
+           given={Anis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df726fdee3883d26e22b5d8aef6db507}{%
+           family={Voituret},
+           familyi={V\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=02ac89115e217f16ac168f871090a7e2}{%
+           family={Moussallam},
+           familyi={M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{fullhash}{f2a98c06778d23216fd00fde94407975}
+      \strng{fullhashraw}{f2a98c06778d23216fd00fde94407975}
+      \strng{bibnamehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{authorbibnamehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{authornamehash}{6f411fb9d7760a58e42dafc4ede7e492}
+      \strng{authorfullhash}{f2a98c06778d23216fd00fde94407975}
+      \strng{authorfullhashraw}{f2a98c06778d23216fd00fde94407975}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{50}
+      \field{title}{Spleeter: a fast and efficient music source separation tool with pre-trained models}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{pages}{2154}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.02154
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.02154
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.02154
+      \endverb
+    \endentry
+    \entry{demucs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c3f07457a138c5c8ab4f331fa2c1bf38}{%
+           family={danielfrg},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{fullhash}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{fullhashraw}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{bibnamehash}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{authorbibnamehash}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{authornamehash}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{authorfullhash}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \strng{authorfullhashraw}{c3f07457a138c5c8ab4f331fa2c1bf38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Demucs - Music Source Separation}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://demucs.danielfrg.com/docs/
+      \endverb
+      \verb{url}
+      \verb https://demucs.danielfrg.com/docs/
       \endverb
     \endentry
     \entry{HybridDemucs}{article}{}{}
@@ -491,56 +548,58 @@
       \verb https://arxiv.org/abs/1909.01174
       \endverb
     \endentry
-    \entry{Deezer}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=7f2e58a393831e531ef1f4bd84eeedfc}{%
-           family={Hennequin},
-           familyi={H\bibinitperiod},
-           given={Romain},
-           giveni={R\bibinitperiod}}}%
-        {{hash=e1ff6ca9aec6515636e8f5d854ce8a47}{%
-           family={Khlif},
-           familyi={K\bibinitperiod},
-           given={Anis},
+    \entry{musdb18}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
            giveni={A\bibinitperiod}}}%
-        {{hash=df726fdee3883d26e22b5d8aef6db507}{%
-           family={Voituret},
-           familyi={V\bibinitperiod},
-           given={Felix},
-           giveni={F\bibinitperiod}}}%
-        {{hash=02ac89115e217f16ac168f871090a7e2}{%
-           family={Moussallam},
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=a734fa336f902d632c711103b66c7bd0}{%
+           family={Mimilakis},
            familyi={M\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
+           given={Stylianos\bibnamedelima Ioannis},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=809f6c15915b8e65d6359f31ade32491}{%
+           family={Bittner},
+           familyi={B\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{6f411fb9d7760a58e42dafc4ede7e492}
-      \strng{fullhash}{f2a98c06778d23216fd00fde94407975}
-      \strng{fullhashraw}{f2a98c06778d23216fd00fde94407975}
-      \strng{bibnamehash}{6f411fb9d7760a58e42dafc4ede7e492}
-      \strng{authorbibnamehash}{6f411fb9d7760a58e42dafc4ede7e492}
-      \strng{authornamehash}{6f411fb9d7760a58e42dafc4ede7e492}
-      \strng{authorfullhash}{f2a98c06778d23216fd00fde94407975}
-      \strng{authorfullhashraw}{f2a98c06778d23216fd00fde94407975}
+      \strng{namehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{fullhash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{fullhashraw}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{bibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorbibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authornamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorfullhash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{authorfullhashraw}{f2c07f9edd64acf421bfcddc47c91943}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Open Source Software}
-      \field{number}{50}
-      \field{title}{Spleeter: a fast and efficient music source separation tool with pre-trained models}
-      \field{volume}{5}
-      \field{year}{2020}
-      \field{pages}{2154}
-      \range{pages}{1}
+      \field{month}{12}
+      \field{title}{The {MUSDB18} corpus for music separation}
+      \field{year}{2017}
       \verb{doi}
-      \verb 10.21105/joss.02154
+      \verb 10.5281/zenodo.1117372
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.21105/joss.02154
+      \verb https://doi.org/10.5281/zenodo.1117372
       \endverb
       \verb{url}
-      \verb https://doi.org/10.21105/joss.02154
+      \verb https://doi.org/10.5281/zenodo.1117372
       \endverb
     \endentry
     \entry{DeepLearningforChestRadiographs}{book}{}{}
@@ -577,8 +636,8 @@
       \strng{authornamehash}{b79b9068a76c01ed062d6d76e5fac4d9}
       \strng{authorfullhash}{b444affc3f111d350340d1eaccb09afd}
       \strng{authorfullhashraw}{b444affc3f111d350340d1eaccb09afd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780323901840}
@@ -589,6 +648,69 @@
       \endverb
       \verb{url}
       \verb https://www.oreilly.com/library/view/deep-learning-for/9780323906869/
+      \endverb
+    \endentry
+    \entry{rafii2018overview}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=5ee42f0b3cc079a674cab6cef5a3827d}{%
+           family={Mimilakis},
+           familyi={M\bibinitperiod},
+           given={Stylianos\bibnamedelima I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{fullhash}{541e8f9668bf3797990ba81e523e1114}
+      \strng{fullhashraw}{541e8f9668bf3797990ba81e523e1114}
+      \strng{bibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorbibnamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authornamehash}{2e012ac9fb071e30a61e71475f8c312c}
+      \strng{authorfullhash}{541e8f9668bf3797990ba81e523e1114}
+      \strng{authorfullhashraw}{541e8f9668bf3797990ba81e523e1114}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{number}{8}
+      \field{title}{An Overview of Lead and Accompaniment Separation in Music}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{pages}{1307\bibrangedash 1335}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1109/TASLP.2018.2825440
+      \endverb
+      \verb{urlraw}
+      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
+      \endverb
+      \verb{url}
+      \verb https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity
       \endverb
     \endentry
     \entry{Arxiv}{article}{}{}

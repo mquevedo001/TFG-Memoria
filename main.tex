@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish]{babel}
+\usepackage{csquotes}
 
 \usepackage{lmodern}
 
@@ -26,7 +27,8 @@
 \usepackage{makecell}
 \usepackage{adjustbox}
 \usepackage{placeins}
-
+\usepackage{enumitem}
+\usepackage{adjustbox}
 % --- Bibliografía ---
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \AtEveryBibitem{%
@@ -114,6 +116,12 @@
 \renewcommand{\spanishtablename}{Tabla}
 \renewcommand{\listtablename}{Índice de Tablas}
 
+\setsecnumdepth{paragraph}
+\maxsecnumdepth{paragraph}
+
+\settocdepth{subsubsection}
+\maxtocdepth{subsubsection}
+
 \begin{document}
 
 % Numeración arábiga desde el inicio
@@ -172,8 +180,8 @@
 \input{chapters/ODS.tex}
 \cleardoublepage
 
-\setcounter{tocdepth}{0}
-\setcounter{secnumdepth}{4} % para numerar también en el texto
+%\setcounter{tocdepth}{2} % para que aparezcan subsubsecciones en el índice
+%\setcounter{secnumdepth}{3} % para numerar también en el texto
 % Índices automáticos
 \tableofcontents
 \cleardoublepage
@@ -194,8 +202,15 @@
 \input{chapters/planificacion/Planificacion}
 \section{Alcance}
 \input{chapters/planificacion/alcance}
+\clearpage
 \section{Objetivos}
 \input{chapters/planificacion/objetivo}
+%\clearpage
+\section{Paquetes de trabajo y tareas}
+\input{chapters/planificacion/paquetes_trabajo}
+\clearpage
+\section{Estimación}
+\input{chapters/planificacion/estimacion.tex}
 \section{Cronograma}
 \input{chapters/planificacion/cronograma}
 \section{Desviaciones respecto a la planificación inicial}
@@ -203,6 +218,7 @@
 \cleardoublepage
 
 \chapter{Herramientas utilizadas}
+\input{chapters/herramientas_utilizadas/intro.tex}
 \section{Python 3.10.19}
 \input{chapters/herramientas_utilizadas/python}
 %\section{Anaconda}
@@ -211,7 +227,7 @@
 \input{chapters/herramientas_utilizadas/librosa}
 \section{Matplotlib}
 \input{chapters/herramientas_utilizadas/matplotlib_numpy_scipy}
-\section{Nussl (\textit{Northwestern University Source Separation Library} )}
+\section{Nussl (\textit{Northwestern University Source Separation Library})}
 \input{chapters/herramientas_utilizadas/nussl}
 %\section{Overleaf}
 %\input{chapters/herramientas_utilizadas/overleaf}
@@ -233,9 +249,9 @@
 %\subsubsection{Ondas sonoras}
 %\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/ondas_sonoras}
 %\subsubsection{Frecuencia y tono}
-\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
-\subsubsection{Amplitud e intensidad}
-\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
+%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/freq_tono}
+%\subsubsection{Amplitud e intensidad}
+%\input{chapters/marco_teorico/sonidos y señales/naturaleza_sonido/amp_intensidad}
 \subsection{Dominio tiempo frecuencia}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/intro}
 \subsubsection{Magnitud y fase}
@@ -244,6 +260,7 @@
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo}
 \subsubsection{STFTs ( Short-Time Fourier Transform / Transformada en Tiempo Corto de Fourier )}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft}
+\clearpage
 \subsubsection{Espectrogramas}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/espectrogramas}
 \subsection{Mezcla de señales y separación de fuentes}
@@ -256,30 +273,28 @@
 \input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/intro}
 \subsubsection{Formatos del audio}
 \input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/formatos_audio}
-\subsubsection{Tasa de muestreo}
-\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res}
+%\subsubsection{Tasa de muestreo}
+%\input{chapters/marco_teorico/sonidos y señales/representaciones_digitales/tasa_muestreo_res}
 
-\section{Aprendizaje automático}
-\subsection{Conceptos fundamentales}
-\input{chapters/marco_teorico/aprendizaje_automatico/intro.tex}
-\subsubsection{Funciones de pérdida}
-\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida.tex}
-\subsubsection{Aprendizaje supervisado vs no supervisado}
-\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado}
-\subsubsection{Overfitting, underfitting y generalización}
-\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion}
-\subsubsection{Dataset}
-\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset}
-\subsection{RNNs artificiales}
-\subsubsection{Tipos de redes}
-\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes}
-\subsubsection{Optimización y descenso de gradiente}
-\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente}
-\subsubsection{Neuronas, capas y funciones de activación y pérdida}
-\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs}
+%\section{Aprendizaje automático}
+%\subsection{Conceptos fundamentales}
+%\input{chapters/marco_teorico/aprendizaje_automatico/intro.tex}
+%\subsubsection{Funciones de pérdida}
+%\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/funciones_de_perdida}
+%\subsubsection{Aprendizaje supervisado vs no supervisado}
+%\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/supervisado_no_supervisado}
+%\subsubsection{Overfitting, underfitting y generalización}
+%\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/overfitting_underfitting_generalizacion}
+%\subsubsection{Dataset}
+%\input{chapters/marco_teorico/aprendizaje_automatico/conceptos_fundamentales/dataset}
+%\subsection{RNNs artificiales}
+%\subsubsection{Tipos de redes}
+%\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/tipos_redes}
+%\subsubsection{Optimización y descenso de gradiente}
+%\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/opt_y_descenso_gradiente}
+%\subsubsection{Neuronas, capas y funciones de activación y pérdida}
+%\input{chapters/marco_teorico/aprendizaje_automatico/RNNs_artificiales/neuronas_capas_funcs}
 %\subsection{Técnicas de evaluación y métricas utilizadas}
-\subsubsection{Funciones de pérdida}
-\input{chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/funcs_perdida}
 %\subsubsection{Data augmentation}
 %\input{chapters/marco_teorico/aprendizaje_automatico/tecnicas_metricas/data_augmentation}
 %\subsubsection{Métricas de evaluación}
@@ -287,79 +302,131 @@
 
 \chapter{Estado del arte}
 \input{chapters/Estado del arte/intro.tex}
-\section{Separación de fuentes musicales}
-\input{chapters/Estado del arte/separacion_fuentes.tex}
-\section{Represención tiempo-frecuencia y máscaras}
-\input{chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex}
+%\section{Separación de fuentes musicales}
+%\input{chapters/Estado del arte/separacion_fuentes.tex}
+%\section{Represención tiempo-frecuencia y máscaras}
+%\input{chapters/Estado del arte/rep_tiempo_frecuencia_mascaras.tex}
 \section{Métodos clásicos de separación}
 \input{chapters/Estado del arte/metodos_clasicos.tex}
 \section{Enfoques basados en aprendizaje profundo}
 \input{chapters/Estado del arte/aprendizaje_profundo.tex}
 \section{Herramientas y tecnologías actuales}
 \input{chapters/Estado del arte/herramientas_actuales.tex}
-\section{Posicionamiento del trabajo}
-\input{chapters/Estado del arte/posicionamiento.tex}
+%\section{Posicionamiento del trabajo}
+%\input{chapters/Estado del arte/posicionamiento.tex}
 
-\chapter{Parte 1 : separación de fuentes}
-\input{chapters/Parte1_sepfuents/intro.tex}
-\section{Diseño del modelo}
-\input{chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep}
-\section{Arquitectura base}
-\input{chapters/Parte1_sepfuents/arq_base/arq_base_maskinference}
-\section{Modificaciones propuestas}
-\subsection{Arquitectura y parámetros}
-\input{chapters/Parte1_sepfuents/mod_propuestas/arq_y_params}
-\subsection{Función de pérdida: \textit{Deep-feature-EMD}}
-\input{chapters/Parte1_sepfuents/mod_propuestas/func_perdida}
-\section{Configuración de entrenamiento}
-\subsection{\textit{Inputs} y \textit{targets}}
-\input{chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets}
-\subsection{\textit{TFMs} aplicadas}
-\input{chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos}
+\chapter{Desarrollo}
+\input{chapters/desarrollo/intro.tex}
+\section{Modelo de separación de fuentes}
+\input{chapters/desarrollo/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep}
+\subsection{Base de datos}
+\input{chapters/desarrollo/Parte1_sepfuents/diseño_modelo/base_datos}
+\subsection{Datos de entrenamiento}
+\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex}
+\subsection{Funciones de pérdida}
+\input{chapters/desarrollo/Parte1_sepfuents/mod_propuestas/funcs_perdida}
+\subsection{Arquitectura del modelo}
+\input{chapters/desarrollo/Parte1_sepfuents/diseño_modelo/arq_base_maskinference}
+\subsubsection{Representación de los datos}
+
+\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/dataset_preproces}
+
+\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets}
+\input{chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos}
+\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation}
+\subsection{Entrenamiento}
+\input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp}
+\input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas}
+\input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2}
+\input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3}
+\section{Interfaz}
+\input{chapters/desarrollo/parte2_interfaz/intro.tex}
+\subsection{Diseño de experiencia de persona usuaria}
+\input{chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion}
+\input{chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas}
+\subsection{Casos de uso}
+\input{chapters/desarrollo/parte2_interfaz/casos_de_uso/entrenamiento_personalizado}
+\input{chapters/desarrollo/parte2_interfaz/casos_de_uso/parametros_ajustables}
+\input{chapters/desarrollo/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas}
+\subsection{Feedback}
+\input{chapters/desarrollo/parte2_interfaz/casos_de_uso/feedback}
+
+
+%\chapter{Desarrollo1}
+%\section{Separación de fuentes: Modelo, datos,  }
+%\subsection{Modelo de separación}
+%\subsection{Representación de los datos}
+%%\subsection{\textit{Inputs} y \textit{targets}}
+%\subsection{Datos de entrenamiento}
+\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex}
+%\subsection{Funciones de pérdida}
+\input{chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida}
+%\subsection{Entrenamiento}
+%\section{Interfaz}
+%\subsubsection{Objetivos}
+\input{chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
+%\chapter{Parte 1 : separación de fuentes}
+%\input{chapters/Parte1_sepfuents/intro.tex}
+%\section{Diseño del modelo}
+%\input{chapters/Parte1_sepfuents/diseño_modelo/diseño_modelo_sigsep}
+%\section{Arquitectura base}
+%\input{chapters/Parte1_sepfuents/arq_base/arq_base_maskinference}
+%\section{Modificaciones propuestas}
+%\subsection{Arquitectura y parámetros}
+%\input{chapters/Parte1_sepfuents/mod_propuestas/arq_y_params}
+%\subsection{Funciones de pérdida}
+%\input{chapters/Parte1_sepfuents/mod_propuestas/funcs_perdida}
+%\subsection{Función de pérdida: \textit{Deep-feature-EMD}}
+%\input{chapters/Parte1_sepfuents/mod_propuestas/func_perdida}
+%\section{Configuración de entrenamiento}
+%\subsection{\textit{Inputs} y \textit{targets}}
+%\input{chapters/Parte1_sepfuents/config_entrenamiento/inputs_y_targets}
+%\subsection{\textit{TFMs} aplicadas}
+%\input{chapters/Parte1_sepfuents/config_entrenamiento/tfm_persos}
 %\subsection{\textit{Data augmentation}}
 %\input{chapters/Parte1_sepfuents/config_entrenamiento/data_augmentation}
-\subsection{Preprocesado de un \textit{dataset}}
-\input{chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces}
-\section{Entrenamiento del modelo}
-\input{chapters/Parte1_sepfuents/entrenamiento_modelo/intro.tex}
-\subsection{Resultados preliminares y experimentales}
-\input{chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp}
-\subsection{Comparativas}
-\input{chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas}
-\subsection{Reentrenamiento V2}
-\input{chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2}
-\subsection{Reentrenamiento V3 y protocolo final}
-\input{chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3}
+%\subsection{Preprocesado de un \textit{dataset}}
+%\input{chapters/Parte1_sepfuents/config_entrenamiento/dataset_preproces}
+%\section{Entrenamiento del modelo}
+%\input{chapters/Parte1_sepfuents/entrenamiento_modelo/intro.tex}
+%subsection{Resultados preliminares y experimentales}
+%\input{chapters/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp}
+%\subsection{Comparativas}
+%\input{chapters/Parte1_sepfuents/entrenamiento_modelo/comparativas}
+%\subsection{Reentrenamiento V2}
+%\input{chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV2}
+%\subsection{Reentrenamiento V3 y protocolo final}
+%\input{chapters/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3}
 
-\chapter{Parte 2 : interfaz}
-\input{chapters/parte2_interfaz/intro.tex}
-\section{Objetivos}
-\subsection{Interacción y aprendizaje}
-\input{chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
-\section{Diseño de experiencia de usuario}
-\subsection{Organización y visualización}
-\input{chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion}
-\subsection{Explicaciones y guías}
-\input{chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas}
-\section{Casos de uso}
-\subsection{Entrenamiento parametrizable}
-\input{chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado}
-\subsection{Parámetros principales ajustables}
-\input{chapters/parte2_interfaz/casos_de_uso/parametros_ajustables}
-\subsection{Visualización de gráficos y espectrogramas}
-\input{chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas}
-\subsection{Feedback}
-\input{chapters/parte2_interfaz/casos_de_uso/feedback}
-
+%\chapter{Parte 2 : interfaz}
+%\input{chapters/parte2_interfaz/intro.tex}
+%\section{Objetivos}
+%\subsection{Interacción y aprendizaje}
+%\input{chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
+%\section{Diseño de experiencia de usuario}
+%subsection{Organización y visualización}
+%\input{chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion}
+%\subsection{Explicaciones y guías}
+%\input{chapters/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas}
+%\section{Casos de uso}
+%\subsection{Entrenamiento parametrizable}
+%\input{chapters/parte2_interfaz/casos_de_uso/entrenamiento_personalizado}
+%\subsection{Parámetros principales ajustables}
+%\input{chapters/parte2_interfaz/casos_de_uso/parametros_ajustables}
+%\subsection{Visualización de gráficos y espectrogramas}
+%\input{chapters/parte2_interfaz/casos_de_uso/visualizacion_espectrogramas}
+%\subsection{Feedback}
+%\input{chapters/parte2_interfaz/casos_de_uso/feedback}
 \chapter{Integración del sistema}
+\input{chapters/integracion_sistema/intro.tex}
 \subsection{Backend}
 \input{chapters/integracion_sistema/backend}
 \subsection{Comunicación entre módulos}
 \input{chapters/integracion_sistema/comunicacion_modulos}
 %\subsection{Incidencias de integración y depuración}
 %\input{chapters/integracion_sistema/incidencias}
-
 \chapter{Evaluación del sistema}
+\input{chapters/evaluacion_sistema/intro.tex}
 \section{Métricas utilizadas}
 \input{chapters/evaluacion_sistema/metricas}
 \section{Validación del pipeline de evaluación}
@@ -370,9 +437,7 @@
 \input{chapters/evaluacion_sistema/discusion_analisis}
 \subsection{Limitaciones y margen de mejora}
 \input{chapters/evaluacion_sistema/limitaciones_margen_mejora}
-
 \chapter{Conclusiones y trabajo futuro}
-
 \subsection{Síntesis del trabajo realizado}
 \input{chapters/conclusiones_y_futuro/sintesis}
 %\subsection{Lineas de mejora}
@@ -390,6 +455,7 @@
 %\input{chapters/anexos/instrucciones}
 \subsection{Resultados adicionales}
 %\input{chapters/anexos/resultados_adicionales}
+
 
 % Apéndices
 \appendix

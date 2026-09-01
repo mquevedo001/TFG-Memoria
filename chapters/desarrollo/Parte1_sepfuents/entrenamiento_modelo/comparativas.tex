@@ -1,0 +1,44 @@
+\paragraph{Comparativas}
+
+En esta sección se presenta una comparativa preliminar del conjunto de funciones presentado junto con sus versiones de dos y cuatro fuentes. 
+
+\begin{itemize}
+    \item \textbf{A. Comparación por número de fuentes}
+
+En la literatura del recurso que presenta la arquitectura del modelo utilizado en este proyecto se comentan en múltiples ocasiones las diferencias entre estos dos enfoques al problema.
+La separación que resulta en el conjunto de dos fuentes, ya visto en las primeras versiones del entrenamiento, es un enfoque más sencillo que permite una "binarización" del problema al reducirse a dos salidas. En contraposición, en el segundo conjunto, donde la separación se extiende a identificar cuatro elementos en el espectro, los elementos que se puedan identificar si el método es válido pueden variar enormemente. Esto dificulta la identificación de los elementos, ya que, un elemento que a lo mejor está en un rango
+frecuencial concreto en una mezcla, en otra puede habitar en otro no a lo mejor completamente diferente pero sí lo suficiente para que la sensibilidad de la función a estos cambios no dé al modelo la información necesaria para ser capaz de identificar un elemento que varía.
+Por esto, es esperable que, por lo general, \textit{4 stems} obtenga peores métricas en la fase de evaluación. Identificar y separar dos elementos por los motivos mencionados, resulta en una tarea más sencilla ya que la variabilidad se reduce a dos elementos, mientras que el caso anterior eleva la premisa de la necesidad de sensibilidad en la función al doble de elementos donde puede variar este rango frecuencial.
+
+Por ejemplo, en géneros como la electrónica o el rap que se basan en elementos frecuencialmente bajos (bajo, sub-bajo) se identifica gran superposición entre fuentes como bajo y baterías, es un sonido más "sucio" y armónicamente complejo.
+Por otro lado, por ejemlo, el blues, el pop, o las canciones de autor, presentan mejores desempeños en la separación por sus características de armónicos vocales e instrumentales más limpios \cite{Arxiv}. 
+
+En la Figura \ref{fig:SNR SDR by genre} se pueden observar las métricas de SNR y SDR por género musical en el caso de cuatro fuentes, donde se puede ver que géneros como el rap o la electrónica presentan peores métricas que otros como el pop o el blues que presentan las mejores. 
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=0.7\textwidth]{commons/Fig10.png}
+    \caption{Media de métricas SDR y SNR por género musical por género en cuatro fuentes.}
+    \label{fig:SNR SDR by genre}
+    \end{center}
+\end{figure}
+
+    \item \textbf{B. Comparación por familia de pérdida}
+
+Se han agrupado las funciones de pérdida por las familias aritméticas a las que pertenecen por su naturaleza:
+
+    \begin{itemize}
+        \item Pérdidas de magnitud directa: L1 , L2.
+        \item Pérdidas frecuenciales: L1\_freq, L2\_freq.
+        \item Pérdidas logarítmicas: logL1, logL2, log\_mag, log\_compressed\_l2.
+        \item Pérdidas informadas por fase o potencia: LPSA, lpsa\_phase.
+        \item Pérdidas basadas en máscara: mask\_l1
+        \item Pérdidas experimentales: deep\_feature , deep\_feature\_emd
+    \end{itemize}
+
+Las distintas familias de pérdidas introducen sesgos de entrenamiento diferentes.
+Las pérdidas en escala logarítmica trabajan sobre una representación comprimida de la magnitud espectral, ya que la aplicación del logaritmo reduce el rango dinámico del espectrograma \cite{yang2021dprtf}. Esto modifica el peso relativo de los errores, evitando que los bins de mayor energía dominen completamente la optimización.
+Las pérdidas frecuenciales comparan directamente estimaciones y referencias en el dominio tiempo-frecuencia, normalmente mediante distancias punto a punto entre espectrogramas \cite{sahai2019spectrogram}. 
+Por su parte, las pérdidas basadas en máscara emplean como objetivo una máscara ideal o aproximada, guiando al modelo hacia una asignación explícita, aunque generalmente suave, de los bins tiempo-frecuencia a las distintas fuentes \cite{xia2017optimalratio,wang2008tfmasking}.
+
+\end{itemize}

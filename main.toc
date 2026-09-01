@@ -1,125 +1,118 @@
+\changetocdepth {3}
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {i}}{chapter*.2}%
 \contentsline {chapter}{ODS}{\es@scroman {iii}}{chapter*.4}%
 \contentsline {section}{ODS 4: Educación de calidad}{\es@scroman {iii}}{section*.6}%
 \contentsline {section}{ODS 3: Salud y bienestar}{\es@scroman {iv}}{section*.7}%
 \contentsline {chapter}{\'{I}ndice general}{\es@scroman {v}}{chapter*.8}%
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.9}%
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {ix}}{chapter*.10}%
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.9}%
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xi}}{chapter*.10}%
 \contentsline {chapter}{\chapternumberline {1}Introducción}{1}{chapter.1}%
 \contentsline {chapter}{\chapternumberline {2}Planificación}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Alcance}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Objetivos}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Cronograma}{5}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Desviaciones respecto a la planificación inicial}{6}{section.2.4}%
-\contentsline {chapter}{\chapternumberline {3}Herramientas utilizadas}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Python 3.10.19}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Librosa}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Matplotlib}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Nussl (\textit {Northwestern University Source Separation Library} )}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Pytorch}{10}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Ignite}{10}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Streamlit}{10}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Torchaudio}{10}{section.3.8}%
-\contentsline {chapter}{\chapternumberline {4}Marco teórico}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sonidos y señales}{13}{section.4.1}%
-\contentsline {subsection}{Naturaleza del sonido}{13}{section*.14}%
-\contentsline {subsubsection}{Amplitud e intensidad}{15}{section*.17}%
-\contentsline {subsection}{Dominio tiempo frecuencia}{16}{section*.19}%
-\contentsline {subsubsection}{Magnitud y fase}{16}{section*.20}%
-\contentsline {subsubsection}{Señales mono y estéreo}{17}{section*.22}%
-\contentsline {subsubsection}{STFTs ( Short-Time Fourier Transform / Transformada en Tiempo Corto de Fourier )}{18}{section*.24}%
-\contentsline {subsubsection}{Espectrogramas}{20}{section*.27}%
-\contentsline {subsection}{Mezcla de señales y separación de fuentes}{21}{section*.29}%
-\contentsline {subsubsection}{Mezclas lineales}{21}{section*.30}%
-\contentsline {subsubsection}{Mezclas coherentes e incoherentes}{22}{section*.31}%
-\contentsline {subsection}{Representaciones digitales}{22}{section*.32}%
-\contentsline {subsubsection}{Formatos del audio}{22}{section*.33}%
-\contentsline {subsubsection}{Tasa de muestreo}{23}{section*.35}%
-\contentsline {section}{\numberline {4.2}Aprendizaje automático}{24}{section.4.2}%
-\contentsline {subsection}{Conceptos fundamentales}{24}{section*.36}%
-\contentsline {subsubsection}{Funciones de pérdida}{24}{section*.37}%
-\contentsline {subsubsection}{Aprendizaje supervisado vs no supervisado}{25}{section*.38}%
-\contentsline {subsubsection}{Overfitting, underfitting y generalización}{25}{section*.40}%
-\contentsline {subsubsection}{Dataset}{25}{section*.41}%
-\contentsline {subsection}{RNNs artificiales}{26}{section*.42}%
-\contentsline {subsubsection}{Tipos de redes}{26}{section*.43}%
-\contentsline {subsubsection}{Optimización y descenso de gradiente}{27}{section*.45}%
-\contentsline {subsubsection}{Neuronas, capas y funciones de activación y pérdida}{28}{section*.47}%
-\contentsline {subsubsection}{Funciones de pérdida}{28}{section*.48}%
-\contentsline {subsubsection}{Pérdidas avanzadas o experimentales}{31}{section*.50}%
-\contentsline {chapter}{\chapternumberline {5}Estado del arte}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Separación de fuentes musicales}{34}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Represención tiempo-frecuencia y máscaras}{34}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Métodos clásicos de separación}{35}{section.5.3}%
-\contentsline {subsection}{Modelado de la señal principal}{35}{section*.52}%
-\contentsline {subsection}{Modelado del acompañamiento}{35}{section*.53}%
-\contentsline {subsection}{Acercamientos conjuntos y probabilísticos}{36}{section*.54}%
-\contentsline {section}{\numberline {5.4}Enfoques basados en aprendizaje profundo}{36}{section.5.4}%
-\contentsline {subsection}{Modelos basados en espectrogama}{37}{section*.55}%
-\contentsline {subsection}{Modelos \textit {waveforms} e híbridos}{37}{section*.56}%
-\contentsline {section}{\numberline {5.5}Herramientas y tecnologías actuales}{37}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Posicionamiento del trabajo}{38}{section.5.6}%
-\contentsline {chapter}{\chapternumberline {6}Parte 1 : separación de fuentes}{39}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Diseño del modelo}{39}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Arquitectura base}{40}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Modificaciones propuestas}{41}{section.6.3}%
-\contentsline {subsection}{Arquitectura y parámetros}{41}{section*.58}%
-\contentsline {subsection}{Función de pérdida: \textit {Deep-feature-EMD}}{42}{section*.60}%
-\contentsline {section}{\numberline {6.4}Configuración de entrenamiento}{43}{section.6.4}%
-\contentsline {subsection}{\textit {Inputs} y \textit {targets}}{43}{section*.61}%
-\contentsline {subsection}{\textit {TFMs} aplicadas}{44}{section*.62}%
-\contentsline {subsection}{Preprocesado de un \textit {dataset}}{46}{section*.63}%
-\contentsline {section}{\numberline {6.5}Entrenamiento del modelo}{47}{section.6.5}%
-\contentsline {subsection}{Resultados preliminares y experimentales}{47}{section*.64}%
-\contentsline {subsection}{Comparativas}{48}{section*.65}%
-\contentsline {subsection}{Reentrenamiento V2}{50}{section*.67}%
-\contentsline {subsection}{Reentrenamiento V3 y protocolo final}{50}{section*.68}%
-\contentsline {chapter}{\chapternumberline {7}Parte 2 : interfaz}{53}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Objetivos}{53}{section.7.1}%
-\contentsline {subsection}{Interacción y aprendizaje}{53}{section*.69}%
-\contentsline {section}{\numberline {7.2}Diseño de experiencia de usuario}{54}{section.7.2}%
-\contentsline {subsection}{Organización y visualización}{54}{section*.70}%
-\contentsline {paragraph}{Barra lateral de configuración.}{54}{section*.71}%
-\contentsline {paragraph}{Zona principal de carga.}{54}{section*.73}%
-\contentsline {paragraph}{Consola y logs.}{55}{section*.75}%
-\contentsline {paragraph}{Reproductores.}{55}{section*.77}%
-\contentsline {paragraph}{Gráficos.}{56}{section*.79}%
-\contentsline {paragraph}{Botones.}{57}{section*.81}%
-\contentsline {subsection}{Explicaciones y guías}{58}{section*.83}%
-\contentsline {section}{\numberline {7.3}Casos de uso}{60}{section.7.3}%
-\contentsline {subsection}{Entrenamiento parametrizable}{60}{section*.90}%
-\contentsline {subsection}{Parámetros principales ajustables}{60}{section*.91}%
-\contentsline {subsection}{Visualización de gráficos y espectrogramas}{62}{section*.93}%
-\contentsline {subsection}{Feedback}{63}{section*.96}%
-\contentsline {chapter}{\chapternumberline {8}Integración del sistema}{65}{chapter.8}%
-\contentsline {subsection}{Backend}{65}{section*.101}%
-\contentsline {subsection}{Comunicación entre módulos}{67}{section*.103}%
-\contentsline {chapter}{\chapternumberline {9}Evaluación del sistema}{69}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Métricas utilizadas}{69}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Validación del pipeline de evaluación}{70}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Resultados obtenidos}{71}{section.9.3}%
-\contentsline {paragraph}{Resultados en dos fuentes}{72}{table.caption.105}%
-\contentsline {paragraph}{Resultados en cuatro fuentes}{72}{table.caption.107}%
-\contentsline {paragraph}{Rankings}{73}{table.caption.110}%
-\contentsline {paragraph}{Graficos de barras}{73}{section*.111}%
-\contentsline {subsection}{Discusión y análisis}{74}{section*.114}%
-\contentsline {subsection}{Limitaciones y margen de mejora}{74}{section*.115}%
-\contentsline {chapter}{\chapternumberline {10}Conclusiones y trabajo futuro}{77}{chapter.10}%
-\contentsline {subsection}{Síntesis del trabajo realizado}{77}{section*.116}%
-\contentsline {subsection}{Trabajo futuro}{77}{section*.117}%
-\contentsline {chapter}{\chapternumberline {11}Anexos}{79}{chapter.11}%
-\contentsline {subsection}{Código relevante}{79}{section*.118}%
-\contentsline {subsection}{Configuraciones}{80}{section*.119}%
-\contentsline {paragraph}{Entrenamiento individual.}{80}{section*.120}%
-\contentsline {paragraph}{Entrenamiento por lotes.}{80}{section*.121}%
-\contentsline {paragraph}{Evaluación de modelos.}{80}{section*.122}%
-\contentsline {paragraph}{Evaluación del baseline de mezcla.}{80}{section*.123}%
-\contentsline {paragraph}{Separación sobre audio externo.}{80}{section*.124}%
-\contentsline {paragraph}{Ejecución de la interfaz gráfica.}{80}{section*.125}%
-\contentsline {paragraph}{Generación del conjunto de test representativo.}{80}{section*.126}%
-\contentsline {paragraph}{Diagnóstico de salidas separadas.}{81}{section*.127}%
-\contentsline {paragraph}{Inspección de checkpoints.}{81}{section*.128}%
-\contentsline {paragraph}{Generación de medias,medianas y desviaciones.}{81}{section*.129}%
-\contentsline {subsection}{Resultados adicionales}{81}{section*.130}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{83}{section*.134}%
+\contentsline {section}{\numberline {2.2}Objetivos}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Paquetes de trabajo y tareas}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Estimación}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Cronograma}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Desviaciones respecto a la planificación inicial}{9}{section.2.6}%
+\contentsline {chapter}{\chapternumberline {3}Herramientas utilizadas}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Python 3.10.19}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Librosa}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Matplotlib}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Nussl (\textit {Northwestern University Source Separation Library})}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Pytorch}{14}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Ignite}{14}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Streamlit}{14}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Torchaudio}{14}{section.3.8}%
+\contentsline {chapter}{\chapternumberline {4}Marco teórico}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sonidos y señales}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Naturaleza del sonido}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Dominio tiempo frecuencia}{18}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Magnitud y fase}{18}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Señales mono y estéreo}{19}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}STFTs ( Short-Time Fourier Transform / Transformada en Tiempo Corto de Fourier )}{20}{subsubsection.4.1.2.3}%
+\contentsline {paragraph}{\numberline {4.1.2.3.1}iSTFT}{22}{paragraph.4.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}Espectrogramas}{23}{subsubsection.4.1.2.4}%
+\contentsline {subsection}{\numberline {4.1.3}Mezcla de señales y separación de fuentes}{25}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Mezclas lineales}{25}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Mezclas coherentes e incoherentes}{26}{subsubsection.4.1.3.2}%
+\contentsline {subsection}{\numberline {4.1.4}Representaciones digitales}{26}{subsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}Formatos del audio}{26}{subsubsection.4.1.4.1}%
+\contentsline {chapter}{\chapternumberline {5}Estado del arte}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Métodos clásicos de separación}{28}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Modelado de la señal principal}{28}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Modelado del acompañamiento}{29}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Acercamientos conjuntos y probabilísticos}{29}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Enfoques basados en aprendizaje profundo}{30}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Modelos basados en espectrogama}{30}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Modelos \textit {waveforms} e híbridos}{31}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Conjunto de datos y evaluación}{31}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Herramientas y tecnologías actuales}{31}{section.5.3}%
+\contentsline {chapter}{\chapternumberline {6}Desarrollo}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Modelo de separación de fuentes}{33}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Base de datos}{33}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Datos de entrenamiento}{34}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Funciones de pérdida}{34}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Arquitectura del modelo}{38}{subsection.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.4.1}Representación de los datos}{39}{subsubsection.6.1.4.1}%
+\contentsline {paragraph}{\numberline {6.1.4.1.1}Preprocesado del conjunto de datos}{39}{paragraph.6.1.4.1.1}%
+\contentsline {paragraph}{\numberline {6.1.4.1.2}Entrada al modelo y objetivos}{41}{paragraph.6.1.4.1.2}%
+\contentsline {paragraph}{\numberline {6.1.4.1.3}Transformaciones personalizadas de los datos}{42}{paragraph.6.1.4.1.3}%
+\contentsline {subsection}{\numberline {6.1.5}Entrenamiento}{44}{subsection.6.1.5}%
+\contentsline {paragraph}{\numberline {6.1.5.0.1}Resultados preliminares y experimentales}{44}{paragraph.6.1.5.0.1}%
+\contentsline {paragraph}{\numberline {6.1.5.0.2}Comparativas}{45}{paragraph.6.1.5.0.2}%
+\contentsline {paragraph}{\numberline {6.1.5.0.3}Entrenamiento V2}{46}{paragraph.6.1.5.0.3}%
+\contentsline {paragraph}{\numberline {6.1.5.0.4}Entrenamiento V3}{47}{paragraph.6.1.5.0.4}%
+\contentsline {section}{\numberline {6.2}Interfaz}{48}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Diseño de experiencia de persona usuaria}{48}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Barra lateral de configuración}{48}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Zona principal de carga.}{49}{subsubsection.6.2.1.2}%
+\contentsline {subsubsection}{\numberline {6.2.1.3}Consola y logs.}{49}{subsubsection.6.2.1.3}%
+\contentsline {subsubsection}{\numberline {6.2.1.4}Reproductores.}{50}{subsubsection.6.2.1.4}%
+\contentsline {subsubsection}{\numberline {6.2.1.5}Gráficos.}{51}{subsubsection.6.2.1.5}%
+\contentsline {subsubsection}{\numberline {6.2.1.6}Botones.}{52}{subsubsection.6.2.1.6}%
+\contentsline {subsubsection}{\numberline {6.2.1.7}Modificación de parámetros internos del modelo, parámetros de entrenamiento, parámetros de generación de mezclas, de efectos y de la formación de transformadas de Fourier}{53}{subsubsection.6.2.1.7}%
+\contentsline {subsection}{\numberline {6.2.2}Casos de uso}{56}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Parámetros de formación de las transformadas de Fourier}{56}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Parámetros intrínsecos del modelo}{56}{subsubsection.6.2.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}Parámetros de efectos para entrenamiento y de audio}{57}{subsubsection.6.2.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.2.4}Parámetros de entrenamiento}{57}{subsubsection.6.2.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.2.5}Parámetros de generación de mezclas}{57}{subsubsection.6.2.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.2.6}Información sobre los parámetros en la interfaz}{57}{subsubsection.6.2.2.6}%
+\contentsline {subsection}{\numberline {6.2.3}Visualizaciones en la interfaz}{58}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}\textit {Waveforms}}{58}{subsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}Espectrogramas}{58}{subsubsection.6.2.3.2}%
+\contentsline {subsection}{\numberline {6.2.4}Feedback}{59}{subsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.4.1}Logs de consola}{59}{subsubsection.6.2.4.1}%
+\contentsline {subsubsection}{\numberline {6.2.4.2}Mensajes de error}{59}{subsubsection.6.2.4.2}%
+\contentsline {subsubsection}{\numberline {6.2.4.3}Progreso}{60}{subsubsection.6.2.4.3}%
+\contentsline {subsubsection}{\numberline {6.2.4.4}Descarga de fuentes}{61}{subsubsection.6.2.4.4}%
+\contentsline {chapter}{\chapternumberline {7}Integración del sistema}{63}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Backend}{63}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {7.0.2}Comunicación entre módulos}{65}{subsection.7.0.2}%
+\contentsline {chapter}{\chapternumberline {8}Evaluación del sistema}{67}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Métricas utilizadas}{67}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Validación del pipeline de evaluación}{68}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Resultados obtenidos}{70}{section.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.0.1}Rankings}{71}{subsubsection.8.3.0.1}%
+\contentsline {subsubsection}{\numberline {8.3.0.2}Graficos de barras}{72}{subsubsection.8.3.0.2}%
+\contentsline {subsection}{\numberline {8.3.1}Discusión y análisis}{73}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Limitaciones y margen de mejora}{77}{subsection.8.3.2}%
+\contentsline {chapter}{\chapternumberline {9}Conclusiones y trabajo futuro}{81}{chapter.9}%
+\contentsline {subsection}{\numberline {9.0.1}Síntesis del trabajo realizado}{81}{subsection.9.0.1}%
+\contentsline {subsection}{\numberline {9.0.2}Trabajo futuro}{81}{subsection.9.0.2}%
+\contentsline {chapter}{\chapternumberline {10}Anexos}{83}{chapter.10}%
+\contentsline {subsection}{\numberline {10.0.1}Código relevante}{83}{subsection.10.0.1}%
+\contentsline {subsection}{\numberline {10.0.2}Configuraciones}{84}{subsection.10.0.2}%
+\contentsline {paragraph}{\numberline {10.0.2.0.1}Entrenamiento individual.}{84}{paragraph.10.0.2.0.1}%
+\contentsline {paragraph}{\numberline {10.0.2.0.2}Entrenamiento por lotes.}{84}{paragraph.10.0.2.0.2}%
+\contentsline {paragraph}{\numberline {10.0.2.0.3}Evaluación de modelos.}{84}{paragraph.10.0.2.0.3}%
+\contentsline {paragraph}{\numberline {10.0.2.0.4}Evaluación del baseline de mezcla.}{84}{paragraph.10.0.2.0.4}%
+\contentsline {paragraph}{\numberline {10.0.2.0.5}Separación sobre audio externo.}{84}{paragraph.10.0.2.0.5}%
+\contentsline {paragraph}{\numberline {10.0.2.0.6}Ejecución de la interfaz gráfica.}{84}{paragraph.10.0.2.0.6}%
+\contentsline {paragraph}{\numberline {10.0.2.0.7}Generación del conjunto de test representativo.}{84}{paragraph.10.0.2.0.7}%
+\contentsline {paragraph}{\numberline {10.0.2.0.8}Diagnóstico de salidas separadas.}{85}{paragraph.10.0.2.0.8}%
+\contentsline {paragraph}{\numberline {10.0.2.0.9}Inspección de checkpoints.}{85}{paragraph.10.0.2.0.9}%
+\contentsline {paragraph}{\numberline {10.0.2.0.10}Generación de medias,medianas y desviaciones.}{85}{paragraph.10.0.2.0.10}%
+\contentsline {subsection}{\numberline {10.0.3}Resultados adicionales}{85}{subsection.10.0.3}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{87}{section*.62}%

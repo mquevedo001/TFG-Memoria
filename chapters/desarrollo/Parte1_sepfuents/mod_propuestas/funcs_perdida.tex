@@ -1,0 +1,123 @@
+En el proyecto se comparan diferentes funciones de pérdida con el objetivo de analizar cómo afecta la medición del error al entrenamiento del modelo de separación.
+
+Las funciones de pérdida son parte crucial del aprendizaje automático. El término refiere a una función matemática que estima el error existente entre la estimación y el objetivo. Dependiendo de la función de pérdida elegida, el valor numérico de salida prioriza dar un tipo de información u otra sobre la diferencia entre la fuente estimada y la de referencia.En la Tabla \ref{tab:perdidas-principales} se pueden ver las funciones de pérdida principales que se han valorado en el proyecto, su nombre , la información que se enfocan en dar y la expresión matemática que las define. En la tabla:  \(Y\) es la magnitud objetivo de la fuente, \(\hat{Y}\) la magnitud estimada,\(X\) es la magnitud de la mezcla,\(\hat{M}\) la máscara estimada, \(N\) el número de elementos comparados y \(\epsilon\) la constante para evitar divisiones o logaritmos de cero.
+
+\begin{table}[H]
+    \centering
+    \small
+    \begin{adjustbox}{max width=\textwidth}
+        \begin{tabular}{p{0.20\textwidth} p{0.38\textwidth} p{0.34\textwidth}}
+            \toprule
+            \textbf{Función de pérdida} & \textbf{Comentario} & \textbf{Expresión matemática} \\
+            \midrule
+
+            L1 &
+            Penaliza el error absoluto entre la magnitud estimada y la magnitud objetivo. Es una pérdida simple y robusta frente a errores extremos. &
+            \( \mathcal{L}_{L1} = \frac{1}{N}\sum_{i=1}^{N} |\hat{Y}_i - Y_i| \)
+            \\
+
+            L2 &
+            Penaliza el error cuadrático entre la estimación y la referencia. Da más peso a errores grandes que la pérdida L1. &
+            \( \mathcal{L}_{L2} = \frac{1}{N}\sum_{i=1}^{N} (\hat{Y}_i - Y_i)^2 \)
+            \\
+
+            L1 frecuencia &
+            Variante de L1 aplicada sobre una reorganización frecuencial de los tensores, tratando cada fuente del batch como una muestra independiente. &
+            \( \mathcal{L}_{L1freq} = \frac{1}{N}\sum_{i=1}^{N} |\hat{Y}^{freq}_i - Y^{freq}_i| \)
+            \\
+
+            L2 frecuencia &
+            Variante de L2 aplicada sobre la representación frecuencial. Mantiene la penalización cuadrática tras reformular las dimensiones de los tensores. &
+            \( \mathcal{L}_{L2freq} = \frac{1}{N}\sum_{i=1}^{N} (\hat{Y}^{freq}_i - Y^{freq}_i)^2 \)
+            \\
+
+            Log L1 &
+            Calcula el error absoluto y lo expresa en una escala logarítmica. Reduce el efecto del rango dinámico de las magnitudes. &
+            \( \mathcal{L}_{logL1} = 10 \cdot \frac{1}{B}\sum_{b=1}^{B}\log_{10}\left(\sum_i |\hat{Y}_{b,i}-Y_{b,i}|+\epsilon\right) \)
+            \\
+
+            Log L2 &
+            Calcula el error cuadrático y lo transforma a escala logarítmica. Penaliza errores grandes, pero con una escala comprimida. &
+            \( \mathcal{L}_{logL2} = 10 \cdot \frac{1}{B}\sum_{b=1}^{B}\log_{10}\left(\sum_i (\hat{Y}_{b,i}-Y_{b,i})^2+\epsilon\right) \)
+            \\
+
+            Log magnitude &
+            Compara la magnitud estimada y la magnitud objetivo después de aplicar una transformación logarítmica. Permite trabajar con diferencias relativas. &
+            \( \mathcal{L}_{logMag} = \frac{1}{N}\sum_{i=1}^{N}\left|\log_{10}(|\hat{Y}_i|+\epsilon)-\log_{10}(|Y_i|+\epsilon)\right| \)
+            \\
+
+            Log-compressed L2 &
+            Calcula una pérdida cuadrática entre magnitudes log-comprimidas. Su objetivo es reducir el rango dinámico antes de comparar estimación y referencia. &
+            \( \mathcal{L}_{logCompL2} = \frac{1}{N}\sum_{i=1}^{N}\left(\log(|\hat{Y}_i|+\epsilon)-\log(|Y_i|+\epsilon)\right)^2 \)
+            \\
+
+            LPSA &
+            En la implementación utilizada, compara espectros de potencia en escala logarítmica. Permite trabajar con diferencias relativas de energía espectral. &
+            \( \mathcal{L}_{LPSA} = \frac{1}{N}\sum_{i=1}^{N}\left(\log(\hat{Y}_i^2+\epsilon)-\log(Y_i^2+\epsilon)\right)^2 \)
+            \\
+
+            Mask L1 &
+            Compara la máscara estimada con una máscara ideal obtenida a partir de las magnitudes objetivo de las fuentes. &
+            \( M_i^{ideal} = \frac{Y_i}{\sum_s Y_{i,s}+\epsilon}, \quad \mathcal{L}_{mask} = \frac{1}{N}\sum_{i=1}^{N}|\hat{M}_i - M_i^{ideal}| \)
+            \\
+
+            \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \caption{Funciones de pérdida principales consideradas durante el entrenamiento.}
+    \label{tab:perdidas-principales}
+\end{table}
+
+Además del conjunto de funciones de pérdida principal, se han valorado también funciones de pérdida más avanzadas y en dos casos experimentales:
+
+\begin{table}[H]
+    \centering
+    \small
+    \begin{adjustbox}{max width=\textwidth}
+        \begin{tabular}{p{0.20\textwidth} p{0.38\textwidth} p{0.34\textwidth}}
+            \toprule
+            \textbf{Función de pérdida} & \textbf{Comentario} & \textbf{Expresión matemática} \\
+            \midrule
+
+            LPSA phase &
+            Variante que incorpora información de fase de la mezcla y de la fuente objetivo. Requiere disponer de las fases \(\theta_X\) y \(\theta_Y\). &
+            \( Y^{PSA}_i = Y_i \cos(\theta_{X,i}-\theta_{Y,i}), \quad \mathcal{L}_{LPSAphase} = \frac{1}{N}\sum_{i=1}^{N}(\hat{Y}_i-Y^{PSA}_i)^2 \)
+            \\
+
+            LMRS &
+            Pérdida basada en la relación logarítmica entre fuente y mezcla. Compara ratios espectrales en lugar de magnitudes absolutas. &
+            \( \mathcal{L}_{LMRS} = \frac{1}{N}\sum_{i=1}^{N}\left(\log\frac{Y_i+\epsilon}{X_i+\epsilon}-\log\frac{\hat{Y}_i+\epsilon}{X_i+\epsilon}\right)^2 \)
+            \\
+
+            L-MRS &
+            Pérdida multirresolución calculada tras reconstruir señales temporales. Combina términos espectrales en distintas resoluciones STFT. &
+            \( \mathcal{L}_{MRS} = \frac{1}{R}\sum_{r=1}^{R}\left(SC_r(\hat{y},y)+\mathcal{L}_{logMag,r}(\hat{y},y)\right) \)
+            \\
+
+            Deep-feature &
+            Compara activaciones internas extraídas por una red auxiliar a partir de los espectrogramas estimado y objetivo. &
+            \( \mathcal{L}_{DF} = \sum_{j \in J}\|\phi_j(\hat{Y})-\phi_j(Y)\|_1 \)
+            \\
+
+            Deep-feature-EMD &
+            Variante experimental que compara distribuciones de activaciones profundas mediante una aproximación regularizada de la distancia Earth Mover. &
+            \( \mathcal{L}_{DF\text{-}EMD} = \sum_{j \in J}\mathrm{Sinkhorn}\left(\mu_{\phi_j(\hat{Y})},\mu_{\phi_j(Y)}\right) \)
+            \\
+
+            \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \caption{Funciones de pérdida avanzadas y experimentales consideradas durante el desarrollo.}
+    \label{tab:perdidas-avanzadas}
+\end{table}
+
+La función de pérdida \textit{Deep-feature-EMD}, propuesta por el tutor de este proyecto, hace uso de una distancia tipo \textit{Sinkhorn/EMD} sobre las características extraidas por una CNN auxiliar. Define la parte mas experimental del proyecto.
+
+Cuando introduces un espectrograma en una CNN cada capa convolucional aplica diferentes filtros que responden a patrones específicos presentes en la entrada. Las salidas producidas por esos filtros se llaman activaciones o mapas de características. Las primeras capas pueden responder a características relativamente simples mientras que capas posteriores pueden representar combinaciones mas complejas de esos patrones.
+
+La pérdida DeepFeature-EMD compara la estimación y el objetivo no directamente en el dominio de magnitud, sino en un espacio de activaciones. Para cada capa considerada, las activaciones se aplanan y se interpretan como distribuciones\cite{DeepLearningforChestRadiographs}.
+La discrepancia entre ambas distribuciones se mide mediante una distancia Sinkhorn, que es una derivación de la Earth Mover’s Distance.
+
+De este modo, la función de pérdida evalúa la similitud entre ambas señales en un espacio de características aprendido por una CNN auxiliar, en lugar de la comparación entre magnitudes espectrales que presentan el resto de funciones de pérdida evaluadas. Esta función constituye una de las propuestas experimentales del proyecto y fue incorporada a partir de una propuesta del tutor.
+El extractor CNN auxiliar no está entrenado en música, por lo que la pérdida se considera experimental y no necesariamente correlaciona con calidad perceptual.
+

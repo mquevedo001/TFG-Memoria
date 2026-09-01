@@ -1,0 +1,48 @@
+\paragraph{Preprocesado del conjunto de datos}
+
+En esta sección se explicará el procesado que se aplica para ir desde los archivos de audio de entrada hasta los \textit{batches} con un formato apto para el entrenamiento.
+
+\begin{itemize}
+
+    \item \textbf{1. Construcción de escenarios:}
+    como ya se ha comentado en secciones anteriores, el modelo contempla dos escenarios de salida: cuatro y dos pistas. Partiendo de ello, la relación de mezcla-fuente de entrada debe de tener un formato acorde a la salida que se espera. Para ello se diferencia:
+
+    \begin{itemize}
+        \item \textit{2 stems}: \textit{vocales, acompañamiento (batería + bajo + otros)}. Se mantiene la fuente de las vocales de la base de datos y se agrupa el resto como acompañamiento.
+        \item \textit{4 stems}: \textit{batería, bajo, vocales, otros}. Se usan las cuatro fuentes originales de la base de datos.
+    \end{itemize}
+
+    \item \textbf{2. Conversión a dominio espectral:}
+    Se aplica la misma transformada de Fourier a la mezcla y a las fuentes. A partir de ahí se extraen magnitudes para entrenamiento y se guarda la fase de la mezcla para la posterior reconstrucción de la estimación.
+    
+    La mezcla de audio se transforma al dominio tiempo-frecuencia mediante la STFT, obteniéndo un espectrograma. 
+    
+    Después se extrae la magnitud del espectrograma, que constituye la entrada principal del modelo, mientras que la fase se conserva para la reconstrucción posterior del audio. Finalmente la magnitud se organiza en forma de tensor, se convierte a escala de decibelios y se normaliza antes de introducirse a la red neuronal recurrente con el objetivo de reducir su rango dinámico y facilitar el entrenamiento.
+
+    \item \textbf{3. Preparación de \textit{batches}:}
+    cada \textit{batch} contiene al menos:
+    \begin{itemize}
+        \item \textit{mix\_magnitude}: magnitud de la mezcla.
+        \item \textit{source\_magnitudes}: magnitudes de las fuentes.
+    \end{itemize}
+    
+    Además algunas funciones de pérdida avanzadas requieren información de fase, por lo que en el preprocesado se crea un tipo especial de entrada para ellas que contiene:
+    \begin{itemize}
+        \item \textit{mixture\_phase}: fase de la mezcla.
+        \item \textit{source\_phase}: fase de las fuentes.
+    \end{itemize}
+
+    La última versión del proceso de entrenamiento comprueba la presencia de estos dos últimos para las funciones que las piden, y usa \textit{source\_magnitudes} como entrada principal durante el entrenamiento.
+
+    \item \textbf{4. División train - validation - test:}
+    \begin{itemize}
+        \item \textit{train/validation}: usado durante entrenamiento.
+        \item \textit{representative\_test}: conjunto fijo usado solo para evaluación final.
+    \end{itemize}
+    División 60-40 , 60\% del conjunto de entrenamiento y 40\% de validación.
+
+    \item \textbf{5. Normalización de canales:}
+    En la documentación\cite{rafii2018overview} de la arquitectura del modelo se recomienda un solo canal de audio como entrada por lo que los datos de entrenamiento se normalizan a un solo canal. Además esto reduce el coste computacional y simplifica el proceso de comparación entre fuentes.
+
+\end{itemize}
+

@@ -1,15 +1,4 @@
-Los cinco bloques principales en los que se divide la planificación y que recoge el cuadro 2.1 son los siguientes:
-
-\begin{itemize}
-    \item Desarrollo incial: recopilación de información e implementación inicial.
-    \item Entrenamiento: implementación del proceso de entrenamiento de modelos,entrenamiento y recogida de resultados.
-    \item Implementación de la interfaz.
-    \item Evaluación final: análisis y comparación de resultados.
-    \item Documentación: redacción de la memoria y de la pertinente documentación del código.
-\end{itemize}
-
-
-En esta planificación se asumía que, una vez entrenados los modelos, la evaluación consistiría principalmente en ejecutar las métricas definidas, probar los modelos generados y valorar los resultados obtenidos. Sin embargo, durante el desarrollo del proyecto fueron surgiendo varios problemas que modificaron el desarrollo previsto. Finalmente la ejecución del proyecto se puede ver en el cronograma de la Figura 2.1, las incidencias que han causado los retrasos en la planificación son las enumeradas a continuación.
+En la planificación se asumía que, una vez entrenados los modelos, la evaluación consistiría principalmente en ejecutar las métricas definidas, probar los modelos generados y valorar los resultados obtenidos. Sin embargo, durante el desarrollo del proyecto fueron surgiendo varios problemas que modificaron el desarrollo previsto. Finalmente la ejecución del proyecto se puede ver en el cronograma de la Figura \ref{fig:cronograma-final}, las incidencias que han causado los retrasos en la planificación son las enumeradas a continuación.
 
 \begin{figure}[H]
     \centering
@@ -38,20 +27,3 @@ Las incidencias que causaron este aumento en el tiempo dedicado se pueden resumi
     
     Entrenar todas las funciones de pérdida resultó bastante más costoso de lo previsto inicialmente y causó gran impacto en las tareas 2.3 y 2.4.
 \end{itemize}
-
-
-Para resolver las desviaciones detectadas se aplicaron varias medidas correctoras:
-
-\begin{itemize}
-    \item Inferencia de la arquitectura del modelo a partir del \textit{state\_dict} del \textit{checkpoint}.
-    \item Restauración de un método \textit{forward} coherente con el utilizado durante el entrenamiento.
-    \item Unificación de la función \textit{run\_inference} para evaluación y despliegue.
-    \item Creación de un conjunto de test fijo denominado \textit{representative\_test}.
-    \item Incorporación de un \textit{baseline} de mezcla para validar los modelos frente a una solución trivial.
-    \item Reentrenamiento mediante la versión V3 del protocolo experimental.
-    \item Separación entre pérdidas principales, experimentales y avanzadas.
-\end{itemize}
-
-Aunque estas medidas provocaron un retraso respecto a la planificación inicial, permitieron establecer un proceso de evaluación más sólido obteniendo así mejores resultados. De este modo, se evitó seleccionar modelos únicamente por generar archivos de salida y se priorizó la obtención de resultados comparables, trazables y evaluables frente a un criterio común.
-
-Siendo parte del proceso de la validación experimental, las incidencias ocurridas permitieron detectar y corregir errores que afectaban a la validez de los resultados

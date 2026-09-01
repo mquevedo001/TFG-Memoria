@@ -1,5 +1,0 @@
-Esta versión nace como corrección de la primera versión .
-
-La primera versión, como ya se comentaba en el punto anterior, entrenaba con señales estéreo sin haber cerrado todavía el criterio de canales. Esto hacia que los tensores de entrada y salida no estuvieran alineados con la arquitectura final planteada..
-
-V2 reentrena los modelos con una configuración mas coherente, se entrenan modelos de dos y cuatro fuentes de salida, y sirve para obtener una primera batería de seria de \textit{checkpoints}. Durante la primera evaluación de V2 , se detectan nuevos problemas: carga de checkpoints,diferencias entre entrenamiento e inferencia, stems muy correlacionados con la mezcla y resultados que no superaban \textit{baseline}. Finalmente, y por estos motivos, se termina por considerar el conjunto de modelos entrenados como insuficiente, aunque no se descarta completamente y se deja en el repositorio a modo de marca temporal para mostrar la evolución del proyecto.

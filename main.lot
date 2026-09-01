@@ -1,20 +1,20 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación entre las horas estimadas y las horas reales dedicadas a los bloques y tareas del proyecto.}}{5}{table.caption.11}%
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Pérdidas principales consideradas durante el entrenamiento.}}{30}{table.caption.49}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Pérdidas avanzadas y experimentales consideradas durante el desarrollo.}}{31}{table.caption.51}%
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Configuración arquitectónica base empleada en los entrenamientos V2.}}{42}{table.caption.59}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Enumeración de los objetivos principales}}{4}{table.caption.11}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Comparación entre las horas estimadas y las horas reales dedicadas a los bloques y tareas del proyecto.}}{8}{table.caption.13}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {9.1}{\ignorespaces Tabla para los resultados de separación en 2 fuentes }}{72}{table.caption.105}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Tabla para los resultados de separación en 4 fuentes}}{72}{table.caption.107}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Ranking para los resultados de separación en 2 fuentes}}{73}{table.caption.109}%
-\contentsline {table}{\numberline {9.4}{\ignorespaces Ranking para los resultados de separación en 4 fuentes}}{73}{table.caption.110}%
+\addvspace {10pt}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Funciones de pérdida principales consideradas durante el entrenamiento.}}{36}{table.caption.26}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Funciones de pérdida avanzadas y experimentales consideradas durante el desarrollo.}}{37}{table.caption.27}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Configuración arquitectónica de parámetros utilizada en los entrenamientos finales del proyecto.}}{39}{table.caption.29}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Tabla para los resultados de separación en 2 fuentes }}{70}{table.caption.53}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Tabla para los resultados de separación en 4 fuentes}}{71}{table.caption.54}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Ranking para los resultados de separación en 2 fuentes}}{71}{table.caption.55}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Ranking para los resultados de separación en 4 fuentes}}{72}{table.caption.56}%
 \addvspace {10pt}
 \addvspace {10pt}

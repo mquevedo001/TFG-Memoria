@@ -1,0 +1,20 @@
+\paragraph{Entrenamiento V3}
+
+El reentrenamiento numero tres corresponde a la versión actual y a la que ha proporcionado los resultados que se muestran en esta memoria. Nace en respuesta a lo visto y aprendido en la versión anterior.
+
+En esta versión se corrige el test que se realizaba por cada modelo ya que se observó que por error se realizaba sobre una fracción aleatoria del conjunto completo. Se añade una \textit{baseline} trivial de mezcla, que establece un criterio de correlación máxima entre resultado y mezcla original, con el objetivo de considerar un elemento como separado y no un archivo equivalente a la mezcla, tratando de dar una medida cuantitativa a la calidad de la separación.
+
+También se unifica la inferencia entre evaluación y despliegue como cambios principales.
+
+Además: 
+
+\begin{itemize}
+    \item Se restaura la función de \textit{forward} que se había modificado en la versión anterior bajo sospecha de que ese era el fallo que no permitía una generación de resultados correcta, reduciéndose ahora a: 
+    \begin{center}
+        \textit{AmplitudeToDB + BatchNorm + RNN + Embedding}
+    \end{center}
+    \item Se realiza una separación para organizar los entrenamientos entre pérdidas principales y experimentales.
+    \item Se organiza la salida de los modelos en nuevos directorios.
+    \item Se guarda un sumario de configuración de entrenamiento por modelo, lo queayuda a hacer un seguimiento a posteriori.
+    \item Se ajusta la planificación por coste final
+\end{itemize}

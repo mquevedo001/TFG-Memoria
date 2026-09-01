@@ -2,50 +2,50 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Objetivos de desarrollo sostenible}}{\es@scroman {iii}}{figure.caption.5}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Cronograma inicial del proyecto.}}{6}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cronograma final del proyecto.}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura de desglose de trabajo}}{5}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cronograma inicial del proyecto.}}{9}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cronograma final del proyecto.}}{10}{figure.caption.15}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Generación de una onda sonora longitudinal mediante el movimiento de un pistón al final de un tubo \blx@tocontentsinit {0}\cite {sbe_sound}.}}{14}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces epresentación gráfica de una onda de baja frecuencia y una onda de alta frecuencia.}}{15}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Representación gráfica de una onda donde se identifica la amplitud y la aplitud pico a pico.}}{16}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diferencia de fase ( desfase ) entre dos ondas sinusoidales desplazadas horizontalmente.}}{17}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Representación gráfica de las diferencias entre sonido mono y sonido estéreo.}}{18}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}}{19}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Hann function}}{20}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{21}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Espectrograma estándar arriba y espectrograma de Mel abajo.}}{23}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Comparativa de clasificación entre aprendizaje supervisado y no supervisado. Imagen de Juan Domingo Farnos}}{25}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Una sola capa de red neural artificial feedforward. Por Mcstrother - Trabajo propio, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=9515940}}{27}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Ilustración del proceso de descenso de gradiente.}}{28}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Generación de una onda sonora longitudinal mediante el movimiento de un pistón al final de un tubo \blx@tocontentsinit {0}\cite {sbe_sound}.}}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Representación gráfica de una onda de baja frecuencia y una onda de alta frecuencia.}}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Representación gráfica de una onda donde se identifica la amplitud y la amplitud pico a pico.}}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diferencia de fase (desfase) entre dos ondas sinusoidales desplazadas horizontalmente.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Representación gráfica de las diferencias entre sonido mono y sonido estéreo.}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Respuesta frecuencial de la ventana Hann}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparativa de efectividad en el problema de separación de fuentes de la ventana Hann en distintos géneros musicales.}}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{24}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Espectrograma estándar arriba y espectrograma de Mel abajo.}}{25}{figure.caption.25}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{40}{figure.caption.57}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Average SNR and SDR by genre}}{49}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Ejemplo de una arquictura RNN-LSTM}}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Esquema del proceso de inserción de datos al modelo de inferencia de máscaras.}}{41}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Media de métricas SDR y SNR por género musical por género en cuatro fuentes.}}{46}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Consola y logs de la GUI.}}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Zona principal de carga de la GUI.}}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Consola y logs de la GUI.}}{49}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Reproductores de audio de la interfaz.}}{50}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Ejemplo de representación gráfica de la fuente vocal.}}{51}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Botones principales de la interfaz.}}{52}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Botón de configuración.}}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Parámetros de formación de transformadas de Fourier modificables en la interfaz visual.}}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Parámetros de formación de las transformadas de Fourier modificables en la interfaz visual.}}{55}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Parámetros intrínsecos del modelo modificables en la interfaz visual.}}{55}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Parámetros modificables de entrenamiento de nuevos modelos en la interfaz visual.}}{55}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Parámetros modificables de generación de efectos en la interfaz visual.}}{55}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Parámetros modificables de generación de mezclas en la interfaz visual.}}{56}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Entrada a la ventana de información sobre los parámetros de la configuración avanzada}}{58}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Ejemplo de una forma de onda mostrada en la interfaz al finalizar la separación de una pista.}}{58}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Ejemplo de un espectrograma mostrado en la interfaz al finalizar la separación de una pista.}}{59}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Ejemplo de \textit {logs} mostrados en la consola de la interfaz}}{59}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Ejemplo de mensaje de error mostrado en la interfaz al intentar separar una pista sin haber cargado una configuración de modelo previa.}}{60}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Ejemplo de indicador de espera en la interfaz mientras se está realizando el proceso de separar una pista.}}{61}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Botón de la interfaz que descarga un archivo wav de fuente en el almacenamiento del usuario.}}{61}{figure.caption.51}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Barra lateral de configuración de la interfaz.}}{54}{figure.caption.72}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Zona de carga de la GUI.}}{55}{figure.caption.74}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Consola y logs de la GUI.}}{55}{figure.caption.76}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Reproductores de audio de la interfaz.}}{56}{figure.caption.78}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Ejemplo de representación gráfica de la fuente vocal.}}{57}{figure.caption.80}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Botones principales de la interfaz.}}{58}{figure.caption.82}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Botón de configuración.}}{58}{figure.caption.84}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Parámetros de formación de transformadas de Fourier modificables en la interfaz visual.}}{58}{figure.caption.85}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Parámetros intrínsecos del modelo modificables en la interfaz visual.}}{59}{figure.caption.86}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Parámetros modificables de entrenamiento de nuevos modelos en la interfaz visual.}}{59}{figure.caption.87}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Parámetros modificables de generación de efectos en la interfaz visual.}}{59}{figure.caption.88}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Parámetros modificables de generación de mezclas en la interfaz visual.}}{60}{figure.caption.89}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Entrada a la ventana de información sobre los parámetros de la configuración avanzada}}{61}{figure.caption.92}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Ejemplo de una forma de onda mostrada en la interfaz al finalizar la separación de una pista.}}{62}{figure.caption.94}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Ejemplo de un espectrograma mostrado en la interfaz al finalizar la separación de una pista.}}{62}{figure.caption.95}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Ejemplo de \textit {logs} mostrados en la consola de la interfaz}}{63}{figure.caption.97}%
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Ejemplo de mensaje de error mostrado en la interfaz al intentar separar una pista sin haber cargado una configuración de modelo previa.}}{63}{figure.caption.98}%
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Ejemplo de indicador de espera en la interfaz mientras se está realizando el proceso de separar una pista.}}{64}{figure.caption.99}%
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Botón de la interfaz que descarga un archivo wav de fuente en el almacenamiento del usuario.}}{64}{figure.caption.100}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de flujo para el backend}}{64}{figure.caption.52}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagrama de flujo para el backend}}{66}{figure.caption.102}%
-\addvspace {10pt}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de dos fuentes}}{74}{figure.caption.112}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de cuatro fuentes}}{74}{figure.caption.113}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de dos fuentes}}{72}{figure.caption.57}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de cuatro fuentes}}{73}{figure.caption.58}%
 \addvspace {10pt}
 \addvspace {10pt}
