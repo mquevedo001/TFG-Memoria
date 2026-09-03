@@ -10,7 +10,7 @@ La validez de los resultados del enfoque investigador del proyecto se basa en la
 
 \textbf{Protocolo de evaluación utilizado}:
 
-El objetivo de crear un protocolo de evaluación no ha sido solo tener un proceso de ejecución sin errores, si no que también, y realmente de más importancia, asegurar que las métricas obtenidas reflejasen realmente las capacidades de cada función de pérdida en el modelo.
+El objetivo de crear un protocolo de evaluación no ha sido solo tener un proceso de ejecución sin errores, sino que también, y realmente de más importancia, asegurar que las métricas obtenidas reflejasen realmente las capacidades de cada función de pérdida en el modelo.
 El protocolo de evaluación propuesto es el siguiente:
 
 \begin{itemize}
@@ -28,7 +28,7 @@ particiones \textit{train}/\textit{validation}/\textit{test}, datos excluidos y 
 Inicialmente el proceso aunque generase archivos no se daba la situación en la que los resultados fuesen realmente los buscados, en particular, porque las pistas de salida eran exactamente iguales a las pistas de entrada en la mayoría de los casos, por lo que algo se estaba haciendo mal.
 Para dar alguna medida de validez a los resultados obtenidos, se creó el subconjunto fijo de test desde el dataset, se creó la validación de \textit{baseline}, se añadió una sección en el código donde se normalizaban las pistas en mono-canal, recorte de pistas a una longitud común, impresión de métricas de análisis de las máscaras por pantalla en el entrenamiento y normalización del flujo de inferencia para todas las funciones de pérdida, donde previamente existían variaciones.
 
-A partir de aquí, todos los modelos pasan a evaluarse sobre las mismas pistas, con el mismo preprocesado, la misma métrica de evaluación y el mismo flujo de inferencia, además,al añadir la métrica \textit{baseline} proporciona ayuda para identificar los resultados que generaban audios pero no separaban mas allá de copiar la mezcla de entrada.
+A partir de aquí, todos los modelos pasan a evaluarse sobre las mismas pistas, con el mismo preprocesado, la misma métrica de evaluación y el mismo flujo de inferencia, además,al añadir la métrica \textit{baseline} proporciona ayuda para identificar los resultados que generaban audios pero no separaban más allá de copiar la mezcla de entrada.
 
 El protocolo de evaluación final queda definido así:
 

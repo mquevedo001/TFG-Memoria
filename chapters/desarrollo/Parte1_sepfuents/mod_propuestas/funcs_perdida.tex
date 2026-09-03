@@ -111,13 +111,12 @@ Además del conjunto de funciones de pérdida principal, se han valorado tambié
     \label{tab:perdidas-avanzadas}
 \end{table}
 
-La función de pérdida \textit{Deep-feature-EMD}, propuesta por el tutor de este proyecto, hace uso de una distancia tipo \textit{Sinkhorn/EMD} sobre las características extraidas por una CNN auxiliar. Define la parte mas experimental del proyecto.
+La función de pérdida \textit{Deep-feature-EMD}, propuesta por el tutor de este proyecto, hace uso de una distancia tipo \textit{Sinkhorn/EMD} sobre las características extraídas por una CNN auxiliar. Define la parte más experimental del proyecto.
 
 Cuando introduces un espectrograma en una CNN cada capa convolucional aplica diferentes filtros que responden a patrones específicos presentes en la entrada. Las salidas producidas por esos filtros se llaman activaciones o mapas de características. Las primeras capas pueden responder a características relativamente simples mientras que capas posteriores pueden representar combinaciones mas complejas de esos patrones.
 
-La pérdida DeepFeature-EMD compara la estimación y el objetivo no directamente en el dominio de magnitud, sino en un espacio de activaciones. Para cada capa considerada, las activaciones se aplanan y se interpretan como distribuciones\cite{DeepLearningforChestRadiographs}.
+La pérdida DeepFeature-EMD compara la estimación y el objetivo no directamente en el dominio de magnitud, sino en un espacio de activaciones que proporciona el extractor convolucional fijo, inicializado aleatoriamente y no preentrenado, cuyas activaciones se emplean como representación intermedia experimental. Para cada capa considerada, las activaciones se aplanan y se interpretan como distribuciones\cite{DeepLearningforChestRadiographs}.
 La discrepancia entre ambas distribuciones se mide mediante una distancia Sinkhorn, que es una derivación de la Earth Mover’s Distance.
 
 De este modo, la función de pérdida evalúa la similitud entre ambas señales en un espacio de características aprendido por una CNN auxiliar, en lugar de la comparación entre magnitudes espectrales que presentan el resto de funciones de pérdida evaluadas. Esta función constituye una de las propuestas experimentales del proyecto y fue incorporada a partir de una propuesta del tutor.
-El extractor CNN auxiliar no está entrenado en música, por lo que la pérdida se considera experimental y no necesariamente correlaciona con calidad perceptual.
 

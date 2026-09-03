@@ -16,7 +16,7 @@ Y por módulos:
     \item train.py : lee la configuración, construye un objeto MaskInference, entrena y calcula el valor de la pérdida y guarda checkpoints en la carpeta correspondiente.
     \item deployment.py : infiere la máscara inferida por el modelo entrenado sobre un audio concreto. Lee un audio de entrada, carga un checkpoint, reconstruye el modelo, ejecuta inferencia, reconstruye las fuentes y guarda los resultados.
     \item evaluate\_models.py : evalúa sistemáticamente los modelos que ya han sido entrenados sobre el conjunto de test fijo. Selecciona modelos, carga sus checkpoints, los reconstruye, ejecuta una separación sobre el conjunto de test, calcula las métricas de evaluación y guarda resúmenes en .json.
-    \item MaskInference : contiene la arquictectura del modelo, la llamada a los transformaciones por cada iteración y la función de forward. Toma como entrada la magnitud de mezcla y aplica: AmplitudeToDB,BatchNorm,reordenación dimensional, LSTM/RecurrentStack, Embedding, máscaras estimadas y estimación de fuentes.
+    \item MaskInference : contiene la arquitectura del modelo, la llamada a los transformaciones por cada iteración y la función de forward. Toma como entrada la magnitud de mezcla y aplica: AmplitudeToDB,BatchNorm,reordenación dimensional, LSTM/RecurrentStack, Embedding, máscaras estimadas y estimación de fuentes.
     \item Carpetas de checkpoints : guardan los archivos .pth ordenados por función de pérdida y por número de fuentes.
     \item Carpetas de resultados : guardan las salidas del backend. Contienen las fuentes separadas junto con la mezcla original, métricas, gráficos y ficheros resumen.
 \end{itemize}

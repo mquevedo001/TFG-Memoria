@@ -47,7 +47,7 @@ Donde:
 \end{itemize}
 
 La salida del modelo no genera audio directamente, la salida son máscaras tiempo-frecuencia. Posteriormente, se aplica la máscara sobre la magnitud de la mezcla y el resultado corresponde a una estimación de la magnitud de la fuente.
-Luego para reconstruir el audio se utiliza la fase de la pista original. Esto es una limitación importante, ya que es una estimación. La fase de la mezcla original no tiene por qué ser la de las fuentes estimadas, pero a falta del dato de la magnitud para estas últimas, se utiliza la fase de la mezcla de la que se tiene la magnitud lo que permite estimar este dato.
+Luego para reconstruir el audio se utiliza la fase de la pista original. Esto es una limitación importante, ya que es una estimación. La fase de la mezcla original no tiene por qué ser la de las fuentes estimadas, pero a falta de este valor, se utiliza la fase de la mezcla como estimación de este último dato.
 
 Los targets (objetivos) son las magnitudes de las fuentes reales, separados en los grupos de dos y cuatro fuentes que se han explicado en la sección anterior de este capítulo.
 
