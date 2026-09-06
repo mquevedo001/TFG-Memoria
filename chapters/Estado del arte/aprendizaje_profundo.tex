@@ -1,12 +1,12 @@
-El aprendizaje profundo ha adquirido gran relevancia en la separación de fuentes gracias al aumento de la capacidad computacional de las últimas dos décadas y a la disponibilidad de conjuntos de datos que contienen mezclas y fuentes aisladas. Los modelos pueden operar directamente sobre la forma de onda o sobre representaciones tiempo-frecuencia, como el espectrograma, aunque el procesamiento directo de la onda permite conservar toda lainformación de la señal, incluida la fase, pero requiere trabajar con secuencias de gran tamaño lo que incrementa la complejidad y coste computacional.
+El aprendizaje profundo ha adquirido gran relevancia en la separación de fuentes gracias al aumento de la capacidad computacional de las últimas dos décadas y a la disponibilidad de conjuntos de datos que contienen mezclas y fuentes aisladas. Los modelos pueden operar directamente sobre la forma de onda o sobre representaciones tiempo-frecuencia, como el espectrograma, aunque el procesamiento directo de la onda permite conservar toda la información de la señal, incluida la fase, pero requiere trabajar con secuencias de gran tamaño lo que incrementa la complejidad y coste computacional.
 
 La mayoría de estos sistemas se basan en la tecnología de las redes neuronales. Estos paradigmas computacionales aprenden durante una fase de entrenamiento una fase de transformaciones para relacionar la mezcla de entrada con las fuentes que la componen. A partir de ejemplos formados por conjuntos mezcla-pistas, la red aprende las características asociadas a cada fuente y posteriormente puede estimarlas en grabaciones que no han sido utilizadas durante el entrenamiento.
 
-\subsection{Modelos basados en espectrogama}
+\subsection{Modelos basados en espectrograma}
 
 Muchos modelos neuronales toman como entrada una magnitud STFT o un espectrograma, y producen como salida una máscara o una magnitud estimada.
 
-Estos modelos transforman inicialmete la mezcla al dominio tiempo-frecuencia mediante la Transformada en Tiempo Corto de Fourier. A partir de ahí, la magnitud del espectrograma se introduce en una red neuronal que estima una máscara para cada fuente. Finalmente cada máscara se aplica al espectrograma de la mezcla y utilizando normalmente su fase se reconstruye la señal temporal mediante la transformada inversa.
+Estos modelos transforman inicialmente la mezcla al dominio tiempo-frecuencia mediante la Transformada en Tiempo Corto de Fourier. A partir de ahí, la magnitud del espectrograma se introduce en una red neuronal que estima una máscara para cada fuente. Finalmente cada máscara se aplica al espectrograma de la mezcla y utilizando normalmente su fase se reconstruye la señal temporal mediante la transformada inversa.
 
 
 Ejemplos a tener en cuenta de estos métodos son:
@@ -15,13 +15,12 @@ Ejemplos a tener en cuenta de estos métodos son:
     \item \textbf{Open-Unmix}\cite{openunmix2019}: implementación abierta y reproducible basada en este enfoque. El modelo procesa la magnitud del espectrograma y estima las fuentes correspondientes a la voz, la batería, el bajo y el resto del acompañamiento. En la evaluación presentada por sus autores sobre MUSDB18, obtuvo resultados comparables a los mejores sistemas analizados, por lo que fue propuesto como modelo de referencia para la investigación en separación musical.
     \item \textbf{Spleeter} \cite{Deezer}: herramienta desarrollada por \textit{Deezer} que proporciona modelos preentrenados basados en arquitecturas de tipo U-Net. A partir del espectrograma de la mezcla, estima máscaras para realizar separaciones en dos, cuatro o cinco fuentes. Entre sus principales características se encuentran su rapidez de procesamiento y la disponibilidad de modelos preparados para su utilización.
 \end{itemize}
-\textit{\textbf{Open-Unmix}} \cite{openunmix2019}.
 
 \subsection{Modelos \textit{waveforms} e híbridos}
 
-Los modelos basados en forma de onda procesan directamente las muestras de audio y generan una señal temporal para cada fuente sin utilizar necesariamente un espectrograma como representación intermedia. Un ejemplo de este enfoque es \textbf{Demucs}\cite{demucs}, que sigue este enfoque meidante una estructura neuronal codificador-decodificador.
+Los modelos basados en forma de onda procesan directamente las muestras de audio y generan una señal temporal para cada fuente sin utilizar necesariamente un espectrograma como representación intermedia. Un ejemplo de este enfoque es \textbf{Demucs}\cite{demucs}, que sigue este enfoque mediante una estructura neuronal codificador-decodificador.
 
-La evolución moderna en este campo no se limita solamente a utilización de muestras de audio en lugar de un espectrograma , extiende también a modelos que combinan ambas representaciones, ondas y espectrogramas. Por ejemplo, \textbf{\textit{Hibryd Demucs}} \cite{HybridDemucs}: combina dos ramas de procesamiento, una trabaja directamente sobre la forma de onda y la otra sobre el espectrograma. La información obtenida en ambos docminios se utiliza en conjunto para estimar las fuentes separadas, permitiendo aprovechar tanto la estructura temporal como la frecuencial de la música.
+La evolución moderna en este campo no se limita solamente a utilización de muestras de audio en lugar de un espectrograma, extiende también a modelos que combinan ambas representaciones, ondas y espectrogramas. Por ejemplo, \textbf{\textit{Hybrid Demucs}} \cite{HybridDemucs}: combina dos ramas de procesamiento, una trabaja directamente sobre la forma de onda y la otra sobre el espectrograma. La información obtenida en ambos dominios se utiliza en conjunto para estimar las fuentes separadas, permitiendo aprovechar tanto la estructura temporal como la frecuencial de la música.
 
 \subsection{Conjunto de datos y evaluación}
 

@@ -1,4 +1,4 @@
-El modelo empleado es una arquitectura recurrente de inferencia de máscaras, basada en una LSTM que recibe la magnitud de la STFT de la mezcla y predice una máscara por fuente. Estas máscaras se aplican sobre la magnitud de la mezcla para obtener las magnitudes estimadas de cada \textit{stem}.En la Figura \ref{fig:LSTM} se muestra un ejemplo de una arquitectura LSTM.
+El modelo empleado es una arquitectura recurrente de inferencia de máscaras, basada en una LSTM que recibe la magnitud de la STFT de la mezcla y predice una máscara por fuente. Estas máscaras se aplican sobre la magnitud de la mezcla para obtener las magnitudes estimadas de cada \textit{stem}. En la Figura \ref{fig:LSTM} se muestra un ejemplo de una arquitectura LSTM.
 
 \begin{figure}[H]
     \begin{center}
@@ -10,10 +10,11 @@ El modelo empleado es una arquitectura recurrente de inferencia de máscaras, ba
 \end{figure}
 
 
-La arquitectura LSTM es comúnmente utilizada en separación de fuentes por su capacidad de retener información, de olvidarla,de análisis secuencial y de mantener contexto pasado y futuro de la información actual.
-Una LSTM procesa una secuencia paso a paso, normalmente palabras, sonidos o datos en general que se definen a lo largo de un eje temporal.
+La arquitectura LSTM es comúnmente utilizada en separación de fuentes por su capacidad de retener información, de olvidarla, de análisis secuencial y de mantener contexto pasado y futuro de la información actual para el caso de una LSTM bidireccional.
+Una LSTM procesa una secuencia  de información mediante pasos a través de celdas, normalmente palabras, sonidos o datos en general que se definen a lo largo de un eje temporal.
+Una celda LSTM mantiene un estado de celda \(c_t\) que transporta memoria temporal y un estado oculto \(h_t\) usado como salida. Las puertas de olvido, entrada y salida regulan qué información se conserva, incorpora y expone en cada instante.
 
-En el contexto del proyecto el sistema introduce al modelo la interpretación en secuencia temporal de un espectrograma (es decir, la magnitud de la STFT de la entrada), a partir del cuál, la LSTM procesa esta secuencia para estimar máscaras que aplicadas sobre
+En el contexto del proyecto el sistema introduce al modelo la interpretación en secuencia temporal de un espectrograma (es decir, la magnitud de la STFT de la entrada), a partir del cual, la LSTM procesa esta secuencia para estimar máscaras que aplicadas sobre
 la mezcla original producen una pista fuente. A lo largo del proyecto ha habido modificaciones de los parámetros utilizados y la configuración final se puede ver en la Tabla \ref{tab:parametros_modelo}.
 
 \begin{table}[H]

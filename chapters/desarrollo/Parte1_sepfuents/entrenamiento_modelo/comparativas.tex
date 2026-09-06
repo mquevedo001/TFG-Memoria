@@ -6,14 +6,10 @@ En esta sección se presenta una comparativa preliminar del conjunto de funcione
     \item \textbf{A. Comparación por número de fuentes}
 
 En la literatura del recurso que presenta la arquitectura del modelo utilizado en este proyecto se comentan en múltiples ocasiones las diferencias entre estos dos enfoques al problema.
-La separación que resulta en el conjunto de dos fuentes, ya visto en las primeras versiones del entrenamiento, es un enfoque más sencillo que permite una "binarización" del problema al reducirse a dos salidas. En contraposición, en el segundo conjunto, donde la separación se extiende a identificar cuatro elementos en el espectro, los elementos que se puedan identificar si el método es válido pueden variar enormemente. Esto dificulta la identificación de los elementos, ya que, un elemento que a lo mejor está en un rango
-frecuencial concreto en una mezcla, en otra puede habitar en otro no a lo mejor completamente diferente pero sí lo suficiente para que la sensibilidad de la función a estos cambios no dé al modelo la información necesaria para ser capaz de identificar un elemento que varía.
-Por esto, es esperable que, por lo general, \textit{4 stems} obtenga peores métricas en la fase de evaluación. Identificar y separar dos elementos por los motivos mencionados, resulta en una tarea más sencilla ya que la variabilidad se reduce a dos elementos, mientras que el caso anterior eleva la premisa de la necesidad de sensibilidad en la función al doble de elementos donde puede variar este rango frecuencial.
+La separación que resulta en el conjunto de dos fuentes, ya visto en las primeras versiones del entrenamiento, es un enfoque más sencillo que permite una "binarización" (se puede reducir el problema a identificar el elemento de las vocales y lo que no sea vocales agruparlo en acompañamiento) del problema al reducirse a dos salidas.
+4 stems obliga a estimar más fuentes que pueden solaparse espectralmente; por ello se espera una tarea más difícil, y los resultados finales permiten comprobarlo.
 
-Por ejemplo, en géneros como la electrónica o el rap que se basan en elementos frecuencialmente bajos (bajo, sub-bajo) se identifica gran superposición entre fuentes como bajo y baterías, es un sonido más "sucio" y armónicamente complejo.
-Por otro lado, por ejemplo, el blues, el pop, o las canciones de autor, presentan mejores desempeños en la separación por sus características de armónicos vocales e instrumentales más limpios \cite{Arxiv}. 
-
-En la Figura \ref{fig:SNR SDR by genre} se pueden observar las métricas de SNR y SDR por género musical en el caso de cuatro fuentes, donde se puede ver que géneros como el rap o la electrónica presentan peores métricas que otros como el pop o el blues que presentan las mejores. 
+De manera adicional se realizó un análisis exploratorio de los valores SDR y SNR agrupados por género musical, mostrado en la Figura \ref{fig:SNR SDR by genre}. Este análisis tiene únicamente carácter descriptivo, ya que el subconjunto utilizado no fue diseñado mediante un muestreo estratificado por género y el número de pistas disponible para cada categoría es limitado. Por tanto, las diferencias observadas no permiten establecer relaciones causales entre un género musical concreto y la dificultad de separación, aunque resultan útiles para visualizar la variabilidad de comportamiento del sistema entre pistas con características diferentes.
 
 \begin{figure}[H]
     \begin{center}

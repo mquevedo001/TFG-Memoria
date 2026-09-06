@@ -1,0 +1,22 @@
+En este Trabajo de Fin de Grado se ha desarrollado un sistema completo orientado a la separación de fuentes musicales mediante técnicas de aprendizaje automático.
+El sistema implementado comprende desde el procesamiento de audio, pasando por el entrenamiento de modelos, la inferencia de las fuentes, la reconstrucción de las señales de salida y la definición del protocolo de evaluación cuantitativa, hasta la implementación de una interfaz gráfica con carácter demostrativo y didáctico.
+Se han considerado dos configuraciones de separación: dos fuentes, voz y acompañamiento, y cuatro fuentes, voz, bajo, batería y otros.
+
+El estudio experimental se ha centrado en analizar el efecto de distintas funciones de pérdida manteniendo fija una arquitectura recurrente de inferencia de máscaras. Se han evaluado diferentes funciones de pérdida basadas en:
+
+\begin{itemize}
+    \item Distancias directas de magnitud.
+    \item Variantes frecuenciales y logarítmicas.
+    \item Máscaras.
+    \item Características profundas.
+\end{itemize}
+
+De esta manera el trabajo no pretende proponer una nueva arquitectura de separación de última generación, sino estudiar cómo modifica el comportamiento del modelo la elección de la función utilizada durante el entrenamiento.
+
+Para comparar los modelos se ha definido un protocolo homogéneo de evaluación sobre un subconjunto fijo de pistas de \textit{MUSDB18-test}. Todos los modelos se evalúan sobre las mismas señales, utilizando el mismo preprocesamiento y el mismo flujo de inferencia. Además, se utiliza la propia mezcla como línea base y por ello la métrica SI-SDRi permite determinar si la estimación generada por el modelo supone una mejora respecto a no realizar ninguna separación.
+
+Los resultados obtenidos muestran que el rendimiento cuantitativo del sistema es bastante limitado. En el escenario de dos fuentes ninguno de los modelos evaluados supera la línea base aunque \textit{Deep-Feature-EMD} y \textit{Deep-Feature} se quedan cerca.
+En el escenario de cuatro fuentes, \textit{Deep-Feature-EMD} presenta el mejor comportamiento global y es la única configuración que obtiene una mejora positiva frente al baseline con un SI-SDRi medio de 0,006dB. Dado que esta diferencia es extremadamente reducida debe interpretarse como una mejora marginal y no como una mejora que ofrezca una superioridad sólida frente a otras funciones de pérdida utilizadas en esta arquitectura.
+
+En relación con los objetivos planteados, se considera alcanzado el objetivo funcional de construir un sistema capaz de ejecutar la separación en dos y cuatro fuentes, así como el objetivo de desarrollar un flujo reproducible de entrenamiento, inferencia y evaluación.
+También se ha completado la interfaz gráfica que se planteaba como objetivo secundario. Por otra parte, los resultados experimentales muestran que el cambio aislado de la función de pérdida no ha sido suficiente para conseguir una mejora sustancial de la calidad de la separación con esta arquitectura. Esta conclusión permite identificar de forma clara las principales líneas de mejora del sistema relacionadas con la arquitectura, el tratamiento de la fase, los datos de entrenamiento y la capacidad computacional.

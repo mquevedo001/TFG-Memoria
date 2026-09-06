@@ -1,4 +1,3 @@
-
 La Transformada en Tiempo corto de Fourier es un método que captura mediante ventanas sucesivas de diferentes formas secciones de una onda y que permite analizar la evolución de su frecuencia a lo largo del tiempo. Se define de acuerdo a la siguiente fórmula:
 
 \begin{center}
@@ -25,7 +24,7 @@ Donde:
 \item \(\omega\) es la frecuencia angular digital, normalmente expresada en radianes por muestra.
 
 \end{itemize}
-El método para aplicar la transformación discreta de Fourier consiste en la captura mediante ventanas sucesivas, no necesariamente triangulares, pero sí normalmente, en movimiento L de secciones de la onda trasladada a lo largo de la onda (L ,2L, 3L ...). Finalmente, se aplica la transformada discreta de Fourier a cada segmento, obteniendo una representación de la evolución temporal del contenido frecuencial de la señal, como se muestra en la Figura \ref{fig:STFT}
+El método para aplicar la transformación discreta de Fourier consiste en la captura mediante ventanas sucesivas de longitud \(N\) y de salto \(H\). Cada frame toma \(N\) muestras y el comienzo del siguiente avanza \(H\) muestras. Finalmente, se aplica la transformada discreta de Fourier a cada segmento, obteniendo una representación de la evolución temporal del contenido frecuencial de la señal, como se muestra en la Figura \ref{fig:STFT}
 
 \begin{figure}[H]
     \begin{center}
@@ -40,29 +39,20 @@ Cada celda resultante de la transformada es compleja (contiene magnitud y fase) 
 Los parámetros importantes en la transformada de fourier son:
 
 \begin{itemize}
-  \item 1. Forma de la ventana: gaussiana, rectangular , triangular, cuadrática ... Determina la cantidad de información que se captura en una ventana,
+  \item 1. Forma de la ventana: gaussiana, rectangular , triangular, cuadrática... etcétera. Determina la cantidad de información que se captura en una ventana,
   \item 2. Longitud de la ventana: determina la precisión con la que se verá cuándo ocurren los eventos o cuáles son exactamente las frecuencias
   \item 3. Distancia entre ventanas: salto entre ventanas consecutivas, tiene relación directa con el equilibrio entre resolución temporal, precisión y costo computacional.
 \end{itemize}
 
 
-En el proyecto se computa la transformada con la aplicación de una ventana Han que se caracteriza porrr un lóbulo principal ancho y lóbulos laterales pequeños que decaen rápidamente. Esto se traduce en extrremos de la señal
-suavizados a cero, lo que elimina las discontinuidades en los bordes antes de aplicar la Transforamda Rápida de Fourier. El lóbulo principal es el doble de ancho que el de una ventana rectangular tradicional, lo que disminuye ligeramente la resolución espetral,
-y los laterales atenúan -32dB y  18dB por octava, respectivamente. En la Figura \ref{fig:hann window} se puede ver la graficación de una ventana Hann y su respuesta frecuencial.
+En el proyecto se utiliza una ventana raíz de Hann, que se obtiene aplicando raíz cuadrada a una ventana Hann estándar. Se caracteriza por un lóbulo principal ancho y lóbulos laterales pequeños que decaen rápidamente. Esto se traduce en extremos de la señal
+suavizados a cero, lo que elimina las discontinuidades en los bordes antes de aplicar la Transformada Rápida de Fourier. El lóbulo principal es el doble de ancho que el de una ventana rectangular tradicional, lo que disminuye ligeramente la resolución espectral. En la Figura \ref{fig:hann window} se puede ver la graficación de una ventana Hann y su respuesta frecuencial.
 
 \begin{figure}[H]
     \begin{center}
     \includegraphics[width=0.7\textwidth]{commons/scipy-signal-hann-1_01.png}
-    \caption{Respuesta frecuencial de la ventana Hann}
+    \caption{Respuesta frecuencial de una ventana Hann.}
     \label{fig:hann window}
-    \end{center}
-\end{figure}
-
-\begin{figure}[H]
-    \begin{center}
-    \includegraphics[width=0.7\textwidth]{commons/Fig10.png}
-    \caption{Comparativa de efectividad en el problema de separación de fuentes de la ventana Hann en distintos géneros musicales.}
-    \label{fig:hann function}
     \end{center}
 \end{figure}
 

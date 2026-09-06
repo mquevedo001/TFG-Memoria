@@ -1,4 +1,4 @@
-Los resultados obtenidos muestran diferencias claras entre las funciones de pérdida evaluadas, junto con un rendimiento limitado del sistema respecto al \textit{baseline}. Para interpretar correctamente los valores proporcionados, es importante distinguir entre las métricas y el tipo de información que aporta cada una:
+Los resultados obtenidos muestran diferencias numéricas observables entre las funciones de pérdida evaluadas, junto con un rendimiento limitado del sistema respecto al \textit{baseline}. Para interpretar correctamente los valores proporcionados, es importante distinguir entre las métricas y el tipo de información que aporta cada una:
 
 \begin{itemize}
 \item \textbf{SI-SDR}: mide la calidad de la separación obtenida.
@@ -18,7 +18,7 @@ En el escenario de separación de dos fuentes, ninguna función supera el \texti
 
 \end{itemize}
 
-Estos dos modelos son los más cercanos al \textit{baseline}, aunque sin llegar a superarlo. Sus valores de SI-SDRi están muy próximos a cero y, además, presentan los mejores valores de SI-SAR, con \(23.435\) y \(22.996\), respectivamente. Esto sugiere que son las configuraciones que introducen menos artefactos entre las evaluadas.
+Estos dos modelos son los más cercanos al \textit{baseline}, aunque sin llegar a superarlo. Sus valores de SI-SDRi están muy próximos a cero y, además, presentan los mejores valores de SI-SAR, con \(23.435\) y \(22.996\), respectivamente. Esto sugiere que se generan separaciones con menor presencia relativa de artefactos.
 
 Por debajo de las funciones experimentales aparecen las pérdidas basadas en la norma \(L2\), especialmente \texttt{L2-Freq} y \texttt{L2}. En este escenario, \texttt{L2-Freq} obtiene un SI-SDRi medio de \(-2.262\), ligeramente mejor que \texttt{L2}, que alcanza \(-2.515\). Esto indica que la variante frecuencial mejora algo el resultado respecto a la versión básica en el escenario de dos fuentes.
 

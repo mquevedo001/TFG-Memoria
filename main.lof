@@ -1,0 +1,45 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Objetivos de desarrollo sostenible}}{\es@scroman {iii}}{figure.caption.5}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura de desglose de trabajo}}{5}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cronograma inicial del proyecto.}}{9}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cronograma final del proyecto.}}{11}{figure.caption.15}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Generación de una onda sonora longitudinal mediante el movimiento de un pistón al final de un tubo \blx@tocontentsinit {0}\cite {sbe_sound}.}}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Representación gráfica de una onda de baja frecuencia y una onda de alta frecuencia.}}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Representación gráfica de una onda donde se identifica la amplitud y la amplitud pico a pico.}}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diferencia de fase (desfase) entre dos ondas sinusoidales desplazadas horizontalmente.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Representación gráfica de las diferencias entre sonido mono y sonido estéreo.}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso de computar una transformada en tiempo corto de Fourier a partir de una onda. Imagen de Bryan Pardo}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Respuesta frecuencial de una ventana Hann.}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Diferentes generaciones de espectrogramas según el tratamiento de la STFT.}}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Espectrograma estándar arriba y espectrograma de Mel abajo.}}{25}{figure.caption.24}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Ejemplo de una arquitectura RNN-LSTM}}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Esquema del proceso de inserción de datos al modelo de inferencia de máscaras.}}{40}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Media de métricas SDR y SNR por género musical en cuatro fuentes.}}{45}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Vista general de la interfaz gráfica.}}{48}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Zona principal de carga de la GUI.}}{49}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Consola y logs de la GUI.}}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Reproductores de audio de la interfaz.}}{50}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Ejemplo de representación gráfica de la fuente vocal.}}{51}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Botones principales de la interfaz.}}{52}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Botón de configuración.}}{53}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Pantalla de configuración avanzada..}}{54}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Entrada a la ventana de información sobre los parámetros de la configuración avanzada}}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Ejemplo de una forma de onda mostrada en la interfaz al finalizar la separación de una pista.}}{57}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Ejemplo de un espectrograma mostrado en la interfaz al finalizar la separación de una pista.}}{58}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Ejemplo de \textit {logs} mostrados en la consola de la interfaz}}{58}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Ejemplo de mensaje de error mostrado en la interfaz al intentar separar una pista sin haber cargado una configuración de modelo previa.}}{59}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Ejemplo de indicador de espera en la interfaz mientras se está realizando el proceso de separar una pista.}}{60}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Botón de la interfaz que descarga un archivo wav de fuente en el almacenamiento del usuario.}}{60}{figure.caption.45}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de flujo para el backend}}{62}{figure.caption.46}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separación de dos fuentes}}{71}{figure.caption.51}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separación de cuatro fuentes}}{71}{figure.caption.52}%
+\addvspace {10pt}
+\addvspace {10pt}

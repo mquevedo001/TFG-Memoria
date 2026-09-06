@@ -1,4 +1,4 @@
-El sistema permite el ajuste de una serie de parámetros para permitir al usuario jugar con estos y ver sus efectos en el modelo entrenado:
+El sistema permite el ajuste de una serie de parámetros para permitir al usuario experimentar con estos y ver sus efectos en el modelo entrenado:
 
 \subsubsection{Parámetros de formación de las transformadas de Fourier}
 \begin{itemize}
@@ -16,7 +16,7 @@ El sistema permite el ajuste de una serie de parámetros para permitir al usuari
 
 \subsubsection{Parámetros de efectos para entrenamiento y de audio}
 \begin{itemize}
-    \item Probabilidad de que se apliquen efectos a las entradas del modelo durante el entrenamiento (reverb,pitch,shift,noise ... ).
+    \item Probabilidad de que se apliquen efectos a las entradas del modelo durante el entrenamiento (reverb, pitch, shift, noise ... ).
     \item Nivel de ruido de fondo a añadir a las entradas del modelo durante el entrenamiento.
     \item Frecuencia de muestreo (\textit{sample rate}).
     \item Referencia en decibelios para la normalización de espectrogramas.
@@ -28,18 +28,18 @@ El sistema permite el ajuste de una serie de parámetros para permitir al usuari
     \item \textit{Learning Rate}: controla cuánto se ajustan los pesos del modelo en cada iteración del entrenamiento.
     \item \textit{Batch Size}: número de muestras procesadas antes de realizar una actualización a los pesos generados durante el entrenamiento.
     \item Épocas: número de veces que el algoritmo de entrenamiento recorre el conjunto de datos de entrenamiento.
-    \item Tamaño de las épocas: número de muestras que se procesan en cada iteración.
+    \item Tamaño de las épocas (\textit{epoch\_size}): número de iteraciones o \textit{batches} procesados antes de considerar finalizada una época de entrenamiento. 
     \item \textit{Gradient clip}: límite a la magnitud de los gradientes para evitar actualizaciones excesivamente grandes e inestabilidad.
     \item \textit{Weight decay}: penalización a los pesos demasiado grandes que reduce sobreajuste y favorece la generalización.
 \end{itemize}
 
 \subsubsection{Parámetros de generación de mezclas}
 \begin{itemize}
-    \item \textit{Coherent prob}: probabilidad de generar una mezcla coherente durante la generación de mezclas en el entrenamiento en la que todas las fuentes provengan de la misma canción y se alineen temporalmente.
+    \item \textit{Coherent prob}: determina la probabilidad de generación de una mezcla coherente que use fuentes de la misma canción y alineadas temporalmente
 \end{itemize}
 
 \subsubsection{Información sobre los parámetros en la interfaz}
-Además, se introduce otra pestaña adicional, mostrada en la Figura \ref{fig:ayuda-params-gui} y a la que se accede haciendo click en el botón \ref{fig:boton-ayuda-gui}, donde se da información sobre lo que es cada parámetro
+Además, se introduce otra pestaña adicional, mostrada en la Figura \ref{fig:ayuda-params-gui} y a la que se accede haciendo clic en el botón mostrado en la Figura \ref{fig:boton-ayuda-gui}, donde se da información sobre lo que es cada parámetro
 
 \begin{figure}[H]
     \centering

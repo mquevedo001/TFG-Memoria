@@ -39,13 +39,9 @@ El principal objetivo del proyecto es desarrollar una herramienta capaz de separ
 
         Separación de dos fuentes
         &
-        Implementar un sistema que proporcione resultados satisfactorios
-        para el problema planteado, tomando como entrada una canción
-        compuesta por dos elementos.
+        Implementar una configuración del sistema capaz de procesar una mezcla musical y generar dos fuentes de salida: voz y acompañamiento, donde el acompañamiento agrupa el resto de elementos presentes en la mezcla.
         &
-        Obtener dos archivos de audio de salida sin ruido ni interferencias,
-        que presenten una correspondencia directa con los dos elementos
-        presentes en la pista de entrada.
+        El sistema debe generar de forma reproducible dos archivos de salida correctamente asociados a voz y acompañamiento y permitir su evaluación mediante el protocolo cuantitativo definido en el proyecto. La calidad obtenida se caracterizará mediante SI-SDR y SI-SDRi respecto a la mezcla utilizada como línea base.
         \\
         \hline
 
@@ -55,14 +51,9 @@ El principal objetivo del proyecto es desarrollar una herramienta capaz de separ
 
         Separación de cuatro fuentes
         &
-        Escalar el sistema previamente implementado para obtener resultados
-        satisfactorios cuando la entrada sea una canción compuesta por cuatro
-        o más elementos.
+        Escalar el sistema anterior para generar cuatro fuentes correspondientes a las categorías utilizadas por MUSDB18: voz, bajo, batería y otros.
         &
-        Obtener cuatro archivos de audio de salida sin ruido ni interferencias,
-        correspondientes a las agrupaciones de bajo, batería, voz y otros.
-        La categoría ``otros'' incluye los elementos que no pertenecen a las
-        categorías de bajo, batería o voz.
+        El sistema debe generar de forma reproducible cuatro archivos de salida correctamente asociados a voz, bajo, batería y otros y permitir su evaluación mediante el mismo protocolo cuantitativo utilizado en el escenario de dos fuentes.
         \\
         \hline
     \end{tabularx}
@@ -82,7 +73,7 @@ El principal objetivo del proyecto es desarrollar una herramienta capaz de separ
 
      
     Se considera también el desarrollo de una interfaz gráfica sencilla que permita cargar audios de prueba, obtener sus
-    \textit{stems} (término inglés  hace referencia
+    \textit{stems} (término inglés, hace referencia
     a las subpistas o fuentes que componen una mezcla musical) separados y
     almacenar los resultados en forma de archivos de audio y representaciones
     gráficas con un enfoque didáctico.

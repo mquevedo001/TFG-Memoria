@@ -5,7 +5,11 @@ Las funciones de pérdida son parte crucial del aprendizaje automático. El tér
 \begin{table}[H]
     \centering
     \small
-    \begin{adjustbox}{max width=\textwidth}
+    \begin{adjustbox}{
+        max width=\textwidth,
+        max totalheight=0.80\textheight,
+        keepaspectratio
+        }
         \begin{tabular}{p{0.20\textwidth} p{0.38\textwidth} p{0.34\textwidth}}
             \toprule
             \textbf{Función de pérdida} & \textbf{Comentario} & \textbf{Expresión matemática} \\
@@ -115,8 +119,8 @@ La función de pérdida \textit{Deep-feature-EMD}, propuesta por el tutor de est
 
 Cuando introduces un espectrograma en una CNN cada capa convolucional aplica diferentes filtros que responden a patrones específicos presentes en la entrada. Las salidas producidas por esos filtros se llaman activaciones o mapas de características. Las primeras capas pueden responder a características relativamente simples mientras que capas posteriores pueden representar combinaciones mas complejas de esos patrones.
 
-La pérdida DeepFeature-EMD compara la estimación y el objetivo no directamente en el dominio de magnitud, sino en un espacio de activaciones que proporciona el extractor convolucional fijo, inicializado aleatoriamente y no preentrenado, cuyas activaciones se emplean como representación intermedia experimental. Para cada capa considerada, las activaciones se aplanan y se interpretan como distribuciones\cite{DeepLearningforChestRadiographs}.
-La discrepancia entre ambas distribuciones se mide mediante una distancia Sinkhorn, que es una derivación de la Earth Mover’s Distance.
+La pérdida DeepFeature-EMD compara la estimación y el objetivo no directamente en el dominio de magnitud, sino en un espacio de activaciones que proporciona el extractor convolucional fijo, inicializado aleatoriamente y no preentrenado, cuyas activaciones se emplean como representación intermedia experimental. Para cada capa considerada, las activaciones se aplanan y se interpretan como distribuciones\cite{sahai2019spectrogram}.
+La discrepancia entre ambas distribuciones se mide mediante una distancia Sinkhorn, se ha implementado esta distancia por ser una aproximación regularizada al problema de transporte óptimo asociado a EMD.
 
-De este modo, la función de pérdida evalúa la similitud entre ambas señales en un espacio de características aprendido por una CNN auxiliar, en lugar de la comparación entre magnitudes espectrales que presentan el resto de funciones de pérdida evaluadas. Esta función constituye una de las propuestas experimentales del proyecto y fue incorporada a partir de una propuesta del tutor.
+De este modo, la función de pérdida evalúa la similitud entre ambas señales en un espacio de activaciones producido por el extractor convolucional auxiliar fijo, en lugar de la comparación entre magnitudes espectrales que presentan el resto de funciones de pérdida evaluadas. Esta función constituye una de las propuestas experimentales del proyecto y fue incorporada a partir de una propuesta del tutor.
 

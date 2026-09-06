@@ -2,7 +2,7 @@ Dentro de la clasificación general de la introducción de este capítulo, los m
 \subsection{Modelado de la señal principal}
 
 En este enfoque se busca modelar la voz o melodía principal como una señal armónica, para, posteriormente, sustraer esa señal de la mezcla original y obtener el acompañamiento \cite{rafii18}. 
-La voz cantada se produce por vibración de cuerdas vocales, y suele presentar frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal.Dentro de la bibliografía se engloba esta familia de métodos en métodos basados en la hipótesis de harmonicidad \cite{rafii18}: primero se estima la frecuencia fundamental de la señal principal y despues se obtiene una separación por resíntesis, que consiste en aproximar la fuente mediante los parámetros estimados de su modelo armónico, es decir re generar la pista, o filtrado, donde se modifica la mezcla original mediante un filtro o máscara que conserva los elementos objetivo y atenúa el resto.
+La voz cantada se produce por vibración de cuerdas vocales, y suele presentar frecuencia fundamental y armónicos, por lo que los métodos más clásicos intentaban estimar el \textit{pitch} y reconstruir o filtrar la señal principal.Dentro de la bibliografía se engloba esta familia de métodos en métodos basados en la hipótesis de harmonicidad \cite{rafii18}: primero se estima la frecuencia fundamental de la señal principal y después se obtiene una separación por resíntesis, que consiste en aproximar la fuente mediante los parámetros estimados de su modelo armónico, es decir regenerar la pista, o filtrado, donde se modifica la mezcla original mediante un filtro o máscara que conserva los elementos objetivo y atenúa el resto.
 
 El procedimiento más común suele ser:
 
@@ -22,7 +22,7 @@ El método se realiza sobre el espectro de la mezcla identificando en secciones 
 
 \subsection{Modelado del acompañamiento}
 
-Este enfoque es un poco la idea opuesta al anterior: se modela el acompañamiento para posteriormente substraerlo de la mezcla original y obtener la voz. Esto se realiza normalmente transformando la mezla en un espectrograma e identificando en el patrones repetitivos.
+Este enfoque es un poco la idea opuesta al anterior: se modela el acompañamiento para posteriormente substraerlo de la mezcla original y obtener la voz. Esto se realiza normalmente transformando la mezcla en un espectrograma e identificando en el patrones repetitivos.
 
 El acompañamiento suele ser más redundante o repetitivo que la señal principal \cite{arreglosGuitarra}: patrones rítmicos, armónicos, o estructurales que suelen repetirse en el tiempo. Esta redundancia permite modelarlo y separarlo, muchos acercamientos clásicos basados en el modelado del acompañamiento toman ventaja de esta característica: la redundancia, se aprovechan componentes de bajo rango, voz dispersa, y repeticiones internas del acompañamiento.
 
@@ -34,11 +34,11 @@ A diferencia de los métodos anteriores, estos enfoques no modelan únicamente l
 
 Entre los modelos que históricamente han presentado mejor desempeño se encuentran:
 
-- Modelo oculto de Markov \cite{markovModels} (HMM): es un modelo estadístico que modela una secuencia mediante estados ocultos cuya evolución depende del estado anterior. En separación de ufentes estos estados pueden representar diferentes configuraciones de la voz y el acompañamiento, mientras que las observaciones corresponden a características espectrales extraídas de la mezcla. Así, el modelo permite estimar la secuencia de estados más probable y aprovechar la continuidad temporal de las fuentes.
+- Modelo oculto de Markov \cite{markovModels} (HMM): es un modelo estadístico que modela una secuencia mediante estados ocultos cuya evolución depende del estado anterior. En separación de fuentes estos estados pueden representar diferentes configuraciones de la voz y el acompañamiento, mientras que las observaciones corresponden a características espectrales extraídas de la mezcla. Así, el modelo permite estimar la secuencia de estados más probable y aprovechar la continuidad temporal de las fuentes.
 
 - Modelo de mezcla Gaussiana \cite{gaussianMixModels} (GMM): modela las características espectrales de cada fuente mediante una combinación de distribuciones gaussianas. Para cada observación de la mezcla calcula la probabilidad de que haya sido generada bien por la voz o bien por el acompañamiento. Estas probabilidades se emplean para construir una máscara tiempo-frecuencia y estimar la contribución de cada fuente.
 
-Ambos modelos se utilizan para asignar valores a celdas tiempo-frecuencia de fuentes. Modelan estados o distribuciones que pueden ayudar a estimar fuentes o máscaras y no siempre asignan directamente celdas TF.
+Ambos modelos se  suelen utilizar para asignar valores a celdas tiempo-frecuencia de fuentes. Representan estados o distribuciones estadísticas de las fuentes y sus resultados pueden utilizarse para estimar máscaras o contribuciones tiempo-frecuencia; aunque no necesariamente realizan una asignación directa de cada celda.
 
 Entre las limitaciones de estos acercamientos encontramos:
 

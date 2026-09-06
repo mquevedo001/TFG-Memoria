@@ -2,7 +2,7 @@
 
 El reentrenamiento número tres corresponde a la versión actual y a la que ha proporcionado los resultados que se muestran en esta memoria. Nace en respuesta a lo visto y aprendido en la versión anterior.
 
-En esta versión se corrige el test que se realizaba por cada modelo ya que se observó que por error se realizaba sobre una fracción aleatoria del conjunto completo. Se añade una \textit{baseline} trivial de mezcla, que establece un criterio de correlación máxima entre resultado y mezcla original, con el objetivo de considerar un elemento como separado y no un archivo equivalente a la mezcla, tratando de dar una medida cuantitativa a la calidad de la separación.
+En esta versión se corrige el test que se realizaba por cada modelo ya que se observó que por error se realizaba sobre una fracción aleatoria del conjunto completo. Se añade una línea base trivial que utiliza la mezcla como estimación de cada fuente. A partir de su SI-SDR se calcula SI-SDRi, que permite determinar si cada modelo mejora o empeora respecto a esa referencia con el objetivo de considerar un elemento como separado y no un archivo equivalente a la mezcla, tratando de dar una medida cuantitativa y objetiva a la calidad de la separación en relación con la pista original.
 
 También se unifica la inferencia entre evaluación y despliegue como cambios principales.
 

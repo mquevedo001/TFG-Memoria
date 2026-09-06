@@ -3,8 +3,6 @@
 % --- Codificación, fuente y lenguaje ---
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[spanish]{babel}
-\usepackage{csquotes}
 
 \usepackage{lmodern}
 
@@ -106,15 +104,20 @@
     Basilio Sierra Araujo\\
     Izaro Goienetxea Urkizu
 }
-\newcommand{\data}{20 de julio de 2025}
+\newcommand{\data}{Septiembre de 2026}
 \newcommand{\ikasketak}{Grado en Ingeniería Informática}
 \newcommand{\espezialitatea}{Ingeniería de Computadores}
 
 \author{\egilea}
 \date{\data}
 
-\renewcommand{\spanishtablename}{Tabla}
-\renewcommand{\listtablename}{Índice de Tablas}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{csquotes}
+
+
+\addto\captionsspanish{%
+    \renewcommand{\listtablename}{Índice de tablas}%
+}
 
 \setsecnumdepth{paragraph}
 \maxsecnumdepth{paragraph}
@@ -160,7 +163,7 @@
     Izaro Goienetxea Urkizu
 
     \vfill
-    Junio de 2026
+    Septiembre de 2026
 \end{center}
 \cleardoublepage
 
@@ -231,7 +234,7 @@
 \input{chapters/herramientas_utilizadas/nussl}
 %\section{Overleaf}
 %\input{chapters/herramientas_utilizadas/overleaf}
-\section{Pytorch}
+\section{PyTorch}
 \input{chapters/herramientas_utilizadas/pytorch}
 \section{Ignite}
 \input{chapters/herramientas_utilizadas/ignite}
@@ -258,7 +261,7 @@
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/magnitud_fase}
 \subsubsection{Señales mono y estéreo}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/mono_estereo}
-\subsubsection{STFTs ( Short-Time Fourier Transform / Transformada en Tiempo Corto de Fourier )}
+\subsubsection{STFTs ( Short-Time Fourier Transform / Transformada en Tiempo Corto de Fourier )} \label{sec:stft}
 \input{chapters/marco_teorico/sonidos y señales/dominio_tiempo_freq/stft}
 \clearpage
 \subsubsection{Espectrogramas}
@@ -333,7 +336,6 @@
 
 \input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/inputs_y_targets}
 \input{chapters/desarrollo//Parte1_sepfuents/config_entrenamiento/tfm_persos}
-\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/data_augmentation}
 \subsection{Entrenamiento}
 \input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/results_prelims_y_exp}
 \input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/comparativas}
@@ -341,6 +343,9 @@
 \input{chapters/desarrollo/Parte1_sepfuents/entrenamiento_modelo/reentrenamientoV3}
 \section{Interfaz}
 \input{chapters/desarrollo/parte2_interfaz/intro.tex}
+\subsection{Objetivos}
+\input{chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
+
 \subsection{Diseño de experiencia de persona usuaria}
 \input{chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion}
 \input{chapters/desarrollo/parte2_interfaz/diseño_exp_usuario/explicaciones_guiadas}
@@ -358,13 +363,11 @@
 %\subsection{Representación de los datos}
 %%\subsection{\textit{Inputs} y \textit{targets}}
 %\subsection{Datos de entrenamiento}
-\input{chapters/desarrollo/Parte1_sepfuents/config_entrenamiento/datos_entrenamiento.tex}
 %\subsection{Funciones de pérdida}
 \input{chapters/desarrollo/Parte1_sepfuents/mod_propuestas/func_perdida}
 %\subsection{Entrenamiento}
 %\section{Interfaz}
 %\subsubsection{Objetivos}
-\input{chapters/desarrollo/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
 %\chapter{Parte 1 : separación de fuentes}
 %\input{chapters/Parte1_sepfuents/intro.tex}
 %\section{Diseño del modelo}
@@ -402,7 +405,6 @@
 %\input{chapters/parte2_interfaz/intro.tex}
 %\section{Objetivos}
 %\subsection{Interacción y aprendizaje}
-%\input{chapters/parte2_interfaz/objetivos/objetivos_interaccion_aprendizaje}
 %\section{Diseño de experiencia de usuario}
 %subsection{Organización y visualización}
 %\input{chapters/parte2_interfaz/diseño_exp_usuario/organizacion_visualizacion}
@@ -453,7 +455,7 @@
 \input{chapters/anexos/configuraciones}
 %\subsection{Instrucciones posibles}
 %\input{chapters/anexos/instrucciones}
-\subsection{Resultados adicionales}
+%\subsection{Resultados adicionales}
 %\input{chapters/anexos/resultados_adicionales}
 
 

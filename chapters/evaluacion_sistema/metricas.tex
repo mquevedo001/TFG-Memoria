@@ -5,29 +5,74 @@ En esta sección se explicará qué se ha medido, por qué, y las limitaciones e
 Como métrica principal se ha utilizado \textbf{SI-SDR} ya que es una métrica habitual en separación de fuentes y permite comparar la señal estimada
 con la señal de referencia. Mide cuánta parte de la estimación se alinea con la fuente objetivo, frente a la parte que puede considerarse distorsión.
 
-A la hora de la interpretación de los resultados, para SI-SDR, se valora a mejor un valor más alto de esta métrica mientras que un valor más bajo implica peor separación.
+A la hora de la interpretación de los resultados, para SI-SDR, un valor más alto indica una mejor correspondencia con la fuente de referencia mientras que un valor más bajo implica peor separación.
+
+Sea $s$ la señal de referencia y $\hat{s}$ la estimación generada por
+el modelo. En SI-SDR se normaliza primero la estimación sobre la señal
+de referencia mediante:
 
 \[
-\mathrm{SI\text{-}SDR} = 10 \log_{10}\frac{\|s_{\mathrm{target}}\|^2}{\|e_{\mathrm{noise}}\|^2}
+\alpha =
+\frac{\langle \hat{s}, s \rangle}
+{\|s\|^2}
 \]
 
-Donde: 
-\begin{itemize}
-    \item $s_{\mathrm{target}}$ es la señal de referencia.
-    \item $e_{\mathrm{noise}}$ es el error residual, es decir, todo lo que queda en la estimación y que no pertenece a $s_{\mathrm{target}}$.
-\end{itemize}
+A partir de este factor se define:
 
-    \item \textbf{Baseline de mezcla:}
+\[
+s_{\mathrm{target}} = \alpha s
+\]
+
+\[
+e_{\mathrm{noise}} =
+\hat{s} - s_{\mathrm{target}}
+\]
+
+y finalmente:
+
+\[
+SI\text{-}SDR =
+10\log_{10}
+\frac{\|s_{\mathrm{target}}\|^2}
+{\|e_{\mathrm{noise}}\|^2}.
+\]
+
+Un valor mayor de SI-SDR indica una mayor similitud entre la
+estimación y la fuente objetivo una vez eliminada la dependencia
+respecto a una posible diferencia global de escala.\cite{SI-SDR}
+
+    \item \textbf{SI-SDRi:}
+
+    Para cuantificar la mejora respecto a la línea base se utiliza
+SI-SDRi (SI-SDR improvement):
+
+\[
+SI\text{-}SDRi =
+SI\text{-}SDR(\hat{s},s)
+-
+SI\text{-}SDR(x,s)
+\]
+
+donde $x$ es la mezcla original utilizada como estimación de la fuente
+en el baseline. Un valor positivo indica que el modelo mejora la
+mezcla utilizada como referencia, mientras que un valor negativo
+indica un empeoramiento.
+
+    \item \textbf{SI-SAR:}
+Como métrica auxiliar se ha empleado \textbf{SI-SAR} ya que es otra métrica habitual en separación de fuentes que permite medir la calidad de la separación en
+términos de presencia de ruido y de interferencias de otras fuentes.
+SI-SAR se utiliza como métrica complementaria para caracterizar la presencia relativa de artefactos introducidos durante la reconstrucción de la señal. Un valor mayor indica una menor contribución relativa de artefactos respecto a la señal estimada. En este trabajo SI-SAR se utiliza como información complementaria y no como criterio principal para determinar si un modelo supera la línea base, función que corresponde a SI-SDRi.
+    
+\item \textbf{Baseline de mezcla:}
 Un modelo no se considera útil si no supera la línea base de mezcla en el conjunto de test. Por ello, se ha añadido un \textit{baseline} trivial, donde se utiliza la mezcla original como estimación de cada fuente para así detectar modelos
 que generan audio, pero no separan de verdad.
-Para ello se ha definido una línea base trivial (\textit{baseline}) que consiste en utilizar la mezcla original como estimación de cada fuente objetivo. Su \textit{SI-SDR} se calcula del mismo modo que el de los modelos.El valor de \textit{SI-SDRi} expresa la diferencia entre el \textit{SI-SDR} del modelo y esta baseline. Un SI-SDRi positivo indica que el modelo mejora respecto a utilizar directamente la mezcla como estimación y uno negativo indica que empeora.
 
+    \item \textbf{Métricas de agregación:}
 Se han utilizado algunas métricas de agregación para tener información adicional sobre el rendimiento de los procesos realizados, así como:
-
 \begin{itemize}
     \item Media: da una medida de rendimiento promedio para un conjunto de valores de, por ejemplo SI-SDR.
     \item Mediana: da un valor de robustez frente a \textit{outliers}.
-    \item Desviación típica: determina la distancia a la que están la mayoría de los valores de la media y se ha utilizado para valorar la estabilidad entre pistas.
+    \item Desviación típica: cuantifica la dispersión de los valores respecto a su media; en este contexto permite valorar la variabilidad del rendimiento entre pistas.
 \end{itemize}
 
 \item \textbf{Métricas complementarias:}

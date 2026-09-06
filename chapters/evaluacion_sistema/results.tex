@@ -8,11 +8,10 @@ En la Tabla \ref{tab:resultados-2-fuentes-sisdri} se presentan los resultados de
     \label{tab:resultados-2-fuentes-sisdri}
 
     \begin{adjustbox}{center,max width=\textwidth}
-        \begin{tabular}{llcrrrrc}
+        \begin{tabular}{llrrrrc}
             \toprule
             \makecell{\textbf{Función}\\\textbf{de pérdida}} &
             \textbf{Grupo} &
-            \textbf{Checkpoint} &
             \makecell{\textbf{SI-SDRi}\\\textbf{medio}} &
             \makecell{\textbf{SI-SDRi}\\\textbf{mediano}} &
             \makecell{\textbf{Desviación}\\\textbf{típica}} &
@@ -20,20 +19,20 @@ En la Tabla \ref{tab:resultados-2-fuentes-sisdri} se presentan los resultados de
             \makecell{\textbf{Supera}\\\textbf{baseline}} \\
             \midrule
 
-            \texttt{l1}                  & principal    & 13  & -7.157  & -6.923  & 1.765 & 3.582  & No \\
-            \texttt{l2}                  & principal    & 8   & -2.515  & -2.575  & 0.632 & 11.445 & No \\
-            \texttt{l1\_freq}            & principal    & 13  & -7.158  & -6.924  & 1.762 & 3.578  & No \\
-            \texttt{l2\_freq}            & principal    & 8   & -2.262  & -2.343  & 0.584 & 12.273 & No \\
-            \texttt{logl1}               & principal    & 69  & -10.745 & -11.134 & 2.771 & -1.743 & No \\
-            \texttt{logl2}               & principal    & 77  & -9.575  & -9.118  & 2.675 & 0.012  & No \\
-            \texttt{log\_mag}            & principal    & 56  & -8.343  & -8.071  & 2.066 & 2.130  & No \\
-            \texttt{log\_compressed\_l2} & principal    & 45  & -8.929  & -8.540  & 2.198 & 0.500  & No \\
-            \texttt{lpsa}                & principal    & 61  & --      & --      & --    & --     & -- \\
-            \texttt{mask\_l1}            & principal    & 70  & -8.239  & -7.976  & 1.907 & 2.107  & No \\
-            \texttt{l\_mrs}              & avanzado     & --  & --      & --      & --    & --     & -- \\
-            \texttt{lpsa\_phase}         & avanzado     & 100 & --      & --      & --    & --     & -- \\
-            \texttt{deep\_feature}       & experimental & 20  & -0.091  & -0.098  & 0.063 & 22.996 & No \\
-            \texttt{deep\_feature\_emd}  & experimental & 21  & -0.081  & -0.082  & 0.042 & 23.435 & No \\
+            \texttt{l1}                  & principal    & -7.157  & -6.923  & 1.765 & 3.582  & No \\
+            \texttt{l2}                  & principal    & -2.515  & -2.575  & 0.632 & 11.445 & No \\
+            \texttt{l1\_freq}            & principal    & -7.158  & -6.924  & 1.762 & 3.578  & No \\
+            \texttt{l2\_freq}            & principal    & -2.262  & -2.343  & 0.584 & 12.273 & No \\
+            \texttt{logl1}               & principal    & -10.745 & -11.134 & 2.771 & -1.743 & No \\
+            \texttt{logl2}               & principal    & -9.575  & -9.118  & 2.675 & 0.012  & No \\
+            \texttt{log\_mag}            & principal    & -8.343  & -8.071  & 2.066 & 2.130  & No \\
+            \texttt{log\_compressed\_l2} & principal    & -8.929  & -8.540  & 2.198 & 0.500  & No \\
+            \texttt{lpsa}                & principal    & -9.405  & -8.905  & 2.387 & -0.303 & No \\
+            \texttt{mask\_l1}            & principal    & -8.239  & -7.976  & 1.907 & 2.107  & No \\
+            \texttt{l\_mrs}              & avanzado     & -9.583  & -9.591  & 2.345 & -0.192 & No \\
+            \texttt{lpsa\_phase}         & avanzado     & -8.158  & -8.750  & 1.892 & -7.500 & No \\
+            \texttt{deep\_feature}       & experimental & -0.091  & -0.098  & 0.063 & 22.996 & No \\
+            \texttt{deep\_feature\_emd}  & experimental & -0.081  & -0.082  & 0.042 & 23.435 & No \\
 
             \bottomrule
         \end{tabular}
@@ -46,11 +45,10 @@ En la Tabla \ref{tab:resultados-2-fuentes-sisdri} se presentan los resultados de
     \label{tab:resultados-4-fuentes-sisdri}
 
     \begin{adjustbox}{center,max width=\textwidth}
-        \begin{tabular}{llcrrrrc}
+        \begin{tabular}{llrrrrc}
             \toprule
             \makecell{\textbf{Función}\\\textbf{de pérdida}} &
             \textbf{Grupo} &
-            \textbf{Checkpoint} &
             \makecell{\textbf{SI-SDRi}\\\textbf{medio}} &
             \makecell{\textbf{SI-SDRi}\\\textbf{mediano}} &
             \makecell{\textbf{Desviación}\\\textbf{típica}} &
@@ -58,20 +56,20 @@ En la Tabla \ref{tab:resultados-2-fuentes-sisdri} se presentan los resultados de
             \makecell{\textbf{Supera}\\\textbf{baseline}} \\
             \midrule
 
-            \texttt{l1}                  & principal    & 24 & -4.811 & -5.085 & 1.650 & -1.933 & No \\
-            \texttt{l2}                  & principal    & 4  & -0.065 & -0.066 & 0.038 & 20.263 & No \\
-            \texttt{l1\_freq}            & principal    & 24 & -4.814 & -5.089 & 1.651 & -1.940 & No \\
-            \texttt{l2\_freq}            & principal    & 4  & -0.069 & -0.070 & 0.037 & 20.437 & No \\
-            \texttt{logl1}               & principal    & 65 & -9.356 & -9.176 & 2.587 & -8.803 & No \\
-            \texttt{logl2}               & principal    & 4  & -5.231 & -5.183 & 1.850 & -2.760 & No \\
-            \texttt{log\_mag}            & principal    & 61 & -6.767 & -6.589 & 2.151 & -4.835 & No \\
-            \texttt{log\_compressed\_l2} & principal    & 65 & -6.801 & -6.708 & 1.946 & -5.555 & No \\
-            \texttt{lpsa}                & principal    & -- & --     & --     & --    & --     & -- \\
-            \texttt{mask\_l1}            & principal    & 33 & -6.424 & -6.297 & 2.025 & -4.469 & No \\
-            \texttt{l\_mrs}              & avanzado     & -- & --     & --     & --    & --     & -- \\
-            \texttt{lpsa\_phase}         & avanzado     & 99 & --     & --     & --    & --     & -- \\
-            \texttt{deep\_feature}       & experimental & 1  & -0.018 & -0.020 & 0.055 & 16.532 & No \\
-            \texttt{deep\_feature\_emd}  & experimental & 3  & 0.006  & 0.004  & 0.059 & 17.562 & Sí \\
+            \texttt{l1}                  & principal    & -4.811 & -5.085 & 1.650 & -1.933 & No \\
+            \texttt{l2}                  & principal    & -0.065 & -0.066 & 0.038 & 20.263 & No \\
+            \texttt{l1\_freq}            & principal    & -4.814 & -5.089 & 1.651 & -1.940 & No \\
+            \texttt{l2\_freq}            & principal    & -0.069 & -0.070 & 0.037 & 20.437 & No \\
+            \texttt{logl1}               & principal    & -9.356 & -9.176 & 2.587 & -8.803 & No \\
+            \texttt{logl2}               & principal    & -5.231 & -5.183 & 1.850 & -2.760 & No \\
+            \texttt{log\_mag}            & principal    & -6.767 & -6.589 & 2.151 & -4.835 & No \\
+            \texttt{log\_compressed\_l2} & principal    & -6.801 & -6.708 & 1.946 & -5.555 & No \\
+            \texttt{lpsa}                & principal    & --     & --     & --    & --     & -- \\
+            \texttt{mask\_l1}            & principal    & -6.424 & -6.297 & 2.025 & -4.469 & No \\
+            \texttt{l\_mrs}              & avanzado     & -7.391 & -7.198 & 2.059 & -6.082 & No \\
+            \texttt{lpsa\_phase}         & avanzado     & -1.042 & -1.213 & 0.776 & -1.671 & No \\
+            \texttt{deep\_feature}       & experimental & -0.018 & -0.020 & 0.055 & 16.532 & No \\
+            \texttt{deep\_feature\_emd}  & experimental & 0.006  & 0.004  & 0.059 & 17.562 & Sí \\
 
             \bottomrule
         \end{tabular}
@@ -80,7 +78,7 @@ En la Tabla \ref{tab:resultados-2-fuentes-sisdri} se presentan los resultados de
 
 \subsubsection{Rankings}
 
-En esta sección se presentan los rankings de los modelos entrenados, ordenados por la métrica de SI-SDRi medio, para los escenarios de dos y cuatro fuentes. Estos rankings permiten identificar rápidamente qué modelos han obtenido un mejor rendimiento en términos de separación de fuentes.
+En esta sección se presentan los rankings de los modelos entrenados, ordenados por la métrica de SI-SDR medio, para los escenarios de dos y cuatro fuentes. Estos rankings permiten identificar rápidamente qué modelos han obtenido un mejor rendimiento en términos de separación de fuentes.
 \begin{table}[H]
 \centering
 \caption{Ranking para los resultados de separación en 2 fuentes}
@@ -94,24 +92,25 @@ En esta sección se presentan los rankings de los modelos entrenados, ordenados 
         \makecell{\textbf{Función}\\\textbf{de pérdida}} &
         \makecell{\textbf{SI-SDR}\\\textbf{medio}} &
         \makecell{\textbf{SI-SDR}\\\textbf{mediano}} &
-        \makecell{\textbf{SI-SDR}\\\textbf{STD}} &
+        \makecell{\textbf{SI-SDR}\\\textbf{desviación típica}} &
         \makecell{\textbf{SI-SAR}\\\textbf{medio}} &
         \makecell{\textbf{Supera}\\\textbf{baseline}} \\
         \midrule
 
-        1  & \texttt{deep\_feature\_emd}  & -0.099  & -0.109  & 0.063 & 23.435 & No \\
-        2  & \texttt{deep\_feature}       & -0.109  & -0.104  & 0.091 & 22.996 & No \\
-        3  & \texttt{l2\_freq}            & -2.281  & -2.349  & 0.563 & 12.273 & No \\
-        4  & \texttt{l2}                  & -2.533  & -2.622  & 0.608 & 11.445 & No \\
-        5  & \texttt{l1}                  & -7.175  & -6.975  & 1.737 & 3.582  & No \\
-        6  & \texttt{l1\_freq}            & -7.176  & -6.976  & 1.734 & 3.578  & No \\
-        7  & \texttt{lpsa\_phase}         & -8.176  & -8.721  & 1.915 & --     & No \\
-        8  & \texttt{mask\_l1}            & -8.257  & -8.027  & 1.871 & 2.107  & No \\
-        9  & \texttt{log\_mag}            & -8.361  & -8.123  & 2.033 & 2.130  & No \\
-        10 & \texttt{log\_compressed\_l2} & -8.947  & -8.556  & 2.164 & 0.500  & No \\
-        11 & \texttt{lpsa}                & -9.423  & -8.957  & 2.354 & --     & No \\
-        12 & \texttt{logl2}               & -9.593  & -9.140  & 2.642 & 0.012  & No \\
-        13 & \texttt{logl1}               & -10.763 & -11.084 & 2.740 & -1.743 & No \\
+        1 & deep\_feature\_emd & -0.099 & -0.109 & 0.063 & 23.435 & No \\
+        2 & deep\_feature & -0.109 & -0.104 & 0.091 & 22.996 & No \\
+        3 & l2\_freq & -2.281 & -2.349 & 0.563 & 12.273 & No \\
+        4 & l2 & -2.533 & -2.622 & 0.608 & 11.445 & No \\
+        5 & l1 & -7.175 & -6.975 & 1.737 & 3.582 & No \\
+        6 & l1\_freq & -7.176 & -6.976 & 1.734 & 3.578 & No \\
+        7 & lpsa\_phase & -8.176 & -8.721 & 1.915 & -7.500 & No \\
+        8 & mask\_l1 & -8.257 & -8.027 & 1.871 & 2.107 & No \\
+        9 & log\_mag & -8.361 & -8.123 & 2.033 & 2.130 & No \\
+        10 & log\_compressed\_l2 & -8.947 & -8.556 & 2.164 & 0.500 & No \\
+        11 & lpsa & -9.423 & -8.957 & 2.353 & -0.303 & No \\
+        12 & logl2 & -9.593 & -9.140 & 2.642 & 0.012 & No \\
+        13 & l\_mrs & -9.602 & -9.638 & 2.314 & -0.193 & No \\
+        14 & logl1 & -10.763 & -11.084 & 2.740 & -1.743 & No \\
 
         \bottomrule
     \end{tabular}
@@ -133,23 +132,25 @@ En esta sección se presentan los rankings de los modelos entrenados, ordenados 
         \makecell{\textbf{Función}\\\textbf{de pérdida}} &
         \makecell{\textbf{SI-SDR}\\\textbf{medio}} &
         \makecell{\textbf{SI-SDR}\\\textbf{mediano}} &
-        \makecell{\textbf{SI-SDR}\\\textbf{STD}} &
+        \makecell{\textbf{SI-SDR}\\\textbf{desviación típica}} &
         \makecell{\textbf{SI-SAR}\\\textbf{medio}} &
         \makecell{\textbf{Supera}\\\textbf{baseline}} \\
         \midrule
 
-        1  & \texttt{deep\_feature\_emd}  & -5.375  & -5.260  & 0.440 & 17.562 & Sí \\
-        2  & \texttt{deep\_feature}       & -5.399  & -5.320  & 0.413 & 16.532 & No \\
-        3  & \texttt{l2}                  & -5.445  & -5.405  & 0.428 & 20.263 & No \\
-        4  & \texttt{l2\_freq}            & -5.449  & -5.396  & 0.425 & 20.437 & No \\
-        5  & \texttt{lpsa\_phase}         & -6.423  & -6.491  & 0.862 & --     & No \\
-        6  & \texttt{l1}                  & -10.191 & -10.449 & 1.727 & -1.933 & No \\
-        7  & \texttt{l1\_freq}            & -10.194 & -10.452 & 1.727 & -1.940 & No \\
-        8  & \texttt{logl2}               & -10.611 & -10.651 & 1.880 & -2.760 & No \\
-        9  & \texttt{mask\_l1}            & -11.805 & -11.594 & 2.076 & -4.469 & No \\
-        10 & \texttt{log\_mag}            & -12.147 & -11.922 & 2.202 & -4.835 & No \\
-        11 & \texttt{log\_compressed\_l2} & -12.181 & -12.030 & 2.004 & -5.555 & No \\
-        12 & \texttt{logl1}               & -14.737 & -14.475 & 2.562 & -8.803 & No \\
+        1 & deep\_feature\_emd & -0.099 & -0.109 & 0.063 & 23.435 & No \\
+        2 & deep\_feature & -0.109 & -0.104 & 0.091 & 22.996 & No \\
+        3 & l2\_freq & -2.281 & -2.349 & 0.563 & 12.273 & No \\
+        4 & l2 & -2.533 & -2.622 & 0.608 & 11.445 & No \\
+        5 & l1 & -7.175 & -6.975 & 1.737 & 3.582 & No \\
+        6 & l1\_freq & -7.176 & -6.976 & 1.734 & 3.578 & No \\
+        7 & lpsa\_phase & -8.176 & -8.721 & 1.915 & -7.500 & No \\
+        8 & mask\_l1 & -8.257 & -8.027 & 1.871 & 2.107 & No \\
+        9 & log\_mag & -8.361 & -8.123 & 2.033 & 2.130 & No \\
+        10 & log\_compressed\_l2 & -8.947 & -8.556 & 2.164 & 0.500 & No \\
+        11 & lpsa & -9.423 & -8.957 & 2.353 & -0.303 & No \\
+        12 & logl2 & -9.593 & -9.140 & 2.642 & 0.012 & No \\
+        13 & l\_mrs & -9.602 & -9.638 & 2.314 & -0.193 & No \\
+        14 & logl1 & -10.763 & -11.084 & 2.740 & -1.743 & No \\
 
         \bottomrule
     \end{tabular}
@@ -163,19 +164,17 @@ En esta sección se presentan los rankings de los modelos entrenados, ordenados 
 Se han generado dos gráficos de barras para dar una imagen que represente visualmente los resultados:
 
 \begin{figure}[H]
-    {\begin{center}
-    \includegraphics[width=0.7\textwidth]{commons/barplot_sisdr_2stems.png}
+    \centering
+    \includegraphics[width=\textwidth,keepaspectratio]{commons/barplot_sisdr_2stems.png}
     \caption{Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separación de dos fuentes}
     \label{fig:barplot-2sources}
-    \end{center}}
 \end{figure}
 
 \begin{figure}[H]
-    {\begin{center}
-    \includegraphics[width=0.7\textwidth]{commons/barplot_sisdr_4stems.png}
-    \caption{Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separción de cuatro fuentes}
+    \centering
+    \includegraphics[width=\textwidth,keepaspectratio]{commons/barplot_sisdr_4stems.png}
+    \caption{Gráfico de barras de los valores SI-SDR de cada función de pérdida en la separación de cuatro fuentes}
     \label{fig:barplot-4sources}
-    \end{center}}
 \end{figure}
 
 
